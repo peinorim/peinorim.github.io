@@ -12,7 +12,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "47"
+			"comp_id": "47"
 		},
 		{
 			"id": "2",
@@ -26,7 +26,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "47"
+			"comp_id": "47"
 		},
 		{
 			"id": "3",
@@ -40,7 +40,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "47"
+			"comp_id": "47"
 		},
 		{
 			"id": "4",
@@ -54,7 +54,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "47"
+			"comp_id": "47"
 		},
 		{
 			"id": "9",
@@ -68,7 +68,7 @@
 			"cad": "1",
 			"pmoy": "5",
 			"peff": "15",
-			"Competence_id": "3"
+			"comp_id": "3"
 		},
 		{
 			"id": "10",
@@ -82,7 +82,7 @@
 			"cad": "1",
 			"pmoy": "5",
 			"peff": "15",
-			"Competence_id": "3"
+			"comp_id": "3"
 		},
 		{
 			"id": "11",
@@ -96,7 +96,7 @@
 			"cad": "1",
 			"pmoy": "20",
 			"peff": "40",
-			"Competence_id": "3"
+			"comp_id": "3"
 		},
 		{
 			"id": "12",
@@ -110,7 +110,7 @@
 			"cad": "3",
 			"pmoy": "60",
 			"peff": "120",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "13",
@@ -124,7 +124,7 @@
 			"cad": "4",
 			"pmoy": "80",
 			"peff": "140",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "14",
@@ -138,7 +138,7 @@
 			"cad": "2",
 			"pmoy": "20",
 			"peff": "40",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "15",
@@ -152,7 +152,7 @@
 			"cad": "1",
 			"pmoy": "60",
 			"peff": "80",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "16",
@@ -166,7 +166,7 @@
 			"cad": "1",
 			"pmoy": "50",
 			"peff": "140",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "17",
@@ -180,7 +180,7 @@
 			"cad": "1",
 			"pmoy": "40",
 			"peff": "120",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "18",
@@ -194,7 +194,7 @@
 			"cad": "1",
 			"pmoy": "60",
 			"peff": "160",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "19",
@@ -208,7 +208,7 @@
 			"cad": "1",
 			"pmoy": "20",
 			"peff": "50",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "20",
@@ -222,7 +222,7 @@
 			"cad": "1",
 			"pmoy": "15",
 			"peff": "25",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "21",
@@ -236,7 +236,7 @@
 			"cad": "1",
 			"pmoy": "5",
 			"peff": "10",
-			"Competence_id": "4"
+			"comp_id": "4"
 		},
 		{
 			"id": "22",
@@ -250,7 +250,7 @@
 			"cad": "3",
 			"pmoy": "10",
 			"peff": "40",
-			"Competence_id": "1"
+			"comp_id": "1"
 		},
 		{
 			"id": "23",
@@ -264,7 +264,7 @@
 			"cad": "4",
 			"pmoy": "30",
 			"peff": "200",
-			"Competence_id": "1"
+			"comp_id": "1"
 		},
 		{
 			"id": "24",
@@ -278,7 +278,7 @@
 			"cad": "1",
 			"pmoy": "100",
 			"peff": "500",
-			"Competence_id": "1"
+			"comp_id": "1"
 		},
 		{
 			"id": "25",
@@ -292,7 +292,7 @@
 			"cad": "5",
 			"pmoy": "300",
 			"peff": "500",
-			"Competence_id": "1"
+			"comp_id": "1"
 		},
 		{
 			"id": "26",
@@ -306,7 +306,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "27",
@@ -320,7 +320,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "28",
@@ -334,7 +334,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "29",
@@ -348,7 +348,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "30",
@@ -362,7 +362,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "31",
@@ -376,7 +376,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "32",
@@ -390,7 +390,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "33",
@@ -404,7 +404,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "34",
@@ -418,7 +418,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "35",
@@ -432,7 +432,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "36",
@@ -446,7 +446,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "37",
@@ -460,7 +460,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "6"
+			"comp_id": "6"
 		},
 		{
 			"id": "38",
@@ -474,7 +474,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "39",
@@ -488,7 +488,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "40",
@@ -502,7 +502,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "41",
@@ -516,7 +516,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "42",
@@ -530,7 +530,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "43",
@@ -544,7 +544,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "44",
@@ -558,7 +558,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "45",
@@ -572,7 +572,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "2"
+			"comp_id": "2"
 		},
 		{
 			"id": "46",
@@ -586,7 +586,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "5"
+			"comp_id": "5"
 		},
 		{
 			"id": "47",
@@ -600,7 +600,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "5"
+			"comp_id": "5"
 		},
 		{
 			"id": "48",
@@ -614,7 +614,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "5"
+			"comp_id": "5"
 		},
 		{
 			"id": "49",
@@ -628,7 +628,7 @@
 			"cad": "0",
 			"pmoy": "0",
 			"peff": "0",
-			"Competence_id": "5"
+			"comp_id": "5"
 		}
 	],
 	"armures": [
@@ -1141,7 +1141,7 @@
 		},
 		{
 			"id": "17",
-			"nom": "Frère (ou soeur) de sang. C'est là où j'ai fait la connaissance de mon (ma meilleur(e) ami(e), la personne en qui j'ai le plus confiance au monde. Même MES frères, enfin c'est comme ça. Depuis on ne s'est plus jamais séparés, il couvre MES arrières et marche dans MES traces. A moins que ne soit l'inverse ?",
+			"nom": "Frère (ou soeur) de sang. C'est là où j'ai fait la connaissance de mon (ma meilleur(e) ami(e), la personne en qui j'ai le plus confiance au monde. Même mes frères, enfin c'est comme ça. Depuis on ne s'est plus jamais séparés, il couvre mes arrières et marche dans mes traces. A moins que ne soit l'inverse ?",
 			"effet": "C'est qui celui-là ? Tu le connais comme toi-même, dis-donc !"
 		},
 		{
@@ -1201,154 +1201,154 @@
 		{
 			"id": "1",
 			"titre": "Participation aux révoltes contre le PanDémon.",
-			"CDB": "J'étais du bon côté ou du moins je n'ai pas été pris par les Moines Rouges. j'en ai tiré quelques enseignements intéressants en démonologie et en torture.",
+			"cdb": "J'étais du bon côté ou du moins je n'ai pas été pris par les Moines Rouges. j'en ai tiré quelques enseignements intéressants en démonologie et en torture.",
 			"effet": "Un niveau supplémentaire gratuit en Art Démonique et en Premiers Soins.",
-			"MES": "J'ai été capturé par les hérétiques ou étais du mauvais côté et été pris par les Moines Rouges. On m'a 'montré' que j'étais dans l'erreur.",
-			"MES_effet": "Un point de moins en Agile (il te manque un ou plusieurs doigts, ta jambe ne fonctionne plus correctement,etc.) ou en Charmeur (tu es vilainement défiguré) mais tu as un point de plus en Résistant. Tu es cruellement mutilé et portes des marques de tortures très raffinées.",
+			"mes": "J'ai été capturé par les hérétiques ou étais du mauvais côté et été pris par les Moines Rouges. On m'a 'montré' que j'étais dans l'erreur.",
+			"mes_effet": "Un point de moins en Agile (il te manque un ou plusieurs doigts, ta jambe ne fonctionne plus correctement,etc.) ou en Charmeur (tu es vilainement défiguré) mais tu as un point de plus en Résistant. Tu es cruellement mutilé et portes des marques de tortures très raffinées.",
 			"maison_id": "2"
 		},
 		{
 			"id": "2",
 			"titre": "Recruté sur un des immenses chantiers des Nefs-Cathédrales...",
-			"CDB": "pour mes compétences. J'y ai fait tout mon apprentissage, dans des circonstances terribles, certes, mais que n'y ai-je pas appris !",
+			"cdb": "pour mes compétences. J'y ai fait tout mon apprentissage, dans des circonstances terribles, certes, mais que n'y ai-je pas appris !",
 			"effet": "Navigation fait désormais partie de ton métier. Tu peux changer de métier pour devenir ingénieur, ou si tu l'étais déjà, investir dans une machination.",
-			"MES": "En tant qu'esclave j'aurais dû mourir là-bas mais j'ai tenu le coup. Je ne sais pas faire grand chose mais j'en ai appris un peu.",
-			"MES_effet": "Même chose que la mésaventure générique 'esclave' mais avec une compétence d'apprenti en plus : artisanat (travail du bois).",
+			"mes": "En tant qu'esclave j'aurais dû mourir là-bas mais j'ai tenu le coup. Je ne sais pas faire grand chose mais j'en ai appris un peu.",
+			"mes_effet": "Même chose que la mésaventure générique 'esclave' mais avec une compétence d'apprenti en plus : artisanat (travail du bois).",
 			"maison_id": "2"
 		},
 		{
 			"id": "3",
 			"titre": "J'ai été repéré par un ordre...",
-			"CDB": "Pour mon zèle et ma ferveur ils m'ont offert un objet mineur ou puissant, au choix. Mais ils attendent de moi un service à la mesure du cadeau.",
+			"cdb": "Pour mon zèle et ma ferveur ils m'ont offert un objet mineur ou puissant, au choix. Mais ils attendent de moi un service à la mesure du cadeau.",
 			"effet": "La liste est fournie dans le registre de l'équipement.",
-			"MES": "en tant qu'hérétique. Ce n'était pas assez grave pour que je subisse plus qu'un long séjour en prison. L'enfer n'est malheureusement pas très loin des prisons ashragores. Je m'en suis sorti ou évadé et j'ai réussi à intégrer une Académie.",
-			"MES_effet": "Une blessure superficielle permanente : la sale maladie que t'as contractée là-bas et qui te ronge lentement t'a nettement affaibli. En retour tu gagnes 1 point en Observateur. T'aurais jamais pu survivre en prison si tu n'avais pas eu l'oeil pour repérer les embrouilles.",
+			"mes": "en tant qu'hérétique. Ce n'était pas assez grave pour que je subisse plus qu'un long séjour en prison. L'enfer n'est malheureusement pas très loin des prisons ashragores. Je m'en suis sorti ou évadé et j'ai réussi à intégrer une Académie.",
+			"mes_effet": "Une blessure superficielle permanente : la sale maladie que t'as contractée là-bas et qui te ronge lentement t'a nettement affaibli. En retour tu gagnes 1 point en Observateur. T'aurais jamais pu survivre en prison si tu n'avais pas eu l'oeil pour repérer les embrouilles.",
 			"maison_id": "2"
 		},
 		{
 			"id": "5",
 			"titre": "Vers 213, j'ai suivi les enseignements d'un Mystiques des Arts Martiaux.",
-			"CDB": "J'ai reçu un entraînement poussé. je suis désormais un pratiquant des arts martiaux Felsins.",
+			"cdb": "J'ai reçu un entraînement poussé. je suis désormais un pratiquant des arts martiaux Felsins.",
 			"effet": "Accès aux arts martiaux. N'oublie pas que les Felsins ont accès à la compétence Sheï comme si elle faisait partie de leur profil de métier.",
-			"MES": "Fils d'une prostituée Phaleeni je dus interrompre mon apprentissage (bien avant d'avoir appris quelque chose d'utile) lorsqu'une guerre secrète éclata entre les courtisanes felsines et les prostituées sacrées. Afin d'éviter que je ne trahisse mon enseignement, mon maître me rendit définitivement incapable de pratiquer les Arts Martiaux en me mutilant.",
-			"MES_effet": "Impossibilité définitive de pratiquer les Arts Martiaux. Tu ne peux plus prendre de coups de bols ou des mésaventures propres aux Felsins, tu n'en es pas un. Sheï est une compétence normale (à acheter hors profession si tu n'es pas un guerrier). En revanche tu peux être un métis ou un bâtard. tu gagnes un point dans une caractéristique de ton choix, c'est là tout ce que cet 'entraînement' t'aura apporté.",
+			"mes": "Fils d'une prostituée Phaleeni je dus interrompre mon apprentissage (bien avant d'avoir appris quelque chose d'utile) lorsqu'une guerre secrète éclata entre les courtisanes felsines et les prostituées sacrées. Afin d'éviter que je ne trahisse mon enseignement, mon maître me rendit définitivement incapable de pratiquer les Arts Martiaux en me mutilant.",
+			"mes_effet": "Impossibilité définitive de pratiquer les Arts Martiaux. Tu ne peux plus prendre de coups de bols ou des mésaventures propres aux Felsins, tu n'en es pas un. Sheï est une compétence normale (à acheter hors profession si tu n'es pas un guerrier). En revanche tu peux être un métis ou un bâtard. tu gagnes un point dans une caractéristique de ton choix, c'est là tout ce que cet 'entraînement' t'aura apporté.",
 			"maison_id": "4"
 		},
 		{
 			"id": "6",
 			"titre": "J'étais là lorsque la transformation des Felsins en animaux a commencé.",
-			"CDB": "Dans ma famille on a tous survécu, cela signifie que je dois avoir du sang noble ou une chance de pendu et j'ai été remarqué pour cela.",
+			"cdb": "Dans ma famille on a tous survécu, cela signifie que je dois avoir du sang noble ou une chance de pendu et j'ai été remarqué pour cela.",
 			"effet": "Possibilité de te transformer en animal, tu dois être expert en Sheï.",
-			"MES": "Je suis le seul de toute ma famille à avoir survécu, notre sang est impur et je ne dois surtout pas essayer de me transformer. Il est certain qu'un jour ou l'autre je retrouverai ma nature de bête monstrueuse dont l'ascendance est si terrible que personne n'a su me la décrire.",
-			"MES_effet": "Impossibilité de te transformer en animal sous peine de mourir. Par ailleurs régulièrement tu dois utiliser tous tes points de Sheï pour éviter la transformation. Tu as un niveau gratuit en Sheï.",
+			"mes": "Je suis le seul de toute ma famille à avoir survécu, notre sang est impur et je ne dois surtout pas essayer de me transformer. Il est certain qu'un jour ou l'autre je retrouverai ma nature de bête monstrueuse dont l'ascendance est si terrible que personne n'a su me la décrire.",
+			"mes_effet": "Impossibilité de te transformer en animal sous peine de mourir. Par ailleurs régulièrement tu dois utiliser tous tes points de Sheï pour éviter la transformation. Tu as un niveau gratuit en Sheï.",
 			"maison_id": "4"
 		},
 		{
 			"id": "9",
 			"titre": "Je suis l'un de ceux qui ont arrêté Corin-Sans-Visage, le voleur Kheyza.",
-			"CDB": "Un maître étrange adepte de l'Art Mystique m'a remarqué à cette occasion et m'a enseigné, j'ignore pourquoi, l'art de regarder.",
+			"cdb": "Un maître étrange adepte de l'Art Mystique m'a remarqué à cette occasion et m'a enseigné, j'ignore pourquoi, l'art de regarder.",
 			"effet": "Un point de plus en observateur.",
-			"MES": "en dehors des honneurs cette histoire ne m'a rien rapporté. Et maintenant on dit que Corin a été vu sur le Continent et qu'il aurait même passé la Barrière. Si jamais il me retrouve...",
-			"MES_effet": "Il a bien été vu à Port MacKaer, pour le reste...",
+			"mes": "en dehors des honneurs cette histoire ne m'a rien rapporté. Et maintenant on dit que Corin a été vu sur le Continent et qu'il aurait même passé la Barrière. Si jamais il me retrouve...",
+			"mes_effet": "Il a bien été vu à Port MacKaer, pour le reste...",
 			"maison_id": "4"
 		},
 		{
 			"id": "10",
 			"titre": "Je suis un demi-sang Gehemdal et Ashragor.",
-			"CDB": "Ma mère était une esclave en vue et concubine de mon père. Je suis donc un bâtard mais respecté. Elle m'a enseigné la langue de mon pays et l'Art Démonique. mon père de son côté s'est assuré que j'aie une éducation digne de mon rang.",
+			"cdb": "Ma mère était une esclave en vue et concubine de mon père. Je suis donc un bâtard mais respecté. Elle m'a enseigné la langue de mon pays et l'Art Démonique. mon père de son côté s'est assuré que j'aie une éducation digne de mon rang.",
 			"effet": "Niveau novice en Art Démonique et deux tours.",
-			"MES": "Ma mère a été violée par la Dame sait qui. Je suis né esclave et je n'ai donc pas été formé à un métier et j'ai dû tout apprendre par moi-même.",
-			"MES_effet": "Pas de métier. Tu dois tout acheter au coût hors profession sauf trois compétences d'apprenti ainsi que l'Art Démonique que ta mère t'a transmis en cachette avec deux tours ou un sort de cet art. Tu n'as pas de compétence de compétence de compagnon mais tu gagnes quelques belles cicatrices et un point de Fort ou de Résistant supplémentaire.",
+			"mes": "Ma mère a été violée par la Dame sait qui. Je suis né esclave et je n'ai donc pas été formé à un métier et j'ai dû tout apprendre par moi-même.",
+			"mes_effet": "Pas de métier. Tu dois tout acheter au coût hors profession sauf trois compétences d'apprenti ainsi que l'Art Démonique que ta mère t'a transmis en cachette avec deux tours ou un sort de cet art. Tu n'as pas de compétence de compétence de compagnon mais tu gagnes quelques belles cicatrices et un point de Fort ou de Résistant supplémentaire.",
 			"maison_id": "3"
 		},
 		{
 			"id": "11",
 			"titre": "Je suis le fils d'un Forgeur...",
-			"CDB": "Mon père ne m'a pas laissé partir les mains vide. Il m'a enseigné un ou deux tours et m'a donné cinq lingots de métal sacré que j'ai choisi moi-même.",
+			"cdb": "Mon père ne m'a pas laissé partir les mains vide. Il m'a enseigné un ou deux tours et m'a donné cinq lingots de métal sacré que j'ai choisi moi-même.",
 			"effet": "Un niveau en Art Métallique, deux tours ou un sort, 10 points de loom rouge, en plus du métal sacré.",
-			"MES": "Mon père a tenté de me former à l'Art Métallique, dès ma première tentative j'ai été gravement brûlé par une escarbille de métal. Considérée comme un mauvais présage, cette première expérience a aussi été ma dernière et j'ai juré de ne jamais pratiquer l'art de ma Maison. Je m'y tiendrai d'ailleurs dussé-je en mourir.",
-			"MES_effet": "Interdiction de pratiquer l'Art Métallique mais tu es immunisé aux tours de cet art.",
+			"mes": "Mon père a tenté de me former à l'Art Métallique, dès ma première tentative j'ai été gravement brûlé par une escarbille de métal. Considérée comme un mauvais présage, cette première expérience a aussi été ma dernière et j'ai juré de ne jamais pratiquer l'art de ma Maison. Je m'y tiendrai d'ailleurs dussé-je en mourir.",
+			"mes_effet": "Interdiction de pratiquer l'Art Métallique mais tu es immunisé aux tours de cet art.",
 			"maison_id": "3"
 		},
 		{
 			"id": "12",
 			"titre": "J'ai été pris dans les escarmouches qui opposent perpétuellement Gehemdals et Ashragors.",
-			"CDB": "Le groupe dont je faisais partie a repoussé les envahisseurs. J'ai même fait une prise de guerre : cet artefact Ashragor.",
+			"cdb": "Le groupe dont je faisais partie a repoussé les envahisseurs. J'ai même fait une prise de guerre : cet artefact Ashragor.",
 			"effet": "Choisir un objet mineur ou puissant dans la liste des artefacts Ashragors",
-			"MES": "J'ai été capturé et réduit en esclavage de longs mois avant de parvenir à m'échapper. A la honte de la défaite s'est ajoutée l'humiliation de l'esclavage",
-			"MES_effet": "Tu portes les marques de fers de l'esclave qui te désignent en général comme esclave (méprisé) ou criminel (craint).",
+			"mes": "J'ai été capturé et réduit en esclavage de longs mois avant de parvenir à m'échapper. A la honte de la défaite s'est ajoutée l'humiliation de l'esclavage",
+			"mes_effet": "Tu portes les marques de fers de l'esclave qui te désignent en général comme esclave (méprisé) ou criminel (craint).",
 			"maison_id": "3"
 		},
 		{
 			"id": "13",
-			"titre": "Je n'ai pas reçu un nom normal. MES parents...bah tu sais ce que c'est. J'imagine qu'ils croyaient bien faire.",
-			"CDB": "J'ai un nom prestigieux mais sans rapport avec celui que je devais recevoir. Je ne connais pas mon vrai nom mais ce n'est pas sans avantages.",
+			"titre": "Je n'ai pas reçu un nom normal. mes parents...bah tu sais ce que c'est. J'imagine qu'ils croyaient bien faire.",
+			"cdb": "J'ai un nom prestigieux mais sans rapport avec celui que je devais recevoir. Je ne connais pas mon vrai nom mais ce n'est pas sans avantages.",
 			"effet": "La magie Kheyza ne prend pas sur toi, tu n'existes pas puisqu'on ne t'a pas donné de vrai nom. Tous les tours, sorts et sortilèges d'Art Sémantique qui devraient te cibler échouent automatiquement, qu'ils soient lancés pour t'aider ou pour te nuire.",
-			"MES": "On ne m'a pas donné de nom du tout, c'est un sacré fardeau pour un Kheyza, je peux te garantir que c'est lourd... par expérience.",
-			"MES_effet": "La magie violette ne fonctionne pas sur toi. tu es un paria pour les Kheyza qui considèrent que tu n'existes pas. Même lorsqu'ils ne te connaissent pas quelque chose les poussent à te déconsidérer, à t'ignorer.",
+			"mes": "On ne m'a pas donné de nom du tout, c'est un sacré fardeau pour un Kheyza, je peux te garantir que c'est lourd... par expérience.",
+			"mes_effet": "La magie violette ne fonctionne pas sur toi. tu es un paria pour les Kheyza qui considèrent que tu n'existes pas. Même lorsqu'ils ne te connaissent pas quelque chose les poussent à te déconsidérer, à t'ignorer.",
 			"maison_id": "6"
 		},
 		{
 			"id": "14",
 			"titre": "J'ai vécu la capture de Corin Sans Visage et assisté à sa mise à mort...",
-			"CDB": "J'ai failli lui permettre de s'enfuir, ces maudits Felsins lui sont tombés dessus. En attendant j'ai quand même vécu trois mois à ses côtés.",
+			"cdb": "J'ai failli lui permettre de s'enfuir, ces maudits Felsins lui sont tombés dessus. En attendant j'ai quand même vécu trois mois à ses côtés.",
 			"effet": "5 points à dépenser dans des compétences en rapport avec le vol (crochetage, escalade, discrétion, escalade, pickpocket.",
-			"MES": "C'est moi qui l'ai dénoncé. j'ai appris après coup que toute cette affaire c'était qu'une fumisterie destinée à lui permettre de disparaître. Aujourd'hui il est sur le Continent et il sait que j'y suis aussi. Je dois donc porter ce lourd secret qui peut faire de moi un paria auprès des Kheyza, mais aussi prendre garde à sa vengeance.",
-			"MES_effet": "",
+			"mes": "C'est moi qui l'ai dénoncé. j'ai appris après coup que toute cette affaire c'était qu'une fumisterie destinée à lui permettre de disparaître. Aujourd'hui il est sur le Continent et il sait que j'y suis aussi. Je dois donc porter ce lourd secret qui peut faire de moi un paria auprès des Kheyza, mais aussi prendre garde à sa vengeance.",
+			"mes_effet": "",
 			"maison_id": "6"
 		},
 		{
 			"id": "15",
 			"titre": "En 213, le palais de justice de Mandril a été soufflé par une prodigieuse explosion...",
-			"CDB": "Je faisais partie des anarchistes qui réussirent ce coup. Je garde depuis une sorte de penchant pour la pyrotechnie, d'ailleurs j'ai ici un crache-feu.",
+			"cdb": "Je faisais partie des anarchistes qui réussirent ce coup. Je garde depuis une sorte de penchant pour la pyrotechnie, d'ailleurs j'ai ici un crache-feu.",
 			"effet": "Pyrotechnique fait désormais partie des compétences de compagnon de ta profession. Tu disposes d'un crache-feu court, d'un peu de poudre et des balles en quantité suffisante pour tirer 60 coups.",
-			"MES": "Je n'avais rien à voir avec cette histoire mais il fallait des coupables à la police du Doge, c'est tombé sur moi. J'ai été condamné à la galère à vie, ce qui risquait de ne pas faire très long, je me suis heureusement évadé et me suis embarqué en passager clandestin en direction des terres d'une autre Maison.",
-			"MES_effet": "Seulement 7 points de compétence pour ton métier mais tu as acquis un point de Fort supplémentaire et tu peux choisir un coup de bol et une mésaventure dans une autre Maison.",
+			"mes": "Je n'avais rien à voir avec cette histoire mais il fallait des coupables à la police du Doge, c'est tombé sur moi. J'ai été condamné à la galère à vie, ce qui risquait de ne pas faire très long, je me suis heureusement évadé et me suis embarqué en passager clandestin en direction des terres d'une autre Maison.",
+			"mes_effet": "Seulement 7 points de compétence pour ton métier mais tu as acquis un point de Fort supplémentaire et tu peux choisir un coup de bol et une mésaventure dans une autre Maison.",
 			"maison_id": "1"
 		},
 		{
 			"id": "16",
 			"titre": "Je me suis engagé dans la Marine de la République...",
-			"CDB": "Après des études insupportablement longues dans une université, je me suis enfui de chez mes parents, qui voulaient absolument faire de moi un patricien, pour satisfaire mon goût de l'aventure je me suis engagé dans la Marine de la République. J'ai déserté un peu plus tard profitant d'une escale sur le continent. le plus dur a été ensuite de trouver un maître étrange et de le soudoyer afin d'obtenir un guilder constellé.",
+			"cdb": "Après des études insupportablement longues dans une université, je me suis enfui de chez mes parents, qui voulaient absolument faire de moi un patricien, pour satisfaire mon goût de l'aventure je me suis engagé dans la Marine de la République. J'ai déserté un peu plus tard profitant d'une escale sur le continent. le plus dur a été ensuite de trouver un maître étrange et de le soudoyer afin d'obtenir un guilder constellé.",
 			"effet": "Tu n'es donc pas passé par l'Académie. Ton premier métier est forcément diplomate ou stratège. Tu disposes de 10 points supplémentaires à répartir dedans puis de 10 autres points destinés à la profession de corsaire.",
-			"MES": "Engagé est un bien grand mot, je me suis réveillé un matin à fond de cale et j'ai fait mon 'Académie' à bord jusqu'à ce que je parvienne à m'enfuir au cours d'une escale sur le Continent. La Scabare m'a fournir un guilder vierge... et voilà.",
-			"MES_effet": "Tu n'es donc pas passé par l'Académie. En retour tu disposes de 7 points de compétence à répartir, que tu pourras abandonner si tu le souhaites pour revenir à ton ancienne profession dès ton arrivée sur le continent. De plus ton guilder est vierge et il te désigne comme un hors-la-loi du point de vue des guildes.",
+			"mes": "Engagé est un bien grand mot, je me suis réveillé un matin à fond de cale et j'ai fait mon 'Académie' à bord jusqu'à ce que je parvienne à m'enfuir au cours d'une escale sur le Continent. La Scabare m'a fournir un guilder vierge... et voilà.",
+			"mes_effet": "Tu n'es donc pas passé par l'Académie. En retour tu disposes de 7 points de compétence à répartir, que tu pourras abandonner si tu le souhaites pour revenir à ton ancienne profession dès ton arrivée sur le continent. De plus ton guilder est vierge et il te désigne comme un hors-la-loi du point de vue des guildes.",
 			"maison_id": "1"
 		},
 		{
 			"id": "17",
 			"titre": "J'ai participé à une conspiration contre le Doge lui-même.",
-			"CDB": "C'est moi qui ai eu l'idée du complot originel bien que mes aînés l'aient beaucoup enrichie. Le complot a abouti exactement selon mes plans. A la suite de ce coup d'éclat les plus hautes sphères du pouvoir se sont ouvertes à moi.",
+			"cdb": "C'est moi qui ai eu l'idée du complot originel bien que mes aînés l'aient beaucoup enrichie. Le complot a abouti exactement selon mes plans. A la suite de ce coup d'éclat les plus hautes sphères du pouvoir se sont ouvertes à moi.",
 			"effet": "Tu peux acquérir des machinations en art guildien si ton métier et ton niveau te le permettent.",
-			"MES": "Le complot a été éventé par le Doge lui-même. Suite à celà on m'a 'condamné' à m'engager dans une Académie et à partir sur le Continent. Régulièrement un Venn'Dys me confie un ordre de mission signé par le Doge lui-même. En as d'échec, MES parents, frères, soeurs et tous ceux qui me sont proches paieront pour moi.",
-			"MES_effet": "Hum ! Je ne peux pas être considéré comme un proche n'est-ce pas ?",
+			"mes": "Le complot a été éventé par le Doge lui-même. Suite à celà on m'a 'condamné' à m'engager dans une Académie et à partir sur le Continent. Régulièrement un Venn'Dys me confie un ordre de mission signé par le Doge lui-même. En as d'échec, mes parents, frères, soeurs et tous ceux qui me sont proches paieront pour moi.",
+			"mes_effet": "Hum ! Je ne peux pas être considéré comme un proche n'est-ce pas ?",
 			"maison_id": "1"
 		},
 		{
 			"id": "18",
 			"titre": "Mon père était ambassadeur.",
-			"CDB": "Je ne vais pas m'en plaindre ! Nous avons été envoyés en ambassade auprès de plusieurs autres Maisons et j'ai appris bien des choses à leur contact.",
+			"cdb": "Je ne vais pas m'en plaindre ! Nous avons été envoyés en ambassade auprès de plusieurs autres Maisons et j'ai appris bien des choses à leur contact.",
 			"effet": "Tu peux choisir tes coups de bols et mésaventures dans n'importe quelle autre maison et tu disposes de 5 points de compétence pour ouvrir ou améliorer des compétences de langues ou de patois des Rivages.",
-			"MES": "Mon père a été assassiné sur les terres ashragores, ma mère est parvenue à rentrer au pays en catastrophe, je ne dois ma salut qu'à un prompt engagement dans une Académie. Au final mon apprentissage fut trop court et je suis arrivé terriblement jeune à l'Académie.",
-			"MES_effet": "8 points seulement à répartir dans ton premier métier. Mais un coup de bol spécial t'est réservé à l'Académie.",
+			"mes": "Mon père a été assassiné sur les terres ashragores, ma mère est parvenue à rentrer au pays en catastrophe, je ne dois ma salut qu'à un prompt engagement dans une Académie. Au final mon apprentissage fut trop court et je suis arrivé terriblement jeune à l'Académie.",
+			"mes_effet": "8 points seulement à répartir dans ton premier métier. Mais un coup de bol spécial t'est réservé à l'Académie.",
 			"maison_id": "5"
 		},
 		{
 			"id": "19",
 			"titre": "J'ai fait un rêve très étrange...",
-			"CDB": "Une créature qui vit dans Nocte me protège et me fournit d'inestimables conseils. Par ailleurs ceux qui veulent m'influencer en rêve ont souvent affaire à elle.",
+			"cdb": "Une créature qui vit dans Nocte me protège et me fournit d'inestimables conseils. Par ailleurs ceux qui veulent m'influencer en rêve ont souvent affaire à elle.",
 			"effet": "Cette créature est à la discrétion du MC.",
-			"MES": "En fait elles m'attendent, elles sont nombreuses et dangereuses, elles veulent me détruire mais n'ont pas trouvé la manière de le faire. Elles attaquent à vue ceux qui tente de me venir en aide dans le monde des rêves et m'interdisent de m'y risquer sous peine d'y perdre la vie. Elles cherchent aussi à se matérialiser dans la réalité afin de m'atteindre et profiteront sans doute du moindre portail reliant les deux mondes. Inutile de dire que je ne peux pas passer par Nocte pour franchir la barrière des Enfants-Cyclones.",
-			"MES_effet": "Interdiction de pratiquer l'Art Onirique (en plus des éventuels désagréments qui peuvent découler d'une rencontre avec ces créatures).",
+			"mes": "En fait elles m'attendent, elles sont nombreuses et dangereuses, elles veulent me détruire mais n'ont pas trouvé la manière de le faire. Elles attaquent à vue ceux qui tente de me venir en aide dans le monde des rêves et m'interdisent de m'y risquer sous peine d'y perdre la vie. Elles cherchent aussi à se matérialiser dans la réalité afin de m'atteindre et profiteront sans doute du moindre portail reliant les deux mondes. Inutile de dire que je ne peux pas passer par Nocte pour franchir la barrière des Enfants-Cyclones.",
+			"mes_effet": "Interdiction de pratiquer l'Art Onirique (en plus des éventuels désagréments qui peuvent découler d'une rencontre avec ces créatures).",
 			"maison_id": "5"
 		},
 		{
 			"id": "20",
 			"titre": "J'ai appartenu à une unité d'élite de l'armée ulmèque",
-			"CDB": "J'en suis parti avec les honneurs et j'ai même pu conserver mon équipement.",
+			"cdb": "J'en suis parti avec les honneurs et j'ai même pu conserver mon équipement.",
 			"effet": "Un objet au choix dans la liste réservée aux Ulmèques et tu disposes de tout l'équipement militaire de ton choix.",
-			"MES": "J'en ai été chassé avant même d'avoir fini ma formation, de sorte que j'ai dû m'engager dans une guilde.",
-			"MES_effet": "Impossible d'investir dans les compétences de compagnon de ton premier métier. tu dois avoir choisi un métier en rapport avec les armes.",
+			"mes": "J'en ai été chassé avant même d'avoir fini ma formation, de sorte que j'ai dû m'engager dans une guilde.",
+			"mes_effet": "Impossible d'investir dans les compétences de compagnon de ton premier métier. tu dois avoir choisi un métier en rapport avec les armes.",
 			"maison_id": "5"
 		}
 	],
@@ -1975,977 +1975,977 @@
 	"competencemetier": [
 		{
 			"id": "2",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "1"
 		},
 		{
 			"id": "3",
-			"Competence_id": "4",
+			"comp_id": "4",
 			"metier_id": "1"
 		},
 		{
 			"id": "4",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "1"
 		},
 		{
 			"id": "5",
-			"Competence_id": "38",
+			"comp_id": "38",
 			"metier_id": "1"
 		},
 		{
 			"id": "6",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "1"
 		},
 		{
 			"id": "7",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "1"
 		},
 		{
 			"id": "8",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "4"
 		},
 		{
 			"id": "9",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "4"
 		},
 		{
 			"id": "10",
-			"Competence_id": "23",
+			"comp_id": "23",
 			"metier_id": "4"
 		},
 		{
 			"id": "11",
-			"Competence_id": "5",
+			"comp_id": "5",
 			"metier_id": "4"
 		},
 		{
 			"id": "12",
-			"Competence_id": "38",
+			"comp_id": "38",
 			"metier_id": "4"
 		},
 		{
 			"id": "13",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "4"
 		},
 		{
 			"id": "14",
-			"Competence_id": "50",
+			"comp_id": "50",
 			"metier_id": "4"
 		},
 		{
 			"id": "15",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "10"
 		},
 		{
 			"id": "16",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "10"
 		},
 		{
 			"id": "17",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "10"
 		},
 		{
 			"id": "18",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "10"
 		},
 		{
 			"id": "19",
-			"Competence_id": "38",
+			"comp_id": "38",
 			"metier_id": "10"
 		},
 		{
 			"id": "20",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "10"
 		},
 		{
 			"id": "21",
-			"Competence_id": "41",
+			"comp_id": "41",
 			"metier_id": "10"
 		},
 		{
 			"id": "22",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "15"
 		},
 		{
 			"id": "23",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "15"
 		},
 		{
 			"id": "24",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "15"
 		},
 		{
 			"id": "25",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "15"
 		},
 		{
 			"id": "26",
-			"Competence_id": "38",
+			"comp_id": "38",
 			"metier_id": "15"
 		},
 		{
 			"id": "27",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "15"
 		},
 		{
 			"id": "28",
-			"Competence_id": "48",
+			"comp_id": "48",
 			"metier_id": "15"
 		},
 		{
 			"id": "29",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "18"
 		},
 		{
 			"id": "30",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "18"
 		},
 		{
 			"id": "31",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "18"
 		},
 		{
 			"id": "32",
-			"Competence_id": "22",
+			"comp_id": "22",
 			"metier_id": "18"
 		},
 		{
 			"id": "33",
-			"Competence_id": "38",
+			"comp_id": "38",
 			"metier_id": "18"
 		},
 		{
 			"id": "34",
-			"Competence_id": "45",
+			"comp_id": "45",
 			"metier_id": "18"
 		},
 		{
 			"id": "35",
-			"Competence_id": "52",
+			"comp_id": "52",
 			"metier_id": "18"
 		},
 		{
 			"id": "36",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "28"
 		},
 		{
 			"id": "37",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "28"
 		},
 		{
 			"id": "38",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "28"
 		},
 		{
 			"id": "39",
-			"Competence_id": "27",
+			"comp_id": "27",
 			"metier_id": "28"
 		},
 		{
 			"id": "40",
-			"Competence_id": "54",
+			"comp_id": "54",
 			"metier_id": "28"
 		},
 		{
 			"id": "41",
-			"Competence_id": "67",
+			"comp_id": "67",
 			"metier_id": "28"
 		},
 		{
 			"id": "42",
-			"Competence_id": "51",
+			"comp_id": "51",
 			"metier_id": "28"
 		},
 		{
 			"id": "43",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "2"
 		},
 		{
 			"id": "44",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "2"
 		},
 		{
 			"id": "45",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "2"
 		},
 		{
 			"id": "46",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "2"
 		},
 		{
 			"id": "47",
-			"Competence_id": "53",
+			"comp_id": "53",
 			"metier_id": "2"
 		},
 		{
 			"id": "48",
-			"Competence_id": "45",
+			"comp_id": "45",
 			"metier_id": "2"
 		},
 		{
 			"id": "49",
-			"Competence_id": "64",
+			"comp_id": "64",
 			"metier_id": "2"
 		},
 		{
 			"id": "50",
-			"Competence_id": "31",
+			"comp_id": "31",
 			"metier_id": "11"
 		},
 		{
 			"id": "51",
-			"Competence_id": "44",
+			"comp_id": "44",
 			"metier_id": "11"
 		},
 		{
 			"id": "52",
-			"Competence_id": "18",
+			"comp_id": "18",
 			"metier_id": "11"
 		},
 		{
 			"id": "53",
-			"Competence_id": "28",
+			"comp_id": "28",
 			"metier_id": "11"
 		},
 		{
 			"id": "54",
-			"Competence_id": "63",
+			"comp_id": "63",
 			"metier_id": "11"
 		},
 		{
 			"id": "55",
-			"Competence_id": "66",
+			"comp_id": "66",
 			"metier_id": "11"
 		},
 		{
 			"id": "56",
-			"Competence_id": "55",
+			"comp_id": "55",
 			"metier_id": "11"
 		},
 		{
 			"id": "57",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "12"
 		},
 		{
 			"id": "58",
-			"Competence_id": "44",
+			"comp_id": "44",
 			"metier_id": "12"
 		},
 		{
 			"id": "59",
-			"Competence_id": "25",
+			"comp_id": "25",
 			"metier_id": "12"
 		},
 		{
 			"id": "60",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "12"
 		},
 		{
 			"id": "61",
-			"Competence_id": "53",
+			"comp_id": "53",
 			"metier_id": "12"
 		},
 		{
 			"id": "62",
-			"Competence_id": "26",
+			"comp_id": "26",
 			"metier_id": "12"
 		},
 		{
 			"id": "63",
-			"Competence_id": "54",
+			"comp_id": "54",
 			"metier_id": "12"
 		},
 		{
 			"id": "64",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "6"
 		},
 		{
 			"id": "65",
-			"Competence_id": "34",
+			"comp_id": "34",
 			"metier_id": "6"
 		},
 		{
 			"id": "66",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "6"
 		},
 		{
 			"id": "67",
-			"Competence_id": "16",
+			"comp_id": "16",
 			"metier_id": "6"
 		},
 		{
 			"id": "68",
-			"Competence_id": "27",
+			"comp_id": "27",
 			"metier_id": "6"
 		},
 		{
 			"id": "69",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "6"
 		},
 		{
 			"id": "70",
-			"Competence_id": "62",
+			"comp_id": "62",
 			"metier_id": "6"
 		},
 		{
 			"id": "71",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "21"
 		},
 		{
 			"id": "72",
-			"Competence_id": "19",
+			"comp_id": "19",
 			"metier_id": "21"
 		},
 		{
 			"id": "73",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "21"
 		},
 		{
 			"id": "74",
-			"Competence_id": "24",
+			"comp_id": "24",
 			"metier_id": "21"
 		},
 		{
 			"id": "75",
-			"Competence_id": "52",
+			"comp_id": "52",
 			"metier_id": "21"
 		},
 		{
 			"id": "76",
-			"Competence_id": "45",
+			"comp_id": "45",
 			"metier_id": "21"
 		},
 		{
 			"id": "77",
-			"Competence_id": "36",
+			"comp_id": "36",
 			"metier_id": "21"
 		},
 		{
 			"id": "78",
-			"Competence_id": "71",
+			"comp_id": "71",
 			"metier_id": "23"
 		},
 		{
 			"id": "79",
-			"Competence_id": "8",
+			"comp_id": "8",
 			"metier_id": "23"
 		},
 		{
 			"id": "80",
-			"Competence_id": "30",
+			"comp_id": "30",
 			"metier_id": "23"
 		},
 		{
 			"id": "81",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "23"
 		},
 		{
 			"id": "82",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "23"
 		},
 		{
 			"id": "83",
-			"Competence_id": "59",
+			"comp_id": "59",
 			"metier_id": "23"
 		},
 		{
 			"id": "84",
-			"Competence_id": "64",
+			"comp_id": "64",
 			"metier_id": "23"
 		},
 		{
 			"id": "85",
-			"Competence_id": "73",
+			"comp_id": "73",
 			"metier_id": "20"
 		},
 		{
 			"id": "86",
-			"Competence_id": "32",
+			"comp_id": "32",
 			"metier_id": "20"
 		},
 		{
 			"id": "87",
-			"Competence_id": "30",
+			"comp_id": "30",
 			"metier_id": "20"
 		},
 		{
 			"id": "89",
-			"Competence_id": "8",
+			"comp_id": "8",
 			"metier_id": "20"
 		},
 		{
 			"id": "90",
-			"Competence_id": "65",
+			"comp_id": "65",
 			"metier_id": "20"
 		},
 		{
 			"id": "91",
-			"Competence_id": "57",
+			"comp_id": "57",
 			"metier_id": "20"
 		},
 		{
 			"id": "92",
-			"Competence_id": "76",
+			"comp_id": "76",
 			"metier_id": "27"
 		},
 		{
 			"id": "93",
-			"Competence_id": "36",
+			"comp_id": "36",
 			"metier_id": "27"
 		},
 		{
 			"id": "94",
-			"Competence_id": "30",
+			"comp_id": "30",
 			"metier_id": "27"
 		},
 		{
 			"id": "95",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "27"
 		},
 		{
 			"id": "96",
-			"Competence_id": "53",
+			"comp_id": "53",
 			"metier_id": "27"
 		},
 		{
 			"id": "97",
-			"Competence_id": "55",
+			"comp_id": "55",
 			"metier_id": "27"
 		},
 		{
 			"id": "98",
-			"Competence_id": "60",
+			"comp_id": "60",
 			"metier_id": "27"
 		},
 		{
 			"id": "99",
-			"Competence_id": "74",
+			"comp_id": "74",
 			"metier_id": "7"
 		},
 		{
 			"id": "100",
-			"Competence_id": "36",
+			"comp_id": "36",
 			"metier_id": "7"
 		},
 		{
 			"id": "101",
-			"Competence_id": "30",
+			"comp_id": "30",
 			"metier_id": "7"
 		},
 		{
 			"id": "102",
-			"Competence_id": "27",
+			"comp_id": "27",
 			"metier_id": "7"
 		},
 		{
 			"id": "103",
-			"Competence_id": "51",
+			"comp_id": "51",
 			"metier_id": "7"
 		},
 		{
 			"id": "104",
-			"Competence_id": "67",
+			"comp_id": "67",
 			"metier_id": "7"
 		},
 		{
 			"id": "105",
-			"Competence_id": "60",
+			"comp_id": "60",
 			"metier_id": "7"
 		},
 		{
 			"id": "106",
-			"Competence_id": "75",
+			"comp_id": "75",
 			"metier_id": "22"
 		},
 		{
 			"id": "107",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "22"
 		},
 		{
 			"id": "108",
-			"Competence_id": "30",
+			"comp_id": "30",
 			"metier_id": "22"
 		},
 		{
 			"id": "109",
-			"Competence_id": "9",
+			"comp_id": "9",
 			"metier_id": "22"
 		},
 		{
 			"id": "110",
-			"Competence_id": "45",
+			"comp_id": "45",
 			"metier_id": "22"
 		},
 		{
 			"id": "111",
-			"Competence_id": "48",
+			"comp_id": "48",
 			"metier_id": "22"
 		},
 		{
 			"id": "112",
-			"Competence_id": "52",
+			"comp_id": "52",
 			"metier_id": "22"
 		},
 		{
 			"id": "113",
-			"Competence_id": "7",
+			"comp_id": "7",
 			"metier_id": "3"
 		},
 		{
 			"id": "114",
-			"Competence_id": "39",
+			"comp_id": "39",
 			"metier_id": "3"
 		},
 		{
 			"id": "115",
-			"Competence_id": "35",
+			"comp_id": "35",
 			"metier_id": "3"
 		},
 		{
 			"id": "116",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "3"
 		},
 		{
 			"id": "117",
-			"Competence_id": "49",
+			"comp_id": "49",
 			"metier_id": "3"
 		},
 		{
 			"id": "118",
-			"Competence_id": "11",
+			"comp_id": "11",
 			"metier_id": "3"
 		},
 		{
 			"id": "119",
-			"Competence_id": "43",
+			"comp_id": "43",
 			"metier_id": "3"
 		},
 		{
 			"id": "120",
-			"Competence_id": "17",
+			"comp_id": "17",
 			"metier_id": "5"
 		},
 		{
 			"id": "121",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "5"
 		},
 		{
 			"id": "122",
-			"Competence_id": "41",
+			"comp_id": "41",
 			"metier_id": "5"
 		},
 		{
 			"id": "123",
-			"Competence_id": "4",
+			"comp_id": "4",
 			"metier_id": "5"
 		},
 		{
 			"id": "124",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "5"
 		},
 		{
 			"id": "125",
-			"Competence_id": "8",
+			"comp_id": "8",
 			"metier_id": "5"
 		},
 		{
 			"id": "126",
-			"Competence_id": "35",
+			"comp_id": "35",
 			"metier_id": "5"
 		},
 		{
 			"id": "127",
-			"Competence_id": "44",
+			"comp_id": "44",
 			"metier_id": "8"
 		},
 		{
 			"id": "128",
-			"Competence_id": "25",
+			"comp_id": "25",
 			"metier_id": "8"
 		},
 		{
 			"id": "129",
-			"Competence_id": "29",
+			"comp_id": "29",
 			"metier_id": "8"
 		},
 		{
 			"id": "130",
-			"Competence_id": "11",
+			"comp_id": "11",
 			"metier_id": "8"
 		},
 		{
 			"id": "131",
-			"Competence_id": "60",
+			"comp_id": "60",
 			"metier_id": "8"
 		},
 		{
 			"id": "132",
-			"Competence_id": "54",
+			"comp_id": "54",
 			"metier_id": "8"
 		},
 		{
 			"id": "133",
-			"Competence_id": "29",
+			"comp_id": "29",
 			"metier_id": "8"
 		},
 		{
 			"id": "134",
-			"Competence_id": "35",
+			"comp_id": "35",
 			"metier_id": "14"
 		},
 		{
 			"id": "135",
-			"Competence_id": "41",
+			"comp_id": "41",
 			"metier_id": "14"
 		},
 		{
 			"id": "136",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "14"
 		},
 		{
 			"id": "137",
-			"Competence_id": "43",
+			"comp_id": "43",
 			"metier_id": "14"
 		},
 		{
 			"id": "138",
-			"Competence_id": "11",
+			"comp_id": "11",
 			"metier_id": "14"
 		},
 		{
 			"id": "139",
-			"Competence_id": "24",
+			"comp_id": "24",
 			"metier_id": "14"
 		},
 		{
 			"id": "140",
-			"Competence_id": "38",
+			"comp_id": "38",
 			"metier_id": "14"
 		},
 		{
 			"id": "141",
-			"Competence_id": "31",
+			"comp_id": "31",
 			"metier_id": "19"
 		},
 		{
 			"id": "142",
-			"Competence_id": "44",
+			"comp_id": "44",
 			"metier_id": "19"
 		},
 		{
 			"id": "143",
-			"Competence_id": "25",
+			"comp_id": "25",
 			"metier_id": "19"
 		},
 		{
 			"id": "144",
-			"Competence_id": "43",
+			"comp_id": "43",
 			"metier_id": "19"
 		},
 		{
 			"id": "145",
-			"Competence_id": "11",
+			"comp_id": "11",
 			"metier_id": "19"
 		},
 		{
 			"id": "146",
-			"Competence_id": "63",
+			"comp_id": "63",
 			"metier_id": "19"
 		},
 		{
 			"id": "147",
-			"Competence_id": "66",
+			"comp_id": "66",
 			"metier_id": "19"
 		},
 		{
 			"id": "148",
-			"Competence_id": "39",
+			"comp_id": "39",
 			"metier_id": "9"
 		},
 		{
 			"id": "149",
-			"Competence_id": "15",
+			"comp_id": "15",
 			"metier_id": "9"
 		},
 		{
 			"id": "150",
-			"Competence_id": "14",
+			"comp_id": "14",
 			"metier_id": "9"
 		},
 		{
 			"id": "151",
-			"Competence_id": "11",
+			"comp_id": "11",
 			"metier_id": "9"
 		},
 		{
 			"id": "152",
-			"Competence_id": "56",
+			"comp_id": "56",
 			"metier_id": "9"
 		},
 		{
 			"id": "153",
-			"Competence_id": "13",
+			"comp_id": "13",
 			"metier_id": "9"
 		},
 		{
 			"id": "154",
-			"Competence_id": "60",
+			"comp_id": "60",
 			"metier_id": "9"
 		},
 		{
 			"id": "155",
-			"Competence_id": "44",
+			"comp_id": "44",
 			"metier_id": "13"
 		},
 		{
 			"id": "156",
-			"Competence_id": "25",
+			"comp_id": "25",
 			"metier_id": "13"
 		},
 		{
 			"id": "157",
-			"Competence_id": "29",
+			"comp_id": "29",
 			"metier_id": "13"
 		},
 		{
 			"id": "158",
-			"Competence_id": "11",
+			"comp_id": "11",
 			"metier_id": "13"
 		},
 		{
 			"id": "159",
-			"Competence_id": "29",
+			"comp_id": "29",
 			"metier_id": "13"
 		},
 		{
 			"id": "160",
-			"Competence_id": "43",
+			"comp_id": "43",
 			"metier_id": "13"
 		},
 		{
 			"id": "161",
-			"Competence_id": "60",
+			"comp_id": "60",
 			"metier_id": "13"
 		},
 		{
 			"id": "162",
-			"Competence_id": "32",
+			"comp_id": "32",
 			"metier_id": "16"
 		},
 		{
 			"id": "163",
-			"Competence_id": "8",
+			"comp_id": "8",
 			"metier_id": "16"
 		},
 		{
 			"id": "164",
-			"Competence_id": "8",
+			"comp_id": "8",
 			"metier_id": "16"
 		},
 		{
 			"id": "165",
-			"Competence_id": "15",
+			"comp_id": "15",
 			"metier_id": "16"
 		},
 		{
 			"id": "166",
-			"Competence_id": "57",
+			"comp_id": "57",
 			"metier_id": "16"
 		},
 		{
 			"id": "167",
-			"Competence_id": "65",
+			"comp_id": "65",
 			"metier_id": "16"
 		},
 		{
 			"id": "168",
-			"Competence_id": "46",
+			"comp_id": "46",
 			"metier_id": "16"
 		},
 		{
 			"id": "169",
-			"Competence_id": "29",
+			"comp_id": "29",
 			"metier_id": "24"
 		},
 		{
 			"id": "170",
-			"Competence_id": "15",
+			"comp_id": "15",
 			"metier_id": "24"
 		},
 		{
 			"id": "171",
-			"Competence_id": "39",
+			"comp_id": "39",
 			"metier_id": "24"
 		},
 		{
 			"id": "172",
-			"Competence_id": "26",
+			"comp_id": "26",
 			"metier_id": "24"
 		},
 		{
 			"id": "173",
-			"Competence_id": "60",
+			"comp_id": "60",
 			"metier_id": "24"
 		},
 		{
 			"id": "174",
-			"Competence_id": "58",
+			"comp_id": "58",
 			"metier_id": "24"
 		},
 		{
 			"id": "175",
-			"Competence_id": "59",
+			"comp_id": "59",
 			"metier_id": "24"
 		},
 		{
 			"id": "176",
-			"Competence_id": "38",
+			"comp_id": "38",
 			"metier_id": "26"
 		},
 		{
 			"id": "177",
-			"Competence_id": "14",
+			"comp_id": "14",
 			"metier_id": "26"
 		},
 		{
 			"id": "178",
-			"Competence_id": "13",
+			"comp_id": "13",
 			"metier_id": "26"
 		},
 		{
 			"id": "179",
-			"Competence_id": "44",
+			"comp_id": "44",
 			"metier_id": "26"
 		},
 		{
 			"id": "180",
-			"Competence_id": "61",
+			"comp_id": "61",
 			"metier_id": "26"
 		},
 		{
 			"id": "181",
-			"Competence_id": "64",
+			"comp_id": "64",
 			"metier_id": "26"
 		},
 		{
 			"id": "182",
-			"Competence_id": "42",
+			"comp_id": "42",
 			"metier_id": "26"
 		},
 		{
 			"id": "183",
-			"Competence_id": "72",
+			"comp_id": "72",
 			"metier_id": "25"
 		},
 		{
 			"id": "184",
-			"Competence_id": "7",
+			"comp_id": "7",
 			"metier_id": "25"
 		},
 		{
 			"id": "185",
-			"Competence_id": "25",
+			"comp_id": "25",
 			"metier_id": "25"
 		},
 		{
 			"id": "186",
-			"Competence_id": "30",
+			"comp_id": "30",
 			"metier_id": "25"
 		},
 		{
 			"id": "187",
-			"Competence_id": "54",
+			"comp_id": "54",
 			"metier_id": "25"
 		},
 		{
 			"id": "188",
-			"Competence_id": "56",
+			"comp_id": "56",
 			"metier_id": "25"
 		},
 		{
 			"id": "189",
-			"Competence_id": "60",
+			"comp_id": "60",
 			"metier_id": "25"
 		},
 		{
 			"id": "190",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "17"
 		},
 		{
 			"id": "191",
-			"Competence_id": "68",
+			"comp_id": "68",
 			"metier_id": "17"
 		},
 		{
 			"id": "192",
-			"Competence_id": "37",
+			"comp_id": "37",
 			"metier_id": "17"
 		},
 		{
 			"id": "193",
-			"Competence_id": "27",
+			"comp_id": "27",
 			"metier_id": "17"
 		},
 		{
 			"id": "194",
-			"Competence_id": "41",
+			"comp_id": "41",
 			"metier_id": "17"
 		},
 		{
 			"id": "195",
-			"Competence_id": "66",
+			"comp_id": "66",
 			"metier_id": "17"
 		},
 		{
 			"id": "196",
-			"Competence_id": "20",
+			"comp_id": "20",
 			"metier_id": "17"
 		},
 		{
 			"id": "199",
-			"Competence_id": "12",
+			"comp_id": "12",
 			"metier_id": "1"
 		}
 	],
@@ -3322,8 +3322,8 @@
 			"niveau": "Extrême",
 			"description": "Permet au maître de rendre son corps aussi dur que la pierre pendant une PA complète.",
 			"novice": "Le niveau de blessure de l'arme est réduit d'un niveau. Ceux qui le frappent à mains nues se brisent les os.",
-			"initie": "Le niveau de blessure de l'arme est réduit de deux niveaux. Les arMES comportant des manches en bois se brisent sur son corps.",
-			"expert": "Le niveau de blessure de l'arme est réduit de trois niveaux. Toutes les arMES se brisent sur son corps.",
+			"initie": "Le niveau de blessure de l'arme est réduit de deux niveaux. Les armes comportant des manches en bois se brisent sur son corps.",
+			"expert": "Le niveau de blessure de l'arme est réduit de trois niveaux. Toutes les armes se brisent sur son corps.",
 			"effet_pervers": "Le maître se pétrifie tellement qu'il est incapable de bouger pendant une PA complète, l'arme de l'adversaire se brise mais un éclat parvient à s'enfoncer dans la chair du maître qui encaisse une blessure superficielle supplémentaire.",
 			"chapitre_id": "1"
 		},
@@ -3401,7 +3401,7 @@
 			"novice": "Jets à +6 (repas frugal).",
 			"initie": "Réussite automatique (repas correct).",
 			"expert": "Baraka automatique (festin).",
-			"effet_pervers": "Les aliments sont tout à fait coMEStibles mais provoquent une violente diarrhée, le maître trouve de quoi manger pour lui mais donne à ses amis des aliments avariés qui les empoisonnent.",
+			"effet_pervers": "Les aliments sont tout à fait comestibles mais provoquent une violente diarrhée, le maître trouve de quoi manger pour lui mais donne à ses amis des aliments avariés qui les empoisonnent.",
 			"chapitre_id": "4"
 		},
 		{
@@ -3522,7 +3522,7 @@
 			"novice": "Jets à +6.",
 			"initie": "Réussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître est repéré par un animal doMEStique particulièrement hargneux, le maître est pris à parti par un ivrogne.",
+			"effet_pervers": "Le maître est repéré par un animal domestique particulièrement hargneux, le maître est pris à parti par un ivrogne.",
 			"chapitre_id": "5"
 		},
 		{
@@ -3643,8 +3643,8 @@
 			"niveau": "Extrême",
 			"description": "Permet au maître de rendre son corps aussi dur que la pierre pendant une PA complète.",
 			"novice": "Le niveau de blessure de l'arme est réduit d'un niveau. Ceux qui le frappent à mains nues se brisent les os.",
-			"initie": "Le niveau de blessure de l'arme est réduit de deux niveaux. Les arMES comportant des manches en bois se brisent sur son corps.",
-			"expert": "Le niveau de blessure de l'arme est réduit de trois niveaux. Toutes les arMES se brisent sur son corps.",
+			"initie": "Le niveau de blessure de l'arme est réduit de deux niveaux. Les armes comportant des manches en bois se brisent sur son corps.",
+			"expert": "Le niveau de blessure de l'arme est réduit de trois niveaux. Toutes les armes se brisent sur son corps.",
 			"effet_pervers": "Le maître se pétrifie tellement qu'il est incapable de bouger pendant une PA complète, l'arme de l'adversaire se brise mais un éclat parvient à s'enfoncer dans la chair du maître qui encaisse une blessure superficielle supplémentaire.",
 			"chapitre_id": "1"
 		},
@@ -3722,7 +3722,7 @@
 			"novice": "Jets à +6 (repas frugal).",
 			"initie": "Réussite automatique (repas correct).",
 			"expert": "Baraka automatique (festin).",
-			"effet_pervers": "Les aliments sont tout à fait coMEStibles mais provoquent une violente diarrhée, le maître trouve de quoi manger pour lui mais donne à ses amis des aliments avariés qui les empoisonnent.",
+			"effet_pervers": "Les aliments sont tout à fait comestibles mais provoquent une violente diarrhée, le maître trouve de quoi manger pour lui mais donne à ses amis des aliments avariés qui les empoisonnent.",
 			"chapitre_id": "4"
 		},
 		{
@@ -3843,7 +3843,7 @@
 			"novice": "Jets à +6.",
 			"initie": "Réussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître est repéré par un animal doMEStique particulièrement hargneux, le maître est pris à parti par un ivrogne.",
+			"effet_pervers": "Le maître est repéré par un animal domestique particulièrement hargneux, le maître est pris à parti par un ivrogne.",
 			"chapitre_id": "5"
 		},
 		{
@@ -3948,7 +3948,7 @@
 		},
 		{
 			"id": "3",
-			"nom": "Il m'est arrivé un truc que je n'aime pas trop raconter. Quelque chose vraiment atroce, qui explique MES horribles cicatrices et le fait que je n'aie plus de famille, de femme et d'enfants.",
+			"nom": "Il m'est arrivé un truc que je n'aime pas trop raconter. Quelque chose vraiment atroce, qui explique mes horribles cicatrices et le fait que je n'aie plus de famille, de femme et d'enfants.",
 			"effet": "Un point de charmeur en moins que tu peux reporter ailleurs (si tu as 1 en charmeur cette mésaventure est sans effet technique)."
 		},
 		{
@@ -4903,7 +4903,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "Prochain jet de compétence",
-			"effet": "Le Maître Etrange apprend provisoirement une des compétences que la cible maîtrise au niveau initié minimum (le Maître etrange peut choisir la compétence). Cette compétence ne peut pas être un Art Etrange, ni même la compétence Loom. La prochaine fois que le Maître Etrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bénéficiera du niveau de maîtrise directement inférieur à celui de la cible (si la cible maîtrisait la compétence au niveau expert, le Mâitre Etrange la connaîtra au niveau initié). Les compétences automatiques des autochtones (langues, connaissance des us et coutuMES...) sont obtenues au niveau expert.",
+			"effet": "Le Maître Etrange apprend provisoirement une des compétences que la cible maîtrise au niveau initié minimum (le Maître etrange peut choisir la compétence). Cette compétence ne peut pas être un Art Etrange, ni même la compétence Loom. La prochaine fois que le Maître Etrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bénéficiera du niveau de maîtrise directement inférieur à celui de la cible (si la cible maîtrisait la compétence au niveau expert, le Mâitre Etrange la connaîtra au niveau initié). Les compétences automatiques des autochtones (langues, connaissance des us et coutumes...) sont obtenues au niveau expert.",
 			"maison_id": "5"
 		},
 		{
@@ -5056,7 +5056,7 @@
 			"portee": "5m",
 			"cible": "L'entourage du maître étrange",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange acquiert une présence majestueuse. Tous ceux qui l'ont dans leur champ de vision et qui ratent leur jet de résistance magique se tournent vers lui et sont plongés dans un état de fascination intense pendant toute la durée de la PA. Les victiMES ne peuvent même pas se défendre tant qu'elles sont sous ce charme.",
+			"effet": "Le Maître Etrange acquiert une présence majestueuse. Tous ceux qui l'ont dans leur champ de vision et qui ratent leur jet de résistance magique se tournent vers lui et sont plongés dans un état de fascination intense pendant toute la durée de la PA. Les victimes ne peuvent même pas se défendre tant qu'elles sont sous ce charme.",
 			"maison_id": "3"
 		},
 		{
