@@ -2,7 +2,7 @@
 	"armes": [
 		{
 			"id": "1",
-			"nom": "Fléau d'armes",
+			"nom": "FlÃ©au d'armes",
 			"init": "2",
 			"att": "2",
 			"def": "0",
@@ -44,7 +44,7 @@
 		},
 		{
 			"id": "4",
-			"nom": "Grand Fléau",
+			"nom": "Grand FlÃ©au",
 			"init": "1",
 			"att": "2",
 			"def": "0",
@@ -58,7 +58,7 @@
 		},
 		{
 			"id": "9",
-			"nom": "Couteau lancé",
+			"nom": "Couteau lancÃ©",
 			"init": "0",
 			"att": "2",
 			"def": "0",
@@ -72,11 +72,11 @@
 		},
 		{
 			"id": "10",
-			"nom": "Hachette lancée",
+			"nom": "Hachette lancÃ©e",
 			"init": "0",
 			"att": "2",
 			"def": "0",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "1",
 			"fort": "3",
 			"cad": "1",
@@ -90,7 +90,7 @@
 			"init": "0",
 			"att": "2",
 			"def": "0",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "1",
 			"fort": "3",
 			"cad": "1",
@@ -100,7 +100,7 @@
 		},
 		{
 			"id": "12",
-			"nom": "Arbalète",
+			"nom": "ArbalÃ¨te",
 			"init": "0",
 			"att": "3",
 			"def": "0",
@@ -114,7 +114,7 @@
 		},
 		{
 			"id": "13",
-			"nom": "Arbalète à cric",
+			"nom": "ArbalÃ¨te Ã  cric",
 			"init": "0",
 			"att": "3",
 			"def": "0",
@@ -128,11 +128,11 @@
 		},
 		{
 			"id": "14",
-			"nom": "Arbalète de poing",
+			"nom": "ArbalÃ¨te de poing",
 			"init": "0",
 			"att": "3",
 			"def": "0",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "1",
 			"fort": "1",
 			"cad": "2",
@@ -142,7 +142,7 @@
 		},
 		{
 			"id": "15",
-			"nom": "Arc à poulies (venn'dys)",
+			"nom": "Arc Ã  poulies (venn'dys)",
 			"init": "0",
 			"att": "2",
 			"def": "0",
@@ -174,7 +174,7 @@
 			"init": "0",
 			"att": "2",
 			"def": "0",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "2",
 			"fort": "2",
 			"cad": "1",
@@ -212,7 +212,7 @@
 		},
 		{
 			"id": "20",
-			"nom": "Lance-Fléchettes",
+			"nom": "Lance-FlÃ©chettes",
 			"init": "0",
 			"att": "3",
 			"def": "0",
@@ -300,7 +300,7 @@
 			"init": "4",
 			"att": "4",
 			"def": "3",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "2",
 			"fort": "4",
 			"cad": "0",
@@ -324,7 +324,7 @@
 		},
 		{
 			"id": "28",
-			"nom": "Epée longue",
+			"nom": "EpÃ©e longue",
 			"init": "3",
 			"att": "3",
 			"def": "3",
@@ -352,11 +352,11 @@
 		},
 		{
 			"id": "30",
-			"nom": "Glaive, épée courte",
+			"nom": "Glaive, Ã©pÃ©e courte",
 			"init": "4",
 			"att": "3",
 			"def": "3",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "0",
 			"fort": "0",
 			"cad": "0",
@@ -412,7 +412,7 @@
 			"init": "3",
 			"att": "3",
 			"def": "2",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "0",
 			"fort": "1",
 			"cad": "0",
@@ -436,7 +436,7 @@
 		},
 		{
 			"id": "36",
-			"nom": "Rapière",
+			"nom": "RapiÃ¨re",
 			"init": "5",
 			"att": "4",
 			"def": "3",
@@ -468,7 +468,7 @@
 			"init": "2",
 			"att": "2",
 			"def": "3",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "3",
 			"fort": "3",
 			"cad": "0",
@@ -478,11 +478,11 @@
 		},
 		{
 			"id": "39",
-			"nom": "Grand bâton ferré",
+			"nom": "Grand bÃ¢ton ferrÃ©",
 			"init": "4",
 			"att": "3",
 			"def": "4",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "1",
 			"fort": "1",
 			"cad": "0",
@@ -510,7 +510,7 @@
 			"init": "2",
 			"att": "3",
 			"def": "1",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "3",
 			"fort": "4",
 			"cad": "0",
@@ -594,7 +594,7 @@
 			"init": "4",
 			"att": "3",
 			"def": "2",
-			"blessure": "Légère",
+			"blessure": "LÃ©gÃ¨re",
 			"enc": "3",
 			"fort": "3",
 			"cad": "0",
@@ -644,7 +644,7 @@
 		},
 		{
 			"id": "2",
-			"nom": "Manteau matelassé",
+			"nom": "Manteau matelassÃ©",
 			"init": "0",
 			"att": "0",
 			"def": "1",
@@ -664,7 +664,7 @@
 		},
 		{
 			"id": "4",
-			"nom": "Cuir clouté",
+			"nom": "Cuir cloutÃ©",
 			"init": "0",
 			"att": "0",
 			"def": "2",
@@ -694,7 +694,7 @@
 		},
 		{
 			"id": "7",
-			"nom": "Haubert d'écailles",
+			"nom": "Haubert d'Ã©cailles",
 			"init": "-1",
 			"att": "0",
 			"def": "1",
@@ -704,7 +704,7 @@
 		},
 		{
 			"id": "8",
-			"nom": "Armure-scarabée ulmèque",
+			"nom": "Armure-scarabÃ©e ulmÃ¨que",
 			"init": "-2",
 			"att": "-1",
 			"def": "3",
@@ -714,7 +714,7 @@
 		},
 		{
 			"id": "9",
-			"nom": "Armure de plates complète",
+			"nom": "Armure de plates complÃ¨te",
 			"init": "-2",
 			"att": "-1",
 			"def": "2",
@@ -738,7 +738,7 @@
 		},
 		{
 			"id": "3",
-			"nom": "Arc à poulies",
+			"nom": "Arc Ã  poulies",
 			"type_id": "1",
 			"maison_id": "1"
 		},
@@ -756,7 +756,7 @@
 		},
 		{
 			"id": "6",
-			"nom": "Bourse enchantée",
+			"nom": "Bourse enchantÃ©e",
 			"type_id": "1",
 			"maison_id": "2"
 		},
@@ -786,7 +786,7 @@
 		},
 		{
 			"id": "11",
-			"nom": "Médaillon loomique",
+			"nom": "MÃ©daillon loomique",
 			"type_id": "2",
 			"maison_id": "7"
 		},
@@ -798,7 +798,7 @@
 		},
 		{
 			"id": "13",
-			"nom": "Une mystérieuse carte",
+			"nom": "Une mystÃ©rieuse carte",
 			"type_id": "3",
 			"maison_id": "7"
 		},
@@ -822,7 +822,7 @@
 		},
 		{
 			"id": "17",
-			"nom": "Pierre de rêve",
+			"nom": "Pierre de rÃªve",
 			"type_id": "1",
 			"maison_id": "5"
 		},
@@ -834,7 +834,7 @@
 		},
 		{
 			"id": "19",
-			"nom": "Armure renforcée en élytre Kriln",
+			"nom": "Armure renforcÃ©e en Ã©lytre Kriln",
 			"type_id": "2",
 			"maison_id": "5"
 		},
@@ -846,13 +846,13 @@
 		},
 		{
 			"id": "21",
-			"nom": "Armure-scarabée complète",
+			"nom": "Armure-scarabÃ©e complÃ¨te",
 			"type_id": "3",
 			"maison_id": "5"
 		},
 		{
 			"id": "22",
-			"nom": "Gemme guérisseuse",
+			"nom": "Gemme guÃ©risseuse",
 			"type_id": "3",
 			"maison_id": "5"
 		},
@@ -882,7 +882,7 @@
 		},
 		{
 			"id": "27",
-			"nom": "Turban de résistance",
+			"nom": "Turban de rÃ©sistance",
 			"type_id": "3",
 			"maison_id": "4"
 		},
@@ -930,31 +930,31 @@
 		},
 		{
 			"id": "35",
-			"nom": "Crâne qui parle",
+			"nom": "CrÃ¢ne qui parle",
 			"type_id": "1",
 			"maison_id": "2"
 		},
 		{
 			"id": "36",
-			"nom": "Parchemin de malédiction",
+			"nom": "Parchemin de malÃ©diction",
 			"type_id": "1",
 			"maison_id": "2"
 		},
 		{
 			"id": "37",
-			"nom": "Statuette grimaçante",
+			"nom": "Statuette grimaÃ§ante",
 			"type_id": "2",
 			"maison_id": "2"
 		},
 		{
 			"id": "38",
-			"nom": "Crâne parlant",
+			"nom": "CrÃ¢ne parlant",
 			"type_id": "2",
 			"maison_id": "2"
 		},
 		{
 			"id": "39",
-			"nom": "Parchemin de malédiction",
+			"nom": "Parchemin de malÃ©diction",
 			"type_id": "2",
 			"maison_id": "2"
 		},
@@ -966,25 +966,25 @@
 		},
 		{
 			"id": "41",
-			"nom": "Crâne parlant",
+			"nom": "CrÃ¢ne parlant",
 			"type_id": "3",
 			"maison_id": "2"
 		},
 		{
 			"id": "42",
-			"nom": "Parchemin de malédiction",
+			"nom": "Parchemin de malÃ©diction",
 			"type_id": "3",
 			"maison_id": "2"
 		},
 		{
 			"id": "43",
-			"nom": "Manteau très discret",
+			"nom": "Manteau trÃ¨s discret",
 			"type_id": "1",
 			"maison_id": "6"
 		},
 		{
 			"id": "44",
-			"nom": "un sachet de graines enchantées",
+			"nom": "un sachet de graines enchantÃ©es",
 			"type_id": "2",
 			"maison_id": "6"
 		},
@@ -1002,7 +1002,7 @@
 		},
 		{
 			"id": "47",
-			"nom": "Bourse enchantée",
+			"nom": "Bourse enchantÃ©e",
 			"type_id": "2",
 			"maison_id": "1"
 		},
@@ -1024,7 +1024,7 @@
 		},
 		{
 			"id": "3",
-			"nom": "Très puissants"
+			"nom": "TrÃ¨s puissants"
 		}
 	],
 	"caracs": [
@@ -1045,12 +1045,12 @@
 		},
 		{
 			"id": "4",
-			"nom": "Rusé",
+			"nom": "RusÃ©",
 			"type_id": "2"
 		},
 		{
 			"id": "5",
-			"nom": "Résistant",
+			"nom": "RÃ©sistant",
 			"type_id": "1"
 		},
 		{
@@ -1101,254 +1101,254 @@
 	"cdbacademie": [
 		{
 			"id": "9",
-			"nom": "Précoce, je suis arrivé à l'Académie à l'âge de sept ans. J'ai suivi les cours pendant quatre ans au lieu de trois et j'en ai appris beaucoup plus que les autres.",
-			"effet": "30 points à dépenser à l'Académie au lieu des 20 de base. Tu peux choisir ce coup de bol que si tu avais la mésaventure 'Trop tôt' ou 'Mon père était un ambassadeur'."
+			"nom": "PrÃ©coce, je suis arrivÃ© Ã  l'AcadÃ©mie Ã  l'Ã¢ge de sept ans. J'ai suivi les cours pendant quatre ans au lieu de trois et j'en ai appris beaucoup plus que les autres.",
+			"effet": "30 points Ã  dÃ©penser Ã  l'AcadÃ©mie au lieu des 20 de base. Tu peux choisir ce coup de bol que si tu avais la mÃ©saventure 'Trop tÃ´t' ou 'Mon pÃ¨re Ã©tait un ambassadeur'."
 		},
 		{
 			"id": "10",
-			"nom": "Surentraînement : je suis tombé dans une Académie de fous furieux avec tout ce qu'il faut comme maîtres sadiques ayant oublié qu'ils ont besoin de dormir et nous aussi, cours supplémentaires dans toutes les matières, etc. J'ai vécu un enfer de deux ans mais c'est vrai que j'en ai fait deux fois plus que dans n'importe quelle autre Académie. N'empêche on a eu des morts...",
-			"effet": "27 points de compétence au lieu des 20 de base."
+			"nom": "SurentraÃ®nement : je suis tombÃ© dans une AcadÃ©mie de fous furieux avec tout ce qu'il faut comme maÃ®tres sadiques ayant oubliÃ© qu'ils ont besoin de dormir et nous aussi, cours supplÃ©mentaires dans toutes les matiÃ¨res, etc. J'ai vÃ©cu un enfer de deux ans mais c'est vrai que j'en ai fait deux fois plus que dans n'importe quelle autre AcadÃ©mie. N'empÃªche on a eu des morts...",
+			"effet": "27 points de compÃ©tence au lieu des 20 de base."
 		},
 		{
 			"id": "11",
-			"nom": "Maître sadique : je suis tombé sur un maître complètement dément, sadique et content de lui en prime, il m'a fait vivre un calvaire pendant deux ans. C'était un ancien maître qui n'avait plus grand chose à apprendre. Je n'ai jamais autant progressé qu'avec lui d'ailleurs, bon... passons.",
-			"effet": "Possibilité si ton niveau dans ton métier le permet d'investir dans une machination."
+			"nom": "MaÃ®tre sadique : je suis tombÃ© sur un maÃ®tre complÃ¨tement dÃ©ment, sadique et content de lui en prime, il m'a fait vivre un calvaire pendant deux ans. C'Ã©tait un ancien maÃ®tre qui n'avait plus grand chose Ã  apprendre. Je n'ai jamais autant progressÃ© qu'avec lui d'ailleurs, bon... passons.",
+			"effet": "PossibilitÃ© si ton niveau dans ton mÃ©tier le permet d'investir dans une machination."
 		},
 		{
 			"id": "12",
-			"nom": "Apprentissage magique supérieur, j'ai suivi des cours particuliers dans les Arts Etranges, j'ai appris un ou deux tours supplémentaires.",
-			"effet": "Tu peux acheter des tours ou des sorts (pas de sortilèges), ils valent 1 point de compétence pour les tours et 2 pour les sorts. Ces coût sont doublés pour ceux qui n'ont pas un métier dans les Arts Etranges."
+			"nom": "Apprentissage magique supÃ©rieur, j'ai suivi des cours particuliers dans les Arts Etranges, j'ai appris un ou deux tours supplÃ©mentaires.",
+			"effet": "Tu peux acheter des tours ou des sorts (pas de sortilÃ¨ges), ils valent 1 point de compÃ©tence pour les tours et 2 pour les sorts. Ces coÃ»t sont doublÃ©s pour ceux qui n'ont pas un mÃ©tier dans les Arts Etranges."
 		},
 		{
 			"id": "13",
-			"nom": "Réserve de Loom, on m'a donné afin de me préparer à l'aventure un petit pécule de Loom lorsque j'ai terminé mon Académie.",
-			"effet": "10 points de Loom à répartir dans la ou les couleurs de ton choix. Alternativement, le fragment de Loom était raffiné de sorte que tu as acquis un sortilège de bas niveau (pas plus de 9 en difficulté) - mais pas de Loom. Ce coup de bol peut être pris deux fois, une pour le sortilège puis une pour le Loom. "
+			"nom": "RÃ©serve de Loom, on m'a donnÃ© afin de me prÃ©parer Ã  l'aventure un petit pÃ©cule de Loom lorsque j'ai terminÃ© mon AcadÃ©mie.",
+			"effet": "10 points de Loom Ã  rÃ©partir dans la ou les couleurs de ton choix. Alternativement, le fragment de Loom Ã©tait raffinÃ© de sorte que tu as acquis un sortilÃ¨ge de bas niveau (pas plus de 9 en difficultÃ©) - mais pas de Loom. Ce coup de bol peut Ãªtre pris deux fois, une pour le sortilÃ¨ge puis une pour le Loom. "
 		},
 		{
 			"id": "14",
-			"nom": "Soutien d'une guilde, à peine arrivé une grande guilde m'a sauté dessus. Elle m'a soutenu financièrement dès le début de mon Académie, me fournissant matériel, argent, professeurs particuliers, etc. Pourquoi a-t-elle fait ça ? Allez savoir les guildes...",
-			"effet": "500 guilders de corail pour ton équipement."
+			"nom": "Soutien d'une guilde, Ã  peine arrivÃ© une grande guilde m'a sautÃ© dessus. Elle m'a soutenu financiÃ¨rement dÃ¨s le dÃ©but de mon AcadÃ©mie, me fournissant matÃ©riel, argent, professeurs particuliers, etc. Pourquoi a-t-elle fait Ã§a ? Allez savoir les guildes...",
+			"effet": "500 guilders de corail pour ton Ã©quipement."
 		},
 		{
 			"id": "15",
-			"nom": "Maître amical, j'ai fait la rencontre du type le plus sympa que j'ai jamais vu, il me donnait des cours sur les autochtones, enfin bon l'essentiel c'est qu'il m'a fait un cadeau d'adieu pour mettre toutes les chances de mon côté. En échange il voulait juste que je lui écrive régulièrement depuis le Continent.",
-			"effet": "Un objet à choisir dans la liste des artefacts et objets particuliers qui figure dans le registre de l'équipement."
+			"nom": "MaÃ®tre amical, j'ai fait la rencontre du type le plus sympa que j'ai jamais vu, il me donnait des cours sur les autochtones, enfin bon l'essentiel c'est qu'il m'a fait un cadeau d'adieu pour mettre toutes les chances de mon cÃ´tÃ©. En Ã©change il voulait juste que je lui Ã©crive rÃ©guliÃ¨rement depuis le Continent.",
+			"effet": "Un objet Ã  choisir dans la liste des artefacts et objets particuliers qui figure dans le registre de l'Ã©quipement."
 		},
 		{
 			"id": "16",
-			"nom": "Maître Felsin, mon maître de combat état un drôle de petit bonhomme Felsin. au lieu de nous entraîner à tuer, il nous faisait méditer, nous enseignant des trucs étranges apparemment sans rapport avec le combat. Je n'ai jamais su si j'avais perdu mon temps ou si j'avais vraiment appris quelque chose d'utile. ",
-			"effet": "Possibilité d'investir dans la compétence Sheï au coût professionnel OU un point dans une caractéristique au choix OU possibilité de devenir pratiquant en Arts Martiaux (tu n'as pas accès aux techniques des Felsins à moins que tu n'en sois toi-même un)."
+			"nom": "MaÃ®tre Felsin, mon maÃ®tre de combat Ã©tat un drÃ´le de petit bonhomme Felsin. au lieu de nous entraÃ®ner Ã  tuer, il nous faisait mÃ©diter, nous enseignant des trucs Ã©tranges apparemment sans rapport avec le combat. Je n'ai jamais su si j'avais perdu mon temps ou si j'avais vraiment appris quelque chose d'utile. ",
+			"effet": "PossibilitÃ© d'investir dans la compÃ©tence SheÃ¯ au coÃ»t professionnel OU un point dans une caractÃ©ristique au choix OU possibilitÃ© de devenir pratiquant en Arts Martiaux (tu n'as pas accÃ¨s aux techniques des Felsins Ã  moins que tu n'en sois toi-mÃªme un)."
 		},
 		{
 			"id": "17",
-			"nom": "Frère (ou soeur) de sang. C'est là où j'ai fait la connaissance de mon (ma meilleur(e) ami(e), la personne en qui j'ai le plus confiance au monde. Même mes frères, enfin c'est comme ça. Depuis on ne s'est plus jamais séparés, il couvre mes arrières et marche dans mes traces. A moins que ne soit l'inverse ?",
-			"effet": "C'est qui celui-là ? Tu le connais comme toi-même, dis-donc !"
+			"nom": "FrÃ¨re (ou soeur) de sang. C'est lÃ  oÃ¹ j'ai fait la connaissance de mon (ma meilleur(e) ami(e), la personne en qui j'ai le plus confiance au monde. MÃªme mes frÃ¨res, enfin c'est comme Ã§a. Depuis on ne s'est plus jamais sÃ©parÃ©s, il couvre mes arriÃ¨res et marche dans mes traces. A moins que ne soit l'inverse ?",
+			"effet": "C'est qui celui-lÃ  ? Tu le connais comme toi-mÃªme, dis-donc !"
 		},
 		{
 			"id": "18",
-			"nom": "Etrange maître, il y avait un maître étrange doublement étrange dans mon Académie. D'habitude ils sont complètement tarés et franchement paranoïaques, celui-là c'était pas du tout ça. Bon il était quand même un peu frappé mais il a accepté de m'enseigner la magie d'une autre Maison que la mienne.",
-			"effet": "Tu peux ouvrir un art d'une autre Maison que la tienne au coût professionnel et tu obtiens deux tours de cet art."
+			"nom": "Etrange maÃ®tre, il y avait un maÃ®tre Ã©trange doublement Ã©trange dans mon AcadÃ©mie. D'habitude ils sont complÃ¨tement tarÃ©s et franchement paranoÃ¯aques, celui-lÃ  c'Ã©tait pas du tout Ã§a. Bon il Ã©tait quand mÃªme un peu frappÃ© mais il a acceptÃ© de m'enseigner la magie d'une autre Maison que la mienne.",
+			"effet": "Tu peux ouvrir un art d'une autre Maison que la tienne au coÃ»t professionnel et tu obtiens deux tours de cet art."
 		},
 		{
 			"id": "19",
-			"nom": "Accident (positif), pendant un entraînement il m'est arrivé un accident... le genre à me laisser pour mort dans le meilleur des cas. Je ne sais pas ce qu'ils m'ont fait mais j'ai survécu, je n'ai pas de séquelle et en plus j'ai mis à peine un petit mois à m'en remettre. Depuis, je guéris plus vite, mais vraiment plus vite.",
-			"effet": "Tu guéris deux fois plus vite que la normale."
+			"nom": "Accident (positif), pendant un entraÃ®nement il m'est arrivÃ© un accident... le genre Ã  me laisser pour mort dans le meilleur des cas. Je ne sais pas ce qu'ils m'ont fait mais j'ai survÃ©cu, je n'ai pas de sÃ©quelle et en plus j'ai mis Ã  peine un petit mois Ã  m'en remettre. Depuis, je guÃ©ris plus vite, mais vraiment plus vite.",
+			"effet": "Tu guÃ©ris deux fois plus vite que la normale."
 		},
 		{
 			"id": "20",
-			"nom": "Intrigue de Maison, je me suis tellement bien intégré à la vie de la Maison dont dépendait mon Académie qu'il m'en est arrivé une bien bonne...",
-			"effet": "Tu peux choisir un coup de bol de n'importe quelle Maison à la place du prochain que tu devais prendre."
+			"nom": "Intrigue de Maison, je me suis tellement bien intÃ©grÃ© Ã  la vie de la Maison dont dÃ©pendait mon AcadÃ©mie qu'il m'en est arrivÃ© une bien bonne...",
+			"effet": "Tu peux choisir un coup de bol de n'importe quelle Maison Ã  la place du prochain que tu devais prendre."
 		}
 	],
 	"cdball": [
 		{
 			"id": "1",
-			"nom": "J'ai peut-être découvert un métier qui me passionnait ou plus simplement étais-je vraiment doué. Toujours est-il que je fais partie de cette poignée de privilégiés dont le nom s'écrit en lettres d'or dans les annales de leur profession. Dommage que l'appel du continent m'ait interrompu en cours de route.",
-			"effet": "21 points plutôt que seulement 14 à répartir dans ton métier d'origine mais tu ne peux toujours pas ouvrir de compétences de maître."
+			"nom": "J'ai peut-Ãªtre dÃ©couvert un mÃ©tier qui me passionnait ou plus simplement Ã©tais-je vraiment douÃ©. Toujours est-il que je fais partie de cette poignÃ©e de privilÃ©giÃ©s dont le nom s'Ã©crit en lettres d'or dans les annales de leur profession. Dommage que l'appel du continent m'ait interrompu en cours de route.",
+			"effet": "21 points plutÃ´t que seulement 14 Ã  rÃ©partir dans ton mÃ©tier d'origine mais tu ne peux toujours pas ouvrir de compÃ©tences de maÃ®tre."
 		},
 		{
 			"id": "2",
-			"nom": "L'Académie est venue tard, au point où je ne pensais même plus devenir Aventurier. ne pleurons tout de même pas sur mon sort ça m'a permis d'aller plus loin que n'importe qui.",
-			"effet": "Tu peux ouvrir une compétence de maître."
+			"nom": "L'AcadÃ©mie est venue tard, au point oÃ¹ je ne pensais mÃªme plus devenir Aventurier. ne pleurons tout de mÃªme pas sur mon sort Ã§a m'a permis d'aller plus loin que n'importe qui.",
+			"effet": "Tu peux ouvrir une compÃ©tence de maÃ®tre."
 		},
 		{
 			"id": "3",
-			"nom": "Ma famille était riche et puissante, elle m'a donné un objet mineur mais bien utile dans mon apprentissage.",
-			"effet": "A choisir dans la liste des artefacts et objets particuliers qui figure dans le registre de l'équipement."
+			"nom": "Ma famille Ã©tait riche et puissante, elle m'a donnÃ© un objet mineur mais bien utile dans mon apprentissage.",
+			"effet": "A choisir dans la liste des artefacts et objets particuliers qui figure dans le registre de l'Ã©quipement."
 		},
 		{
 			"id": "4",
-			"nom": "J'ai attiré l'attention des autorités de ma Maison, elles m'ont fait cadeau d'un objet très puissant. Mais je sais qu'un jour ou l'autre je devrai payer cette faveur aussi loin que j'aille même de l'autre côté de la Barrière. Sans compter que c'est le genre de chose qui suscite la convoitise.",
-			"effet": "A choisir dans la liste des artefacts et objets particuliers qui figure dans le registre de l'équipement."
+			"nom": "J'ai attirÃ© l'attention des autoritÃ©s de ma Maison, elles m'ont fait cadeau d'un objet trÃ¨s puissant. Mais je sais qu'un jour ou l'autre je devrai payer cette faveur aussi loin que j'aille mÃªme de l'autre cÃ´tÃ© de la BarriÃ¨re. Sans compter que c'est le genre de chose qui suscite la convoitise.",
+			"effet": "A choisir dans la liste des artefacts et objets particuliers qui figure dans le registre de l'Ã©quipement."
 		},
 		{
 			"id": "5",
-			"nom": "Mon père m'a enseigné une ou deux petites choses utiles...",
-			"effet": "Une compétence d'apprenti supplémentaire fait désormais partie de ta profession."
+			"nom": "Mon pÃ¨re m'a enseignÃ© une ou deux petites choses utiles...",
+			"effet": "Une compÃ©tence d'apprenti supplÃ©mentaire fait dÃ©sormais partie de ta profession."
 		},
 		{
 			"id": "6",
-			"nom": "J'étais auprès d'un Maître Etrange plusieurs mois avant l'académie. Forcément ça m'a aidé.",
-			"effet": "Un niveau supplémentaire dans l'art de ta Maison et un tour."
+			"nom": "J'Ã©tais auprÃ¨s d'un MaÃ®tre Etrange plusieurs mois avant l'acadÃ©mie. ForcÃ©ment Ã§a m'a aidÃ©.",
+			"effet": "Un niveau supplÃ©mentaire dans l'art de ta Maison et un tour."
 		},
 		{
 			"id": "7",
-			"nom": "Je suis un métis, fruit de l'alliance volontaire entre deux familles de deux Maisons différentes",
-			"effet": "Tu peux choisir tes coups de bol et tes mésaventures dans n'importe laquelle de tes deux maisons d'origine. Ce coup de bol est interdit aux Felsins."
+			"nom": "Je suis un mÃ©tis, fruit de l'alliance volontaire entre deux familles de deux Maisons diffÃ©rentes",
+			"effet": "Tu peux choisir tes coups de bol et tes mÃ©saventures dans n'importe laquelle de tes deux maisons d'origine. Ce coup de bol est interdit aux Felsins."
 		}
 	],
 	"cdbmaison": [
 		{
 			"id": "1",
-			"titre": "Participation aux révoltes contre le PanDémon.",
-			"cdb": "J'étais du bon côté ou du moins je n'ai pas été pris par les Moines Rouges. j'en ai tiré quelques enseignements intéressants en démonologie et en torture.",
-			"effet": "Un niveau supplémentaire gratuit en Art Démonique et en Premiers Soins.",
-			"mes": "J'ai été capturé par les hérétiques ou étais du mauvais côté et été pris par les Moines Rouges. On m'a 'montré' que j'étais dans l'erreur.",
-			"mes_effet": "Un point de moins en Agile (il te manque un ou plusieurs doigts, ta jambe ne fonctionne plus correctement,etc.) ou en Charmeur (tu es vilainement défiguré) mais tu as un point de plus en Résistant. Tu es cruellement mutilé et portes des marques de tortures très raffinées.",
+			"titre": "Participation aux rÃ©voltes contre le PanDÃ©mon.",
+			"cdb": "J'Ã©tais du bon cÃ´tÃ© ou du moins je n'ai pas Ã©tÃ© pris par les Moines Rouges. j'en ai tirÃ© quelques enseignements intÃ©ressants en dÃ©monologie et en torture.",
+			"effet": "Un niveau supplÃ©mentaire gratuit en Art DÃ©monique et en Premiers Soins.",
+			"mes": "J'ai Ã©tÃ© capturÃ© par les hÃ©rÃ©tiques ou Ã©tais du mauvais cÃ´tÃ© et Ã©tÃ© pris par les Moines Rouges. On m'a 'montrÃ©' que j'Ã©tais dans l'erreur.",
+			"mes_effet": "Un point de moins en Agile (il te manque un ou plusieurs doigts, ta jambe ne fonctionne plus correctement,etc.) ou en Charmeur (tu es vilainement dÃ©figurÃ©) mais tu as un point de plus en RÃ©sistant. Tu es cruellement mutilÃ© et portes des marques de tortures trÃ¨s raffinÃ©es.",
 			"maison_id": "2"
 		},
 		{
 			"id": "2",
-			"titre": "Recruté sur un des immenses chantiers des Nefs-Cathédrales...",
-			"cdb": "pour mes compétences. J'y ai fait tout mon apprentissage, dans des circonstances terribles, certes, mais que n'y ai-je pas appris !",
-			"effet": "Navigation fait désormais partie de ton métier. Tu peux changer de métier pour devenir ingénieur, ou si tu l'étais déjà, investir dans une machination.",
-			"mes": "En tant qu'esclave j'aurais dû mourir là-bas mais j'ai tenu le coup. Je ne sais pas faire grand chose mais j'en ai appris un peu.",
-			"mes_effet": "Même chose que la mésaventure générique 'esclave' mais avec une compétence d'apprenti en plus : artisanat (travail du bois).",
+			"titre": "RecrutÃ© sur un des immenses chantiers des Nefs-CathÃ©drales...",
+			"cdb": "pour mes compÃ©tences. J'y ai fait tout mon apprentissage, dans des circonstances terribles, certes, mais que n'y ai-je pas appris !",
+			"effet": "Navigation fait dÃ©sormais partie de ton mÃ©tier. Tu peux changer de mÃ©tier pour devenir ingÃ©nieur, ou si tu l'Ã©tais dÃ©jÃ , investir dans une machination.",
+			"mes": "En tant qu'esclave j'aurais dÃ» mourir lÃ -bas mais j'ai tenu le coup. Je ne sais pas faire grand chose mais j'en ai appris un peu.",
+			"mes_effet": "MÃªme chose que la mÃ©saventure gÃ©nÃ©rique 'esclave' mais avec une compÃ©tence d'apprenti en plus : artisanat (travail du bois).",
 			"maison_id": "2"
 		},
 		{
 			"id": "3",
-			"titre": "J'ai été repéré par un ordre...",
-			"cdb": "Pour mon zèle et ma ferveur ils m'ont offert un objet mineur ou puissant, au choix. Mais ils attendent de moi un service à la mesure du cadeau.",
-			"effet": "La liste est fournie dans le registre de l'équipement.",
-			"mes": "en tant qu'hérétique. Ce n'était pas assez grave pour que je subisse plus qu'un long séjour en prison. L'enfer n'est malheureusement pas très loin des prisons ashragores. Je m'en suis sorti ou évadé et j'ai réussi à intégrer une Académie.",
-			"mes_effet": "Une blessure superficielle permanente : la sale maladie que t'as contractée là-bas et qui te ronge lentement t'a nettement affaibli. En retour tu gagnes 1 point en Observateur. T'aurais jamais pu survivre en prison si tu n'avais pas eu l'oeil pour repérer les embrouilles.",
+			"titre": "J'ai Ã©tÃ© repÃ©rÃ© par un ordre...",
+			"cdb": "Pour mon zÃ¨le et ma ferveur ils m'ont offert un objet mineur ou puissant, au choix. Mais ils attendent de moi un service Ã  la mesure du cadeau.",
+			"effet": "La liste est fournie dans le registre de l'Ã©quipement.",
+			"mes": "en tant qu'hÃ©rÃ©tique. Ce n'Ã©tait pas assez grave pour que je subisse plus qu'un long sÃ©jour en prison. L'enfer n'est malheureusement pas trÃ¨s loin des prisons ashragores. Je m'en suis sorti ou Ã©vadÃ© et j'ai rÃ©ussi Ã  intÃ©grer une AcadÃ©mie.",
+			"mes_effet": "Une blessure superficielle permanente : la sale maladie que t'as contractÃ©e lÃ -bas et qui te ronge lentement t'a nettement affaibli. En retour tu gagnes 1 point en Observateur. T'aurais jamais pu survivre en prison si tu n'avais pas eu l'oeil pour repÃ©rer les embrouilles.",
 			"maison_id": "2"
 		},
 		{
 			"id": "5",
 			"titre": "Vers 213, j'ai suivi les enseignements d'un Mystiques des Arts Martiaux.",
-			"cdb": "J'ai reçu un entraînement poussé. je suis désormais un pratiquant des arts martiaux Felsins.",
-			"effet": "Accès aux arts martiaux. N'oublie pas que les Felsins ont accès à la compétence Sheï comme si elle faisait partie de leur profil de métier.",
-			"mes": "Fils d'une prostituée Phaleeni je dus interrompre mon apprentissage (bien avant d'avoir appris quelque chose d'utile) lorsqu'une guerre secrète éclata entre les courtisanes felsines et les prostituées sacrées. Afin d'éviter que je ne trahisse mon enseignement, mon maître me rendit définitivement incapable de pratiquer les Arts Martiaux en me mutilant.",
-			"mes_effet": "Impossibilité définitive de pratiquer les Arts Martiaux. Tu ne peux plus prendre de coups de bols ou des mésaventures propres aux Felsins, tu n'en es pas un. Sheï est une compétence normale (à acheter hors profession si tu n'es pas un guerrier). En revanche tu peux être un métis ou un bâtard. tu gagnes un point dans une caractéristique de ton choix, c'est là tout ce que cet 'entraînement' t'aura apporté.",
+			"cdb": "J'ai reÃ§u un entraÃ®nement poussÃ©. je suis dÃ©sormais un pratiquant des arts martiaux Felsins.",
+			"effet": "AccÃ¨s aux arts martiaux. N'oublie pas que les Felsins ont accÃ¨s Ã  la compÃ©tence SheÃ¯ comme si elle faisait partie de leur profil de mÃ©tier.",
+			"mes": "Fils d'une prostituÃ©e Phaleeni je dus interrompre mon apprentissage (bien avant d'avoir appris quelque chose d'utile) lorsqu'une guerre secrÃ¨te Ã©clata entre les courtisanes felsines et les prostituÃ©es sacrÃ©es. Afin d'Ã©viter que je ne trahisse mon enseignement, mon maÃ®tre me rendit dÃ©finitivement incapable de pratiquer les Arts Martiaux en me mutilant.",
+			"mes_effet": "ImpossibilitÃ© dÃ©finitive de pratiquer les Arts Martiaux. Tu ne peux plus prendre de coups de bols ou des mÃ©saventures propres aux Felsins, tu n'en es pas un. SheÃ¯ est une compÃ©tence normale (Ã  acheter hors profession si tu n'es pas un guerrier). En revanche tu peux Ãªtre un mÃ©tis ou un bÃ¢tard. tu gagnes un point dans une caractÃ©ristique de ton choix, c'est lÃ  tout ce que cet 'entraÃ®nement' t'aura apportÃ©.",
 			"maison_id": "4"
 		},
 		{
 			"id": "6",
-			"titre": "J'étais là lorsque la transformation des Felsins en animaux a commencé.",
-			"cdb": "Dans ma famille on a tous survécu, cela signifie que je dois avoir du sang noble ou une chance de pendu et j'ai été remarqué pour cela.",
-			"effet": "Possibilité de te transformer en animal, tu dois être expert en Sheï.",
-			"mes": "Je suis le seul de toute ma famille à avoir survécu, notre sang est impur et je ne dois surtout pas essayer de me transformer. Il est certain qu'un jour ou l'autre je retrouverai ma nature de bête monstrueuse dont l'ascendance est si terrible que personne n'a su me la décrire.",
-			"mes_effet": "Impossibilité de te transformer en animal sous peine de mourir. Par ailleurs régulièrement tu dois utiliser tous tes points de Sheï pour éviter la transformation. Tu as un niveau gratuit en Sheï.",
+			"titre": "J'Ã©tais lÃ  lorsque la transformation des Felsins en animaux a commencÃ©.",
+			"cdb": "Dans ma famille on a tous survÃ©cu, cela signifie que je dois avoir du sang noble ou une chance de pendu et j'ai Ã©tÃ© remarquÃ© pour cela.",
+			"effet": "PossibilitÃ© de te transformer en animal, tu dois Ãªtre expert en SheÃ¯.",
+			"mes": "Je suis le seul de toute ma famille Ã  avoir survÃ©cu, notre sang est impur et je ne dois surtout pas essayer de me transformer. Il est certain qu'un jour ou l'autre je retrouverai ma nature de bÃªte monstrueuse dont l'ascendance est si terrible que personne n'a su me la dÃ©crire.",
+			"mes_effet": "ImpossibilitÃ© de te transformer en animal sous peine de mourir. Par ailleurs rÃ©guliÃ¨rement tu dois utiliser tous tes points de SheÃ¯ pour Ã©viter la transformation. Tu as un niveau gratuit en SheÃ¯.",
 			"maison_id": "4"
 		},
 		{
 			"id": "9",
-			"titre": "Je suis l'un de ceux qui ont arrêté Corin-Sans-Visage, le voleur Kheyza.",
-			"cdb": "Un maître étrange adepte de l'Art Mystique m'a remarqué à cette occasion et m'a enseigné, j'ignore pourquoi, l'art de regarder.",
+			"titre": "Je suis l'un de ceux qui ont arrÃªtÃ© Corin-Sans-Visage, le voleur Kheyza.",
+			"cdb": "Un maÃ®tre Ã©trange adepte de l'Art Mystique m'a remarquÃ© Ã  cette occasion et m'a enseignÃ©, j'ignore pourquoi, l'art de regarder.",
 			"effet": "Un point de plus en observateur.",
-			"mes": "en dehors des honneurs cette histoire ne m'a rien rapporté. Et maintenant on dit que Corin a été vu sur le Continent et qu'il aurait même passé la Barrière. Si jamais il me retrouve...",
-			"mes_effet": "Il a bien été vu à Port MacKaer, pour le reste...",
+			"mes": "en dehors des honneurs cette histoire ne m'a rien rapportÃ©. Et maintenant on dit que Corin a Ã©tÃ© vu sur le Continent et qu'il aurait mÃªme passÃ© la BarriÃ¨re. Si jamais il me retrouve...",
+			"mes_effet": "Il a bien Ã©tÃ© vu Ã  Port MacKaer, pour le reste...",
 			"maison_id": "4"
 		},
 		{
 			"id": "10",
 			"titre": "Je suis un demi-sang Gehemdal et Ashragor.",
-			"cdb": "Ma mère était une esclave en vue et concubine de mon père. Je suis donc un bâtard mais respecté. Elle m'a enseigné la langue de mon pays et l'Art Démonique. mon père de son côté s'est assuré que j'aie une éducation digne de mon rang.",
-			"effet": "Niveau novice en Art Démonique et deux tours.",
-			"mes": "Ma mère a été violée par la Dame sait qui. Je suis né esclave et je n'ai donc pas été formé à un métier et j'ai dû tout apprendre par moi-même.",
-			"mes_effet": "Pas de métier. Tu dois tout acheter au coût hors profession sauf trois compétences d'apprenti ainsi que l'Art Démonique que ta mère t'a transmis en cachette avec deux tours ou un sort de cet art. Tu n'as pas de compétence de compétence de compagnon mais tu gagnes quelques belles cicatrices et un point de Fort ou de Résistant supplémentaire.",
+			"cdb": "Ma mÃ¨re Ã©tait une esclave en vue et concubine de mon pÃ¨re. Je suis donc un bÃ¢tard mais respectÃ©. Elle m'a enseignÃ© la langue de mon pays et l'Art DÃ©monique. mon pÃ¨re de son cÃ´tÃ© s'est assurÃ© que j'aie une Ã©ducation digne de mon rang.",
+			"effet": "Niveau novice en Art DÃ©monique et deux tours.",
+			"mes": "Ma mÃ¨re a Ã©tÃ© violÃ©e par la Dame sait qui. Je suis nÃ© esclave et je n'ai donc pas Ã©tÃ© formÃ© Ã  un mÃ©tier et j'ai dÃ» tout apprendre par moi-mÃªme.",
+			"mes_effet": "Pas de mÃ©tier. Tu dois tout acheter au coÃ»t hors profession sauf trois compÃ©tences d'apprenti ainsi que l'Art DÃ©monique que ta mÃ¨re t'a transmis en cachette avec deux tours ou un sort de cet art. Tu n'as pas de compÃ©tence de compÃ©tence de compagnon mais tu gagnes quelques belles cicatrices et un point de Fort ou de RÃ©sistant supplÃ©mentaire.",
 			"maison_id": "3"
 		},
 		{
 			"id": "11",
 			"titre": "Je suis le fils d'un Forgeur...",
-			"cdb": "Mon père ne m'a pas laissé partir les mains vide. Il m'a enseigné un ou deux tours et m'a donné cinq lingots de métal sacré que j'ai choisi moi-même.",
-			"effet": "Un niveau en Art Métallique, deux tours ou un sort, 10 points de loom rouge, en plus du métal sacré.",
-			"mes": "Mon père a tenté de me former à l'Art Métallique, dès ma première tentative j'ai été gravement brûlé par une escarbille de métal. Considérée comme un mauvais présage, cette première expérience a aussi été ma dernière et j'ai juré de ne jamais pratiquer l'art de ma Maison. Je m'y tiendrai d'ailleurs dussé-je en mourir.",
-			"mes_effet": "Interdiction de pratiquer l'Art Métallique mais tu es immunisé aux tours de cet art.",
+			"cdb": "Mon pÃ¨re ne m'a pas laissÃ© partir les mains vide. Il m'a enseignÃ© un ou deux tours et m'a donnÃ© cinq lingots de mÃ©tal sacrÃ© que j'ai choisi moi-mÃªme.",
+			"effet": "Un niveau en Art MÃ©tallique, deux tours ou un sort, 10 points de loom rouge, en plus du mÃ©tal sacrÃ©.",
+			"mes": "Mon pÃ¨re a tentÃ© de me former Ã  l'Art MÃ©tallique, dÃ¨s ma premiÃ¨re tentative j'ai Ã©tÃ© gravement brÃ»lÃ© par une escarbille de mÃ©tal. ConsidÃ©rÃ©e comme un mauvais prÃ©sage, cette premiÃ¨re expÃ©rience a aussi Ã©tÃ© ma derniÃ¨re et j'ai jurÃ© de ne jamais pratiquer l'art de ma Maison. Je m'y tiendrai d'ailleurs dussÃ©-je en mourir.",
+			"mes_effet": "Interdiction de pratiquer l'Art MÃ©tallique mais tu es immunisÃ© aux tours de cet art.",
 			"maison_id": "3"
 		},
 		{
 			"id": "12",
-			"titre": "J'ai été pris dans les escarmouches qui opposent perpétuellement Gehemdals et Ashragors.",
-			"cdb": "Le groupe dont je faisais partie a repoussé les envahisseurs. J'ai même fait une prise de guerre : cet artefact Ashragor.",
+			"titre": "J'ai Ã©tÃ© pris dans les escarmouches qui opposent perpÃ©tuellement Gehemdals et Ashragors.",
+			"cdb": "Le groupe dont je faisais partie a repoussÃ© les envahisseurs. J'ai mÃªme fait une prise de guerre : cet artefact Ashragor.",
 			"effet": "Choisir un objet mineur ou puissant dans la liste des artefacts Ashragors",
-			"mes": "J'ai été capturé et réduit en esclavage de longs mois avant de parvenir à m'échapper. A la honte de la défaite s'est ajoutée l'humiliation de l'esclavage",
-			"mes_effet": "Tu portes les marques de fers de l'esclave qui te désignent en général comme esclave (méprisé) ou criminel (craint).",
+			"mes": "J'ai Ã©tÃ© capturÃ© et rÃ©duit en esclavage de longs mois avant de parvenir Ã  m'Ã©chapper. A la honte de la dÃ©faite s'est ajoutÃ©e l'humiliation de l'esclavage",
+			"mes_effet": "Tu portes les marques de fers de l'esclave qui te dÃ©signent en gÃ©nÃ©ral comme esclave (mÃ©prisÃ©) ou criminel (craint).",
 			"maison_id": "3"
 		},
 		{
 			"id": "13",
-			"titre": "Je n'ai pas reçu un nom normal. mes parents...bah tu sais ce que c'est. J'imagine qu'ils croyaient bien faire.",
+			"titre": "Je n'ai pas reÃ§u un nom normal. mes parents...bah tu sais ce que c'est. J'imagine qu'ils croyaient bien faire.",
 			"cdb": "J'ai un nom prestigieux mais sans rapport avec celui que je devais recevoir. Je ne connais pas mon vrai nom mais ce n'est pas sans avantages.",
-			"effet": "La magie Kheyza ne prend pas sur toi, tu n'existes pas puisqu'on ne t'a pas donné de vrai nom. Tous les tours, sorts et sortilèges d'Art Sémantique qui devraient te cibler échouent automatiquement, qu'ils soient lancés pour t'aider ou pour te nuire.",
-			"mes": "On ne m'a pas donné de nom du tout, c'est un sacré fardeau pour un Kheyza, je peux te garantir que c'est lourd... par expérience.",
-			"mes_effet": "La magie violette ne fonctionne pas sur toi. tu es un paria pour les Kheyza qui considèrent que tu n'existes pas. Même lorsqu'ils ne te connaissent pas quelque chose les poussent à te déconsidérer, à t'ignorer.",
+			"effet": "La magie Kheyza ne prend pas sur toi, tu n'existes pas puisqu'on ne t'a pas donnÃ© de vrai nom. Tous les tours, sorts et sortilÃ¨ges d'Art SÃ©mantique qui devraient te cibler Ã©chouent automatiquement, qu'ils soient lancÃ©s pour t'aider ou pour te nuire.",
+			"mes": "On ne m'a pas donnÃ© de nom du tout, c'est un sacrÃ© fardeau pour un Kheyza, je peux te garantir que c'est lourd... par expÃ©rience.",
+			"mes_effet": "La magie violette ne fonctionne pas sur toi. tu es un paria pour les Kheyza qui considÃ¨rent que tu n'existes pas. MÃªme lorsqu'ils ne te connaissent pas quelque chose les poussent Ã  te dÃ©considÃ©rer, Ã  t'ignorer.",
 			"maison_id": "6"
 		},
 		{
 			"id": "14",
-			"titre": "J'ai vécu la capture de Corin Sans Visage et assisté à sa mise à mort...",
-			"cdb": "J'ai failli lui permettre de s'enfuir, ces maudits Felsins lui sont tombés dessus. En attendant j'ai quand même vécu trois mois à ses côtés.",
-			"effet": "5 points à dépenser dans des compétences en rapport avec le vol (crochetage, escalade, discrétion, escalade, pickpocket.",
-			"mes": "C'est moi qui l'ai dénoncé. j'ai appris après coup que toute cette affaire c'était qu'une fumisterie destinée à lui permettre de disparaître. Aujourd'hui il est sur le Continent et il sait que j'y suis aussi. Je dois donc porter ce lourd secret qui peut faire de moi un paria auprès des Kheyza, mais aussi prendre garde à sa vengeance.",
+			"titre": "J'ai vÃ©cu la capture de Corin Sans Visage et assistÃ© Ã  sa mise Ã  mort...",
+			"cdb": "J'ai failli lui permettre de s'enfuir, ces maudits Felsins lui sont tombÃ©s dessus. En attendant j'ai quand mÃªme vÃ©cu trois mois Ã  ses cÃ´tÃ©s.",
+			"effet": "5 points Ã  dÃ©penser dans des compÃ©tences en rapport avec le vol (crochetage, escalade, discrÃ©tion, escalade, pickpocket.",
+			"mes": "C'est moi qui l'ai dÃ©noncÃ©. j'ai appris aprÃ¨s coup que toute cette affaire c'Ã©tait qu'une fumisterie destinÃ©e Ã  lui permettre de disparaÃ®tre. Aujourd'hui il est sur le Continent et il sait que j'y suis aussi. Je dois donc porter ce lourd secret qui peut faire de moi un paria auprÃ¨s des Kheyza, mais aussi prendre garde Ã  sa vengeance.",
 			"mes_effet": "",
 			"maison_id": "6"
 		},
 		{
 			"id": "15",
-			"titre": "En 213, le palais de justice de Mandril a été soufflé par une prodigieuse explosion...",
-			"cdb": "Je faisais partie des anarchistes qui réussirent ce coup. Je garde depuis une sorte de penchant pour la pyrotechnie, d'ailleurs j'ai ici un crache-feu.",
-			"effet": "Pyrotechnique fait désormais partie des compétences de compagnon de ta profession. Tu disposes d'un crache-feu court, d'un peu de poudre et des balles en quantité suffisante pour tirer 60 coups.",
-			"mes": "Je n'avais rien à voir avec cette histoire mais il fallait des coupables à la police du Doge, c'est tombé sur moi. J'ai été condamné à la galère à vie, ce qui risquait de ne pas faire très long, je me suis heureusement évadé et me suis embarqué en passager clandestin en direction des terres d'une autre Maison.",
-			"mes_effet": "Seulement 7 points de compétence pour ton métier mais tu as acquis un point de Fort supplémentaire et tu peux choisir un coup de bol et une mésaventure dans une autre Maison.",
+			"titre": "En 213, le palais de justice de Mandril a Ã©tÃ© soufflÃ© par une prodigieuse explosion...",
+			"cdb": "Je faisais partie des anarchistes qui rÃ©ussirent ce coup. Je garde depuis une sorte de penchant pour la pyrotechnie, d'ailleurs j'ai ici un crache-feu.",
+			"effet": "Pyrotechnique fait dÃ©sormais partie des compÃ©tences de compagnon de ta profession. Tu disposes d'un crache-feu court, d'un peu de poudre et des balles en quantitÃ© suffisante pour tirer 60 coups.",
+			"mes": "Je n'avais rien Ã  voir avec cette histoire mais il fallait des coupables Ã  la police du Doge, c'est tombÃ© sur moi. J'ai Ã©tÃ© condamnÃ© Ã  la galÃ¨re Ã  vie, ce qui risquait de ne pas faire trÃ¨s long, je me suis heureusement Ã©vadÃ© et me suis embarquÃ© en passager clandestin en direction des terres d'une autre Maison.",
+			"mes_effet": "Seulement 7 points de compÃ©tence pour ton mÃ©tier mais tu as acquis un point de Fort supplÃ©mentaire et tu peux choisir un coup de bol et une mÃ©saventure dans une autre Maison.",
 			"maison_id": "1"
 		},
 		{
 			"id": "16",
-			"titre": "Je me suis engagé dans la Marine de la République...",
-			"cdb": "Après des études insupportablement longues dans une université, je me suis enfui de chez mes parents, qui voulaient absolument faire de moi un patricien, pour satisfaire mon goût de l'aventure je me suis engagé dans la Marine de la République. J'ai déserté un peu plus tard profitant d'une escale sur le continent. le plus dur a été ensuite de trouver un maître étrange et de le soudoyer afin d'obtenir un guilder constellé.",
-			"effet": "Tu n'es donc pas passé par l'Académie. Ton premier métier est forcément diplomate ou stratège. Tu disposes de 10 points supplémentaires à répartir dedans puis de 10 autres points destinés à la profession de corsaire.",
-			"mes": "Engagé est un bien grand mot, je me suis réveillé un matin à fond de cale et j'ai fait mon 'Académie' à bord jusqu'à ce que je parvienne à m'enfuir au cours d'une escale sur le Continent. La Scabare m'a fournir un guilder vierge... et voilà.",
-			"mes_effet": "Tu n'es donc pas passé par l'Académie. En retour tu disposes de 7 points de compétence à répartir, que tu pourras abandonner si tu le souhaites pour revenir à ton ancienne profession dès ton arrivée sur le continent. De plus ton guilder est vierge et il te désigne comme un hors-la-loi du point de vue des guildes.",
+			"titre": "Je me suis engagÃ© dans la Marine de la RÃ©publique...",
+			"cdb": "AprÃ¨s des Ã©tudes insupportablement longues dans une universitÃ©, je me suis enfui de chez mes parents, qui voulaient absolument faire de moi un patricien, pour satisfaire mon goÃ»t de l'aventure je me suis engagÃ© dans la Marine de la RÃ©publique. J'ai dÃ©sertÃ© un peu plus tard profitant d'une escale sur le continent. le plus dur a Ã©tÃ© ensuite de trouver un maÃ®tre Ã©trange et de le soudoyer afin d'obtenir un guilder constellÃ©.",
+			"effet": "Tu n'es donc pas passÃ© par l'AcadÃ©mie. Ton premier mÃ©tier est forcÃ©ment diplomate ou stratÃ¨ge. Tu disposes de 10 points supplÃ©mentaires Ã  rÃ©partir dedans puis de 10 autres points destinÃ©s Ã  la profession de corsaire.",
+			"mes": "EngagÃ© est un bien grand mot, je me suis rÃ©veillÃ© un matin Ã  fond de cale et j'ai fait mon 'AcadÃ©mie' Ã  bord jusqu'Ã  ce que je parvienne Ã  m'enfuir au cours d'une escale sur le Continent. La Scabare m'a fournir un guilder vierge... et voilÃ .",
+			"mes_effet": "Tu n'es donc pas passÃ© par l'AcadÃ©mie. En retour tu disposes de 7 points de compÃ©tence Ã  rÃ©partir, que tu pourras abandonner si tu le souhaites pour revenir Ã  ton ancienne profession dÃ¨s ton arrivÃ©e sur le continent. De plus ton guilder est vierge et il te dÃ©signe comme un hors-la-loi du point de vue des guildes.",
 			"maison_id": "1"
 		},
 		{
 			"id": "17",
-			"titre": "J'ai participé à une conspiration contre le Doge lui-même.",
-			"cdb": "C'est moi qui ai eu l'idée du complot originel bien que mes aînés l'aient beaucoup enrichie. Le complot a abouti exactement selon mes plans. A la suite de ce coup d'éclat les plus hautes sphères du pouvoir se sont ouvertes à moi.",
-			"effet": "Tu peux acquérir des machinations en art guildien si ton métier et ton niveau te le permettent.",
-			"mes": "Le complot a été éventé par le Doge lui-même. Suite à celà on m'a 'condamné' à m'engager dans une Académie et à partir sur le Continent. Régulièrement un Venn'Dys me confie un ordre de mission signé par le Doge lui-même. En as d'échec, mes parents, frères, soeurs et tous ceux qui me sont proches paieront pour moi.",
-			"mes_effet": "Hum ! Je ne peux pas être considéré comme un proche n'est-ce pas ?",
+			"titre": "J'ai participÃ© Ã  une conspiration contre le Doge lui-mÃªme.",
+			"cdb": "C'est moi qui ai eu l'idÃ©e du complot originel bien que mes aÃ®nÃ©s l'aient beaucoup enrichie. Le complot a abouti exactement selon mes plans. A la suite de ce coup d'Ã©clat les plus hautes sphÃ¨res du pouvoir se sont ouvertes Ã  moi.",
+			"effet": "Tu peux acquÃ©rir des machinations en art guildien si ton mÃ©tier et ton niveau te le permettent.",
+			"mes": "Le complot a Ã©tÃ© Ã©ventÃ© par le Doge lui-mÃªme. Suite Ã  celÃ  on m'a 'condamnÃ©' Ã  m'engager dans une AcadÃ©mie et Ã  partir sur le Continent. RÃ©guliÃ¨rement un Venn'Dys me confie un ordre de mission signÃ© par le Doge lui-mÃªme. En as d'Ã©chec, mes parents, frÃ¨res, soeurs et tous ceux qui me sont proches paieront pour moi.",
+			"mes_effet": "Hum ! Je ne peux pas Ãªtre considÃ©rÃ© comme un proche n'est-ce pas ?",
 			"maison_id": "1"
 		},
 		{
 			"id": "18",
-			"titre": "Mon père était ambassadeur.",
-			"cdb": "Je ne vais pas m'en plaindre ! Nous avons été envoyés en ambassade auprès de plusieurs autres Maisons et j'ai appris bien des choses à leur contact.",
-			"effet": "Tu peux choisir tes coups de bols et mésaventures dans n'importe quelle autre maison et tu disposes de 5 points de compétence pour ouvrir ou améliorer des compétences de langues ou de patois des Rivages.",
-			"mes": "Mon père a été assassiné sur les terres ashragores, ma mère est parvenue à rentrer au pays en catastrophe, je ne dois ma salut qu'à un prompt engagement dans une Académie. Au final mon apprentissage fut trop court et je suis arrivé terriblement jeune à l'Académie.",
-			"mes_effet": "8 points seulement à répartir dans ton premier métier. Mais un coup de bol spécial t'est réservé à l'Académie.",
+			"titre": "Mon pÃ¨re Ã©tait ambassadeur.",
+			"cdb": "Je ne vais pas m'en plaindre ! Nous avons Ã©tÃ© envoyÃ©s en ambassade auprÃ¨s de plusieurs autres Maisons et j'ai appris bien des choses Ã  leur contact.",
+			"effet": "Tu peux choisir tes coups de bols et mÃ©saventures dans n'importe quelle autre maison et tu disposes de 5 points de compÃ©tence pour ouvrir ou amÃ©liorer des compÃ©tences de langues ou de patois des Rivages.",
+			"mes": "Mon pÃ¨re a Ã©tÃ© assassinÃ© sur les terres ashragores, ma mÃ¨re est parvenue Ã  rentrer au pays en catastrophe, je ne dois ma salut qu'Ã  un prompt engagement dans une AcadÃ©mie. Au final mon apprentissage fut trop court et je suis arrivÃ© terriblement jeune Ã  l'AcadÃ©mie.",
+			"mes_effet": "8 points seulement Ã  rÃ©partir dans ton premier mÃ©tier. Mais un coup de bol spÃ©cial t'est rÃ©servÃ© Ã  l'AcadÃ©mie.",
 			"maison_id": "5"
 		},
 		{
 			"id": "19",
-			"titre": "J'ai fait un rêve très étrange...",
-			"cdb": "Une créature qui vit dans Nocte me protège et me fournit d'inestimables conseils. Par ailleurs ceux qui veulent m'influencer en rêve ont souvent affaire à elle.",
-			"effet": "Cette créature est à la discrétion du MC.",
-			"mes": "En fait elles m'attendent, elles sont nombreuses et dangereuses, elles veulent me détruire mais n'ont pas trouvé la manière de le faire. Elles attaquent à vue ceux qui tente de me venir en aide dans le monde des rêves et m'interdisent de m'y risquer sous peine d'y perdre la vie. Elles cherchent aussi à se matérialiser dans la réalité afin de m'atteindre et profiteront sans doute du moindre portail reliant les deux mondes. Inutile de dire que je ne peux pas passer par Nocte pour franchir la barrière des Enfants-Cyclones.",
-			"mes_effet": "Interdiction de pratiquer l'Art Onirique (en plus des éventuels désagréments qui peuvent découler d'une rencontre avec ces créatures).",
+			"titre": "J'ai fait un rÃªve trÃ¨s Ã©trange...",
+			"cdb": "Une crÃ©ature qui vit dans Nocte me protÃ¨ge et me fournit d'inestimables conseils. Par ailleurs ceux qui veulent m'influencer en rÃªve ont souvent affaire Ã  elle.",
+			"effet": "Cette crÃ©ature est Ã  la discrÃ©tion du MC.",
+			"mes": "En fait elles m'attendent, elles sont nombreuses et dangereuses, elles veulent me dÃ©truire mais n'ont pas trouvÃ© la maniÃ¨re de le faire. Elles attaquent Ã  vue ceux qui tente de me venir en aide dans le monde des rÃªves et m'interdisent de m'y risquer sous peine d'y perdre la vie. Elles cherchent aussi Ã  se matÃ©rialiser dans la rÃ©alitÃ© afin de m'atteindre et profiteront sans doute du moindre portail reliant les deux mondes. Inutile de dire que je ne peux pas passer par Nocte pour franchir la barriÃ¨re des Enfants-Cyclones.",
+			"mes_effet": "Interdiction de pratiquer l'Art Onirique (en plus des Ã©ventuels dÃ©sagrÃ©ments qui peuvent dÃ©couler d'une rencontre avec ces crÃ©atures).",
 			"maison_id": "5"
 		},
 		{
 			"id": "20",
-			"titre": "J'ai appartenu à une unité d'élite de l'armée ulmèque",
-			"cdb": "J'en suis parti avec les honneurs et j'ai même pu conserver mon équipement.",
-			"effet": "Un objet au choix dans la liste réservée aux Ulmèques et tu disposes de tout l'équipement militaire de ton choix.",
-			"mes": "J'en ai été chassé avant même d'avoir fini ma formation, de sorte que j'ai dû m'engager dans une guilde.",
-			"mes_effet": "Impossible d'investir dans les compétences de compagnon de ton premier métier. tu dois avoir choisi un métier en rapport avec les armes.",
+			"titre": "J'ai appartenu Ã  une unitÃ© d'Ã©lite de l'armÃ©e ulmÃ¨que",
+			"cdb": "J'en suis parti avec les honneurs et j'ai mÃªme pu conserver mon Ã©quipement.",
+			"effet": "Un objet au choix dans la liste rÃ©servÃ©e aux UlmÃ¨ques et tu disposes de tout l'Ã©quipement militaire de ton choix.",
+			"mes": "J'en ai Ã©tÃ© chassÃ© avant mÃªme d'avoir fini ma formation, de sorte que j'ai dÃ» m'engager dans une guilde.",
+			"mes_effet": "Impossible d'investir dans les compÃ©tences de compagnon de ton premier mÃ©tier. tu dois avoir choisi un mÃ©tier en rapport avec les armes.",
 			"maison_id": "5"
 		}
 	],
@@ -1381,7 +1381,7 @@
 	"competences": [
 		{
 			"id": "1",
-			"nom": "Armes à feu",
+			"nom": "Armes Ã  feu",
 			"chapitre_id": "1",
 			"carac_id": "9",
 			"apprenti": "1",
@@ -1445,7 +1445,7 @@
 		},
 		{
 			"id": "9",
-			"nom": "Athlétisme",
+			"nom": "AthlÃ©tisme",
 			"chapitre_id": "6",
 			"carac_id": "3",
 			"apprenti": "1",
@@ -1517,7 +1517,7 @@
 		},
 		{
 			"id": "18",
-			"nom": "Comédie",
+			"nom": "ComÃ©die",
 			"chapitre_id": "6",
 			"carac_id": "8",
 			"apprenti": "1",
@@ -1533,7 +1533,7 @@
 		},
 		{
 			"id": "20",
-			"nom": "Discrétion",
+			"nom": "DiscrÃ©tion",
 			"chapitre_id": "6",
 			"carac_id": "1",
 			"apprenti": "1",
@@ -1629,7 +1629,7 @@
 		},
 		{
 			"id": "32",
-			"nom": "Mécanique",
+			"nom": "MÃ©canique",
 			"chapitre_id": "3",
 			"carac_id": "11",
 			"apprenti": "1",
@@ -1637,7 +1637,7 @@
 		},
 		{
 			"id": "33",
-			"nom": "Météo",
+			"nom": "MÃ©tÃ©o",
 			"chapitre_id": "4",
 			"carac_id": "7",
 			"apprenti": "1",
@@ -1693,7 +1693,7 @@
 		},
 		{
 			"id": "40",
-			"nom": "Sheï",
+			"nom": "SheÃ¯",
 			"chapitre_id": "1",
 			"carac_id": "9",
 			"apprenti": "1",
@@ -1749,7 +1749,7 @@
 		},
 		{
 			"id": "47",
-			"nom": "Armes articulées",
+			"nom": "Armes articulÃ©es",
 			"chapitre_id": "1",
 			"carac_id": "9",
 			"apprenti": "0",
@@ -1757,7 +1757,7 @@
 		},
 		{
 			"id": "48",
-			"nom": "Armes combinées",
+			"nom": "Armes combinÃ©es",
 			"chapitre_id": "1",
 			"carac_id": "9",
 			"apprenti": "0",
@@ -1797,7 +1797,7 @@
 		},
 		{
 			"id": "53",
-			"nom": "Déguisement",
+			"nom": "DÃ©guisement",
 			"chapitre_id": "5",
 			"carac_id": "4",
 			"apprenti": "0",
@@ -1821,7 +1821,7 @@
 		},
 		{
 			"id": "56",
-			"nom": "Histoire et légendes",
+			"nom": "Histoire et lÃ©gendes",
 			"chapitre_id": "3",
 			"carac_id": "6",
 			"apprenti": "0",
@@ -1829,7 +1829,7 @@
 		},
 		{
 			"id": "57",
-			"nom": "Ingénierie",
+			"nom": "IngÃ©nierie",
 			"chapitre_id": "3",
 			"carac_id": "11",
 			"apprenti": "0",
@@ -1845,7 +1845,7 @@
 		},
 		{
 			"id": "59",
-			"nom": "Littérature",
+			"nom": "LittÃ©rature",
 			"chapitre_id": "3",
 			"carac_id": "8",
 			"apprenti": "0",
@@ -1861,7 +1861,7 @@
 		},
 		{
 			"id": "61",
-			"nom": "Médecine",
+			"nom": "MÃ©decine",
 			"chapitre_id": "3",
 			"carac_id": "11",
 			"apprenti": "0",
@@ -1877,7 +1877,7 @@
 		},
 		{
 			"id": "63",
-			"nom": "Négoce",
+			"nom": "NÃ©goce",
 			"chapitre_id": "4",
 			"carac_id": "11",
 			"apprenti": "0",
@@ -1909,7 +1909,7 @@
 		},
 		{
 			"id": "67",
-			"nom": "Stratégie",
+			"nom": "StratÃ©gie",
 			"chapitre_id": "1",
 			"carac_id": "9",
 			"apprenti": "0",
@@ -1933,7 +1933,7 @@
 		},
 		{
 			"id": "72",
-			"nom": "Art sémantique",
+			"nom": "Art sÃ©mantique",
 			"chapitre_id": "2",
 			"carac_id": "10",
 			"apprenti": "1",
@@ -1941,7 +1941,7 @@
 		},
 		{
 			"id": "73",
-			"nom": "Art métallique",
+			"nom": "Art mÃ©tallique",
 			"chapitre_id": "2",
 			"carac_id": "10",
 			"apprenti": "1",
@@ -1949,7 +1949,7 @@
 		},
 		{
 			"id": "74",
-			"nom": "Art démonique",
+			"nom": "Art dÃ©monique",
 			"chapitre_id": "2",
 			"carac_id": "10",
 			"apprenti": "1",
@@ -2960,15 +2960,15 @@
 		},
 		{
 			"id": "3",
-			"nom": "Vêtements"
+			"nom": "VÃªtements"
 		},
 		{
 			"id": "4",
-			"nom": "Matériel d'aventure"
+			"nom": "MatÃ©riel d'aventure"
 		},
 		{
 			"id": "5",
-			"nom": "Matériel d'exploration"
+			"nom": "MatÃ©riel d'exploration"
 		},
 		{
 			"id": "6",
@@ -3006,7 +3006,7 @@
 		},
 		{
 			"id": "4",
-			"nom": "1 repas à l'auberge",
+			"nom": "1 repas Ã  l'auberge",
 			"prix": "5s",
 			"rarete": "3",
 			"base": "0",
@@ -3038,7 +3038,7 @@
 		},
 		{
 			"id": "8",
-			"nom": "Bière",
+			"nom": "BiÃ¨re",
 			"prix": "1s",
 			"rarete": "3",
 			"base": "0",
@@ -3078,7 +3078,7 @@
 		},
 		{
 			"id": "13",
-			"nom": "Bâche étanche",
+			"nom": "BÃ¢che Ã©tanche",
 			"prix": "1s",
 			"rarete": "3",
 			"base": "1",
@@ -3150,7 +3150,7 @@
 		},
 		{
 			"id": "22",
-			"nom": "Sac à dos",
+			"nom": "Sac Ã  dos",
 			"prix": "4s",
 			"rarete": "6",
 			"base": "1",
@@ -3158,7 +3158,7 @@
 		},
 		{
 			"id": "23",
-			"nom": "Matériel de premiers soins",
+			"nom": "MatÃ©riel de premiers soins",
 			"prix": "2e",
 			"rarete": "9",
 			"base": "1",
@@ -3206,7 +3206,7 @@
 		},
 		{
 			"id": "29",
-			"nom": "Matériel de cartographie",
+			"nom": "MatÃ©riel de cartographie",
 			"prix": "10e",
 			"rarete": "12",
 			"base": "0",
@@ -3238,7 +3238,7 @@
 		},
 		{
 			"id": "33",
-			"nom": "1 âne",
+			"nom": "1 Ã¢ne",
 			"prix": "20e",
 			"rarete": "6",
 			"base": "0",
@@ -3246,7 +3246,7 @@
 		},
 		{
 			"id": "34",
-			"nom": "1 cheval (harnaché)",
+			"nom": "1 cheval (harnachÃ©)",
 			"prix": "150e",
 			"rarete": "9",
 			"base": "0",
@@ -3254,7 +3254,7 @@
 		},
 		{
 			"id": "35",
-			"nom": "1 attelage léger",
+			"nom": "1 attelage lÃ©ger",
 			"prix": "500e",
 			"rarete": "12",
 			"base": "0",
@@ -3296,731 +3296,447 @@
 	"machinations": [
 		{
 			"id": "1",
-			"nom": "Grêle d'acier",
-			"niveau": "Très difficile",
-			"description": "Consiste à faire pleuvoir sur son adversaire des dizaines de coups brutaux en quelques secondes.",
-			"novice": "+2 ATT et -2 DEF, l'arme de l'adversaire est brisée et le maître conserve automatiquement l'avantage à la PA suivante.",
-			"initie": "+3 ATT et -2 DEF, l'armure de l'adversaire est taillée en pièces. Il est également incapable d'agir à la PA suivante. ",
-			"expert": "+4 ATT et -2 DEF, l'arme et l'armure de l'adversaire sont détruites. Il est également projeté en arrière sur plusieurs mètres.",
-			"effet_pervers": "Le maître est emporté par son élan et ne peut plus s'arrêter, l'arme du maître se brise en mille morceaux à force de cogner sur l'adversaire.",
+			"nom": "GrÃªle d'acier",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Consiste Ã  faire pleuvoir sur son adversaire des dizaines de coups brutaux en quelques secondes.",
+			"novice": "+2 ATT et -2 DEF, l'arme de l'adversaire est brisÃ©e et le maÃ®tre conserve automatiquement l'avantage Ã  la PA suivante.",
+			"initie": "+3 ATT et -2 DEF, l'armure de l'adversaire est taillÃ©e en piÃ¨ces. Il est Ã©galement incapable d'agir Ã  la PA suivante. ",
+			"expert": "+4 ATT et -2 DEF, l'arme et l'armure de l'adversaire sont dÃ©truites. Il est Ã©galement projetÃ© en arriÃ¨re sur plusieurs mÃ¨tres.",
+			"effet_pervers": "Le maÃ®tre est emportÃ© par son Ã©lan et ne peut plus s'arrÃªter, l'arme du maÃ®tre se brise en mille morceaux Ã  force de cogner sur l'adversaire.",
 			"chapitre_id": "1"
 		},
 		{
 			"id": "2",
-			"nom": "Coup du bûcheron",
+			"nom": "Coup du bÃ»cheron",
 			"niveau": "Difficile",
-			"description": "Permet au défenseur de faucher les jambes de l'attaquant dans un mouvement incroyablement fluide.",
-			"novice": "L'attaquant s'écroule et ne peut rien faire d'autre que se relever lors de la PA suivante (ATT impossible et -2 DEF).",
-			"initie": "L'attaquant est fauché comme une quille et heurte violemment le sol. Il est immobilisé pour la PA suivante (ATT et DEF impossibles).",
-			"expert": "Les jambes de l'attaquant sont brisées. Il effectue un long vol plané et est incapable de se relever (ATT et DEF définitivement impossibles).",
-			"effet_pervers": "Le maître porte un coup d'une telle force qu'il continue à tourner sur lui-même comme une toupie pendant une PA, le maître se fait mal à la jambe et encaisse une blessure légère.",
+			"description": "Permet au dÃ©fenseur de faucher les jambes de l'attaquant dans un mouvement incroyablement fluide.",
+			"novice": "L'attaquant s'Ã©croule et ne peut rien faire d'autre que se relever lors de la PA suivante (ATT impossible et -2 DEF).",
+			"initie": "L'attaquant est fauchÃ© comme une quille et heurte violemment le sol. Il est immobilisÃ© pour la PA suivante (ATT et DEF impossibles).",
+			"expert": "Les jambes de l'attaquant sont brisÃ©es. Il effectue un long vol planÃ© et est incapable de se relever (ATT et DEF dÃ©finitivement impossibles).",
+			"effet_pervers": "Le maÃ®tre porte un coup d'une telle force qu'il continue Ã  tourner sur lui-mÃªme comme une toupie pendant une PA, le maÃ®tre se fait mal Ã  la jambe et encaisse une blessure lÃ©gÃ¨re.",
 			"chapitre_id": "1"
 		},
 		{
 			"id": "3",
-			"nom": "Même pas mal !",
-			"niveau": "Extrême",
-			"description": "Permet au maître de rendre son corps aussi dur que la pierre pendant une PA complète.",
-			"novice": "Le niveau de blessure de l'arme est réduit d'un niveau. Ceux qui le frappent à mains nues se brisent les os.",
-			"initie": "Le niveau de blessure de l'arme est réduit de deux niveaux. Les armes comportant des manches en bois se brisent sur son corps.",
-			"expert": "Le niveau de blessure de l'arme est réduit de trois niveaux. Toutes les armes se brisent sur son corps.",
-			"effet_pervers": "Le maître se pétrifie tellement qu'il est incapable de bouger pendant une PA complète, l'arme de l'adversaire se brise mais un éclat parvient à s'enfoncer dans la chair du maître qui encaisse une blessure superficielle supplémentaire.",
+			"nom": "MÃªme pas mal !",
+			"niveau": "ExtrÃªme",
+			"description": "Permet au maÃ®tre de rendre son corps aussi dur que la pierre pendant une PA complÃ¨te.",
+			"novice": "Le niveau de blessure de l'arme est rÃ©duit d'un niveau. Ceux qui le frappent Ã  mains nues se brisent les os.",
+			"initie": "Le niveau de blessure de l'arme est rÃ©duit de deux niveaux. Les armes comportant des manches en bois se brisent sur son corps.",
+			"expert": "Le niveau de blessure de l'arme est rÃ©duit de trois niveaux. Toutes les armes se brisent sur son corps.",
+			"effet_pervers": "Le maÃ®tre se pÃ©trifie tellement qu'il est incapable de bouger pendant une PA complÃ¨te, l'arme de l'adversaire se brise mais un Ã©clat parvient Ã  s'enfoncer dans la chair du maÃ®tre qui encaisse une blessure superficielle supplÃ©mentaire.",
 			"chapitre_id": "1"
 		},
 		{
 			"id": "4",
-			"nom": "Donne-moi ça !",
+			"nom": "Donne-moi Ã§a !",
 			"niveau": "Difficile",
-			"description": "Grâce à cette technique perverse, le maître parvient à faire voler l'arme de l'adversaire dans les airs et à la rattraper aussitôt. ",
-			"novice": "Le maître prend l'arme de son adversaire et conserve automatiquement l'avantage à la prochaine PA.",
-			"initie": "Le maître prend l'arme de son adversaire, il peut s'en servir sans pénalités pendant une PA et conserve automatiquement l'avantage à la prochaine PA.",
-			"expert": "Le maître prend l'arme de son adversaire et peut lui porter immédiatement une attaque supplémentaire sans effectuer de tirage de compétence (l'ennemi peut utiliser uniquement sa compétence Bagarre pour calculer sa DEF).",
-			"effet_pervers": "Le maître prend l'arme de son adversaire du mauvais côté et encaisse une blessure légère, le maître prend l'arme de son rival mais fait tomber la sienne.",
+			"description": "GrÃ¢ce Ã  cette technique perverse, le maÃ®tre parvient Ã  faire voler l'arme de l'adversaire dans les airs et Ã  la rattraper aussitÃ´t. ",
+			"novice": "Le maÃ®tre prend l'arme de son adversaire et conserve automatiquement l'avantage Ã  la prochaine PA.",
+			"initie": "Le maÃ®tre prend l'arme de son adversaire, il peut s'en servir sans pÃ©nalitÃ©s pendant une PA et conserve automatiquement l'avantage Ã  la prochaine PA.",
+			"expert": "Le maÃ®tre prend l'arme de son adversaire et peut lui porter immÃ©diatement une attaque supplÃ©mentaire sans effectuer de tirage de compÃ©tence (l'ennemi peut utiliser uniquement sa compÃ©tence Bagarre pour calculer sa DEF).",
+			"effet_pervers": "Le maÃ®tre prend l'arme de son adversaire du mauvais cÃ´tÃ© et encaisse une blessure lÃ©gÃ¨re, le maÃ®tre prend l'arme de son rival mais fait tomber la sienne.",
 			"chapitre_id": "1"
 		},
 		{
 			"id": "5",
 			"nom": "Il ne peut en rester qu'un.",
-			"niveau": "Extrême",
-			"description": "Ne peut s'utiliser que dans un combat contre plusieurs adversaires. Le maître puise en lui l'énergie nécessaire à affronter un grand nombre d'ennemis sans pénalités.",
-			"novice": "Le maître peut faire face à trois adversaires sans pénalités.",
-			"initie": "Le maître peut faire face à cinq adversaires sans pénalités.",
-			"expert": "Le maître peut faire face à un nombre illimité d'adversaires sans pénalités.",
-			"effet_pervers": "Le maître est si concentré qu'il prend ses alliés pour des ennemis, le maître s'acharne sur un ennemi déjà mort.",
+			"niveau": "ExtrÃªme",
+			"description": "Ne peut s'utiliser que dans un combat contre plusieurs adversaires. Le maÃ®tre puise en lui l'Ã©nergie nÃ©cessaire Ã  affronter un grand nombre d'ennemis sans pÃ©nalitÃ©s.",
+			"novice": "Le maÃ®tre peut faire face Ã  trois adversaires sans pÃ©nalitÃ©s.",
+			"initie": "Le maÃ®tre peut faire face Ã  cinq adversaires sans pÃ©nalitÃ©s.",
+			"expert": "Le maÃ®tre peut faire face Ã  un nombre illimitÃ© d'adversaires sans pÃ©nalitÃ©s.",
+			"effet_pervers": "Le maÃ®tre est si concentrÃ© qu'il prend ses alliÃ©s pour des ennemis, le maÃ®tre s'acharne sur un ennemi dÃ©jÃ  mort.",
 			"chapitre_id": "1"
 		},
 		{
 			"id": "6",
 			"nom": "Salamalecs",
 			"niveau": "Difficile",
-			"description": "Permet de s'adapter instantanément aux habitudes sociales et commerciales d'un étranger. Le maître se lance dans une série de courbettes et de déclarations emphatiques qui mettent son interlocuteur à l'aise. Les prochains jets d'étiquette, marchandage et négoce sont influencés de la manière suivante.",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique",
+			"description": "Permet de s'adapter instantanÃ©ment aux habitudes sociales et commerciales d'un Ã©tranger. Le maÃ®tre se lance dans une sÃ©rie de courbettes et de dÃ©clarations emphatiques qui mettent son interlocuteur Ã  l'aise. Les prochains jets d'Ã©tiquette, marchandage et nÃ©goce sont influencÃ©s de la maniÃ¨re suivante.",
+			"novice": "Jets Ã  +6",
+			"initie": "RÃ©ussite automatique",
 			"expert": "Baraka automatique",
-			"effet_pervers": "Le maître est si agréable que son interlocuteur croit qu'on lui fait des avances, l'interlocuteur est plongé dans la confusion la plus totale par l'excès de politesse.",
+			"effet_pervers": "Le maÃ®tre est si agrÃ©able que son interlocuteur croit qu'on lui fait des avances, l'interlocuteur est plongÃ© dans la confusion la plus totale par l'excÃ¨s de politesse.",
 			"chapitre_id": "4"
 		},
 		{
 			"id": "7",
 			"nom": "Pas cher !",
-			"niveau": "Très difficile",
-			"description": "Un flot continu de paroles et de gestes permet au maître d'endormir totalement la méfiance de son interlocuteur et de lui vendre n'importe quoi à un prix exorbitant. Le pigeon est persuadé d'avoir fait une bonne affaire... mais pas éternellement. Les futurs jets de marchandage et de négoce sont influencés de la manière suivante :",
-			"novice": "Jets +6 (article peut être vendu deux fois plus cher)",
-			"initie": "Réussite automatique (article peut être vendu dix fois plus cher).",
-			"expert": "Baraka automatique (article peut être vendu cinquante fois plus cher).",
-			"effet_pervers": "L'interlocuteur est persuadé que le maître se vend lui-même, le maître vend un de ses amis sans en être conscient.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Un flot continu de paroles et de gestes permet au maÃ®tre d'endormir totalement la mÃ©fiance de son interlocuteur et de lui vendre n'importe quoi Ã  un prix exorbitant. Le pigeon est persuadÃ© d'avoir fait une bonne affaire... mais pas Ã©ternellement. Les futurs jets de marchandage et de nÃ©goce sont influencÃ©s de la maniÃ¨re suivante :",
+			"novice": "Jets +6 (article peut Ãªtre vendu deux fois plus cher)",
+			"initie": "RÃ©ussite automatique (article peut Ãªtre vendu dix fois plus cher).",
+			"expert": "Baraka automatique (article peut Ãªtre vendu cinquante fois plus cher).",
+			"effet_pervers": "L'interlocuteur est persuadÃ© que le maÃ®tre se vend lui-mÃªme, le maÃ®tre vend un de ses amis sans en Ãªtre conscient.",
 			"chapitre_id": "4"
 		},
 		{
 			"id": "8",
 			"nom": "Terrain d'entente",
-			"niveau": "Très difficile",
-			"description": "Lorsqu'une situation semble désespérée (insulte au roitelet local, tentative de corruption ratée, crise diplomatique, etc.), cette machination permet au maître de trouver les arguments nécessaires à établir un climat pacifique et propice au dialogue. Concrètement, les interlocuteurs sont suffisamment apaisés pour entamer le dialogue et les futurs jets de diplomatie et d'étiquette sont influencés de la manière suivante:",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Lorsqu'une situation semble dÃ©sespÃ©rÃ©e (insulte au roitelet local, tentative de corruption ratÃ©e, crise diplomatique, etc.), cette machination permet au maÃ®tre de trouver les arguments nÃ©cessaires Ã  Ã©tablir un climat pacifique et propice au dialogue. ConcrÃ¨tement, les interlocuteurs sont suffisamment apaisÃ©s pour entamer le dialogue et les futurs jets de diplomatie et d'Ã©tiquette sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6.",
+			"initie": "RÃ©ussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître reporte sur ses alliés la colère de son interlocuteur, le maître règle le problème mais il se représente cinq minutes plus tard sous une autre forme.",
+			"effet_pervers": "Le maÃ®tre reporte sur ses alliÃ©s la colÃ¨re de son interlocuteur, le maÃ®tre rÃ¨gle le problÃ¨me mais il se reprÃ©sente cinq minutes plus tard sous une autre forme.",
 			"chapitre_id": "4"
 		},
 		{
 			"id": "9",
-			"nom": "C'est par là !",
+			"nom": "C'est par lÃ  !",
 			"niveau": "Difficile",
-			"description": "Permet au maître d'analyser la configuration géographique d'un endroit de telle manière qu'il lui est impossible de se perdre. Il sait toujours où il va et ne se trompe jamais de chemin, même s'il n'a jamais mis les pieds dans la région concernée. 'Plus besoin de boussole, je suis devenu la boussole !'. Les futurs jets d'orientation et de cartographie sont influencés de la manière suivante:",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique.",
+			"description": "Permet au maÃ®tre d'analyser la configuration gÃ©ographique d'un endroit de telle maniÃ¨re qu'il lui est impossible de se perdre. Il sait toujours oÃ¹ il va et ne se trompe jamais de chemin, mÃªme s'il n'a jamais mis les pieds dans la rÃ©gion concernÃ©e. 'Plus besoin de boussole, je suis devenu la boussole !'. Les futurs jets d'orientation et de cartographie sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6",
+			"initie": "RÃ©ussite automatique.",
 			"expert": "Baraka automatique",
-			"effet_pervers": "Le maître trouve ce qu'il cherchait mais fait une mauvaise rencontre, le maître tourne en rond pendant des heures avant de trouver la bonne direction, le maître dessine la carte à l'envers.",
+			"effet_pervers": "Le maÃ®tre trouve ce qu'il cherchait mais fait une mauvaise rencontre, le maÃ®tre tourne en rond pendant des heures avant de trouver la bonne direction, le maÃ®tre dessine la carte Ã  l'envers.",
 			"chapitre_id": "4"
 		},
 		{
 			"id": "10",
 			"nom": "A table !",
 			"niveau": "Difficile",
-			"description": "Permet au maître de trouver de quoi manger dans les endroits les plus invraisemblables (désert de pierres, marécage insalubre, etc.). Il trouve forcément quelque chose à se mettre sous la dent et tous ses futurs tirages de survie et chasse sont influencés de la manière suivante:",
-			"novice": "Jets à +6 (repas frugal).",
-			"initie": "Réussite automatique (repas correct).",
+			"description": "Permet au maÃ®tre de trouver de quoi manger dans les endroits les plus invraisemblables (dÃ©sert de pierres, marÃ©cage insalubre, etc.). Il trouve forcÃ©ment quelque chose Ã  se mettre sous la dent et tous ses futurs tirages de survie et chasse sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6 (repas frugal).",
+			"initie": "RÃ©ussite automatique (repas correct).",
 			"expert": "Baraka automatique (festin).",
-			"effet_pervers": "Les aliments sont tout à fait comestibles mais provoquent une violente diarrhée, le maître trouve de quoi manger pour lui mais donne à ses amis des aliments avariés qui les empoisonnent.",
+			"effet_pervers": "Les aliments sont tout Ã  fait comestibles mais provoquent une violente diarrhÃ©e, le maÃ®tre trouve de quoi manger pour lui mais donne Ã  ses amis des aliments avariÃ©s qui les empoisonnent.",
 			"chapitre_id": "4"
 		},
 		{
 			"id": "11",
-			"nom": "Rat de bibliothèque",
+			"nom": "Rat de bibliothÃ¨que",
 			"niveau": "Difficile",
-			"description": "Permet au maître d'analyser le contenu potentiel d'une bibliothèque (ou d'un seul livre) en quelques minutes. Il sait exactement où chercher les informations qui l'intéressent, sans perdre son temps en vaines consultations d'ouvrages poussiéreux. Tous les futurs tirages de compétences liées au savoir (et que le maître possède, bien entendu) sont influencés de la manière suivante:",
-			"novice": "Jets à +6 (analyse en quinze minutes)",
-			"initie": "Réussite automatique (analyse en dix minutes).",
+			"description": "Permet au maÃ®tre d'analyser le contenu potentiel d'une bibliothÃ¨que (ou d'un seul livre) en quelques minutes. Il sait exactement oÃ¹ chercher les informations qui l'intÃ©ressent, sans perdre son temps en vaines consultations d'ouvrages poussiÃ©reux. Tous les futurs tirages de compÃ©tences liÃ©es au savoir (et que le maÃ®tre possÃ¨de, bien entendu) sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6 (analyse en quinze minutes)",
+			"initie": "RÃ©ussite automatique (analyse en dix minutes).",
 			"expert": "Baraka automatique (analyse en cinq minutes).",
-			"effet_pervers": "Le maître s'endort en feuilletant un ouvrage et fait une sieste de plusieurs heures si personne ne le réveille, le maître endommage irrémédiablement un ouvrage utile.",
+			"effet_pervers": "Le maÃ®tre s'endort en feuilletant un ouvrage et fait une sieste de plusieurs heures si personne ne le rÃ©veille, le maÃ®tre endommage irrÃ©mÃ©diablement un ouvrage utile.",
 			"chapitre_id": "3"
 		},
 		{
 			"id": "12",
 			"nom": "Ca me revient !",
-			"niveau": "Très difficile",
-			"description": "Permet eu maître d'apprendre par coeur et de restituer intégralement et à volonté un texte écrit ou une conversation. La longueur du texte ou du dialogue est proportionnelle au degré de maîtrise de la machination.",
-			"novice": "15 minutes d'oral, 20 pages d'écrit.",
-			"initie": "30 minutes d'oral, 50 pages d'écrit.",
-			"expert": "60 minutes d'oral, 100 pages d'écrit.",
-			"effet_pervers": "Le maître mémorise ou restitue les phrases à l'envers et s'aperçoit qu'il ne peut pas faire autrement, le maître mémorise ou restitue des phrases qui n'ont rien à voir avec ce qu'il souhaitait retenir ou répéter.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Permet eu maÃ®tre d'apprendre par coeur et de restituer intÃ©gralement et Ã  volontÃ© un texte Ã©crit ou une conversation. La longueur du texte ou du dialogue est proportionnelle au degrÃ© de maÃ®trise de la machination.",
+			"novice": "15 minutes d'oral, 20 pages d'Ã©crit.",
+			"initie": "30 minutes d'oral, 50 pages d'Ã©crit.",
+			"expert": "60 minutes d'oral, 100 pages d'Ã©crit.",
+			"effet_pervers": "Le maÃ®tre mÃ©morise ou restitue les phrases Ã  l'envers et s'aperÃ§oit qu'il ne peut pas faire autrement, le maÃ®tre mÃ©morise ou restitue des phrases qui n'ont rien Ã  voir avec ce qu'il souhaitait retenir ou rÃ©pÃ©ter.",
 			"chapitre_id": "3"
 		},
 		{
 			"id": "13",
 			"nom": "Je le savais...",
-			"niveau": "Extrême",
-			"description": "Le maître est capable, grâce à cette machination, de répondre à n'importe quelle question de manière apparemment juste et pertinente. Il a toujours le dernier mot dans un débat et trouve systématiquement une réponse à ce qui, à priori, n'en a pas. Les auditeurs ne comprennent pas grand chose à ce charabia mais sont persuadés que les paroles du maître sont la pure vérité ! Tous les jets visant à discourir sur un sujet lié au savoir (à condition que le maître possède la compétence appropriée) sont influencés de la manière suivante: ",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
+			"niveau": "ExtrÃªme",
+			"description": "Le maÃ®tre est capable, grÃ¢ce Ã  cette machination, de rÃ©pondre Ã  n'importe quelle question de maniÃ¨re apparemment juste et pertinente. Il a toujours le dernier mot dans un dÃ©bat et trouve systÃ©matiquement une rÃ©ponse Ã  ce qui, Ã  priori, n'en a pas. Les auditeurs ne comprennent pas grand chose Ã  ce charabia mais sont persuadÃ©s que les paroles du maÃ®tre sont la pure vÃ©ritÃ© ! Tous les jets visant Ã  discourir sur un sujet liÃ© au savoir (Ã  condition que le maÃ®tre possÃ¨de la compÃ©tence appropriÃ©e) sont influencÃ©s de la maniÃ¨re suivante: ",
+			"novice": "Jets Ã  +6.",
+			"initie": "RÃ©ussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître se lance dans un discours si ennuyeux que tout le monde s'endort autour de lui, le maître persuade ses auditeurs que ce qu'il vient de dire est faux.",
+			"effet_pervers": "Le maÃ®tre se lance dans un discours si ennuyeux que tout le monde s'endort autour de lui, le maÃ®tre persuade ses auditeurs que ce qu'il vient de dire est faux.",
 			"chapitre_id": "3"
 		},
 		{
 			"id": "14",
 			"nom": "J'ai tout compris !",
 			"niveau": "Facile",
-			"description": "Le maître se concentre si intensément qu'il est capable de comprendre n'importe quel texte, discours ou babil inepte.",
+			"description": "Le maÃ®tre se concentre si intensÃ©ment qu'il est capable de comprendre n'importe quel texte, discours ou babil inepte.",
 			"novice": "Sens global du texte ou du discours.",
 			"initie": "Sens exact du texte ou du discours.",
-			"expert": "Sens exact du texte ou du discours mais également motivations réelles et état d'esprit de l'auteur ou de l'orateur.",
-			"effet_pervers": "Le maître comprend tout mais est incapable de l'expliquer à autrui, le maître saisit parfaitement le sens profond du texte ou du discours mais oublie tout cinq minutes plus tard.",
+			"expert": "Sens exact du texte ou du discours mais Ã©galement motivations rÃ©elles et Ã©tat d'esprit de l'auteur ou de l'orateur.",
+			"effet_pervers": "Le maÃ®tre comprend tout mais est incapable de l'expliquer Ã  autrui, le maÃ®tre saisit parfaitement le sens profond du texte ou du discours mais oublie tout cinq minutes plus tard.",
 			"chapitre_id": "3"
 		},
 		{
 			"id": "15",
 			"nom": "Comme je le disais",
-			"niveau": "Extrême",
-			"description": "Permet de construire et d'exposer oralement un raisonnement si élaboré qu'il est impossible de le contrer. Ceci peut s'avérer très utile dans un débat de doctes pédants mais également dans une négociation requérant une finesse et une éloquence hors du commun. Les futurs jets relatifs à l'explication d'un sujet ou à la présentation d'une idée (politique, diplomatie, etc.) sont influencés de la manière suivante:",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique.",
+			"niveau": "ExtrÃªme",
+			"description": "Permet de construire et d'exposer oralement un raisonnement si Ã©laborÃ© qu'il est impossible de le contrer. Ceci peut s'avÃ©rer trÃ¨s utile dans un dÃ©bat de doctes pÃ©dants mais Ã©galement dans une nÃ©gociation requÃ©rant une finesse et une Ã©loquence hors du commun. Les futurs jets relatifs Ã  l'explication d'un sujet ou Ã  la prÃ©sentation d'une idÃ©e (politique, diplomatie, etc.) sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6",
+			"initie": "RÃ©ussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "Le discours du maître est imparable mais provoque la colère de l'auditoire, le maître expose brillamment une idée qui n'a rien à voir avec son propos initial.",
+			"effet_pervers": "Le discours du maÃ®tre est imparable mais provoque la colÃ¨re de l'auditoire, le maÃ®tre expose brillamment une idÃ©e qui n'a rien Ã  voir avec son propos initial.",
 			"chapitre_id": "3"
 		},
 		{
 			"id": "16",
-			"nom": "C'est ton guilder ça ?",
+			"nom": "C'est ton guilder Ã§a ?",
 			"niveau": "Impossible",
-			"description": "Le maître a eu l'occasion d'assister au processus de création d'un guilder constellé -autant dire que ça n'aurait jamais dû arriver !- et sait comment perturber le fonctionnement de ce type d'objets. Cette machination lui permet d'annuler temporairement le lien entre le guilder et son propriétaire. Le maître peut alors profiter de l'occasion pour se servir en loom. L'apprentissage de cette machination étant virtuellement impossible, beaucoup de gens hauts placés se demandent s'il ne s'agit pas d'un mythe. La vérité est qu'un seul homme à réussi à appliquer cette technique perverse et qu'il a traversé la Barrière pour ne plus être revu... cela dit, il a peut-être eu le temps d'enseigner son art à un élève chanceux.",
-			"novice": "Le maître peut prélever 10 points de loom.",
-			"initie": "Le maître peut prélever 20 points de loom.",
-			"expert": "Le maître peut prélever 40 points de loom.",
-			"effet_pervers": "Le maître prélève un unique pion de loom en étant persuadé d'avoir tout pris, le maître prélève tout le loom mais est incapable de le stocker dans son guilder constellé.",
+			"description": "Le maÃ®tre a eu l'occasion d'assister au processus de crÃ©ation d'un guilder constellÃ© -autant dire que Ã§a n'aurait jamais dÃ» arriver !- et sait comment perturber le fonctionnement de ce type d'objets. Cette machination lui permet d'annuler temporairement le lien entre le guilder et son propriÃ©taire. Le maÃ®tre peut alors profiter de l'occasion pour se servir en loom. L'apprentissage de cette machination Ã©tant virtuellement impossible, beaucoup de gens hauts placÃ©s se demandent s'il ne s'agit pas d'un mythe. La vÃ©ritÃ© est qu'un seul homme Ã  rÃ©ussi Ã  appliquer cette technique perverse et qu'il a traversÃ© la BarriÃ¨re pour ne plus Ãªtre revu... cela dit, il a peut-Ãªtre eu le temps d'enseigner son art Ã  un Ã©lÃ¨ve chanceux.",
+			"novice": "Le maÃ®tre peut prÃ©lever 10 points de loom.",
+			"initie": "Le maÃ®tre peut prÃ©lever 20 points de loom.",
+			"expert": "Le maÃ®tre peut prÃ©lever 40 points de loom.",
+			"effet_pervers": "Le maÃ®tre prÃ©lÃ¨ve un unique pion de loom en Ã©tant persuadÃ© d'avoir tout pris, le maÃ®tre prÃ©lÃ¨ve tout le loom mais est incapable de le stocker dans son guilder constellÃ©.",
 			"chapitre_id": "2"
 		},
 		{
 			"id": "17",
 			"nom": "Y'a pas que le loom dans la vie !",
 			"niveau": "Difficile",
-			"description": "Cette technique fort utile permet de faire croire à d'éventuels curieux que son guilder constellé est complètement vide. La durée d'effet varie en fonction du degré de maîtrise.",
-			"novice": "1 journée.",
+			"description": "Cette technique fort utile permet de faire croire Ã  d'Ã©ventuels curieux que son guilder constellÃ© est complÃ¨tement vide. La durÃ©e d'effet varie en fonction du degrÃ© de maÃ®trise.",
+			"novice": "1 journÃ©e.",
 			"initie": "1 semaine.",
 			"expert": "1 mois.",
-			"effet_pervers": "Le maître fait croire que son guilder constellé est plein à craquer.",
+			"effet_pervers": "Le maÃ®tre fait croire que son guilder constellÃ© est plein Ã  craquer.",
 			"chapitre_id": "2"
 		},
 		{
 			"id": "18",
 			"nom": "On dirait du loom",
-			"niveau": "Très difficile",
-			"description": "Par un prodigieux effort de concentration, le maître parvient à sentir la présence de loom autour de lui. Le degré de maîtrise indique sur quelle distance cette détection est possible et combien de temps la concentration peut être maintenue.",
-			"novice": "50 mètres, 15 minutes.",
-			"initie": "100 mètres, 1 heure.",
-			"expert": "500 mètres, 3 heures.",
-			"effet_pervers": "Le maître détecte du loom mais celui-ci est protégé par un monstre, le loom découvert n'est pas utilisable pour une raison obscure.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Par un prodigieux effort de concentration, le maÃ®tre parvient Ã  sentir la prÃ©sence de loom autour de lui. Le degrÃ© de maÃ®trise indique sur quelle distance cette dÃ©tection est possible et combien de temps la concentration peut Ãªtre maintenue.",
+			"novice": "50 mÃ¨tres, 15 minutes.",
+			"initie": "100 mÃ¨tres, 1 heure.",
+			"expert": "500 mÃ¨tres, 3 heures.",
+			"effet_pervers": "Le maÃ®tre dÃ©tecte du loom mais celui-ci est protÃ©gÃ© par un monstre, le loom dÃ©couvert n'est pas utilisable pour une raison obscure.",
 			"chapitre_id": "2"
 		},
 		{
 			"id": "19",
-			"nom": "J'ai déjà vu ça quelque part",
-			"niveau": "Extrême",
-			"description": "Permet au maître de comprendre le fonctionnement des tours utilisés par un tiers et de mémoriser les incantations et les gestes d'un sort. Si la machination réussit, le maître peut apprendre le tour ou le sort, à condition de connaître la compétence d'art étrange sur laquelle s'appuie l'incantation.",
-			"novice": "Mémorisation d'un tour uniquement.",
-			"initie": "Mémorisation d'un tour ou d'un sort très facile à difficile.",
-			"expert": "Mémorisation d'un tour ou d'un sort très facile à impossible.",
-			"effet_pervers": "le maître mémorise bien le tour ou le sort mais augmentera la difficulté d'un cran lorsqu'il tentera de s'en servir.",
+			"nom": "J'ai dÃ©jÃ  vu Ã§a quelque part",
+			"niveau": "ExtrÃªme",
+			"description": "Permet au maÃ®tre de comprendre le fonctionnement des tours utilisÃ©s par un tiers et de mÃ©moriser les incantations et les gestes d'un sort. Si la machination rÃ©ussit, le maÃ®tre peut apprendre le tour ou le sort, Ã  condition de connaÃ®tre la compÃ©tence d'art Ã©trange sur laquelle s'appuie l'incantation.",
+			"novice": "MÃ©morisation d'un tour uniquement.",
+			"initie": "MÃ©morisation d'un tour ou d'un sort trÃ¨s facile Ã  difficile.",
+			"expert": "MÃ©morisation d'un tour ou d'un sort trÃ¨s facile Ã  impossible.",
+			"effet_pervers": "le maÃ®tre mÃ©morise bien le tour ou le sort mais augmentera la difficultÃ© d'un cran lorsqu'il tentera de s'en servir.",
 			"chapitre_id": "2"
 		},
 		{
 			"id": "20",
-			"nom": "Pour une poignée de loom",
-			"niveau": "Très difficile",
-			"description": "Cette machination fut inventée pour aider les maîtres étranges à se débarrasser rapidement d'éventuelles brutes épaisses qui leur en voudraient pour une raison ou pour une autre. Si la machination réussit, le maître prélève un point de loom dans son guilder constellé et le mance le plus loin possible. Aussitôt, les guerriers doivent réussir un jet de caractéristique résistant pour ne pas se précipiter à pleine vitesse vers l'endroit où le loom a atterri. Le maître doit dépenser 1 point de loom pour chaque guerrier présent. Il ne peut pas décider de dépenser moins que le nombre total de guerriers présents (même s'il ne veut pas tous les faire courir, il est obligé de le faire). Le vrai problème de cette machination est qu'elle fait aussi courir les alliés du maître... hilarant.",
-			"novice": "Jet de résistant difficile.",
-			"initie": "Jet de résistant extrême.",
-			"expert": "Jet de résistant impossible.",
-			"effet_pervers": "Le maître jette le loom à ses pieds, le maître jette le loom sur un allié.",
+			"nom": "Pour une poignÃ©e de loom",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Cette machination fut inventÃ©e pour aider les maÃ®tres Ã©tranges Ã  se dÃ©barrasser rapidement d'Ã©ventuelles brutes Ã©paisses qui leur en voudraient pour une raison ou pour une autre. Si la machination rÃ©ussit, le maÃ®tre prÃ©lÃ¨ve un point de loom dans son guilder constellÃ© et le mance le plus loin possible. AussitÃ´t, les guerriers doivent rÃ©ussir un jet de caractÃ©ristique rÃ©sistant pour ne pas se prÃ©cipiter Ã  pleine vitesse vers l'endroit oÃ¹ le loom a atterri. Le maÃ®tre doit dÃ©penser 1 point de loom pour chaque guerrier prÃ©sent. Il ne peut pas dÃ©cider de dÃ©penser moins que le nombre total de guerriers prÃ©sents (mÃªme s'il ne veut pas tous les faire courir, il est obligÃ© de le faire). Le vrai problÃ¨me de cette machination est qu'elle fait aussi courir les alliÃ©s du maÃ®tre... hilarant.",
+			"novice": "Jet de rÃ©sistant difficile.",
+			"initie": "Jet de rÃ©sistant extrÃªme.",
+			"expert": "Jet de rÃ©sistant impossible.",
+			"effet_pervers": "Le maÃ®tre jette le loom Ã  ses pieds, le maÃ®tre jette le loom sur un alliÃ©.",
 			"chapitre_id": "2"
 		},
 		{
 			"id": "21",
 			"nom": "Ni vu, ni connu",
 			"niveau": "Difficile",
-			"description": "Permet au maître de passer complètement inaperçu dans n'importe quel endroit mal éclairé (chaque ombre devient une cachette potentielle) ou de se fondre dans une foule en passant pour un badaud parmi d'autres. Ses futurs jets de discrétion sont influencés de la manière suivante:",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
+			"description": "Permet au maÃ®tre de passer complÃ¨tement inaperÃ§u dans n'importe quel endroit mal Ã©clairÃ© (chaque ombre devient une cachette potentielle) ou de se fondre dans une foule en passant pour un badaud parmi d'autres. Ses futurs jets de discrÃ©tion sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6.",
+			"initie": "RÃ©ussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître est repéré par un animal domestique particulièrement hargneux, le maître est pris à parti par un ivrogne.",
+			"effet_pervers": "Le maÃ®tre est repÃ©rÃ© par un animal domestique particuliÃ¨rement hargneux, le maÃ®tre est pris Ã  parti par un ivrogne.",
 			"chapitre_id": "5"
 		},
 		{
 			"id": "22",
-			"nom": "Ce qui est à toi est à moi.",
-			"niveau": "Très difficile",
-			"description": "Permet au maître de dérober au nez et à la barbe de son propriétaire sans que celui-ci (même s'il constate immédiatement le larcin) ne puisse réagir. la victime se contentera de bredouiller des incohérences pendant quelques PA, un temps amplement suffisant pour déguerpir.",
-			"novice": "Un objet apparent (à la ceinture par exemple), victime privée de réactions pendant 1D6 PA.",
-			"initie": "Un objet caché (dans les poches, par exemple), victime privée de réactions pendant 2D6 PA.",
-			"expert": "Un objet très bien dissimulé (une pièce dans la doublure de la veste, par exemple), victime privée de réactions pendant 3D6 PA.",
-			"effet_pervers": "Le maître dérobe un objet mais le fait tomber à ses pieds, un bon samaritain voit le maître voler l'objet et le poursuit.",
+			"nom": "Ce qui est Ã  toi est Ã  moi.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Permet au maÃ®tre de dÃ©rober au nez et Ã  la barbe de son propriÃ©taire sans que celui-ci (mÃªme s'il constate immÃ©diatement le larcin) ne puisse rÃ©agir. la victime se contentera de bredouiller des incohÃ©rences pendant quelques PA, un temps amplement suffisant pour dÃ©guerpir.",
+			"novice": "Un objet apparent (Ã  la ceinture par exemple), victime privÃ©e de rÃ©actions pendant 1D6 PA.",
+			"initie": "Un objet cachÃ© (dans les poches, par exemple), victime privÃ©e de rÃ©actions pendant 2D6 PA.",
+			"expert": "Un objet trÃ¨s bien dissimulÃ© (une piÃ¨ce dans la doublure de la veste, par exemple), victime privÃ©e de rÃ©actions pendant 3D6 PA.",
+			"effet_pervers": "Le maÃ®tre dÃ©robe un objet mais le fait tomber Ã  ses pieds, un bon samaritain voit le maÃ®tre voler l'objet et le poursuit.",
 			"chapitre_id": "5"
 		},
 		{
 			"id": "23",
 			"nom": "J'ai les moyens de te faire parler",
-			"niveau": "Très difficile",
-			"description": "Grâce à cette terrible machination, le maître peut infliger à sa victime les pires tortures sans qu'elle lui claque entre les doigts. Le supplicié doit réussir un jet de caractéristique résistant pour supporter les sévices, en cas d'échec, il avoue tout, absolument tout ce qu'il sait sur les sujets qui intéressent le maître (pas besoin de poser les bonnes questions, la victime parle d'elle-même entre deux crachats écarlates).",
-			"novice": "Jet de résistant difficile.",
-			"initie": "Jet de résistant extrême.",
-			"expert": "Jet de résistant impossible.",
-			"effet_pervers": "La victime à moitié folle raconte sa vie dans le détail pendant des heures, la victime meurt.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "GrÃ¢ce Ã  cette terrible machination, le maÃ®tre peut infliger Ã  sa victime les pires tortures sans qu'elle lui claque entre les doigts. Le suppliciÃ© doit rÃ©ussir un jet de caractÃ©ristique rÃ©sistant pour supporter les sÃ©vices, en cas d'Ã©chec, il avoue tout, absolument tout ce qu'il sait sur les sujets qui intÃ©ressent le maÃ®tre (pas besoin de poser les bonnes questions, la victime parle d'elle-mÃªme entre deux crachats Ã©carlates).",
+			"novice": "Jet de rÃ©sistant difficile.",
+			"initie": "Jet de rÃ©sistant extrÃªme.",
+			"expert": "Jet de rÃ©sistant impossible.",
+			"effet_pervers": "La victime Ã  moitiÃ© folle raconte sa vie dans le dÃ©tail pendant des heures, la victime meurt.",
 			"chapitre_id": "5"
 		},
 		{
 			"id": "24",
 			"nom": "Combien tu veux ?",
 			"niveau": "Difficile",
-			"description": "Si vous pensez qu'on peut acheter n'importe qui, cette machination est faite pour vous. Elle permet d'évaluer avec précision la somme nécessaire à la corruption d'un individu, ainsi que les raisons qui pourraient le pousser à accepter un pot-de-vin. La victime de cette machination peut tenter de résister à la corruption ou de négocier un meilleur tarif en réussissant un jet de caractéristique rusé.",
-			"novice": "Jet de rusé difficile.",
-			"initie": "Jet de rusé extrême.",
-			"expert": "Jet de rusé impossible.",
-			"effet_pervers": "Le maître est incapable de trouver l'argent pour payer le pot-de-vin, la victime se laisse corrompre mais raconte tout à un tiers.",
+			"description": "Si vous pensez qu'on peut acheter n'importe qui, cette machination est faite pour vous. Elle permet d'Ã©valuer avec prÃ©cision la somme nÃ©cessaire Ã  la corruption d'un individu, ainsi que les raisons qui pourraient le pousser Ã  accepter un pot-de-vin. La victime de cette machination peut tenter de rÃ©sister Ã  la corruption ou de nÃ©gocier un meilleur tarif en rÃ©ussissant un jet de caractÃ©ristique rusÃ©.",
+			"novice": "Jet de rusÃ© difficile.",
+			"initie": "Jet de rusÃ© extrÃªme.",
+			"expert": "Jet de rusÃ© impossible.",
+			"effet_pervers": "Le maÃ®tre est incapable de trouver l'argent pour payer le pot-de-vin, la victime se laisse corrompre mais raconte tout Ã  un tiers.",
 			"chapitre_id": "5"
 		},
 		{
 			"id": "25",
 			"nom": "C'est pas moi, c'est lui !",
-			"niveau": "Extrême",
-			"description": "Permet au maître de persuader un groupe qu'il n'est pas responsable du crime ou de l'acte répréhensible qu'il vient juste de commettre sous leurs yeux ébahis. En fait, il parvient à reporter les accusations sur un pauvre bougre qui n'a rien fait de mal. La cohue qui s'ensuit permet au maître de filer en douce, tandis que l'innocent accusé prend le chemin de la potence la plus proche...",
+			"niveau": "ExtrÃªme",
+			"description": "Permet au maÃ®tre de persuader un groupe qu'il n'est pas responsable du crime ou de l'acte rÃ©prÃ©hensible qu'il vient juste de commettre sous leurs yeux Ã©bahis. En fait, il parvient Ã  reporter les accusations sur un pauvre bougre qui n'a rien fait de mal. La cohue qui s'ensuit permet au maÃ®tre de filer en douce, tandis que l'innocent accusÃ© prend le chemin de la potence la plus proche...",
 			"novice": "Fonctionne sur une dizaine de personnes.",
 			"initie": "Fonctionne sur une cinquantaine de personnes.",
 			"expert": "Fonctionne sur une foule immense.",
-			"effet_pervers": "Le bouc émissaire attaque le maître, quelqu'un prend la défense du bouc émissaire.",
+			"effet_pervers": "Le bouc Ã©missaire attaque le maÃ®tre, quelqu'un prend la dÃ©fense du bouc Ã©missaire.",
 			"chapitre_id": "5"
 		},
 		{
 			"id": "26",
-			"nom": "Le masque d'impassibilité",
+			"nom": "Le masque d'impassibilitÃ©",
 			"niveau": "Difficile",
-			"description": "Permet au maître de masquer totalement ses émotions et ses sentiments sous une apparence on ne peut plus neutre et austère. Cette machination peut faciliter les mensonges ou contrer une tentative d'intimidation. Les futurs jets de comédie, de diplomatie ou d'intimidation sont influencés de la manière suivante:",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique.",
+			"description": "Permet au maÃ®tre de masquer totalement ses Ã©motions et ses sentiments sous une apparence on ne peut plus neutre et austÃ¨re. Cette machination peut faciliter les mensonges ou contrer une tentative d'intimidation. Les futurs jets de comÃ©die, de diplomatie ou d'intimidation sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6",
+			"initie": "RÃ©ussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "Les interlocuteurs sont hilares et rient de l'attitude du maître, le maître éternue ou éclate de rire.",
+			"effet_pervers": "Les interlocuteurs sont hilares et rient de l'attitude du maÃ®tre, le maÃ®tre Ã©ternue ou Ã©clate de rire.",
 			"chapitre_id": "6"
 		},
 		{
 			"id": "27",
 			"nom": "Le pied dans la porte",
 			"niveau": "Difficile",
-			"description": "Permet au maître de forcer une personne réticente à accepter une discussion ou une négociation après un refus ou un échec. Les futurs jets de marchandage, négoce, diplomatie ou intimidation sont influencés de la manière suivante:",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
+			"description": "Permet au maÃ®tre de forcer une personne rÃ©ticente Ã  accepter une discussion ou une nÃ©gociation aprÃ¨s un refus ou un Ã©chec. Les futurs jets de marchandage, nÃ©goce, diplomatie ou intimidation sont influencÃ©s de la maniÃ¨re suivante:",
+			"novice": "Jets Ã  +6.",
+			"initie": "RÃ©ussite automatique.",
 			"expert": "Baraka automatique.",
-			"effet_pervers": "L'interlocuteur a assez de temps pour crier à l'aide, le maître perd son sang-froid et agresse publiquement son interlocuteur.",
+			"effet_pervers": "L'interlocuteur a assez de temps pour crier Ã  l'aide, le maÃ®tre perd son sang-froid et agresse publiquement son interlocuteur.",
 			"chapitre_id": "6"
 		},
 		{
 			"id": "28",
 			"nom": "Confidences sur l'oreiller",
-			"niveau": "Très difficile",
-			"description": "Cette machination rassemble des connaissances sur l'érotisme et les techniques amoureuses les plus poussées qui permettent au maître d'obtenir des renseignements intéressants d'un partenaire subjugué. Une fois l'acte sexuel consommé, la victime se sent obligée de se confier au maître sur les sujets abordés par ce dernier. La victime de cette machination peut tenter de résister à l'interrogatoire par un jet de caractéristique rusé.",
-			"novice": "Jet de rusé difficile.",
-			"initie": "Jet de rusé extrême.",
-			"expert": "Jet de rusé impossible.",
-			"effet_pervers": "Le maître s'endort pendant que sa victime lui parle, la victime s'endort, une personne hostile (voleur, mari, etc.) fait irruption dans la pièce.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Cette machination rassemble des connaissances sur l'Ã©rotisme et les techniques amoureuses les plus poussÃ©es qui permettent au maÃ®tre d'obtenir des renseignements intÃ©ressants d'un partenaire subjuguÃ©. Une fois l'acte sexuel consommÃ©, la victime se sent obligÃ©e de se confier au maÃ®tre sur les sujets abordÃ©s par ce dernier. La victime de cette machination peut tenter de rÃ©sister Ã  l'interrogatoire par un jet de caractÃ©ristique rusÃ©.",
+			"novice": "Jet de rusÃ© difficile.",
+			"initie": "Jet de rusÃ© extrÃªme.",
+			"expert": "Jet de rusÃ© impossible.",
+			"effet_pervers": "Le maÃ®tre s'endort pendant que sa victime lui parle, la victime s'endort, une personne hostile (voleur, mari, etc.) fait irruption dans la piÃ¨ce.",
 			"chapitre_id": "6"
 		},
 		{
 			"id": "29",
 			"nom": "La blague qui tue",
-			"niveau": "Très difficile",
-			"description": "Permet au maître de produire toutes sortes d'effets comiques à se rouler par terre (blagues, maladresses, feintes, etc.). Tous ceux qui regardent doivent effectuer un jet de caractéristique rusé pour ne pas éclater de rire et se tenir le ventre à deux mains. L'accès d'hilarité dure un certain temps, ce qui permet au blagueur de profiter d'un répit pour agir à sa guise (dans les limites du raisonnable). Si les cibles se sentent menacées, le charme est rompu et elles réagissent avec une grande brutalité envers le maître.",
-			"novice": "Jet de rusé difficile, effet dure 1D6 PA.",
-			"initie": "Jet de rusé extrême, effet dure 2D6 PA.",
-			"expert": "Jet de rusé impossible, effet dure 3D6 PA.",
-			"effet_pervers": "Le maître est victime d'un fou rire incontrôlable, le maître fait rire tout le monde sauf un guerrier de passage qui croit être le sujet de la blague.",
+			"niveau": "TrÃ¨s difficile",
+			"description": "Permet au maÃ®tre de produire toutes sortes d'effets comiques Ã  se rouler par terre (blagues, maladresses, feintes, etc.). Tous ceux qui regardent doivent effectuer un jet de caractÃ©ristique rusÃ© pour ne pas Ã©clater de rire et se tenir le ventre Ã  deux mains. L'accÃ¨s d'hilaritÃ© dure un certain temps, ce qui permet au blagueur de profiter d'un rÃ©pit pour agir Ã  sa guise (dans les limites du raisonnable). Si les cibles se sentent menacÃ©es, le charme est rompu et elles rÃ©agissent avec une grande brutalitÃ© envers le maÃ®tre.",
+			"novice": "Jet de rusÃ© difficile, effet dure 1D6 PA.",
+			"initie": "Jet de rusÃ© extrÃªme, effet dure 2D6 PA.",
+			"expert": "Jet de rusÃ© impossible, effet dure 3D6 PA.",
+			"effet_pervers": "Le maÃ®tre est victime d'un fou rire incontrÃ´lable, le maÃ®tre fait rire tout le monde sauf un guerrier de passage qui croit Ãªtre le sujet de la blague.",
 			"chapitre_id": "6"
 		}
 	],
 	"maisons": [
 		{
 			"id": "1",
-			"nom": "Grêle d'acier",
-			"niveau": "Très difficile",
-			"description": "Consiste à faire pleuvoir sur son adversaire des dizaines de coups brutaux en quelques secondes.",
-			"novice": "+2 ATT et -2 DEF, l'arme de l'adversaire est brisée et le maître conserve automatiquement l'avantage à la PA suivante.",
-			"initie": "+3 ATT et -2 DEF, l'armure de l'adversaire est taillée en pièces. Il est également incapable d'agir à la PA suivante. ",
-			"expert": "+4 ATT et -2 DEF, l'arme et l'armure de l'adversaire sont détruites. Il est également projeté en arrière sur plusieurs mètres.",
-			"effet_pervers": "Le maître est emporté par son élan et ne peut plus s'arrêter, l'arme du maître se brise en mille morceaux à force de cogner sur l'adversaire.",
-			"chapitre_id": "1"
+			"nom": "Venn'Dys",
+			"art": "Art Sorcier"
 		},
 		{
 			"id": "2",
-			"nom": "Coup du bûcheron",
-			"niveau": "Difficile",
-			"description": "Permet au défenseur de faucher les jambes de l'attaquant dans un mouvement incroyablement fluide.",
-			"novice": "L'attaquant s'écroule et ne peut rien faire d'autre que se relever lors de la PA suivante (ATT impossible et -2 DEF).",
-			"initie": "L'attaquant est fauché comme une quille et heurte violemment le sol. Il est immobilisé pour la PA suivante (ATT et DEF impossibles).",
-			"expert": "Les jambes de l'attaquant sont brisées. Il effectue un long vol plané et est incapable de se relever (ATT et DEF définitivement impossibles).",
-			"effet_pervers": "Le maître porte un coup d'une telle force qu'il continue à tourner sur lui-même comme une toupie pendant une PA, le maître se fait mal à la jambe et encaisse une blessure légère.",
-			"chapitre_id": "1"
+			"nom": "Ashragor",
+			"art": "Art DÃ©monique"
 		},
 		{
 			"id": "3",
-			"nom": "Même pas mal !",
-			"niveau": "Extrême",
-			"description": "Permet au maître de rendre son corps aussi dur que la pierre pendant une PA complète.",
-			"novice": "Le niveau de blessure de l'arme est réduit d'un niveau. Ceux qui le frappent à mains nues se brisent les os.",
-			"initie": "Le niveau de blessure de l'arme est réduit de deux niveaux. Les armes comportant des manches en bois se brisent sur son corps.",
-			"expert": "Le niveau de blessure de l'arme est réduit de trois niveaux. Toutes les armes se brisent sur son corps.",
-			"effet_pervers": "Le maître se pétrifie tellement qu'il est incapable de bouger pendant une PA complète, l'arme de l'adversaire se brise mais un éclat parvient à s'enfoncer dans la chair du maître qui encaisse une blessure superficielle supplémentaire.",
-			"chapitre_id": "1"
+			"nom": "Gehemdal",
+			"art": "Art MÃ©tallique"
 		},
 		{
 			"id": "4",
-			"nom": "Donne-moi ça !",
-			"niveau": "Difficile",
-			"description": "Grâce à cette technique perverse, le maître parvient à faire voler l'arme de l'adversaire dans les airs et à la rattraper aussitôt. ",
-			"novice": "Le maître prend l'arme de son adversaire et conserve automatiquement l'avantage à la prochaine PA.",
-			"initie": "Le maître prend l'arme de son adversaire, il peut s'en servir sans pénalités pendant une PA et conserve automatiquement l'avantage à la prochaine PA.",
-			"expert": "Le maître prend l'arme de son adversaire et peut lui porter immédiatement une attaque supplémentaire sans effectuer de tirage de compétence (l'ennemi peut utiliser uniquement sa compétence Bagarre pour calculer sa DEF).",
-			"effet_pervers": "Le maître prend l'arme de son adversaire du mauvais côté et encaisse une blessure légère, le maître prend l'arme de son rival mais fait tomber la sienne.",
-			"chapitre_id": "1"
+			"nom": "Felsin",
+			"art": "Art Mystique"
 		},
 		{
 			"id": "5",
-			"nom": "Il ne peut en rester qu'un.",
-			"niveau": "Extrême",
-			"description": "Ne peut s'utiliser que dans un combat contre plusieurs adversaires. Le maître puise en lui l'énergie nécessaire à affronter un grand nombre d'ennemis sans pénalités.",
-			"novice": "Le maître peut faire face à trois adversaires sans pénalités.",
-			"initie": "Le maître peut faire face à cinq adversaires sans pénalités.",
-			"expert": "Le maître peut faire face à un nombre illimité d'adversaires sans pénalités.",
-			"effet_pervers": "Le maître est si concentré qu'il prend ses alliés pour des ennemis, le maître s'acharne sur un ennemi déjà mort.",
-			"chapitre_id": "1"
+			"nom": "Ulmeq",
+			"art": "Art Onirique"
 		},
 		{
 			"id": "6",
-			"nom": "Salamalecs",
-			"niveau": "Difficile",
-			"description": "Permet de s'adapter instantanément aux habitudes sociales et commerciales d'un étranger. Le maître se lance dans une série de courbettes et de déclarations emphatiques qui mettent son interlocuteur à l'aise. Les prochains jets d'étiquette, marchandage et négoce sont influencés de la manière suivante.",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique",
-			"expert": "Baraka automatique",
-			"effet_pervers": "Le maître est si agréable que son interlocuteur croit qu'on lui fait des avances, l'interlocuteur est plongé dans la confusion la plus totale par l'excès de politesse.",
-			"chapitre_id": "4"
+			"nom": "Kheyza",
+			"art": "Art SÃ©mantique"
 		},
 		{
 			"id": "7",
-			"nom": "Pas cher !",
-			"niveau": "Très difficile",
-			"description": "Un flot continu de paroles et de gestes permet au maître d'endormir totalement la méfiance de son interlocuteur et de lui vendre n'importe quoi à un prix exorbitant. Le pigeon est persuadé d'avoir fait une bonne affaire... mais pas éternellement. Les futurs jets de marchandage et de négoce sont influencés de la manière suivante :",
-			"novice": "Jets +6 (article peut être vendu deux fois plus cher)",
-			"initie": "Réussite automatique (article peut être vendu dix fois plus cher).",
-			"expert": "Baraka automatique (article peut être vendu cinquante fois plus cher).",
-			"effet_pervers": "L'interlocuteur est persuadé que le maître se vend lui-même, le maître vend un de ses amis sans en être conscient.",
-			"chapitre_id": "4"
-		},
-		{
-			"id": "8",
-			"nom": "Terrain d'entente",
-			"niveau": "Très difficile",
-			"description": "Lorsqu'une situation semble désespérée (insulte au roitelet local, tentative de corruption ratée, crise diplomatique, etc.), cette machination permet au maître de trouver les arguments nécessaires à établir un climat pacifique et propice au dialogue. Concrètement, les interlocuteurs sont suffisamment apaisés pour entamer le dialogue et les futurs jets de diplomatie et d'étiquette sont influencés de la manière suivante:",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
-			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître reporte sur ses alliés la colère de son interlocuteur, le maître règle le problème mais il se représente cinq minutes plus tard sous une autre forme.",
-			"chapitre_id": "4"
-		},
-		{
-			"id": "9",
-			"nom": "C'est par là !",
-			"niveau": "Difficile",
-			"description": "Permet au maître d'analyser la configuration géographique d'un endroit de telle manière qu'il lui est impossible de se perdre. Il sait toujours où il va et ne se trompe jamais de chemin, même s'il n'a jamais mis les pieds dans la région concernée. 'Plus besoin de boussole, je suis devenu la boussole !'. Les futurs jets d'orientation et de cartographie sont influencés de la manière suivante:",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique.",
-			"expert": "Baraka automatique",
-			"effet_pervers": "Le maître trouve ce qu'il cherchait mais fait une mauvaise rencontre, le maître tourne en rond pendant des heures avant de trouver la bonne direction, le maître dessine la carte à l'envers.",
-			"chapitre_id": "4"
-		},
-		{
-			"id": "10",
-			"nom": "A table !",
-			"niveau": "Difficile",
-			"description": "Permet au maître de trouver de quoi manger dans les endroits les plus invraisemblables (désert de pierres, marécage insalubre, etc.). Il trouve forcément quelque chose à se mettre sous la dent et tous ses futurs tirages de survie et chasse sont influencés de la manière suivante:",
-			"novice": "Jets à +6 (repas frugal).",
-			"initie": "Réussite automatique (repas correct).",
-			"expert": "Baraka automatique (festin).",
-			"effet_pervers": "Les aliments sont tout à fait comestibles mais provoquent une violente diarrhée, le maître trouve de quoi manger pour lui mais donne à ses amis des aliments avariés qui les empoisonnent.",
-			"chapitre_id": "4"
-		},
-		{
-			"id": "11",
-			"nom": "Rat de bibliothèque",
-			"niveau": "Difficile",
-			"description": "Permet au maître d'analyser le contenu potentiel d'une bibliothèque (ou d'un seul livre) en quelques minutes. Il sait exactement où chercher les informations qui l'intéressent, sans perdre son temps en vaines consultations d'ouvrages poussiéreux. Tous les futurs tirages de compétences liées au savoir (et que le maître possède, bien entendu) sont influencés de la manière suivante:",
-			"novice": "Jets à +6 (analyse en quinze minutes)",
-			"initie": "Réussite automatique (analyse en dix minutes).",
-			"expert": "Baraka automatique (analyse en cinq minutes).",
-			"effet_pervers": "Le maître s'endort en feuilletant un ouvrage et fait une sieste de plusieurs heures si personne ne le réveille, le maître endommage irrémédiablement un ouvrage utile.",
-			"chapitre_id": "3"
-		},
-		{
-			"id": "12",
-			"nom": "Ca me revient !",
-			"niveau": "Très difficile",
-			"description": "Permet eu maître d'apprendre par coeur et de restituer intégralement et à volonté un texte écrit ou une conversation. La longueur du texte ou du dialogue est proportionnelle au degré de maîtrise de la machination.",
-			"novice": "15 minutes d'oral, 20 pages d'écrit.",
-			"initie": "30 minutes d'oral, 50 pages d'écrit.",
-			"expert": "60 minutes d'oral, 100 pages d'écrit.",
-			"effet_pervers": "Le maître mémorise ou restitue les phrases à l'envers et s'aperçoit qu'il ne peut pas faire autrement, le maître mémorise ou restitue des phrases qui n'ont rien à voir avec ce qu'il souhaitait retenir ou répéter.",
-			"chapitre_id": "3"
-		},
-		{
-			"id": "13",
-			"nom": "Je le savais...",
-			"niveau": "Extrême",
-			"description": "Le maître est capable, grâce à cette machination, de répondre à n'importe quelle question de manière apparemment juste et pertinente. Il a toujours le dernier mot dans un débat et trouve systématiquement une réponse à ce qui, à priori, n'en a pas. Les auditeurs ne comprennent pas grand chose à ce charabia mais sont persuadés que les paroles du maître sont la pure vérité ! Tous les jets visant à discourir sur un sujet lié au savoir (à condition que le maître possède la compétence appropriée) sont influencés de la manière suivante: ",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
-			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître se lance dans un discours si ennuyeux que tout le monde s'endort autour de lui, le maître persuade ses auditeurs que ce qu'il vient de dire est faux.",
-			"chapitre_id": "3"
-		},
-		{
-			"id": "14",
-			"nom": "J'ai tout compris !",
-			"niveau": "Facile",
-			"description": "Le maître se concentre si intensément qu'il est capable de comprendre n'importe quel texte, discours ou babil inepte.",
-			"novice": "Sens global du texte ou du discours.",
-			"initie": "Sens exact du texte ou du discours.",
-			"expert": "Sens exact du texte ou du discours mais également motivations réelles et état d'esprit de l'auteur ou de l'orateur.",
-			"effet_pervers": "Le maître comprend tout mais est incapable de l'expliquer à autrui, le maître saisit parfaitement le sens profond du texte ou du discours mais oublie tout cinq minutes plus tard.",
-			"chapitre_id": "3"
-		},
-		{
-			"id": "15",
-			"nom": "Comme je le disais",
-			"niveau": "Extrême",
-			"description": "Permet de construire et d'exposer oralement un raisonnement si élaboré qu'il est impossible de le contrer. Ceci peut s'avérer très utile dans un débat de doctes pédants mais également dans une négociation requérant une finesse et une éloquence hors du commun. Les futurs jets relatifs à l'explication d'un sujet ou à la présentation d'une idée (politique, diplomatie, etc.) sont influencés de la manière suivante:",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique.",
-			"expert": "Baraka automatique.",
-			"effet_pervers": "Le discours du maître est imparable mais provoque la colère de l'auditoire, le maître expose brillamment une idée qui n'a rien à voir avec son propos initial.",
-			"chapitre_id": "3"
-		},
-		{
-			"id": "16",
-			"nom": "C'est ton guilder ça ?",
-			"niveau": "Impossible",
-			"description": "Le maître a eu l'occasion d'assister au processus de création d'un guilder constellé -autant dire que ça n'aurait jamais dû arriver !- et sait comment perturber le fonctionnement de ce type d'objets. Cette machination lui permet d'annuler temporairement le lien entre le guilder et son propriétaire. Le maître peut alors profiter de l'occasion pour se servir en loom. L'apprentissage de cette machination étant virtuellement impossible, beaucoup de gens hauts placés se demandent s'il ne s'agit pas d'un mythe. La vérité est qu'un seul homme à réussi à appliquer cette technique perverse et qu'il a traversé la Barrière pour ne plus être revu... cela dit, il a peut-être eu le temps d'enseigner son art à un élève chanceux.",
-			"novice": "Le maître peut prélever 10 points de loom.",
-			"initie": "Le maître peut prélever 20 points de loom.",
-			"expert": "Le maître peut prélever 40 points de loom.",
-			"effet_pervers": "Le maître prélève un unique pion de loom en étant persuadé d'avoir tout pris, le maître prélève tout le loom mais est incapable de le stocker dans son guilder constellé.",
-			"chapitre_id": "2"
-		},
-		{
-			"id": "17",
-			"nom": "Y'a pas que le loom dans la vie !",
-			"niveau": "Difficile",
-			"description": "Cette technique fort utile permet de faire croire à d'éventuels curieux que son guilder constellé est complètement vide. La durée d'effet varie en fonction du degré de maîtrise.",
-			"novice": "1 journée.",
-			"initie": "1 semaine.",
-			"expert": "1 mois.",
-			"effet_pervers": "Le maître fait croire que son guilder constellé est plein à craquer.",
-			"chapitre_id": "2"
-		},
-		{
-			"id": "18",
-			"nom": "On dirait du loom",
-			"niveau": "Très difficile",
-			"description": "Par un prodigieux effort de concentration, le maître parvient à sentir la présence de loom autour de lui. Le degré de maîtrise indique sur quelle distance cette détection est possible et combien de temps la concentration peut être maintenue.",
-			"novice": "50 mètres, 15 minutes.",
-			"initie": "100 mètres, 1 heure.",
-			"expert": "500 mètres, 3 heures.",
-			"effet_pervers": "Le maître détecte du loom mais celui-ci est protégé par un monstre, le loom découvert n'est pas utilisable pour une raison obscure.",
-			"chapitre_id": "2"
-		},
-		{
-			"id": "19",
-			"nom": "J'ai déjà vu ça quelque part",
-			"niveau": "Extrême",
-			"description": "Permet au maître de comprendre le fonctionnement des tours utilisés par un tiers et de mémoriser les incantations et les gestes d'un sort. Si la machination réussit, le maître peut apprendre le tour ou le sort, à condition de connaître la compétence d'art étrange sur laquelle s'appuie l'incantation.",
-			"novice": "Mémorisation d'un tour uniquement.",
-			"initie": "Mémorisation d'un tour ou d'un sort très facile à difficile.",
-			"expert": "Mémorisation d'un tour ou d'un sort très facile à impossible.",
-			"effet_pervers": "le maître mémorise bien le tour ou le sort mais augmentera la difficulté d'un cran lorsqu'il tentera de s'en servir.",
-			"chapitre_id": "2"
-		},
-		{
-			"id": "20",
-			"nom": "Pour une poignée de loom",
-			"niveau": "Très difficile",
-			"description": "Cette machination fut inventée pour aider les maîtres étranges à se débarrasser rapidement d'éventuelles brutes épaisses qui leur en voudraient pour une raison ou pour une autre. Si la machination réussit, le maître prélève un point de loom dans son guilder constellé et le mance le plus loin possible. Aussitôt, les guerriers doivent réussir un jet de caractéristique résistant pour ne pas se précipiter à pleine vitesse vers l'endroit où le loom a atterri. Le maître doit dépenser 1 point de loom pour chaque guerrier présent. Il ne peut pas décider de dépenser moins que le nombre total de guerriers présents (même s'il ne veut pas tous les faire courir, il est obligé de le faire). Le vrai problème de cette machination est qu'elle fait aussi courir les alliés du maître... hilarant.",
-			"novice": "Jet de résistant difficile.",
-			"initie": "Jet de résistant extrême.",
-			"expert": "Jet de résistant impossible.",
-			"effet_pervers": "Le maître jette le loom à ses pieds, le maître jette le loom sur un allié.",
-			"chapitre_id": "2"
-		},
-		{
-			"id": "21",
-			"nom": "Ni vu, ni connu",
-			"niveau": "Difficile",
-			"description": "Permet au maître de passer complètement inaperçu dans n'importe quel endroit mal éclairé (chaque ombre devient une cachette potentielle) ou de se fondre dans une foule en passant pour un badaud parmi d'autres. Ses futurs jets de discrétion sont influencés de la manière suivante:",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
-			"expert": "Baraka automatique.",
-			"effet_pervers": "Le maître est repéré par un animal domestique particulièrement hargneux, le maître est pris à parti par un ivrogne.",
-			"chapitre_id": "5"
-		},
-		{
-			"id": "22",
-			"nom": "Ce qui est à toi est à moi.",
-			"niveau": "Très difficile",
-			"description": "Permet au maître de dérober au nez et à la barbe de son propriétaire sans que celui-ci (même s'il constate immédiatement le larcin) ne puisse réagir. la victime se contentera de bredouiller des incohérences pendant quelques PA, un temps amplement suffisant pour déguerpir.",
-			"novice": "Un objet apparent (à la ceinture par exemple), victime privée de réactions pendant 1D6 PA.",
-			"initie": "Un objet caché (dans les poches, par exemple), victime privée de réactions pendant 2D6 PA.",
-			"expert": "Un objet très bien dissimulé (une pièce dans la doublure de la veste, par exemple), victime privée de réactions pendant 3D6 PA.",
-			"effet_pervers": "Le maître dérobe un objet mais le fait tomber à ses pieds, un bon samaritain voit le maître voler l'objet et le poursuit.",
-			"chapitre_id": "5"
-		},
-		{
-			"id": "23",
-			"nom": "J'ai les moyens de te faire parler",
-			"niveau": "Très difficile",
-			"description": "Grâce à cette terrible machination, le maître peut infliger à sa victime les pires tortures sans qu'elle lui claque entre les doigts. Le supplicié doit réussir un jet de caractéristique résistant pour supporter les sévices, en cas d'échec, il avoue tout, absolument tout ce qu'il sait sur les sujets qui intéressent le maître (pas besoin de poser les bonnes questions, la victime parle d'elle-même entre deux crachats écarlates).",
-			"novice": "Jet de résistant difficile.",
-			"initie": "Jet de résistant extrême.",
-			"expert": "Jet de résistant impossible.",
-			"effet_pervers": "La victime à moitié folle raconte sa vie dans le détail pendant des heures, la victime meurt.",
-			"chapitre_id": "5"
-		},
-		{
-			"id": "24",
-			"nom": "Combien tu veux ?",
-			"niveau": "Difficile",
-			"description": "Si vous pensez qu'on peut acheter n'importe qui, cette machination est faite pour vous. Elle permet d'évaluer avec précision la somme nécessaire à la corruption d'un individu, ainsi que les raisons qui pourraient le pousser à accepter un pot-de-vin. La victime de cette machination peut tenter de résister à la corruption ou de négocier un meilleur tarif en réussissant un jet de caractéristique rusé.",
-			"novice": "Jet de rusé difficile.",
-			"initie": "Jet de rusé extrême.",
-			"expert": "Jet de rusé impossible.",
-			"effet_pervers": "Le maître est incapable de trouver l'argent pour payer le pot-de-vin, la victime se laisse corrompre mais raconte tout à un tiers.",
-			"chapitre_id": "5"
-		},
-		{
-			"id": "25",
-			"nom": "C'est pas moi, c'est lui !",
-			"niveau": "Extrême",
-			"description": "Permet au maître de persuader un groupe qu'il n'est pas responsable du crime ou de l'acte répréhensible qu'il vient juste de commettre sous leurs yeux ébahis. En fait, il parvient à reporter les accusations sur un pauvre bougre qui n'a rien fait de mal. La cohue qui s'ensuit permet au maître de filer en douce, tandis que l'innocent accusé prend le chemin de la potence la plus proche...",
-			"novice": "Fonctionne sur une dizaine de personnes.",
-			"initie": "Fonctionne sur une cinquantaine de personnes.",
-			"expert": "Fonctionne sur une foule immense.",
-			"effet_pervers": "Le bouc émissaire attaque le maître, quelqu'un prend la défense du bouc émissaire.",
-			"chapitre_id": "5"
-		},
-		{
-			"id": "26",
-			"nom": "Le masque d'impassibilité",
-			"niveau": "Difficile",
-			"description": "Permet au maître de masquer totalement ses émotions et ses sentiments sous une apparence on ne peut plus neutre et austère. Cette machination peut faciliter les mensonges ou contrer une tentative d'intimidation. Les futurs jets de comédie, de diplomatie ou d'intimidation sont influencés de la manière suivante:",
-			"novice": "Jets à +6",
-			"initie": "Réussite automatique.",
-			"expert": "Baraka automatique.",
-			"effet_pervers": "Les interlocuteurs sont hilares et rient de l'attitude du maître, le maître éternue ou éclate de rire.",
-			"chapitre_id": "6"
-		},
-		{
-			"id": "27",
-			"nom": "Le pied dans la porte",
-			"niveau": "Difficile",
-			"description": "Permet au maître de forcer une personne réticente à accepter une discussion ou une négociation après un refus ou un échec. Les futurs jets de marchandage, négoce, diplomatie ou intimidation sont influencés de la manière suivante:",
-			"novice": "Jets à +6.",
-			"initie": "Réussite automatique.",
-			"expert": "Baraka automatique.",
-			"effet_pervers": "L'interlocuteur a assez de temps pour crier à l'aide, le maître perd son sang-froid et agresse publiquement son interlocuteur.",
-			"chapitre_id": "6"
-		},
-		{
-			"id": "28",
-			"nom": "Confidences sur l'oreiller",
-			"niveau": "Très difficile",
-			"description": "Cette machination rassemble des connaissances sur l'érotisme et les techniques amoureuses les plus poussées qui permettent au maître d'obtenir des renseignements intéressants d'un partenaire subjugué. Une fois l'acte sexuel consommé, la victime se sent obligée de se confier au maître sur les sujets abordés par ce dernier. La victime de cette machination peut tenter de résister à l'interrogatoire par un jet de caractéristique rusé.",
-			"novice": "Jet de rusé difficile.",
-			"initie": "Jet de rusé extrême.",
-			"expert": "Jet de rusé impossible.",
-			"effet_pervers": "Le maître s'endort pendant que sa victime lui parle, la victime s'endort, une personne hostile (voleur, mari, etc.) fait irruption dans la pièce.",
-			"chapitre_id": "6"
-		},
-		{
-			"id": "29",
-			"nom": "La blague qui tue",
-			"niveau": "Très difficile",
-			"description": "Permet au maître de produire toutes sortes d'effets comiques à se rouler par terre (blagues, maladresses, feintes, etc.). Tous ceux qui regardent doivent effectuer un jet de caractéristique rusé pour ne pas éclater de rire et se tenir le ventre à deux mains. L'accès d'hilarité dure un certain temps, ce qui permet au blagueur de profiter d'un répit pour agir à sa guise (dans les limites du raisonnable). Si les cibles se sentent menacées, le charme est rompu et elles réagissent avec une grande brutalité envers le maître.",
-			"novice": "Jet de rusé difficile, effet dure 1D6 PA.",
-			"initie": "Jet de rusé extrême, effet dure 2D6 PA.",
-			"expert": "Jet de rusé impossible, effet dure 3D6 PA.",
-			"effet_pervers": "Le maître est victime d'un fou rire incontrôlable, le maître fait rire tout le monde sauf un guerrier de passage qui croit être le sujet de la blague.",
-			"chapitre_id": "6"
+			"nom": "GÃ©nÃ©riques",
+			"art": "null"
 		}
 	],
 	"mesall": [
 		{
 			"id": "1",
-			"nom": "Trop tôt ! L'appel de l'Académie est venu trop tôt, si tôt que je ne savais pratiquement rien faire de mes dix doigts. J'ai été remarqué par un guildien qui m'a fait recruter de force, mon père a préféré me payer des études dans une Académie plutôt que de passer par les circuits d'apprentissage normaux.",
-			"effet": "7 points de création dans le premier métier seulement. Il y a un coup de bol spécifiquement réservé dans la partie 'Académie'."
+			"nom": "Trop tÃ´t ! L'appel de l'AcadÃ©mie est venu trop tÃ´t, si tÃ´t que je ne savais pratiquement rien faire de mes dix doigts. J'ai Ã©tÃ© remarquÃ© par un guildien qui m'a fait recruter de force, mon pÃ¨re a prÃ©fÃ©rÃ© me payer des Ã©tudes dans une AcadÃ©mie plutÃ´t que de passer par les circuits d'apprentissage normaux.",
+			"effet": "7 points de crÃ©ation dans le premier mÃ©tier seulement. Il y a un coup de bol spÃ©cifiquement rÃ©servÃ© dans la partie 'AcadÃ©mie'."
 		},
 		{
 			"id": "2",
-			"nom": "J'ai fait une grosse bêtise. Mais pas aussi terrible que celle de me faire prendre. On m'a marqué comme un animal afin que n'importe qui dans ma maison sache ce que j'ai fait.",
-			"effet": "Une horrible marque au fer rouge, une cicatrice sans équivoque, on ne peut pas la manquer, les membres de ta Maison savent très bien ce que c'est et ceux qui n'y appartiennent pas se doutent de sa signification. Tu es un criminel dangereux."
+			"nom": "J'ai fait une grosse bÃªtise. Mais pas aussi terrible que celle de me faire prendre. On m'a marquÃ© comme un animal afin que n'importe qui dans ma maison sache ce que j'ai fait.",
+			"effet": "Une horrible marque au fer rouge, une cicatrice sans Ã©quivoque, on ne peut pas la manquer, les membres de ta Maison savent trÃ¨s bien ce que c'est et ceux qui n'y appartiennent pas se doutent de sa signification. Tu es un criminel dangereux."
 		},
 		{
 			"id": "3",
-			"nom": "Il m'est arrivé un truc que je n'aime pas trop raconter. Quelque chose vraiment atroce, qui explique mes horribles cicatrices et le fait que je n'aie plus de famille, de femme et d'enfants.",
-			"effet": "Un point de charmeur en moins que tu peux reporter ailleurs (si tu as 1 en charmeur cette mésaventure est sans effet technique)."
+			"nom": "Il m'est arrivÃ© un truc que je n'aime pas trop raconter. Quelque chose vraiment atroce, qui explique mes horribles cicatrices et le fait que je n'aie plus de famille, de femme et d'enfants.",
+			"effet": "Un point de charmeur en moins que tu peux reporter ailleurs (si tu as 1 en charmeur cette mÃ©saventure est sans effet technique)."
 		},
 		{
 			"id": "4",
-			"nom": "Ma famille a sombré dans la décadence. Je ne m'en suis sorti que grâce à l'appel de l'Académie, mais ça continue de me poursuivre... je ne sais pas si je m'en relèverai un jour.",
-			"effet": "Un point de Résistant que tu peux reporter ailleurs (si tu as 1 en Résistant cette mésaventure est sans effet). Tu as des crises de violence, de délire ou tu es accro à une drogue quelconque. Mais au moins tu as appris à compenser."
+			"nom": "Ma famille a sombrÃ© dans la dÃ©cadence. Je ne m'en suis sorti que grÃ¢ce Ã  l'appel de l'AcadÃ©mie, mais Ã§a continue de me poursuivre... je ne sais pas si je m'en relÃ¨verai un jour.",
+			"effet": "Un point de RÃ©sistant que tu peux reporter ailleurs (si tu as 1 en RÃ©sistant cette mÃ©saventure est sans effet). Tu as des crises de violence, de dÃ©lire ou tu es accro Ã  une drogue quelconque. Mais au moins tu as appris Ã  compenser."
 		},
 		{
 			"id": "5",
-			"nom": "Je suis un bâtard illégitime et sans avenir. Peu importe que ma mère ait été consentante ou non, elle n'aurait pas dû me garder. j'en paye les conséquences maintenant.",
-			"effet": "Tu peux choisir des mésaventures dans n'importe laquelle de tes deux Maisons maos pas de coups de bol. Cette mésaventure est interdite aux Felsins."
+			"nom": "Je suis un bÃ¢tard illÃ©gitime et sans avenir. Peu importe que ma mÃ¨re ait Ã©tÃ© consentante ou non, elle n'aurait pas dÃ» me garder. j'en paye les consÃ©quences maintenant.",
+			"effet": "Tu peux choisir des mÃ©saventures dans n'importe laquelle de tes deux Maisons maos pas de coups de bol. Cette mÃ©saventure est interdite aux Felsins."
 		},
 		{
 			"id": "6",
-			"nom": "Je suis un esclave. Une formation ? Tu rêves. Le seule chose qu'on m'ait apprise c'est à supporter et encore en silence.",
-			"effet": "Tu n'as pas de professeion, tes points ne peuvent aller que dans tes compétences d'apprenti, au coût hors profession à part trois d'entre elles qui sont tes 'spécialités'. Bien entendu tu ne peux accéder à aucune compétence de compagnon. En échange tu gagnes un point en Résistant. C'est vrai que tu sais encaisser."
+			"nom": "Je suis un esclave. Une formation ? Tu rÃªves. Le seule chose qu'on m'ait apprise c'est Ã  supporter et encore en silence.",
+			"effet": "Tu n'as pas de professeion, tes points ne peuvent aller que dans tes compÃ©tences d'apprenti, au coÃ»t hors profession Ã  part trois d'entre elles qui sont tes 'spÃ©cialitÃ©s'. Bien entendu tu ne peux accÃ©der Ã  aucune compÃ©tence de compagnon. En Ã©change tu gagnes un point en RÃ©sistant. C'est vrai que tu sais encaisser."
 		},
 		{
 			"id": "7",
-			"nom": "Je ne sais plus que je suis. Je ne sais pas si j'étais quelqu'un ou personne. Je ne sais pas d'où je viens... c'est tout. Pas de nom, pas de famille, peu d'amis et un âge approximatif. Est-ce qu'on m'a jeté un sort ? Etait-ce un accident ? Je sais faire des choses mais j'ignore où j'ai bien pu les apprendre.",
-			"effet": "Une mésaventure secrète dont tu ne sais rien, c'est ton passé. Elle ne rapporte pas de coups de bol mais son effet technique s'applique."
+			"nom": "Je ne sais plus que je suis. Je ne sais pas si j'Ã©tais quelqu'un ou personne. Je ne sais pas d'oÃ¹ je viens... c'est tout. Pas de nom, pas de famille, peu d'amis et un Ã¢ge approximatif. Est-ce qu'on m'a jetÃ© un sort ? Etait-ce un accident ? Je sais faire des choses mais j'ignore oÃ¹ j'ai bien pu les apprendre.",
+			"effet": "Une mÃ©saventure secrÃ¨te dont tu ne sais rien, c'est ton passÃ©. Elle ne rapporte pas de coups de bol mais son effet technique s'applique."
 		}
 	],
 	"mesacademie": [
 		{
 			"id": "1",
-			"nom": "Pas d'Académie, ben... je vais te confier un secret, en fait je ne suis pas passé par l'Académie. J'ai soudoyé un Maître Etrange pour avoir un guilder constellé et des papiers en règle et vogue la galère. Je l'ai payé cher sur le Continent mais je suis sûr que j'étais destiné à y aller, l'Académie n'aurait jamais dû me virer.",
-			"effet": "Inutile de répartir des points sur L'Académie ou d'y choisir des coups de bol."
+			"nom": "Pas d'AcadÃ©mie, ben... je vais te confier un secret, en fait je ne suis pas passÃ© par l'AcadÃ©mie. J'ai soudoyÃ© un MaÃ®tre Etrange pour avoir un guilder constellÃ© et des papiers en rÃ¨gle et vogue la galÃ¨re. Je l'ai payÃ© cher sur le Continent mais je suis sÃ»r que j'Ã©tais destinÃ© Ã  y aller, l'AcadÃ©mie n'aurait jamais dÃ» me virer.",
+			"effet": "Inutile de rÃ©partir des points sur L'AcadÃ©mie ou d'y choisir des coups de bol."
 		},
 		{
 			"id": "2",
-			"nom": "Tricheur, en fait j'ai triché à l'examen. Je suis un flemmard invétéré et j'en ai fait le minimum ce qui ne suffit malheureusement pas à réussir des études au sein de l'Académie.",
-			"effet": "Pas plus du niveau Novice dans les compétences de l'Académie. J'en ai connu un comme toi autrefois, il aimait un peu trop les raccourcis."
+			"nom": "Tricheur, en fait j'ai trichÃ© Ã  l'examen. Je suis un flemmard invÃ©tÃ©rÃ© et j'en ai fait le minimum ce qui ne suffit malheureusement pas Ã  rÃ©ussir des Ã©tudes au sein de l'AcadÃ©mie.",
+			"effet": "Pas plus du niveau Novice dans les compÃ©tences de l'AcadÃ©mie. J'en ai connu un comme toi autrefois, il aimait un peu trop les raccourcis."
 		},
 		{
 			"id": "3",
-			"nom": "Problème de discipline, avant d'arriver là-bas je savais que ça allait mal se passer. Au bout de trois mois j'avais déjà essayé de tuer un professeur et les autres élèves m'évitaient avec terreur. Ils ont bien cru qu'ils allaient réussir à me virer mais ils n'y sont pas parvenus. J'ai fini mon Académie non sans mal et me voilà !",
-			"effet": "16 points à répartir dans l'Académie au lieu de 20. Ca a dû être vraiment dur cette période."
+			"nom": "ProblÃ¨me de discipline, avant d'arriver lÃ -bas je savais que Ã§a allait mal se passer. Au bout de trois mois j'avais dÃ©jÃ  essayÃ© de tuer un professeur et les autres Ã©lÃ¨ves m'Ã©vitaient avec terreur. Ils ont bien cru qu'ils allaient rÃ©ussir Ã  me virer mais ils n'y sont pas parvenus. J'ai fini mon AcadÃ©mie non sans mal et me voilÃ  !",
+			"effet": "16 points Ã  rÃ©partir dans l'AcadÃ©mie au lieu de 20. Ca a dÃ» Ãªtre vraiment dur cette pÃ©riode."
 		},
 		{
 			"id": "4",
-			"nom": "Querelle de maîtres, il y avait dans mon Académie deux maîtres qui ne pouvaient pas se supporter. Comme de bien entendu je les avais tous les deux comme professeurs, mon erreur fut de prendre parti. Du coup l'un des deux s'ingénia à me rendre la vie impossible tandis que l'autre cherchait à me protéger.",
-			"effet": "Tu réduis d'un niveau deux compétences apprises à l'Académie (ce qui peut te faire descendre à non-compétent) mais tu peux investir dans une machination ou augmenter une compétence d'un niveau."
+			"nom": "Querelle de maÃ®tres, il y avait dans mon AcadÃ©mie deux maÃ®tres qui ne pouvaient pas se supporter. Comme de bien entendu je les avais tous les deux comme professeurs, mon erreur fut de prendre parti. Du coup l'un des deux s'ingÃ©nia Ã  me rendre la vie impossible tandis que l'autre cherchait Ã  me protÃ©ger.",
+			"effet": "Tu rÃ©duis d'un niveau deux compÃ©tences apprises Ã  l'AcadÃ©mie (ce qui peut te faire descendre Ã  non-compÃ©tent) mais tu peux investir dans une machination ou augmenter une compÃ©tence d'un niveau."
 		},
 		{
 			"id": "5",
-			"nom": "Meurtrier, lors d'une séance j'ai maladroitement logé un carreau d'arbalète dans le crâne d'un enfant qui passait par là, malheureusement pour moi c'était le fils du chef de l'Académie. Le fait qu'il n'aurait jamais dû laisser jouer un enfant sur un champ de tir m'a épargné de lourdes sanctions mais ne diminue en rien la haine qu'il me porte, bien au contraire.",
-			"effet": "C'est un ennemi puissant que tu t'es fait là. il peut t'atteindre malgré la distance qui vous sépare. S'il a obtenu ce poste c'est sans doute qu'il est très compétent et bien introduit dans les sphères du pouvoir guildien."
+			"nom": "Meurtrier, lors d'une sÃ©ance j'ai maladroitement logÃ© un carreau d'arbalÃ¨te dans le crÃ¢ne d'un enfant qui passait par lÃ , malheureusement pour moi c'Ã©tait le fils du chef de l'AcadÃ©mie. Le fait qu'il n'aurait jamais dÃ» laisser jouer un enfant sur un champ de tir m'a Ã©pargnÃ© de lourdes sanctions mais ne diminue en rien la haine qu'il me porte, bien au contraire.",
+			"effet": "C'est un ennemi puissant que tu t'es fait lÃ . il peut t'atteindre malgrÃ© la distance qui vous sÃ©pare. S'il a obtenu ce poste c'est sans doute qu'il est trÃ¨s compÃ©tent et bien introduit dans les sphÃ¨res du pouvoir guildien."
 		},
 		{
 			"id": "6",
-			"nom": "Responsabilités, on m'a chargé de faire régner la discipline, j'étais le plus grand et le plus vieux, la première année ça a été l'enfer. Les secondes années étaient plus fort et les premières années me faisaient la vie dure. Finalement je m'en suis sorti mais ça m'a pris du temps et mes études en ont souffert.",
-			"effet": "Les compétences Bagarre et intimidation sont ajoutées aux compétences que tu dois obligatoirement apprendre à l'Académie."
+			"nom": "ResponsabilitÃ©s, on m'a chargÃ© de faire rÃ©gner la discipline, j'Ã©tais le plus grand et le plus vieux, la premiÃ¨re annÃ©e Ã§a a Ã©tÃ© l'enfer. Les secondes annÃ©es Ã©taient plus fort et les premiÃ¨res annÃ©es me faisaient la vie dure. Finalement je m'en suis sorti mais Ã§a m'a pris du temps et mes Ã©tudes en ont souffert.",
+			"effet": "Les compÃ©tences Bagarre et intimidation sont ajoutÃ©es aux compÃ©tences que tu dois obligatoirement apprendre Ã  l'AcadÃ©mie."
 		},
 		{
 			"id": "7",
-			"nom": "Ennemi acharné, pendant ma première année j'ai eu une altercation avec un autre élève. on s'est battu et je l'ai vilainement défiguré. Bon je l'ai perdu de vue après l'Académie mais je sais qu'il me cherche pour me faire payer ce que je lui ai fait et peut-être qu'un jour il me retrouvera. Là j'aurai intérêt à être le plus fort.",
-			"effet": "C'est qui ? Je le connais ! Il devait passer la barrière il y a deux ans au moins ! T'as plus qu'à espérer que le Continent soit suffisamment vaste pour que vous ne vous rencontriez jamais. Mais je n'y crois pas trop."
+			"nom": "Ennemi acharnÃ©, pendant ma premiÃ¨re annÃ©e j'ai eu une altercation avec un autre Ã©lÃ¨ve. on s'est battu et je l'ai vilainement dÃ©figurÃ©. Bon je l'ai perdu de vue aprÃ¨s l'AcadÃ©mie mais je sais qu'il me cherche pour me faire payer ce que je lui ai fait et peut-Ãªtre qu'un jour il me retrouvera. LÃ  j'aurai intÃ©rÃªt Ã  Ãªtre le plus fort.",
+			"effet": "C'est qui ? Je le connais ! Il devait passer la barriÃ¨re il y a deux ans au moins ! T'as plus qu'Ã  espÃ©rer que le Continent soit suffisamment vaste pour que vous ne vous rencontriez jamais. Mais je n'y crois pas trop."
 		},
 		{
 			"id": "8",
-			"nom": "Incident magique, je n'ai jamais su si c'était un avertissement, un accident ou une volonté délibérée de me nuire. Toujours est-il qu'un Maître Etrange m'a marqué magiquement. Un signe me suit, qui me désigne comme un être à part, anormal.",
-			"effet": "Laisse-moi deviner, tu n'as plus d'ombre ? Elle se comporte différemment de toi ? Tes yeux brillent dans le noir ? Tu fais peur aux animaux ? (Choisis une manifestation de cette marque)."
+			"nom": "Incident magique, je n'ai jamais su si c'Ã©tait un avertissement, un accident ou une volontÃ© dÃ©libÃ©rÃ©e de me nuire. Toujours est-il qu'un MaÃ®tre Etrange m'a marquÃ© magiquement. Un signe me suit, qui me dÃ©signe comme un Ãªtre Ã  part, anormal.",
+			"effet": "Laisse-moi deviner, tu n'as plus d'ombre ? Elle se comporte diffÃ©remment de toi ? Tes yeux brillent dans le noir ? Tu fais peur aux animaux ? (Choisis une manifestation de cette marque)."
 		},
 		{
 			"id": "9",
-			"nom": "Arrêt des activités de l'Académie, elle a été forcée de suspendre les cours, pendant presque six mois nous n'avons pratiquement rien fait. Ensuite malgré des cours plus intensifs, nous n'avons pas réussi à faire mieux que déchiffrer la base.",
-			"effet": "Tu ne peux investir tes points que dans les compétences de base de l'Académie. Si tu devais dépasser le niveau d'expert, les points en surnombre seraient perdus."
+			"nom": "ArrÃªt des activitÃ©s de l'AcadÃ©mie, elle a Ã©tÃ© forcÃ©e de suspendre les cours, pendant presque six mois nous n'avons pratiquement rien fait. Ensuite malgrÃ© des cours plus intensifs, nous n'avons pas rÃ©ussi Ã  faire mieux que dÃ©chiffrer la base.",
+			"effet": "Tu ne peux investir tes points que dans les compÃ©tences de base de l'AcadÃ©mie. Si tu devais dÃ©passer le niveau d'expert, les points en surnombre seraient perdus."
 		},
 		{
 			"id": "10",
-			"nom": "Chantage, j'ai fait quelque chose que j'aurais dû éviter de faire et en plus, quelqu'un m'a vu, depuis il me fait chanter. je dois régulièrement lui rendre des services sous peine d'être dénoncé. Avant de pouvoir m'en sortir il va falloir en mettre un bon coup, si j'y arrive un jour. Le pire c'est que je crois que le sale type qui me tient est un Guildien... Je sais qu'il n'hésitera pas à passer la barrière pour continuer à profiter de moi et de mon petit secret.",
+			"nom": "Chantage, j'ai fait quelque chose que j'aurais dÃ» Ã©viter de faire et en plus, quelqu'un m'a vu, depuis il me fait chanter. je dois rÃ©guliÃ¨rement lui rendre des services sous peine d'Ãªtre dÃ©noncÃ©. Avant de pouvoir m'en sortir il va falloir en mettre un bon coup, si j'y arrive un jour. Le pire c'est que je crois que le sale type qui me tient est un Guildien... Je sais qu'il n'hÃ©sitera pas Ã  passer la barriÃ¨re pour continuer Ã  profiter de moi et de mon petit secret.",
 			"effet": ""
 		}
 	],
@@ -4057,7 +3773,7 @@
 		},
 		{
 			"id": "7",
-			"nom": "Démoniste",
+			"nom": "DÃ©moniste",
 			"maison_id": "2"
 		},
 		{
@@ -4102,7 +3818,7 @@
 		},
 		{
 			"id": "16",
-			"nom": "Ingénieur",
+			"nom": "IngÃ©nieur",
 			"maison_id": "7"
 		},
 		{
@@ -4122,7 +3838,7 @@
 		},
 		{
 			"id": "20",
-			"nom": "Métalliste",
+			"nom": "MÃ©talliste",
 			"maison_id": "3"
 		},
 		{
@@ -4147,7 +3863,7 @@
 		},
 		{
 			"id": "25",
-			"nom": "Sémanticien",
+			"nom": "SÃ©manticien",
 			"maison_id": "6"
 		},
 		{
@@ -4162,7 +3878,7 @@
 		},
 		{
 			"id": "28",
-			"nom": "Stratège",
+			"nom": "StratÃ¨ge",
 			"maison_id": "7"
 		}
 	],
@@ -4179,7 +3895,7 @@
 		},
 		{
 			"id": "2",
-			"nom": "De la vallée des sept jours",
+			"nom": "De la vallÃ©e des sept jours",
 			"diff": "Difficile",
 			"type": "Rituel",
 			"portee": "",
@@ -4189,8 +3905,8 @@
 		},
 		{
 			"id": "3",
-			"nom": "Décoction salvatrice",
-			"diff": "Très difficile",
+			"nom": "DÃ©coction salvatrice",
+			"diff": "TrÃ¨s difficile",
 			"type": "Rituel",
 			"portee": "",
 			"cible": "",
@@ -4201,7 +3917,7 @@
 			"id": "4",
 			"nom": "La chambre de persistance",
 			"diff": "Difficile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4211,7 +3927,7 @@
 			"id": "5",
 			"nom": "Oniris vivalis",
 			"diff": "Difficile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4229,7 +3945,7 @@
 		},
 		{
 			"id": "7",
-			"nom": "Epée preste",
+			"nom": "EpÃ©e preste",
 			"diff": "Facile",
 			"type": "Rituel",
 			"portee": "",
@@ -4239,9 +3955,9 @@
 		},
 		{
 			"id": "8",
-			"nom": "Par l'emblème du corps",
+			"nom": "Par l'emblÃ¨me du corps",
 			"diff": "Difficile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4250,8 +3966,8 @@
 		{
 			"id": "9",
 			"nom": "Par l'Escal dans la pierre",
-			"diff": "Très difficile",
-			"type": "Instantané",
+			"diff": "TrÃ¨s difficile",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4270,8 +3986,8 @@
 		{
 			"id": "11",
 			"nom": "Par le jugement de Wysd",
-			"diff": "Très difficile",
-			"type": "Instantané",
+			"diff": "TrÃ¨s difficile",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4280,8 +3996,8 @@
 		{
 			"id": "12",
 			"nom": "Par les fusions solaires",
-			"diff": "Très difficile",
-			"type": "Instantané",
+			"diff": "TrÃ¨s difficile",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4291,7 +4007,7 @@
 			"id": "13",
 			"nom": "Je marche sur l'eau",
 			"diff": "Facile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4300,7 +4016,7 @@
 		{
 			"id": "14",
 			"nom": "Je me confie aux vents",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"type": "Rituel",
 			"portee": "",
 			"cible": "",
@@ -4309,9 +4025,9 @@
 		},
 		{
 			"id": "15",
-			"nom": "Je modèle la chaleur",
-			"diff": "Très difficile",
-			"type": "Instantané",
+			"nom": "Je modÃ¨le la chaleur",
+			"diff": "TrÃ¨s difficile",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4319,7 +4035,7 @@
 		},
 		{
 			"id": "16",
-			"nom": "Je rejoins la Terre-Mère",
+			"nom": "Je rejoins la Terre-MÃ¨re",
 			"diff": "Difficile",
 			"type": "Rituel",
 			"portee": "",
@@ -4329,7 +4045,7 @@
 		},
 		{
 			"id": "17",
-			"nom": "Je te oins d'eau sacrée",
+			"nom": "Je te oins d'eau sacrÃ©e",
 			"diff": "Difficile",
 			"type": "Rituel",
 			"portee": "",
@@ -4341,7 +4057,7 @@
 			"id": "18",
 			"nom": "Je te vole tes mots",
 			"diff": "Facile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4349,8 +4065,8 @@
 		},
 		{
 			"id": "19",
-			"nom": "Cadavre animé",
-			"diff": "Très difficile",
+			"nom": "Cadavre animÃ©",
+			"diff": "TrÃ¨s difficile",
 			"type": "Rituel",
 			"portee": "",
 			"cible": "",
@@ -4359,7 +4075,7 @@
 		},
 		{
 			"id": "20",
-			"nom": "Fétiche de localité",
+			"nom": "FÃ©tiche de localitÃ©",
 			"diff": "Difficile",
 			"type": "Rituel",
 			"portee": "",
@@ -4369,8 +4085,8 @@
 		},
 		{
 			"id": "21",
-			"nom": "Heaume à l'oeil de braise",
-			"diff": "Très difficile",
+			"nom": "Heaume Ã  l'oeil de braise",
+			"diff": "TrÃ¨s difficile",
 			"type": "Rituel",
 			"portee": "",
 			"cible": "",
@@ -4381,7 +4097,7 @@
 			"id": "22",
 			"nom": "Le duelliste ricaneur",
 			"diff": "Difficile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4389,9 +4105,9 @@
 		},
 		{
 			"id": "23",
-			"nom": "Nécrophobie",
+			"nom": "NÃ©crophobie",
 			"diff": "Facile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4399,9 +4115,9 @@
 		},
 		{
 			"id": "24",
-			"nom": "Prophétie fatale",
+			"nom": "ProphÃ©tie fatale",
 			"diff": "Difficile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4409,7 +4125,7 @@
 		},
 		{
 			"id": "25",
-			"nom": "Amitié animale",
+			"nom": "AmitiÃ© animale",
 			"diff": "Difficile",
 			"type": "Rituel",
 			"portee": "",
@@ -4419,9 +4135,9 @@
 		},
 		{
 			"id": "26",
-			"nom": "Change matière",
-			"diff": "Très difficile",
-			"type": "Instantané",
+			"nom": "Change matiÃ¨re",
+			"diff": "TrÃ¨s difficile",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4429,7 +4145,7 @@
 		},
 		{
 			"id": "27",
-			"nom": "Pousse colère",
+			"nom": "Pousse colÃ¨re",
 			"diff": "Difficile",
 			"type": "Rituel",
 			"portee": "",
@@ -4440,7 +4156,7 @@
 		{
 			"id": "28",
 			"nom": "Retour primaire",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"type": "Rituel",
 			"portee": "",
 			"cible": "",
@@ -4449,9 +4165,9 @@
 		},
 		{
 			"id": "29",
-			"nom": "Soulève coeur",
+			"nom": "SoulÃ¨ve coeur",
 			"diff": "Difficile",
-			"type": "Instantané",
+			"type": "InstantanÃ©",
 			"portee": "",
 			"cible": "",
 			"effet": "",
@@ -4470,9 +4186,9 @@
 		{
 			"id": "31",
 			"nom": "Le semblant",
-			"diff": "Très difficile",
-			"type": "Instantané",
-			"portee": "10 mètres",
+			"diff": "TrÃ¨s difficile",
+			"type": "InstantanÃ©",
+			"portee": "10 mÃ¨tres",
 			"cible": "Une personne",
 			"effet": "",
 			"maison_id": "5"
@@ -4482,7 +4198,7 @@
 		{
 			"id": "1",
 			"nom": "Je te soulage",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "1"
@@ -4497,7 +4213,7 @@
 		},
 		{
 			"id": "3",
-			"nom": "Je taide à te rétablir",
+			"nom": "Je taide Ã  te rÃ©tablir",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4505,7 +4221,7 @@
 		},
 		{
 			"id": "4",
-			"nom": "Je connais les remèdes",
+			"nom": "Je connais les remÃ¨des",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4513,7 +4229,7 @@
 		},
 		{
 			"id": "5",
-			"nom": "Je guéris ta maladie",
+			"nom": "Je guÃ©ris ta maladie",
 			"diff": "Difficile",
 			"portee": "",
 			"effet": "",
@@ -4537,8 +4253,8 @@
 		},
 		{
 			"id": "8",
-			"nom": "J'épaissis le sang",
-			"diff": "Très difficile",
+			"nom": "J'Ã©paissis le sang",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "1"
@@ -4546,7 +4262,7 @@
 		{
 			"id": "9",
 			"nom": "Je soigne les blessures",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "1"
@@ -4554,7 +4270,7 @@
 		{
 			"id": "10",
 			"nom": "Je te soigne",
-			"diff": "Extrême",
+			"diff": "ExtrÃªme",
 			"portee": "",
 			"effet": "",
 			"maison_id": "1"
@@ -4562,15 +4278,15 @@
 		{
 			"id": "11",
 			"nom": "Le bras vengeur",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "2"
 		},
 		{
 			"id": "12",
-			"nom": "Possession cadavérique",
-			"diff": "Très facile",
+			"nom": "Possession cadavÃ©rique",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "2"
@@ -4578,7 +4294,7 @@
 		{
 			"id": "13",
 			"nom": "Aide doutre-tombe",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "2"
@@ -4586,7 +4302,7 @@
 		{
 			"id": "14",
 			"nom": "Esprit vengeur",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "2"
@@ -4609,7 +4325,7 @@
 		},
 		{
 			"id": "17",
-			"nom": "Malédiction",
+			"nom": "MalÃ©diction",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4633,7 +4349,7 @@
 		},
 		{
 			"id": "20",
-			"nom": "Transférer une âme",
+			"nom": "TransfÃ©rer une Ã¢me",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",
@@ -4641,7 +4357,7 @@
 		},
 		{
 			"id": "21",
-			"nom": "Emprisonner une âme",
+			"nom": "Emprisonner une Ã¢me",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",
@@ -4666,7 +4382,7 @@
 		{
 			"id": "24",
 			"nom": "Loeil du corbeau",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "5"
@@ -4674,7 +4390,7 @@
 		{
 			"id": "25",
 			"nom": "Mon ombre festois",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "5"
@@ -4682,7 +4398,7 @@
 		{
 			"id": "26",
 			"nom": "Soleil de nuit",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "5"
@@ -4705,7 +4421,7 @@
 		},
 		{
 			"id": "29",
-			"nom": "Sève nocturne",
+			"nom": "SÃ¨ve nocturne",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4729,7 +4445,7 @@
 		},
 		{
 			"id": "32",
-			"nom": "Léclair dans la nuit",
+			"nom": "LÃ©clair dans la nuit",
 			"diff": "Difficile",
 			"portee": "",
 			"effet": "",
@@ -4738,7 +4454,7 @@
 		{
 			"id": "33",
 			"nom": "Ombre et silence",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "5"
@@ -4746,7 +4462,7 @@
 		{
 			"id": "34",
 			"nom": "Le sang du corbeau",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "5"
@@ -4754,14 +4470,14 @@
 		{
 			"id": "35",
 			"nom": "Silence de mort",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "5"
 		},
 		{
 			"id": "36",
-			"nom": "Le bec acéré du corbeau",
+			"nom": "Le bec acÃ©rÃ© du corbeau",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",
@@ -4769,7 +4485,7 @@
 		},
 		{
 			"id": "37",
-			"nom": "Frère dombre",
+			"nom": "FrÃ¨re dombre",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",
@@ -4785,7 +4501,7 @@
 		},
 		{
 			"id": "39",
-			"nom": "La mort incarnée",
+			"nom": "La mort incarnÃ©e",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",
@@ -4794,7 +4510,7 @@
 		{
 			"id": "40",
 			"nom": "Direction",
-			"diff": "Très facile",
+			"diff": "TrÃ¨s facile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "6"
@@ -4809,7 +4525,7 @@
 		},
 		{
 			"id": "42",
-			"nom": "Sûreté",
+			"nom": "SÃ»retÃ©",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4850,7 +4566,7 @@
 		{
 			"id": "47",
 			"nom": "Vive parade",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "3"
@@ -4858,7 +4574,7 @@
 		{
 			"id": "48",
 			"nom": "Aucune chance",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "3"
@@ -4866,7 +4582,7 @@
 		{
 			"id": "49",
 			"nom": "Seconde chance",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "3"
@@ -4874,22 +4590,22 @@
 		{
 			"id": "50",
 			"nom": "Dans le feu du combat",
-			"diff": "Très difficile",
+			"diff": "TrÃ¨s difficile",
 			"portee": "",
 			"effet": "",
 			"maison_id": "3"
 		},
 		{
 			"id": "51",
-			"nom": "Vive visée",
-			"diff": "Extrême",
+			"nom": "Vive visÃ©e",
+			"diff": "ExtrÃªme",
 			"portee": "",
 			"effet": "",
 			"maison_id": "3"
 		},
 		{
 			"id": "52",
-			"nom": "Lépée de feu",
+			"nom": "LÃ©pÃ©e de feu",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",
@@ -4902,17 +4618,17 @@
 			"nom": "De l'orbe de Qualitatis",
 			"portee": "Toucher",
 			"cible": "Une personne",
-			"duree": "Prochain jet de compétence",
-			"effet": "Le Maître Etrange apprend provisoirement une des compétences que la cible maîtrise au niveau initié minimum (le Maître etrange peut choisir la compétence). Cette compétence ne peut pas être un Art Etrange, ni même la compétence Loom. La prochaine fois que le Maître Etrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bénéficiera du niveau de maîtrise directement inférieur à celui de la cible (si la cible maîtrisait la compétence au niveau expert, le Mâitre Etrange la connaîtra au niveau initié). Les compétences automatiques des autochtones (langues, connaissance des us et coutumes...) sont obtenues au niveau expert.",
+			"duree": "Prochain jet de compÃ©tence",
+			"effet": "Le MaÃ®tre Etrange apprend provisoirement une des compÃ©tences que la cible maÃ®trise au niveau initiÃ© minimum (le MaÃ®tre etrange peut choisir la compÃ©tence). Cette compÃ©tence ne peut pas Ãªtre un Art Etrange, ni mÃªme la compÃ©tence Loom. La prochaine fois que le MaÃ®tre Etrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bÃ©nÃ©ficiera du niveau de maÃ®trise directement infÃ©rieur Ã  celui de la cible (si la cible maÃ®trisait la compÃ©tence au niveau expert, le MÃ¢itre Etrange la connaÃ®tra au niveau initiÃ©). Les compÃ©tences automatiques des autochtones (langues, connaissance des us et coutumes...) sont obtenues au niveau expert.",
 			"maison_id": "5"
 		},
 		{
 			"id": "2",
-			"nom": "Des épines glacées",
+			"nom": "Des Ã©pines glacÃ©es",
 			"portee": "5m",
 			"cible": "Un objet de 500g maximum",
 			"duree": "10 secondes",
-			"effet": "Un objet d'une surface maximale de deux mètres carrés voit sa température baisser jusqu'à un degré Celsius. Il se couvre de givre.",
+			"effet": "Un objet d'une surface maximale de deux mÃ¨tres carrÃ©s voit sa tempÃ©rature baisser jusqu'Ã  un degrÃ© Celsius. Il se couvre de givre.",
 			"maison_id": "5"
 		},
 		{
@@ -4921,25 +4637,25 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "Prochaine action",
-			"effet": "Le Maître Etrange force la victime à frapper la plus proche personne ou objet se trouvant à proximité. Si elle a une arme en main, la victime l'utilisera automatiquement, sinon, elle frappera à mains nues. Après l'acte, la victime saura déceler le Maître Etrange auteur de ce tour. ",
+			"effet": "Le MaÃ®tre Etrange force la victime Ã  frapper la plus proche personne ou objet se trouvant Ã  proximitÃ©. Si elle a une arme en main, la victime l'utilisera automatiquement, sinon, elle frappera Ã  mains nues. AprÃ¨s l'acte, la victime saura dÃ©celer le MaÃ®tre Etrange auteur de ce tour. ",
 			"maison_id": "5"
 		},
 		{
 			"id": "4",
-			"nom": "Des vapeurs instillées",
+			"nom": "Des vapeurs instillÃ©es",
 			"portee": "Toucher",
 			"cible": "Une serrure",
-			"duree": "instantanée",
-			"effet": "Le Maître Etrange matérialise un gaz onirique bleuté qui s'introduit dans une serrure, la rendant plus facile à crocheter. La prochaine personne qui tentera de crocheter cette serrure bénéficiera d'une diminution d'un niveau de Difficulté (minimu: Très Facile) à son jet de Crochetage.",
+			"duree": "instantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange matÃ©rialise un gaz onirique bleutÃ© qui s'introduit dans une serrure, la rendant plus facile Ã  crocheter. La prochaine personne qui tentera de crocheter cette serrure bÃ©nÃ©ficiera d'une diminution d'un niveau de DifficultÃ© (minimu: TrÃ¨s Facile) Ã  son jet de Crochetage.",
 			"maison_id": "5"
 		},
 		{
 			"id": "5",
-			"nom": "Du champ des lames ébréchées",
+			"nom": "Du champ des lames Ã©brÃ©chÃ©es",
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "1 PA",
-			"effet": "Durant toute la PA que dure ce tour, l'arme tranchante de la victime lui apparaît soudainement tellement abîmée et ébréchée qu'elle ne l'utilisera pas pour attaquer, seulement pour parer.",
+			"effet": "Durant toute la PA que dure ce tour, l'arme tranchante de la victime lui apparaÃ®t soudainement tellement abÃ®mÃ©e et Ã©brÃ©chÃ©e qu'elle ne l'utilisera pas pour attaquer, seulement pour parer.",
 			"maison_id": "5"
 		},
 		{
@@ -4947,44 +4663,44 @@
 			"nom": "Du marais tumultueux",
 			"portee": "5m",
 			"cible": "Une personne",
-			"duree": "instantanée",
-			"effet": "Ce tour permet au Maître Etrange de savoir avec certitude si la personne visée a des intentions belliqueuses à son égard ou pas.",
+			"duree": "instantanÃ©e",
+			"effet": "Ce tour permet au MaÃ®tre Etrange de savoir avec certitude si la personne visÃ©e a des intentions belliqueuses Ã  son Ã©gard ou pas.",
 			"maison_id": "5"
 		},
 		{
 			"id": "7",
-			"nom": "Du pôle de conseillance",
+			"nom": "Du pÃ´le de conseillance",
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "5 PA",
-			"effet": "En fixant la cible dans les yeux, le Maître Etrange lui inspire confiance, dans une certaine limite. Cette confiance n'ira pas à l'encontre des sentiments les plus forts de la cible mais peut temporairement les atténuer. Elle acceptera, par exemple, de discuter avec quelqu'un qu'elle refusait d'écouter préalablement.",
+			"effet": "En fixant la cible dans les yeux, le MaÃ®tre Etrange lui inspire confiance, dans une certaine limite. Cette confiance n'ira pas Ã  l'encontre des sentiments les plus forts de la cible mais peut temporairement les attÃ©nuer. Elle acceptera, par exemple, de discuter avec quelqu'un qu'elle refusait d'Ã©couter prÃ©alablement.",
 			"maison_id": "5"
 		},
 		{
 			"id": "8",
-			"nom": "Du Topaze de sérénité",
+			"nom": "Du Topaze de sÃ©rÃ©nitÃ©",
 			"portee": "Toucher",
 			"cible": "Une topaze",
 			"duree": "1D6 jours",
-			"effet": "Ce tour enchante une topaze, qui aide alors à mieux dormir. Si la pierre est placée près de la tête d'une personne, cette dernière dormira d'un sommeil naturel, profond et réparateur.",
+			"effet": "Ce tour enchante une topaze, qui aide alors Ã  mieux dormir. Si la pierre est placÃ©e prÃ¨s de la tÃªte d'une personne, cette derniÃ¨re dormira d'un sommeil naturel, profond et rÃ©parateur.",
 			"maison_id": "5"
 		},
 		{
 			"id": "9",
-			"nom": "La libelumière",
+			"nom": "La libelumiÃ¨re",
 			"portee": "5m",
-			"cible": "Le maître étrange",
+			"cible": "Le maÃ®tre Ã©trange",
 			"duree": "5 PA",
-			"effet": "Le Maître Etrange invoque une libellule luminescente et immatérielle, qui volette près de lui en dégageant une lumière équivalente à celle d'une bougie. La libellule suit le Maître Etrange et reste, quoi qu'il arrive, près de lui jusqu'à la fin du tour.",
+			"effet": "Le MaÃ®tre Etrange invoque une libellule luminescente et immatÃ©rielle, qui volette prÃ¨s de lui en dÃ©gageant une lumiÃ¨re Ã©quivalente Ã  celle d'une bougie. La libellule suit le MaÃ®tre Etrange et reste, quoi qu'il arrive, prÃ¨s de lui jusqu'Ã  la fin du tour.",
 			"maison_id": "5"
 		},
 		{
 			"id": "10",
-			"nom": "Le bâton du terranova",
+			"nom": "Le bÃ¢ton du terranova",
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "3 PA",
-			"effet": "Une petite créature luminescente issue du monde des rêves apparaît dans le dos de la cible. Humanoîde, dotée d'ailes de papillon et armée d'un bâton, la créature onirique tente de frapper la victime, avant de disparaître. La cible a droit à un jet d'Attribut Art Guerrier Difficile. Si la cible réussit ce jet, elle esquive l'attaque. Sinon, elle subit une blessure légère.",
+			"effet": "Une petite crÃ©ature luminescente issue du monde des rÃªves apparaÃ®t dans le dos de la cible. HumanoÃ®de, dotÃ©e d'ailes de papillon et armÃ©e d'un bÃ¢ton, la crÃ©ature onirique tente de frapper la victime, avant de disparaÃ®tre. La cible a droit Ã  un jet d'Attribut Art Guerrier Difficile. Si la cible rÃ©ussit ce jet, elle esquive l'attaque. Sinon, elle subit une blessure lÃ©gÃ¨re.",
 			"maison_id": "5"
 		},
 		{
@@ -4992,26 +4708,26 @@
 			"nom": "Par l'oeil de faveur",
 			"portee": "Toucher",
 			"cible": "Une personne",
-			"duree": "Prochain jet de discrétion",
-			"effet": "La cible bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Discrétion.",
+			"duree": "Prochain jet de discrÃ©tion",
+			"effet": "La cible bÃ©nÃ©ficie d'une diminution d'un niveau de DifficultÃ© pour son prochain jet de DiscrÃ©tion.",
 			"maison_id": "3"
 		},
 		{
 			"id": "12",
-			"nom": "Par la chevauchée de la gloire",
+			"nom": "Par la chevauchÃ©e de la gloire",
 			"portee": "Toucher",
-			"cible": "4 fers à cheval",
+			"cible": "4 fers Ã  cheval",
 			"duree": "1D6 jours",
-			"effet": "Ce tour permet d'enchanter les quatre fers d'un cheval, les rendant plus agrippants sur la glace et la neige. Le cavalier réduit d'un niveau de Difficulté tous ses jets d'Equitation lorsque sa monture court sur la glace ou la neige.",
+			"effet": "Ce tour permet d'enchanter les quatre fers d'un cheval, les rendant plus agrippants sur la glace et la neige. Le cavalier rÃ©duit d'un niveau de DifficultÃ© tous ses jets d'Equitation lorsque sa monture court sur la glace ou la neige.",
 			"maison_id": "3"
 		},
 		{
 			"id": "13",
-			"nom": "Par la flamme fidèle",
+			"nom": "Par la flamme fidÃ¨le",
 			"portee": "Toucher",
-			"cible": "Le maître étrange ",
+			"cible": "Le maÃ®tre Ã©trange ",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange prend la couleur d'une flamme. S'il se positionne à moins d'un mètre d'une flamme de taille au moins équivalente à celle d'une torche, il devient très difficile à distinguer. Tout individu qui le cherche subit un malus d'un niveau de Difficulté supplémentaire pour le repérer (par exemple, à son jet de Vigilance). Si le Maître Etrange attaque, parle, ou bouge trop brusquement, il se découvre instantanément et le tour prend fin.",
+			"effet": "Le MaÃ®tre Etrange prend la couleur d'une flamme. S'il se positionne Ã  moins d'un mÃ¨tre d'une flamme de taille au moins Ã©quivalente Ã  celle d'une torche, il devient trÃ¨s difficile Ã  distinguer. Tout individu qui le cherche subit un malus d'un niveau de DifficultÃ© supplÃ©mentaire pour le repÃ©rer (par exemple, Ã  son jet de Vigilance). Si le MaÃ®tre Etrange attaque, parle, ou bouge trop brusquement, il se dÃ©couvre instantanÃ©ment et le tour prend fin.",
 			"maison_id": "3"
 		},
 		{
@@ -5019,71 +4735,71 @@
 			"nom": "Par la main du bourreau",
 			"portee": "5m",
 			"cible": "Une personne",
-			"duree": "instantanée",
-			"effet": "Le Maître Etrange provoque à distance une profonde estafilade sur le cou de la cible, qui subit automatiquement une Blessure légère.",
+			"duree": "instantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange provoque Ã  distance une profonde estafilade sur le cou de la cible, qui subit automatiquement une Blessure lÃ©gÃ¨re.",
 			"maison_id": "3"
 		},
 		{
 			"id": "15",
-			"nom": "Par la porte des géants",
+			"nom": "Par la porte des gÃ©ants",
 			"portee": "Toucher",
 			"cible": "Serrure",
 			"duree": "6 PA",
-			"effet": "Le mécanisme de fermeture touché par le Maître Etrange se scelle et devient difficile à ouvrir. Pour toute la durée du tour, le mécanisme ne pourra être ouvert qu'en réussissant un jet de caractéristique Fort ou un jet de compétence Crochetage Difficile.",
+			"effet": "Le mÃ©canisme de fermeture touchÃ© par le MaÃ®tre Etrange se scelle et devient difficile Ã  ouvrir. Pour toute la durÃ©e du tour, le mÃ©canisme ne pourra Ãªtre ouvert qu'en rÃ©ussissant un jet de caractÃ©ristique Fort ou un jet de compÃ©tence Crochetage Difficile.",
 			"maison_id": "3"
 		},
 		{
 			"id": "16",
-			"nom": "Par la voix du général",
+			"nom": "Par la voix du gÃ©nÃ©ral",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le maÃ®tre Ã©trange",
 			"duree": "Prochain jet de Commandement",
-			"effet": "Le prochain jet de Commandement du Maître Etrange (dans les 3 PA qui suivent le tour) bénéficie d'une réduction d'un niveau de Difficulté.",
+			"effet": "Le prochain jet de Commandement du MaÃ®tre Etrange (dans les 3 PA qui suivent le tour) bÃ©nÃ©ficie d'une rÃ©duction d'un niveau de DifficultÃ©.",
 			"maison_id": "3"
 		},
 		{
 			"id": "17",
-			"nom": "Par le métal hurlant",
+			"nom": "Par le mÃ©tal hurlant",
 			"portee": "Toucher",
-			"cible": "Une arme en métal",
+			"cible": "Une arme en mÃ©tal",
 			"duree": "3 PA",
-			"effet": "L'arme visée se met à hurler comme une démente dès qu'elle est utilisée, et ce, pour toute la durée du tour. Le cri peut être entendu à une cinquantaine de mètres.",
+			"effet": "L'arme visÃ©e se met Ã  hurler comme une dÃ©mente dÃ¨s qu'elle est utilisÃ©e, et ce, pour toute la durÃ©e du tour. Le cri peut Ãªtre entendu Ã  une cinquantaine de mÃ¨tres.",
 			"maison_id": "3"
 		},
 		{
 			"id": "18",
 			"nom": "Par le regard dor",
 			"portee": "5m",
-			"cible": "L'entourage du maître étrange",
+			"cible": "L'entourage du maÃ®tre Ã©trange",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange acquiert une présence majestueuse. Tous ceux qui l'ont dans leur champ de vision et qui ratent leur jet de résistance magique se tournent vers lui et sont plongés dans un état de fascination intense pendant toute la durée de la PA. Les victimes ne peuvent même pas se défendre tant qu'elles sont sous ce charme.",
+			"effet": "Le MaÃ®tre Etrange acquiert une prÃ©sence majestueuse. Tous ceux qui l'ont dans leur champ de vision et qui ratent leur jet de rÃ©sistance magique se tournent vers lui et sont plongÃ©s dans un Ã©tat de fascination intense pendant toute la durÃ©e de la PA. Les victimes ne peuvent mÃªme pas se dÃ©fendre tant qu'elles sont sous ce charme.",
 			"maison_id": "3"
 		},
 		{
 			"id": "19",
-			"nom": "Par les dents des tranchées",
+			"nom": "Par les dents des tranchÃ©es",
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "1 PA",
-			"effet": "Le sol se soulève et fait trébucher la victime. Si elle rate un jet d'Acrobaties Facile, la victime tombe et perd une PA pour se relever. Si elle réussit le jet, elle se rattrape d'une manière ou d'une autre et échappe aux effets du tour.",
+			"effet": "Le sol se soulÃ¨ve et fait trÃ©bucher la victime. Si elle rate un jet d'Acrobaties Facile, la victime tombe et perd une PA pour se relever. Si elle rÃ©ussit le jet, elle se rattrape d'une maniÃ¨re ou d'une autre et Ã©chappe aux effets du tour.",
 			"maison_id": "3"
 		},
 		{
 			"id": "20",
-			"nom": "Par les feux répandus",
+			"nom": "Par les feux rÃ©pandus",
 			"portee": "5m",
 			"cible": "Une personne",
-			"duree": "instantanée",
-			"effet": "La cible est instantanément entourée d'une flamme vive qui lui cause une Blessure légère avant de disparaître.",
+			"duree": "instantanÃ©e",
+			"effet": "La cible est instantanÃ©ment entourÃ©e d'une flamme vive qui lui cause une Blessure lÃ©gÃ¨re avant de disparaÃ®tre.",
 			"maison_id": "3"
 		},
 		{
 			"id": "21",
-			"nom": "J'élève un mur d'air",
+			"nom": "J'Ã©lÃ¨ve un mur d'air",
 			"portee": "5m",
 			"cible": "Air environnant",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange fait apparaître devant lui un mur d'air condensé d'un mètre carré, qui soustrait 3 points à l'ATT de tous les projectiles qui passent au travers.",
+			"effet": "Le MaÃ®tre Etrange fait apparaÃ®tre devant lui un mur d'air condensÃ© d'un mÃ¨tre carrÃ©, qui soustrait 3 points Ã  l'ATT de tous les projectiles qui passent au travers.",
 			"maison_id": "1"
 		},
 		{
@@ -5092,7 +4808,7 @@
 			"portee": "Toucher",
 			"cible": "Un objet de moins d1 kg",
 			"duree": "30 secondes",
-			"effet": "L'objet touché par le Maître Etrange paraît soudainement beaucoup plus beau, et ses défauts apparents disparaissent.",
+			"effet": "L'objet touchÃ© par le MaÃ®tre Etrange paraÃ®t soudainement beaucoup plus beau, et ses dÃ©fauts apparents disparaissent.",
 			"maison_id": "1"
 		},
 		{
@@ -5101,61 +4817,61 @@
 			"portee": "5m",
 			"cible": "L'air environnant",
 			"duree": "5 PA",
-			"effet": "Le Maître Etrange fait apparaître au-dessus de lui une petite sphère de lumière, qui éclaire comme une torche mais ne peut être déplacée.",
+			"effet": "Le MaÃ®tre Etrange fait apparaÃ®tre au-dessus de lui une petite sphÃ¨re de lumiÃ¨re, qui Ã©claire comme une torche mais ne peut Ãªtre dÃ©placÃ©e.",
 			"maison_id": "1"
 		},
 		{
 			"id": "24",
 			"nom": "Je change de visage",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le maÃ®tre Ã©trange",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange modifie légèrement les traits de son visage, et devient difficile à reconnaître (jet de caractéristique Difficile pour le reconnaître).",
+			"effet": "Le MaÃ®tre Etrange modifie lÃ©gÃ¨rement les traits de son visage, et devient difficile Ã  reconnaÃ®tre (jet de caractÃ©ristique Difficile pour le reconnaÃ®tre).",
 			"maison_id": "1"
 		},
 		{
 			"id": "25",
-			"nom": "Je crée une flambée",
+			"nom": "Je crÃ©e une flambÃ©e",
 			"portee": "5m",
-			"cible": "Une mèche",
-			"duree": "instantanée",
-			"effet": "Le Maître Etrange fait s'enflammer spontanément la mèche d'une chandelle, d'une lanterne, ou d'un autre objet de ce type",
+			"cible": "Une mÃ¨che",
+			"duree": "instantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange fait s'enflammer spontanÃ©ment la mÃ¨che d'une chandelle, d'une lanterne, ou d'un autre objet de ce type",
 			"maison_id": "1"
 		},
 		{
 			"id": "26",
 			"nom": "Je marche sur le vent",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le maÃ®tre Ã©trange",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange peut léviter à trente centimètres du sol, et marcher sur l'air à une vitesse maximale de (Agile) mètres par PA.",
+			"effet": "Le MaÃ®tre Etrange peut lÃ©viter Ã  trente centimÃ¨tres du sol, et marcher sur l'air Ã  une vitesse maximale de (Agile) mÃ¨tres par PA.",
 			"maison_id": "1"
 		},
 		{
 			"id": "27",
 			"nom": "Je me fonds dans le vert",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le maÃ®tre Ã©trange",
 			"duree": "3 PA",
-			"effet": "Le Maître Etrange se colle contre une plante ou un arbre au moins aussi grand que lui et s'y dissimule. La Difficulté de son ou ses jets de Discrétion est alors diminuée d'un niveau pour toute la durée du tour (mais le Maître Etrange ne peut pas se déplacer, ni parler, sous peine d'interrompre prématurément l'effet de ce tour.",
+			"effet": "Le MaÃ®tre Etrange se colle contre une plante ou un arbre au moins aussi grand que lui et s'y dissimule. La DifficultÃ© de son ou ses jets de DiscrÃ©tion est alors diminuÃ©e d'un niveau pour toute la durÃ©e du tour (mais le MaÃ®tre Etrange ne peut pas se dÃ©placer, ni parler, sous peine d'interrompre prÃ©maturÃ©ment l'effet de ce tour.",
 			"maison_id": "1"
 		},
 		{
 			"id": "28",
 			"nom": "Je respire sous l'eau",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
-			"duree": "Résistant + 2 minutes",
-			"effet": "Le Maître Etrange peut rester sous l'eau sans subir le moindre malus pour une durée de Résistant + 2 minutes.",
+			"cible": "Le maÃ®tre Ã©trange",
+			"duree": "RÃ©sistant + 2 minutes",
+			"effet": "Le MaÃ®tre Etrange peut rester sous l'eau sans subir le moindre malus pour une durÃ©e de RÃ©sistant + 2 minutes.",
 			"maison_id": "1"
 		},
 		{
 			"id": "29",
-			"nom": "Je te bénis",
+			"nom": "Je te bÃ©nis",
 			"portee": "Toucher",
 			"cible": "Une personne",
-			"duree": "prochain ATT (durée maximale 24 heures)",
-			"effet": "Le Maître Etrange appose ses mains sur le front d'une personne, qui bénéficiera pour son prochain combat au corps à corps, d'un bonuss de +1 à son premier ATT. Ce bonus disparaît si le bénéficiaire ne s'en sert pas.",
+			"duree": "prochain ATT (durÃ©e maximale 24 heures)",
+			"effet": "Le MaÃ®tre Etrange appose ses mains sur le front d'une personne, qui bÃ©nÃ©ficiera pour son prochain combat au corps Ã  corps, d'un bonuss de +1 Ã  son premier ATT. Ce bonus disparaÃ®t si le bÃ©nÃ©ficiaire ne s'en sert pas.",
 			"maison_id": "1"
 		},
 		{
@@ -5163,8 +4879,8 @@
 			"nom": "Je te rends un peu de vie",
 			"portee": "Toucher",
 			"cible": "Une personne",
-			"duree": "instantanée",
-			"effet": "Le Maître Etrange appose ses mains sur la cible dont une blessure est réduite d'un niveau, à condition que la blessure visée ait été occasionnée dans la demi-heure précédente.",
+			"duree": "instantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange appose ses mains sur la cible dont une blessure est rÃ©duite d'un niveau, Ã  condition que la blessure visÃ©e ait Ã©tÃ© occasionnÃ©e dans la demi-heure prÃ©cÃ©dente.",
 			"maison_id": "1"
 		},
 		{
@@ -5173,61 +4889,61 @@
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "3 minutes",
-			"effet": "Un visage démoniaque et livide se superpose brièvement à celui de la cible, avec toutes les conséquences que ceci peut avoir (surtout en société).",
+			"effet": "Un visage dÃ©moniaque et livide se superpose briÃ¨vement Ã  celui de la cible, avec toutes les consÃ©quences que ceci peut avoir (surtout en sociÃ©tÃ©).",
 			"maison_id": "2"
 		},
 		{
 			"id": "33",
-			"nom": "Dégradation du métal",
+			"nom": "DÃ©gradation du mÃ©tal",
 			"portee": "Toucher",
-			"cible": "Un objet en métal non loomique",
-			"duree": "instantanée",
-			"effet": "L'objet en métal s'oxyde et ses angles s'émoussent. S'il s'agit d'une arme (plutôt une dague qu'une épée, trop lourde pour être affectée), ses dommages sont réduits d'un niveau de blessure tant qu'elle n'a pas été nettoyée et aiguisée.",
+			"cible": "Un objet en mÃ©tal non loomique",
+			"duree": "instantanÃ©e",
+			"effet": "L'objet en mÃ©tal s'oxyde et ses angles s'Ã©moussent. S'il s'agit d'une arme (plutÃ´t une dague qu'une Ã©pÃ©e, trop lourde pour Ãªtre affectÃ©e), ses dommages sont rÃ©duits d'un niveau de blessure tant qu'elle n'a pas Ã©tÃ© nettoyÃ©e et aiguisÃ©e.",
 			"maison_id": "2"
 		},
 		{
 			"id": "34",
-			"nom": "Dégradation du bois",
+			"nom": "DÃ©gradation du bois",
 			"portee": "Toucher",
 			"cible": "Un objet en bois non loomique",
-			"duree": "instantanée",
-			"effet": "L'objet en bois se couvre de pourriture et de sciure. S'il s'agit d'une arme, ses dommages sont réduits d'un niveau de blessure tant qu'elle n'a pas été soigneusement nettoyée.",
+			"duree": "instantanÃ©e",
+			"effet": "L'objet en bois se couvre de pourriture et de sciure. S'il s'agit d'une arme, ses dommages sont rÃ©duits d'un niveau de blessure tant qu'elle n'a pas Ã©tÃ© soigneusement nettoyÃ©e.",
 			"maison_id": "2"
 		},
 		{
 			"id": "35",
-			"nom": "Dégradation de la pierre",
+			"nom": "DÃ©gradation de la pierre",
 			"portee": "Toucher",
 			"cible": "Un objet en pierre non loomique",
-			"duree": "instantanée",
-			"effet": "L'objet en pierre devient poreux et se couvre de sable. S'il s'agit d'une arme, ses dommages sont réduits d'un niveau de blessure tant qu'elle n'a pas été soigneusement nettoyée.",
+			"duree": "instantanÃ©e",
+			"effet": "L'objet en pierre devient poreux et se couvre de sable. S'il s'agit d'une arme, ses dommages sont rÃ©duits d'un niveau de blessure tant qu'elle n'a pas Ã©tÃ© soigneusement nettoyÃ©e.",
 			"maison_id": "2"
 		},
 		{
 			"id": "36",
-			"nom": "Flétrir la nature",
+			"nom": "FlÃ©trir la nature",
 			"portee": "Toucher",
 			"cible": "Une plante non loomique",
-			"duree": "instantanée",
-			"effet": "La plante vivante touchée par le lanceur se fane et meurt.",
+			"duree": "instantanÃ©e",
+			"effet": "La plante vivante touchÃ©e par le lanceur se fane et meurt.",
 			"maison_id": "2"
 		},
 		{
 			"id": "37",
-			"nom": "Piqûre",
+			"nom": "PiqÃ»re",
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "1 PA",
-			"effet": "La cible ressent une piqûre très vive au niveau de la nuque. La douleur et la surprise l'empêchent d'agir durent la PA au cours de laquelle elle a été piquée.",
+			"effet": "La cible ressent une piqÃ»re trÃ¨s vive au niveau de la nuque. La douleur et la surprise l'empÃªchent d'agir durent la PA au cours de laquelle elle a Ã©tÃ© piquÃ©e.",
 			"maison_id": "2"
 		},
 		{
 			"id": "39",
 			"nom": "L'absorbeur de jour",
 			"portee": "5m",
-			"cible": "Une zone de AE mètres",
+			"cible": "Une zone de AE mÃ¨tres",
 			"duree": "5 PA",
-			"effet": "Une ombre aux ailes noires recouvre la zone visée et voile le soleil ou la lune? La zone touchée se retrouve plongée dans une obscurité assez dense, qui augmente de 1 niveau de Difficulté des jets liés à la perception visuelle (caractéristique Observateur et compétence Vigilance principalement, mais pas les compétences de combat) effectués depuis ou vers la zone obscure.",
+			"effet": "Une ombre aux ailes noires recouvre la zone visÃ©e et voile le soleil ou la lune? La zone touchÃ©e se retrouve plongÃ©e dans une obscuritÃ© assez dense, qui augmente de 1 niveau de DifficultÃ© des jets liÃ©s Ã  la perception visuelle (caractÃ©ristique Observateur et compÃ©tence Vigilance principalement, mais pas les compÃ©tences de combat) effectuÃ©s depuis ou vers la zone obscure.",
 			"maison_id": "2"
 		},
 		{
@@ -5236,16 +4952,16 @@
 			"portee": "5m",
 			"cible": "Un animal plus petit qu'un cheval",
 			"duree": "3 PA",
-			"effet": "Un petit démon noir et grimaçant apparaît devant l'animal visé et pousse un effroyable hurlement, qui le fait fuir le plus loin possible du démon (l'animal a droit à un jet de résistance à la magie).",
+			"effet": "Un petit dÃ©mon noir et grimaÃ§ant apparaÃ®t devant l'animal visÃ© et pousse un effroyable hurlement, qui le fait fuir le plus loin possible du dÃ©mon (l'animal a droit Ã  un jet de rÃ©sistance Ã  la magie).",
 			"maison_id": "2"
 		},
 		{
 			"id": "41",
 			"nom": "Calice de sang",
 			"portee": "Toucher",
-			"cible": "Un crâne humain",
+			"cible": "Un crÃ¢ne humain",
 			"duree": "Permanent",
-			"effet": "Ce tour enchante un crâne humain intact, qui devient un récipient parfaitement étanche, pouvant contenir jusqu'à un litre ne n'importe quel liquide. Le liquide doit être introduit par les orbites et ressortira, à la demande, par l'orifice nasal.",
+			"effet": "Ce tour enchante un crÃ¢ne humain intact, qui devient un rÃ©cipient parfaitement Ã©tanche, pouvant contenir jusqu'Ã  un litre ne n'importe quel liquide. Le liquide doit Ãªtre introduit par les orbites et ressortira, Ã  la demande, par l'orifice nasal.",
 			"maison_id": "2"
 		},
 		{
@@ -5254,7 +4970,7 @@
 			"portee": "Toucher",
 			"cible": "Un cadavre",
 			"duree": "Permanente",
-			"effet": "Ce tour permet au Maître Etrange de rigidifier un cadavre comme s'il avait atteint son stade ultime de raideur cadavérique. Le cadavre, ausi dur que du bois, peut ainsi être déplacé plus facilement ou même servir d'élément de construction.",
+			"effet": "Ce tour permet au MaÃ®tre Etrange de rigidifier un cadavre comme s'il avait atteint son stade ultime de raideur cadavÃ©rique. Le cadavre, ausi dur que du bois, peut ainsi Ãªtre dÃ©placÃ© plus facilement ou mÃªme servir d'Ã©lÃ©ment de construction.",
 			"maison_id": "2"
 		},
 		{
@@ -5263,16 +4979,16 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "3 PA",
-			"effet": "Le Maître Etrange fait pousser une grosse fleur rouge dans l'une des mains de la cible (au choix du Maître Etrange), qui subit un malus de +1 à la Difficulté de toute action nécessitant l'usage de sa main. Si la cible est dans une situation de combat, ses Indices d'Attaque et de Défense sont simplement diminués chacun de 3 points. La fleur disparaît automatiquement à la fin de la troisième PA, mais la victime peut l'arracher avant, à condition d'y consacrer une PA entière (elle ne peut alors pas attaquer, mais simplement se défendre).",
+			"effet": "Le MaÃ®tre Etrange fait pousser une grosse fleur rouge dans l'une des mains de la cible (au choix du MaÃ®tre Etrange), qui subit un malus de +1 Ã  la DifficultÃ© de toute action nÃ©cessitant l'usage de sa main. Si la cible est dans une situation de combat, ses Indices d'Attaque et de DÃ©fense sont simplement diminuÃ©s chacun de 3 points. La fleur disparaÃ®t automatiquement Ã  la fin de la troisiÃ¨me PA, mais la victime peut l'arracher avant, Ã  condition d'y consacrer une PA entiÃ¨re (elle ne peut alors pas attaquer, mais simplement se dÃ©fendre).",
 			"maison_id": "6"
 		},
 		{
 			"id": "44",
-			"nom": "Croît-flore",
-			"portee": "5 mètres",
-			"cible": "Une plante de moins d'un mètre de haut.",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange fait doubler la taille d'une plante vivante non loomique.",
+			"nom": "CroÃ®t-flore",
+			"portee": "5 mÃ¨tres",
+			"cible": "Une plante de moins d'un mÃ¨tre de haut.",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange fait doubler la taille d'une plante vivante non loomique.",
 			"maison_id": "6"
 		},
 		{
@@ -5280,8 +4996,8 @@
 			"nom": "Avoue-flore",
 			"portee": "Toucher",
 			"cible": "Une plante",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange fait parler une plante ou un arbre, qui lui avoue le nom de la dernière personne qui l'a approchée à moins d'un mètre.",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange fait parler une plante ou un arbre, qui lui avoue le nom de la derniÃ¨re personne qui l'a approchÃ©e Ã  moins d'un mÃ¨tre.",
 			"maison_id": "6"
 		},
 		{
@@ -5289,8 +5005,8 @@
 			"nom": "Saigne-main",
 			"portee": "Toucher",
 			"cible": "Une personne",
-			"duree": "Instantanée",
-			"effet": "La main de la cible se met à saigner par les pores de la peau. La victime prend une Blessure superficielle. ",
+			"duree": "InstantanÃ©e",
+			"effet": "La main de la cible se met Ã  saigner par les pores de la peau. La victime prend une Blessure superficielle. ",
 			"maison_id": "6"
 		},
 		{
@@ -5299,7 +5015,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "1 minute",
-			"effet": "Le Maître Etrange peut, en tenant les mains d'une personne consentante et en regardant sa pupille, y voir une scène précise qui s'est déroulée dans l'heure précédente. La durée de cette scène ne peut dépasser une minute.",
+			"effet": "Le MaÃ®tre Etrange peut, en tenant les mains d'une personne consentante et en regardant sa pupille, y voir une scÃ¨ne prÃ©cise qui s'est dÃ©roulÃ©e dans l'heure prÃ©cÃ©dente. La durÃ©e de cette scÃ¨ne ne peut dÃ©passer une minute.",
 			"maison_id": "6"
 		},
 		{
@@ -5316,35 +5032,35 @@
 			"nom": "Soigne-plaie",
 			"portee": "Toucher",
 			"cible": "Une personne",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange appose ses mains sur la plaie du blessé qui récupère aussitôt un niveau de blessure. Le tour ne peut être lancé qu'une seule fois sur une même blessure, et celle-ci doit avoir été infligée dans le quart d'heure précédent.",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange appose ses mains sur la plaie du blessÃ© qui rÃ©cupÃ¨re aussitÃ´t un niveau de blessure. Le tour ne peut Ãªtre lancÃ© qu'une seule fois sur une mÃªme blessure, et celle-ci doit avoir Ã©tÃ© infligÃ©e dans le quart d'heure prÃ©cÃ©dent.",
 			"maison_id": "6"
 		},
 		{
 			"id": "50",
-			"nom": "Étincelles",
+			"nom": "Ã‰tincelles",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange fait apparaître des étincelles du bout de ses doigts. Elles peuvent être facilement aperçues à très longue distance (cinq cent mètres le jour, deux kilomètres la nuit) ou permettre d'enflammer de la poudre ou une mèche.",
+			"effet": "Le MaÃ®tre Etrange fait apparaÃ®tre des Ã©tincelles du bout de ses doigts. Elles peuvent Ãªtre facilement aperÃ§ues Ã  trÃ¨s longue distance (cinq cent mÃ¨tres le jour, deux kilomÃ¨tres la nuit) ou permettre d'enflammer de la poudre ou une mÃ¨che.",
 			"maison_id": "6"
 		},
 		{
 			"id": "51",
 			"nom": "Ombre-forme",
-			"portee": "5 mètres",
+			"portee": "5 mÃ¨tres",
 			"cible": "Un objet non magique",
 			"duree": "5 PA",
-			"effet": "Le Maître Etrange transforme l'ombre de l'objet visé et lui donne l'aspect de l'ombre de n'importe quelle chose. Si l'objet est touché, l'illusion s'interrompt.",
+			"effet": "Le MaÃ®tre Etrange transforme l'ombre de l'objet visÃ© et lui donne l'aspect de l'ombre de n'importe quelle chose. Si l'objet est touchÃ©, l'illusion s'interrompt.",
 			"maison_id": "6"
 		},
 		{
 			"id": "52",
 			"nom": "Repousse-vent",
 			"portee": "Toucher",
-			"cible": "Un tissu de moins de deux mètres carrés",
-			"duree": "Une journée",
-			"effet": "Ce tour permet d'enchanter le linge visé, qui devient totalement imperméable au vent et à la pluie.",
+			"cible": "Un tissu de moins de deux mÃ¨tres carrÃ©s",
+			"duree": "Une journÃ©e",
+			"effet": "Ce tour permet d'enchanter le linge visÃ©, qui devient totalement impermÃ©able au vent et Ã  la pluie.",
 			"maison_id": "6"
 		},
 		{
@@ -5353,79 +5069,79 @@
 			"portee": "Toucher",
 			"cible": "Un pendentif",
 			"duree": "1 minute",
-			"effet": "Ce tour transforme un pendentif en boussole solaire. Lorsqu'il est suspendu au bout d'un fil ou d'une chaîne, il indiquera toujours la direction des Feux-Du-Ciel, quelle que soit la densité de la couverture nuageuse.",
+			"effet": "Ce tour transforme un pendentif en boussole solaire. Lorsqu'il est suspendu au bout d'un fil ou d'une chaÃ®ne, il indiquera toujours la direction des Feux-Du-Ciel, quelle que soit la densitÃ© de la couverture nuageuse.",
 			"maison_id": "6"
 		},
 		{
 			"id": "54",
-			"nom": "Acuité auditive",
+			"nom": "AcuitÃ© auditive",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Vigilance impliquant l'ouïe.",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange bÃ©nÃ©ficie d'une diminution d'un niveau de DifficultÃ© pour son prochain jet de Vigilance impliquant l'ouÃ¯e.",
 			"maison_id": "4"
 		},
 		{
 			"id": "55",
-			"nom": "Acuité visuelle",
+			"nom": "AcuitÃ© visuelle",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Vigilance impliquant la vue.",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange bÃ©nÃ©ficie d'une diminution d'un niveau de DifficultÃ© pour son prochain jet de Vigilance impliquant la vue.",
 			"maison_id": "4"
 		},
 		{
 			"id": "56",
 			"nom": "Ancrage",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "3 PA",
-			"effet": "Les ongles du Maître Etrange peuvent se planter dans toute surface ferme et inanimée et l'y maintenir fermement ancré.",
+			"effet": "Les ongles du MaÃ®tre Etrange peuvent se planter dans toute surface ferme et inanimÃ©e et l'y maintenir fermement ancrÃ©.",
 			"maison_id": "4"
 		},
 		{
 			"id": "57",
 			"nom": "Charisme",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet d'Etiquette, de Marchandage, de Diplomatie ou de Négoce.",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange bÃ©nÃ©ficie d'une diminution d'un niveau de DifficultÃ© pour son prochain jet d'Etiquette, de Marchandage, de Diplomatie ou de NÃ©goce.",
 			"maison_id": "4"
 		},
 		{
 			"id": "58",
 			"nom": "Combat nocturne",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "1 PA",
-			"effet": "Qu'il soit aveuglé ou plongé dans le noir complet, le Maître Etrange 'perçoit' de manière surnaturelle son adversaire jusqu'à une distance de Art Etrange x 2 mètres.",
+			"effet": "Qu'il soit aveuglÃ© ou plongÃ© dans le noir complet, le MaÃ®tre Etrange 'perÃ§oit' de maniÃ¨re surnaturelle son adversaire jusqu'Ã  une distance de Art Etrange x 2 mÃ¨tres.",
 			"maison_id": "4"
 		},
 		{
 			"id": "59",
 			"nom": "Domination",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet d'Intimidation ou de Commandement.",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange bÃ©nÃ©ficie d'une diminution d'un niveau de DifficultÃ© pour son prochain jet d'Intimidation ou de Commandement.",
 			"maison_id": "4"
 		},
 		{
 			"id": "60",
 			"nom": "Flair",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "AE minutes",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Chasse ou de Vigilance.",
+			"effet": "Le MaÃ®tre Etrange bÃ©nÃ©ficie d'une diminution d'un niveau de DifficultÃ© pour son prochain jet de Chasse ou de Vigilance.",
 			"maison_id": "4"
 		},
 		{
 			"id": "61",
-			"nom": "Furtivité",
+			"nom": "FurtivitÃ©",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
-			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Discrétion.",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
+			"duree": "InstantanÃ©e",
+			"effet": "Le MaÃ®tre Etrange bÃ©nÃ©ficie d'une diminution d'un niveau de DifficultÃ© pour son prochain jet de DiscrÃ©tion.",
 			"maison_id": "4"
 		},
 		{
@@ -5434,59 +5150,59 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange provoque un orgasme chez sa cible, qui perd automatiquement sa prochaine action. En cas de combat, la victime ne peut pas attaquer, mais elle peut se défendre. Toutefois, elle perd 1 point à son indice de Défense.",
+			"effet": "Le MaÃ®tre Etrange provoque un orgasme chez sa cible, qui perd automatiquement sa prochaine action. En cas de combat, la victime ne peut pas attaquer, mais elle peut se dÃ©fendre. Toutefois, elle perd 1 point Ã  son indice de DÃ©fense.",
 			"maison_id": "4"
 		},
 		{
 			"id": "63",
-			"nom": "Maîtrise animalière",
-			"portee": "5 mètres",
+			"nom": "MaÃ®trise animaliÃ¨re",
+			"portee": "5 mÃ¨tres",
 			"cible": "Un animal",
 			"duree": "3 PA",
-			"effet": "Le Maître Etrange peut calmer et tenir en respect n'importe quel animal sauvage non loomique pris pour cible.",
+			"effet": "Le MaÃ®tre Etrange peut calmer et tenir en respect n'importe quel animal sauvage non loomique pris pour cible.",
 			"maison_id": "4"
 		},
 		{
 			"id": "64",
 			"nom": "Peau de cuir",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "3 PA",
-			"effet": "La peau du Maître Etrange se durcit, et lui confère la protection d'une armure de cuir.",
+			"effet": "La peau du MaÃ®tre Etrange se durcit, et lui confÃ¨re la protection d'une armure de cuir.",
 			"maison_id": "4"
 		},
 		{
 			"id": "65",
-			"nom": "Rapidité",
+			"nom": "RapiditÃ©",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange peut parcourir le nombre de puces associé à la caractéristique Agile en mètres supplémentaires durant la PA en cours, mais le nombre d'actions qu'il peut accomplir reste identique.",
+			"effet": "Le MaÃ®tre Etrange peut parcourir le nombre de puces associÃ© Ã  la caractÃ©ristique Agile en mÃ¨tres supplÃ©mentaires durant la PA en cours, mais le nombre d'actions qu'il peut accomplir reste identique.",
 			"maison_id": "4"
 		},
 		{
 			"id": "66",
 			"nom": "Rugissement",
-			"portee": "5 mètres",
+			"portee": "5 mÃ¨tres",
 			"cible": "Une personne",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange pousse un terrible rugissement qui paralyse l'être humain visé. Si elle a échoué dans son jet de résistance à la magie, la victime se crispe et ne peut plus effectuer la moindre action durant toute la PA.",
+			"effet": "Le MaÃ®tre Etrange pousse un terrible rugissement qui paralyse l'Ãªtre humain visÃ©. Si elle a Ã©chouÃ© dans son jet de rÃ©sistance Ã  la magie, la victime se crispe et ne peut plus effectuer la moindre action durant toute la PA.",
 			"maison_id": "4"
 		},
 		{
 			"id": "67",
 			"nom": "Sens du danger",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "Une minute",
-			"effet": "Pour toute la durée du tour, le Maître Etrange sentira l'imminence d'un danger physique le menaçant, sans savoir exactement de quoi il s'agit. Il ne pourra être surpris par une attaque et, si un combat s'ensuit, il bénéficiera d'un bonus de +1 à son initiative.",
+			"effet": "Pour toute la durÃ©e du tour, le MaÃ®tre Etrange sentira l'imminence d'un danger physique le menaÃ§ant, sans savoir exactement de quoi il s'agit. Il ne pourra Ãªtre surpris par une attaque et, si un combat s'ensuit, il bÃ©nÃ©ficiera d'un bonus de +1 Ã  son initiative.",
 			"maison_id": "4"
 		},
 		{
 			"id": "68",
 			"nom": "Vaillance",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le MaÃ®tre Etrange lui-mÃªme",
 			"duree": "",
 			"effet": "",
 			"maison_id": "4"

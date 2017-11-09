@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.thumbnail {
+    min-height: 250px;
+}
+
+body {
+    background: #fffde7 none repeat scroll 0 0;
+}
+
+@media ( min-width : 768px) and (max-width: 1047px) {
+}
+
+@media ( max-width : 767px) {
+}
