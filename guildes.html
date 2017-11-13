@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Guildes Eldorado</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#dae3e7">
+<link rel="stylesheet" type="text/css" href="guildes/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="guildes/css/guildes.css" />
+</head>
+<body>
+
+    <section class="container">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home"
+                aria-expanded="true">Home</a></li>
+            <li role="presentation"><a href="#armes" role="tab" id="armes-tab" data-toggle="tab" aria-controls="armes">Armes / Armures</a></li>
+            <li role="presentation"><a href="#comp" role="tab" id="comp-tab" data-toggle="tab" aria-controls="comp">Compétences &amp; Métiers</a></li>
+            <li role="presentation"><a href="#cdbmes" role="tab" id="cdbmes-tab" data-toggle="tab" aria-controls="cdbmes">Coups de bol &amp;
+                    Mésaventures</a></li>
+            <li role="presentation"><a href="#equip" role="tab" id="equip-tab" data-toggle="tab" aria-controls="equip">Equipement</a></li>
+            <li role="presentation"><a href="#dice" role="tab" id="dice-tab" data-toggle="tab" aria-controls="dice">Lanceur de dés</a></li>
+            <li role="presentation"><a href="#loom" role="tab" id="loom-tab" data-toggle="tab" aria-controls="loom">Loom</a></li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane in active" role="tabpanel" id="home" aria-labelledby="home-tab">
+                <section w3-include-html="guildes/home.html"></section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="armes" aria-labelledby="armes-tab">
+                <section w3-include-html="guildes/armes.html"></section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="comp" aria-labelledby="comp-tab">
+                <section w3-include-html="guildes/comp.html"></section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="cdbmes" aria-labelledby="cdbmes-tab">
+                <section w3-include-html="guildes/cdbmes.html"></section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="equip" aria-labelledby="equip-tab">
+                <section w3-include-html="guildes/equip.html"></section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="dice" aria-labelledby="dice-tab">
+                <section w3-include-html="guildes/dice.html"></section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="loom" aria-labelledby="loom-tab">
+                <section w3-include-html="guildes/loom.html"></section>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="guildes/js/bootstrap.min.js"></script>
+    <script src="guildes/js/guildes.js"></script>
+</body>
+</html>

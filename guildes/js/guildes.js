@@ -178,7 +178,7 @@ $(function() {
     
     $.getJSON("json/guildes.json", function(data) {
 
-        if(data !== null) {
+        if (data !== null) {
             if(data.armes.length > 0) {
                  for (var i = 0; i < data.armes.length; i++) {
                     $(document).find("#body-armes").append("<tr>"+
@@ -246,7 +246,7 @@ $(function() {
                 }
             }
             
-            if(data.cdbmaison.length > 0) {
+            if (data.cdbmaison.length > 0) {
                 
                 var htmlKeys = ["#body-venn","#body-ashra","#body-gehem","#body-felsi","#body-ulmeq","body-kheyz"];
                 
@@ -269,6 +269,58 @@ $(function() {
                         );
                     }
                     
+                }
+            }
+            
+            if(data.tours.length > 0) {
+                for (var i = 0; i < data.maisons.length; i++) {
+                    var tours = data.tours.filter(function(item) {
+                        return item.maison_id.indexOf(data.maisons[i].id) > -1;
+                    });
+                    for (var j = 0; j < tours.length; j++) {
+                        $(document).find("#body-tours").append("<tr>"+
+                        "<td>" + tours[j].nom + "</td>"+
+                        "<td>" + tours[j].portee + "</td>"+
+                        "<td>" + tours[j].cible + "</td>"+
+                        "<td>" + tours[j].duree + "</td>"+
+                        "<td>" + tours[j].effet + "</td>"+
+                        "<td>" + data.maisons[i].nom + "</td>"+
+                        "</tr>");
+                    }
+                }
+            }
+            
+            if(data.sorts.length > 0) {
+                for (var i = 0; i < data.maisons.length; i++) {
+                    var sorts = data.sorts.filter(function(item) {
+                        return item.maison_id.indexOf(data.maisons[i].id) > -1;
+                    });
+                    for (var j = 0; j < sorts.length; j++) {
+                        $(document).find("#body-sorts").append("<tr>"+
+                        "<td>" + sorts[j].nom + "</td>"+
+                        "<td>" + sorts[j].diff + "</td>"+
+                        "<td>" + sorts[j].type + "</td>"+
+                        "<td>" + sorts[j].portee + "</td>"+
+                        "<td>" + sorts[j].cible + "</td>"+
+                        "<td>" + data.maisons[i].nom + "</td>"+
+                        "</tr>");
+                    }
+                }
+            }
+            
+            if(data.sortileges.length > 0) {
+                for (var i = 0; i < data.maisons.length; i++) {
+                    var sortileges = data.sortileges.filter(function(item) {
+                        return item.maison_id.indexOf(data.maisons[i].id) > -1;
+                    });
+                    for (var j = 0; j < sortileges.length; j++) {
+                        $(document).find("#body-sortileges").append("<tr>"+
+                        "<td>" + sortileges[j].nom + "</td>"+
+                        "<td>" + sortileges[j].diff + "</td>"+
+                        "<td>" + sortileges[j].portee + "</td>"+
+                        "<td>" + data.maisons[i].nom + "</td>"+
+                        "</tr>");
+                    }
                 }
             }
             
