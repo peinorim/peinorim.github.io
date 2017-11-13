@@ -15,6 +15,10 @@ body {
     background: #fffde7 none repeat scroll 0 0;
 }
 
+table th {
+    cursor: pointer;
+}
+
 @media ( min-width : 768px) and (max-width: 1047px) {
 }
 
