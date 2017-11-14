@@ -171,9 +171,9 @@ function Tour(id, nom, portee, cible, duree, effet, maison_id) {
 
 $(function() {
 
-    $("[w3-include-html]").each(function(index) {
-        $(this).load($(this).attr("w3-include-html"));
-        $(this).removeAttr("w3-include-html");
+    $("[include-html]").each(function(index) {
+        $(this).load($(this).attr("include-html"));
+        $(this).removeAttr("include-html");
     });
     
     $(document).on("click", "table th", function (index) {
@@ -326,6 +326,58 @@ $(function() {
                         "<td>" + data.maisons[i].nom + "</td>"+
                         "</tr>");
                     }
+                }
+            }
+            
+            if(data.competences.length > 0) {
+                for (var i = 0; i < data.competences.length; i++) {
+                    var chapitres = data.chapitres.filter(function(item) {
+                        return item.id.indexOf(data.competences[i].chapitre_id) > -1;
+                    });
+                    var caracs = data.caracs.filter(function(item) {
+                        return item.id.indexOf(data.competences[i].carac_id) > -1;
+                    });
+                    var apprenti = "Oui";
+                    if(data.competences[i].apprenti === "0") {
+                        apprenti = "Non";
+                    }
+                    var academie = "Oui";
+                    if(data.competences[i].academie === "0") {
+                        academie = "Non";
+                    }
+                    $(document).find("#body-comp").append("<tr>"+
+                    "<td>" + data.competences[i].nom + "</td>"+
+                    "<td>" + chapitres[0].nom + "</td>"+
+                    "<td>" + caracs[0].nom + "</td>"+
+                    "<td>" + apprenti + "</td>"+
+                    "<td>" + academie + "</td>"+
+                    "</tr>");
+                }
+            }
+            
+            if(data.machinations.length > 0) {
+                for (var i = 0; i < data.machinations.length; i++) {
+                    var chapitres = data.chapitres.filter(function(item) {
+                        return item.id.indexOf(data.machinations[i].chapitre_id) > -1;
+                    });
+                    $(document).find("#body-machi").append("<tr>"+
+                    "<td>" + data.machinations[i].nom + "</td>"+
+                    "<td>" + data.machinations[i].niveau + "</td>"+
+                    "<td>" + data.machinations[i].description + "</td>"+
+                    "<td>" + data.machinations[i].novice + "</td>"+
+                    "<td>" + data.machinations[i].initie + "</td>"+
+                    "<td>" + data.machinations[i].expert + "</td>"+
+                    "<td>" + data.machinations[i].effet_pervers + "</td>"+
+                    "<td>" + chapitres[0].nom + "</td>"+
+                    "</tr>");
+                }
+            }
+            
+            if(data.metiers.length > 0) {
+                for (var i = 0; i < data.metiers.length; i++) {
+                    $(document).find("#body-metiers-metiers").append('<li class="list-group-item">'+
+                    '<a href="#">' + data.metiers[i].nom + "</a>"+
+                    "</li>");
                 }
             }
             

@@ -12,12 +12,13 @@
 </head>
 <body>
 
-    <section class="container">
+    <section class="container-fluid">
         <ul class="nav nav-tabs" id="myTabs" role="tablist">
             <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home"
                 aria-expanded="true">Le jeu</a></li>
             <li role="presentation"><a href="#armes" role="tab" id="armes-tab" data-toggle="tab" aria-controls="armes">Armes / Armures</a></li>
-            <li role="presentation"><a href="#comp" role="tab" id="comp-tab" data-toggle="tab" aria-controls="comp">Compétences &amp; Métiers</a></li>
+            <li role="presentation"><a href="#comp" role="tab" id="comp-tab" data-toggle="tab" aria-controls="comp">Compétences &amp; Machinations</a></li>
+            <li role="presentation"><a href="#metiers" role="tab" id="metiers-tab" data-toggle="tab" aria-controls="metiers">Métiers</a></li>
             <li role="presentation"><a href="#cdbmes" role="tab" id="cdbmes-tab" data-toggle="tab" aria-controls="cdbmes">Coups de bol &amp;
                     Mésaventures</a></li>
             <li role="presentation"><a href="#equip" role="tab" id="equip-tab" data-toggle="tab" aria-controls="equip">Equipement</a></li>
@@ -26,25 +27,28 @@
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane in active" role="tabpanel" id="home" aria-labelledby="home-tab">
-                <section w3-include-html="guildes/home.html"></section>
+                <section include-html="guildes/home.html"></section>
             </div>
             <div class="tab-pane" role="tabpanel" id="armes" aria-labelledby="armes-tab">
-                <section w3-include-html="guildes/armes.html"></section>
+                <section include-html="guildes/armes.html"></section>
             </div>
             <div class="tab-pane" role="tabpanel" id="comp" aria-labelledby="comp-tab">
-                <section w3-include-html="guildes/comp.html"></section>
+                <section include-html="guildes/comp.html"></section>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="metiers" aria-labelledby="metiers-tab">
+                <section include-html="guildes/metiers.html"></section>
             </div>
             <div class="tab-pane" role="tabpanel" id="cdbmes" aria-labelledby="cdbmes-tab">
-                <section w3-include-html="guildes/cdbmes.html"></section>
+                <section include-html="guildes/cdbmes.html"></section>
             </div>
             <div class="tab-pane" role="tabpanel" id="equip" aria-labelledby="equip-tab">
-                <section w3-include-html="guildes/equip.html"></section>
+                <section include-html="guildes/equip.html"></section>
             </div>
             <div class="tab-pane" role="tabpanel" id="dice" aria-labelledby="dice-tab">
-                <section w3-include-html="guildes/dice.html"></section>
+                <section include-html="guildes/dice.html"></section>
             </div>
             <div class="tab-pane" role="tabpanel" id="loom" aria-labelledby="loom-tab">
-                <section w3-include-html="guildes/loom.html"></section>
+                <section include-html="guildes/loom.html"></section>
             </div>
         </div>
     </section>
