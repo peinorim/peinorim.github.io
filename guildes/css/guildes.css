@@ -19,8 +19,33 @@ table th {
     cursor: pointer;
 }
 
+#home p {
+    text-align: justify;
+}
+
+#body-metiers-comp li {
+    display: inline-block;
+    width: 25%;
+}
+
+#body-metiers-metier, #body-metiers-chap, #body-metiers-carac {
+    list-style: none;
+}
+
+#body-metiers-metier li, #body-metiers-chap li, #body-metiers-carac li {
+    display: inline-block;
+    width: 50%;
+}
+
+.hiddenNormal {
+    display: none;
+}
+
 @media ( min-width : 768px) and (max-width: 1047px) {
 }
 
 @media ( max-width : 767px) {
+    #body-metiers-comp li, #body-metiers-metier li, #body-metiers-chap li, #body-metiers-carac li {
+        width: 50%;
+    }
 }

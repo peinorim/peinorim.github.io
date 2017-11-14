@@ -1,5 +1,70 @@
-<section class="container">
+<section>
     <div class="page-header">
         <h3>Lanceur de dés</h3>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="col-md-4">
+                <select id="diff" class="form-control">
+                    <option value="0" selected="selected">Choisir une difficulté (Facultatif)</option>
+                    <option value="3">Très facile = 3</option>
+                    <option value="6">Facile = 6</option>
+                    <option value="9">Difficile = 9</option>
+                    <option value="12">Très difficile = 12</option>
+                    <option value="18">Extrême = 18</option>
+                    <option value="25">Impossible = 25</option>
+                </select>
+                <div class="radio">
+                    <label> <input type="radio" name="rad_jet" id="rad_comp" value="comp" checked> Jet de compétence
+                    </label>
+                </div>
+                <div class="radio">
+                    <label> <input type="radio" name="rad_jet" id="rad_carac" value="carac"> Jet de caractéristique
+                    </label>
+                </div>
+                <div class="radio">
+                    <label> <input type="radio" name="rad_jet" id="rad_noncomp" value="noncomp"> Jet de non-compétence
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-8 form-horizontal">
+                <div id="div_comp" class="form-group">
+                    <select id="select_comp" class="form-control">
+                        <option value="0">Compétence</option>
+                    </select>
+                </div>
+                <div id="div_comp_niv" class="form-group">
+                    <select id="comp_niv" class="form-control">
+                        <option value="0">Niveau</option>
+                        <option value="N">Novice</option>
+                        <option value="I">Initié</option>
+                        <option value="E">Expert</option>
+                    </select>
+                </div>
+                <div id="div_des" class="form-group">
+                    <input type="number" class="form-control" id="nb_des" placeholder="Nombre de dés à lancer" min="1" />
+                </div>
+                <div id="div_carac" class="form-group hiddenNormal">
+                    <select id="select_carac" class="form-control">
+                        <option value="0">Caractéristique</option>
+                    </select>
+                </div>
+                <div id="div_carac_niv" class="form-group hiddenNormal">
+                    <select id="carac_niv" class="form-control">
+                        <option value="0">Nombre de puces</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div id="div_lanceur" class="form-group">
+                    <button id="btn_des" type="button" class="btn btn-primary">Lancer les dés</button>
+                    <span id="res"></span>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

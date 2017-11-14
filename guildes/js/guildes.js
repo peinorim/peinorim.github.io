@@ -216,7 +216,7 @@ $(function() {
             if(data.equipement.length > 0) {
                 for (var i = 0; i < data.equipement.length; i++) {
                     var filteredData = data.equipcategorie.filter(function(item) {
-                        return item.id.indexOf(data.equipement[i].categorie_id) > -1;
+                        return item.id === data.equipement[i].categorie_id;
                     });
                     $(document).find("#body-equip").append("<tr>"+
                     "<td>" + data.equipement[i].nom + "</td>"+
@@ -257,7 +257,7 @@ $(function() {
                 
                 for (var i = 0; i < data.maisons.length; i++) {
                     var cdbMaisons = data.cdbmaison.filter(function(item) {
-                        return item.maison_id.indexOf(data.maisons[i].id) > -1;
+                        return item.maison_id === data.maisons[i].id;
                     });
 
                     for (var j = 0; j < cdbMaisons.length; j++) {
@@ -280,7 +280,7 @@ $(function() {
             if(data.tours.length > 0) {
                 for (var i = 0; i < data.maisons.length; i++) {
                     var tours = data.tours.filter(function(item) {
-                        return item.maison_id.indexOf(data.maisons[i].id) > -1;
+                        return item.maison_id === data.maisons[i].id;
                     });
                     for (var j = 0; j < tours.length; j++) {
                         $(document).find("#body-tours").append("<tr>"+
@@ -298,7 +298,7 @@ $(function() {
             if(data.sorts.length > 0) {
                 for (var i = 0; i < data.maisons.length; i++) {
                     var sorts = data.sorts.filter(function(item) {
-                        return item.maison_id.indexOf(data.maisons[i].id) > -1;
+                        return item.maison_id === data.maisons[i].id;
                     });
                     for (var j = 0; j < sorts.length; j++) {
                         $(document).find("#body-sorts").append("<tr>"+
@@ -316,7 +316,7 @@ $(function() {
             if(data.sortileges.length > 0) {
                 for (var i = 0; i < data.maisons.length; i++) {
                     var sortileges = data.sortileges.filter(function(item) {
-                        return item.maison_id.indexOf(data.maisons[i].id) > -1;
+                        return item.maison_id === data.maisons[i].id;
                     });
                     for (var j = 0; j < sortileges.length; j++) {
                         $(document).find("#body-sortileges").append("<tr>"+
@@ -332,10 +332,10 @@ $(function() {
             if(data.competences.length > 0) {
                 for (var i = 0; i < data.competences.length; i++) {
                     var chapitres = data.chapitres.filter(function(item) {
-                        return item.id.indexOf(data.competences[i].chapitre_id) > -1;
+                        return item.id === data.competences[i].chapitre_id;
                     });
                     var caracs = data.caracs.filter(function(item) {
-                        return item.id.indexOf(data.competences[i].carac_id) > -1;
+                        return item.id === data.competences[i].carac_id;
                     });
                     var apprenti = "Oui";
                     if(data.competences[i].apprenti === "0") {
@@ -352,13 +352,16 @@ $(function() {
                     "<td>" + apprenti + "</td>"+
                     "<td>" + academie + "</td>"+
                     "</tr>");
+                    $(document).find("#select_comp").append($("<option></option>")
+                            .attr("value",data.competences[i].id)
+                            .text(data.competences[i].nom));
                 }
             }
             
             if(data.machinations.length > 0) {
                 for (var i = 0; i < data.machinations.length; i++) {
                     var chapitres = data.chapitres.filter(function(item) {
-                        return item.id.indexOf(data.machinations[i].chapitre_id) > -1;
+                        return item.id === data.machinations[i].chapitre_id;
                     });
                     $(document).find("#body-machi").append("<tr>"+
                     "<td>" + data.machinations[i].nom + "</td>"+
@@ -375,14 +378,140 @@ $(function() {
             
             if(data.metiers.length > 0) {
                 for (var i = 0; i < data.metiers.length; i++) {
-                    $(document).find("#body-metiers-metiers").append('<li class="list-group-item">'+
-                    '<a href="#">' + data.metiers[i].nom + "</a>"+
-                    "</li>");
+                    $(document).find("#body-metiers-metier").append(
+                        '<li><a class="list-group-item" data-metier-id="'+data.metiers[i].id+'" href="#">' + data.metiers[i].nom + "</a></li>"
+                    );
+                }
+                for (var i = 0; i < data.competences.length; i++) {
+                    $(document).find("#body-metiers-comp").append(
+                        '<li><a class="list-group-item" data-comp-id="'+data.competences[i].id+'" href="#">' + data.competences[i].nom + "</a></li>"
+                    );
+                }
+                for (var i = 0; i < data.caracs.length; i++) {
+                    $(document).find("#body-metiers-carac").append(
+                        '<li><a class="list-group-item" data-carac-id="'+data.caracs[i].id+'" href="#">' + data.caracs[i].nom + "</a></li>"
+                    );
+                    $(document).find("#select_carac").append($("<option></option>")
+                            .attr("value",data.caracs[i].id)
+                            .text(data.caracs[i].nom));
+                }
+                for (var i = 0; i < data.chapitres.length; i++) {
+                    $(document).find("#body-metiers-chap").append(
+                        '<li><a class="list-group-item" data-chap-id="'+data.chapitres[i].id+'" href="#">' + data.chapitres[i].nom + "</a></li>"
+                    );
                 }
             }
             
             $(document).find("table").each(function(index) {
                 sortTable($(this), 0);
+            });
+            
+            sortUnorderedList("body-metiers-metier");
+            sortUnorderedList("body-metiers-comp");
+            
+            $(document).on("click", "#body-metiers-metier li a", function (e) {
+                e.preventDefault();
+                
+                var metier_id = $(this).attr("data-metier-id");
+                
+                if(metier_id !== "") {
+                    
+                    $(document).find("#body-metiers-comp li a").removeClass("active");
+                    $(document).find("#body-metiers-metier li a").removeClass("active");
+                    $(document).find("#body-metiers-carac li a").removeClass("active");
+                    $(document).find("#body-metiers-chap li a").removeClass("active");
+                    $(this).addClass("active");
+                    
+                    var compmetiers = data.competencemetier.filter(function(item) {
+                        return item.metier_id === metier_id;
+                    });
+                    $(document).find("#body-metiers-comp li a").removeClass("active");
+                    for(var i=0; i < compmetiers.length;i++) {
+                        $(document).find("#body-metiers-comp li a[data-comp-id='"+compmetiers[i].comp_id+"']").addClass("active");
+                    }
+                }
+            });
+            
+            $(document).on("click", "#body-metiers-comp li a", function (e) {
+                e.preventDefault();
+                
+                var comp_id = $(this).attr("data-comp-id");
+                $("#body-metiers-comp li a").removeClass("active");
+                
+                if(comp_id !== "") {
+                    
+                    $(document).find("#body-metiers-comp li a").removeClass("active");
+                    $(document).find("#body-metiers-metier li a").removeClass("active");
+                    $(document).find("#body-metiers-carac li a").removeClass("active");
+                    $(document).find("#body-metiers-chap li a").removeClass("active");
+                    $(this).addClass("active");
+                    
+                    var compmetiers = data.competencemetier.filter(function(item) {
+                        return item.comp_id === comp_id;
+                    });
+                    
+                    $(document).find("#body-metiers-metier li a").removeClass("active");
+                    for(var i=0; i < compmetiers.length;i++) {
+                        $(document).find("#body-metiers-metier li a[data-metier-id='"+compmetiers[i].metier_id+"']").addClass("active");
+                    }
+                    
+                    var comps = data.competences.filter(function(item) {
+                        return item.id === comp_id;
+                    });
+                    
+                    $(document).find("#body-metiers-carac li a[data-carac-id='"+comps[0].carac_id+"']").addClass("active");
+                    $(document).find("#body-metiers-chap li a[data-chap-id='"+comps[0].chapitre_id+"']").addClass("active");
+                }
+            });
+            
+            $(document).on("click", "#body-metiers-carac li a", function (e) {
+                e.preventDefault();
+                
+                var carac_id = $(this).attr("data-carac-id");
+                $("#body-metiers-carac li a").removeClass("active");
+                
+                if(carac_id !== "") {
+                    
+                    $(document).find("#body-metiers-comp li a").removeClass("active");
+                    $(document).find("#body-metiers-metier li a").removeClass("active");
+                    $(document).find("#body-metiers-carac li a").removeClass("active");
+                    $(document).find("#body-metiers-chap li a").removeClass("active");
+                    $(this).addClass("active");
+                    
+                    var compcaracs = data.competences.filter(function(item) {
+                        return item.carac_id === carac_id;
+                    });
+                    
+                    for(var i=0; i < compcaracs.length;i++) {
+                        $(document).find("#body-metiers-comp li a[data-comp-id='"+compcaracs[i].id+"']").addClass("active");
+                    }
+                   
+                }
+            });
+            
+            $(document).on("click", "#body-metiers-chap li a", function (e) {
+                e.preventDefault();
+                
+                var chap_id = $(this).attr("data-chap-id");
+                $("#body-metiers-chap li a").removeClass("active");
+                
+                if(chap_id !== "") {
+                    
+                    $(document).find("#body-metiers-comp li a").removeClass("active");
+                    $(document).find("#body-metiers-metier li a").removeClass("active");
+                    $(document).find("#body-metiers-carac li a").removeClass("active");
+                    $(document).find("#body-metiers-chap li a").removeClass("active");
+                    $(this).addClass("active");
+                    
+                    var compchaps = data.competences.filter(function(item) {
+                        return item.chapitre_id === chap_id;
+                    });
+                    
+                    for(var i=0; i < compchaps.length;i++) {
+                        $(document).find("#body-metiers-comp li a[data-comp-id='"+compchaps[i].id+"']").addClass("active");
+                    }
+                   
+                }
             });
             
         }
@@ -443,4 +572,33 @@ function sortTable(table, n) {
         }
       }
     }
+  }
+function sortUnorderedList(ul, sortDescending) {
+    if(typeof ul == "string")
+      ul = document.getElementById(ul);
+
+    // Idiot-proof, remove if you want
+    if(!ul) {
+      console.log(ul + " is null...");
+      return;
+    }
+
+    // Get the list items and setup an array for sorting
+    var lis = ul.getElementsByTagName("a");
+    var vals = [];
+
+    // Populate the array
+    for(var i = 0, l = lis.length; i < l; i++)
+      vals.push(lis[i].innerHTML);
+
+    // Sort it
+    vals.sort();
+
+    // Sometimes you gotta DESC
+    if(sortDescending)
+      vals.reverse();
+
+    // Change the list on the page
+    for(var i = 0, l = lis.length; i < l; i++)
+      lis[i].innerHTML = vals[i];
   }
