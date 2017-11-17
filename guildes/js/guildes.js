@@ -441,38 +441,46 @@ $(function() {
                 $("#caracsPts").text(puces);
             });
 
-            $(document).on("change", "#perso-metiers", function(e) {
-                var metier_id = $(this).val();
-                var compmetiers = data.competencemetier.filter(function(item) {
-                    return item.metier_id === metier_id;
-                });
+            $(document).on("change","#perso-metiers",function(e) {
+                        var metier_id = $(this).val();
+                        if (metier_id !== "0") {
+                            $("#container-metiers-comp").removeClass("hidden");
+                            var compmetiers = data.competencemetier.filter(function(item) {
+                                return item.metier_id === metier_id;
+                            });
 
-                for (var i = 0; i < compmetiers.length; i++) {
-                    var comp = data.competences.filter(function(item) {
-                        return item.id === compmetiers[i].comp_id;
-                    });
-                    $("#body-perso-metiers-comp").append("<tr>" + "<td><span data-comp-id='"+comp[0].id+"'>" + comp[0].nom + "</span></td>" + "<td><select class='form-control'><option value='NC' selected>NC</option><option value='N'>Novice</option><option value='I'>Initié</option><option value='E'>Expert</option></td>" + "</tr>");
-                }
-                
-                var compaca = data.competences.filter(function(item) {
-                    return item.academie === "1";
-                });
-                
-                for (var i = 0; i < compaca.length; i++) {
-                    
-                    var trouve = false;
-                    
-                    $("#body-perso-metiers-comp tr td:first-child span").each(function() {
-                        if($(this).attr("data-comp-id") === compaca[i].id) {
-                            trouve = true;
+                            for (var i = 0; i < compmetiers.length; i++) {
+                                var comp = data.competences.filter(function(item) {
+                                    return item.id === compmetiers[i].comp_id;
+                                });
+                                $("#body-perso-metiers-comp").append(
+                                        "<tr>" + "<td><span data-comp-id='" + comp[0].id + "'>" + comp[0].nom + "</span></td>"
+                                                + "<td><select class='form-control'><option value='NC' selected>NC</option><option value='N'>Novice</option><option value='I'>Initié</option><option value='E'>Expert</option></td>" + "</tr>");
+                            }
+
+                            var compaca = data.competences.filter(function(item) {
+                                return item.academie === "1";
+                            });
+
+                            for (var i = 0; i < compaca.length; i++) {
+
+                                var trouve = false;
+
+                                $("#body-perso-metiers-comp tr td:first-child span").each(function() {
+                                    if ($(this).attr("data-comp-id") === compaca[i].id) {
+                                        trouve = true;
+                                    }
+                                });
+
+                                if (!trouve) {
+                                    $("#body-perso-metiers-compaca").append(
+                                            "<tr>" + "<td>" + compaca[i].nom + "</td>" + "<td><select class='form-control'><option value='NC' selected>NC</option><option value='N'>Novice</option><option value='I'>Initié</option><option value='E'>Expert</option></td>" + "</tr>");
+                                }
+                            }
+                        } else {
+                            $("#container-metiers-comp").addClass("hidden");
                         }
                     });
-                    
-                    if (!trouve) {
-                        $("#body-perso-metiers-compaca").append("<tr>" + "<td>" + compaca[i].nom + "</td>" + "<td><select class='form-control'><option value='NC' selected>NC</option><option value='N'>Novice</option><option value='I'>Initié</option><option value='E'>Expert</option></td>" + "</tr>");
-                    }
-                }
-            });
 
             $(document).on("change", "#body-perso-metiers-comp select", function(e) {
                 var compPts = 0;
@@ -487,7 +495,7 @@ $(function() {
                 });
                 $("#compPts").text(compPts);
             });
-            
+
             $(document).on("change", "#body-perso-metiers-compaca select", function(e) {
                 var compAcaPts = 0;
                 $(document).find("#body-perso-metiers-compaca select").each(function() {

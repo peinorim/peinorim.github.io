@@ -52,6 +52,10 @@ table th {
     width: 100px;
 }
 
+.center {
+    text-align: center;
+}
+
 @media ( min-width : 768px) and (max-width: 1047px) {
 }
 
