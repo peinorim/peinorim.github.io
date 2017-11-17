@@ -208,8 +208,6 @@ $(function() {
             }
             if (data.cdball.length > 0) {
 
-                $(document).find("#body-cdbmes").append('<div class="page-header col-xs-12"><h3>Coups de bol</h3></div>');
-
                 for (var i = 0; i < data.cdball.length; i++) {
                     $(document).find("#body-cdbmes").append('<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + data.cdball[i].nom + '</p>' + '<p>' + data.cdball[i].effet + '</p>' + '</div></div>');
                 }
@@ -312,6 +310,7 @@ $(function() {
             if (data.metiers.length > 0) {
                 for (var i = 0; i < data.metiers.length; i++) {
                     $(document).find("#body-metiers-metier").append('<li><a class="list-group-item" data-metier-id="' + data.metiers[i].id + '" href="#">' + data.metiers[i].nom + "</a></li>");
+                    $(document).find("#perso-metiers").append($("<option></option>").attr("value", data.metiers[i].id).text(data.metiers[i].nom));
                 }
                 for (var i = 0; i < data.competences.length; i++) {
                     $(document).find("#body-metiers-comp").append('<li><a class="list-group-item" data-comp-id="' + data.competences[i].id + '" href="#">' + data.competences[i].nom + "</a></li>");
@@ -433,7 +432,7 @@ $(function() {
 
                 }
             });
-            
+
             $(document).on("change", "#perso-caracs input[type='radio']", function(e) {
                 var puces = 0;
                 $("#perso-caracs label.active").each(function(index) {
@@ -441,34 +440,67 @@ $(function() {
                 });
                 $("#caracsPts").text(puces);
             });
+
+            $(document).on("change", "#perso-metiers", function(e) {
+                var metier_id = $(this).val();
+                var compmetiers = data.competencemetier.filter(function(item) {
+                    return item.metier_id === metier_id;
+                });
+
+                for (var i = 0; i < compmetiers.length; i++) {
+                    var comp = data.competences.filter(function(item) {
+                        return item.id === compmetiers[i].comp_id;
+                    });
+                    $("#body-perso-metiers-comp").append("<tr>" + "<td><span data-comp-id='"+comp[0].id+"'>" + comp[0].nom + "</span></td>" + "<td><select class='form-control'><option value='NC' selected>NC</option><option value='N'>Novice</option><option value='I'>Initié</option><option value='E'>Expert</option></td>" + "</tr>");
+                }
+                
+                var compaca = data.competences.filter(function(item) {
+                    return item.academie === "1";
+                });
+                
+                for (var i = 0; i < compaca.length; i++) {
+                    
+                    var trouve = false;
+                    
+                    $("#body-perso-metiers-comp tr td:first-child span").each(function() {
+                        if($(this).attr("data-comp-id") === compaca[i].id) {
+                            trouve = true;
+                        }
+                    });
+                    
+                    if (!trouve) {
+                        $("#body-perso-metiers-compaca").append("<tr>" + "<td>" + compaca[i].nom + "</td>" + "<td><select class='form-control'><option value='NC' selected>NC</option><option value='N'>Novice</option><option value='I'>Initié</option><option value='E'>Expert</option></td>" + "</tr>");
+                    }
+                }
+            });
+
+            $(document).on("change", "#body-perso-metiers-comp select", function(e) {
+                var compPts = 0;
+                $(document).find("#body-perso-metiers-comp select").each(function() {
+                    if ($(this).val() === "N") {
+                        compPts++;
+                    } else if ($(this).val() === "I") {
+                        compPts += 3;
+                    } else if ($(this).val() === "E") {
+                        compPts += 7;
+                    }
+                });
+                $("#compPts").text(compPts);
+            });
             
-//            $(document).on('change', '.compBase', function () {
-//                var ptsBase = 0;
-//                $(".compBase").each(function () {
-//                    if ($(this).val() === "N") {
-//                        ptsBase++;
-//                    } else if ($(this).val() === "I") {
-//                        ptsBase += 3;
-//                    } else if ($(this).val() === "E") {
-//                        ptsBase += 7;
-//                    }
-//                });
-//                $("#ptsBase").text(ptsBase);
-//            });
-//
-//            $(document).on('change', '.compAca', function () {
-//                var ptsAca = 0;
-//                $(".compAca").each(function () {
-//                    if ($(this).val() === "N") {
-//                        ptsAca += 2;
-//                    } else if ($(this).val() === "I") {
-//                        ptsAca += 6;
-//                    } else if ($(this).val() === "E") {
-//                        ptsAca += 14;
-//                    }
-//                });
-//                $("#ptsAca").text(ptsAca);
-//            });
+            $(document).on("change", "#body-perso-metiers-compaca select", function(e) {
+                var compAcaPts = 0;
+                $(document).find("#body-perso-metiers-compaca select").each(function() {
+                    if ($(this).val() === "N") {
+                        compAcaPts++;
+                    } else if ($(this).val() === "I") {
+                        compAcaPts += 3;
+                    } else if ($(this).val() === "E") {
+                        compAcaPts += 7;
+                    }
+                });
+                $("#compAcaPts").text(compAcaPts);
+            });
 
         }
 
