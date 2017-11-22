@@ -193,7 +193,7 @@ $(function() {
     });
 
     function loadData() {
-        $.getJSON("json/guildes.json", function(data) {
+        $.getJSON("guildes/json/guildes.json", function(data) {
 
             if (data !== null) {
                 if (data.armes.length > 0) {
