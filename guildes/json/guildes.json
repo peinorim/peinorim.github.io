@@ -984,7 +984,7 @@
 		},
 		{
 			"id": "44",
-			"nom": "un sachet de graines enchantées",
+			"nom": "Un sachet de graines enchantées",
 			"type_id": "2",
 			"maison_id": "6"
 		},
@@ -1013,18 +1013,18 @@
 			"maison_id": "1"
 		}
 	],
-	"artefactTypes": [
+	"artefacttypes": [
 		{
 			"id": "1",
-			"nom": "Mineurs"
+			"nom": "Mineur"
 		},
 		{
 			"id": "2",
-			"nom": "Puissants"
+			"nom": "Puissant"
 		},
 		{
 			"id": "3",
-			"nom": "Très puissants"
+			"nom": "Très puissant"
 		}
 	],
 	"caracs": [
@@ -5016,15 +5016,6 @@
 			"cible": "Une personne",
 			"duree": "1 minute",
 			"effet": "Le Maître Etrange peut, en tenant les mains d'une personne consentante et en regardant sa pupille, y voir une scène précise qui s'est déroulée dans l'heure précédente. La durée de cette scène ne peut dépasser une minute.",
-			"maison_id": "6"
-		},
-		{
-			"id": "48",
-			"nom": "Brise-bois",
-			"portee": "",
-			"cible": "",
-			"duree": "",
-			"effet": "",
 			"maison_id": "6"
 		},
 		{

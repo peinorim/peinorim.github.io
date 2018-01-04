@@ -217,6 +217,21 @@ $(function() {
                         $(document).find("#body-equip").append("<tr>" + "<td>" + data.equipement[i].nom + "</td>" + "<td>" + data.equipement[i].prix + "</td>" + "<td>" + data.equipement[i].rarete + "</td>" + "<td>" + filteredData[0].nom + "</td>" + "</tr>");
                     }
                 }
+                if (data.artefacts.length > 0) {
+                    for (var i = 0; i < data.artefacts.length; i++) {
+                        var maison = null;
+                        for (var j = 0; j < data.maisons.length; j++) {
+                            if(data.maisons[j].id === data.artefacts[i].maison_id) maison = data.maisons[j];
+                        }
+                        
+                        var type = null;
+                        for (var k = 0; k < data.artefacttypes.length; k++) {
+                            if(data.artefacttypes[k].id === data.artefacts[i].type_id) type = data.artefacttypes[k];
+                        }
+
+                        $(document).find("#body-artefacts").append("<tr>" + "<td>" + data.artefacts[i].nom + "</td>" + "<td>" + type.nom + "</td>" + "<td>" + maison.nom + "</td>" + "</tr>");
+                    }
+                }
                 if (data.cdball.length > 0) {
 
                     for (var i = 0; i < data.cdball.length; i++) {
