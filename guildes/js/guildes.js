@@ -232,7 +232,7 @@ $(function() {
 
                 if (data.cdbmaison.length > 0) {
 
-                    var htmlKeys = [ "#body-venn", "#body-ashra", "#body-gehem", "#body-felsi", "#body-ulmeq", "body-kheyz" ];
+                    var htmlKeys = [ "#body-venn", "#body-ashra", "#body-gehem", "#body-felsi", "#body-ulmeq", "#body-kheyz" ];
 
                     for (var i = 0; i < data.maisons.length; i++) {
                         var cdbMaisons = data.cdbmaison.filter(function(item) {
@@ -246,6 +246,19 @@ $(function() {
                                             + '</div></div>');
                         }
 
+                    }
+                }
+                
+                if (data.cdbacademie.length > 0) {
+
+                    for (var i = 0; i < data.cdbacademie.length; i++) {
+                        $(document).find("#body-academie").append('<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + data.cdbacademie[i].nom + '</p>' + '<p>' + data.cdbacademie[i].effet + '</p>' + '</div></div>');
+                    }
+
+                    $(document).find("#body-academie").append('<div class="page-header col-xs-12"><h3>Mésaventures</h3></div>');
+
+                    for (var i = 0; i < data.mesacademie.length; i++) {
+                        $(document).find("#body-academie").append('<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + data.mesacademie[i].nom + '</p>' + '<p>' + data.mesacademie[i].effet + '</p>' + '</div></div>');
                     }
                 }
 
