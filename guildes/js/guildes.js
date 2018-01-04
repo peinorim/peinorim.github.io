@@ -444,9 +444,14 @@ $(function() {
                 });
 
                 $(document).on("change", "#perso-caracs input[type='radio']", function(e) {
+
+                    if ($(this).is(':checked') === false) {
+                        $(this).prop('checked', true);
+                    }
+
                     var puces = 0;
-                    $("#perso-caracs label.active").each(function(index) {
-                        puces += parseInt($(this).text());
+                    $("#perso-caracs label.active input[type='radio']").each(function(index) {
+                        puces += parseInt($(this).val());
                     });
                     $("#caracsPts").text(puces);
                 });
