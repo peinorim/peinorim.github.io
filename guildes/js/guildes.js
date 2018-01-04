@@ -443,15 +443,21 @@ $(function() {
                     }
                 });
 
-                $(document).on("change", "#perso-caracs input[type='radio']", function(e) {
-
-                    if ($(this).is(':checked') === false) {
-                        $(this).prop('checked', true);
+                $(document).on("click", "#perso-caracs label", function(e) {
+                    
+                    $(this).parent("div:first").find("label").each(function(index) {
+                        $(this).removeClass("active");
+                    });
+                    
+                    if ($(this).hasClass("active")) {
+                        $(this).removeClass("active");
+                    } else {
+                        $(this).addClass("active");
                     }
 
                     var puces = 0;
-                    $("#perso-caracs label.active input[type='radio']").each(function(index) {
-                        puces += parseInt($(this).val());
+                    $("#perso-caracs").find("label.active").each(function(index) {
+                        puces += parseInt($(this).text());
                     });
                     $("#caracsPts").text(puces);
                 });
