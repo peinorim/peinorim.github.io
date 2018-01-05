@@ -192,6 +192,24 @@ $(function() {
         sortTable(table, $(this).index());
     });
 
+    var d = new Date();
+    var hour = d.getHours();
+
+    if (hour >= 21 || hour <= 8) {
+        $("body").addClass("nightMode");
+    }
+
+    if (typeof (Storage) !== "undefined") {
+        var nightMode = localStorage.getItem("nightMode");
+        if (nightMode === "true") {
+            $("body").addClass("nightMode");
+            $("#nightMode").prop('checked', true);
+        } else {
+            $("body").removeClass("nightMode");
+            $("#nightMode").prop('checked', false);
+        }
+    }
+    
     $(document).on("change", "#nightMode", function(index) {
         var nightMode = false;
         if ($(this).is(':checked')) {
@@ -204,17 +222,6 @@ $(function() {
             localStorage.setItem("nightMode", nightMode);
         }
     });
-
-    if (typeof (Storage) !== "undefined") {
-        var nightMode = localStorage.getItem("nightMode");
-        if (nightMode === "true") {
-            $("body").addClass("nightMode");
-            $("#nightMode").prop('checked', true);
-        } else {
-            $("body").removeClass("nightMode");
-            $("#nightMode").prop('checked', false);
-        }
-    }
 
     function loadData() {
         $.getJSON("guildes/json/guildes.json", function(data) {
