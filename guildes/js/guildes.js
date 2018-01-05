@@ -192,6 +192,30 @@ $(function() {
         sortTable(table, $(this).index());
     });
 
+    $(document).on("change", "#nightMode", function(index) {
+        var nightMode = false;
+        if ($(this).is(':checked')) {
+            $("body").addClass("nightMode");
+            nightMode = true;
+        } else {
+            $("body").removeClass("nightMode");
+        }
+        if (typeof (Storage) !== "undefined") {
+            localStorage.setItem("nightMode", nightMode);
+        }
+    });
+
+    if (typeof (Storage) !== "undefined") {
+        var nightMode = localStorage.getItem("nightMode");
+        if (nightMode === "true") {
+            $("body").addClass("nightMode");
+            $("#nightMode").prop('checked', true);
+        } else {
+            $("body").removeClass("nightMode");
+            $("#nightMode").prop('checked', false);
+        }
+    }
+
     function loadData() {
         $.getJSON("guildes/json/guildes.json", function(data) {
 
@@ -221,12 +245,14 @@ $(function() {
                     for (var i = 0; i < data.artefacts.length; i++) {
                         var maison = null;
                         for (var j = 0; j < data.maisons.length; j++) {
-                            if(data.maisons[j].id === data.artefacts[i].maison_id) maison = data.maisons[j];
+                            if (data.maisons[j].id === data.artefacts[i].maison_id)
+                                maison = data.maisons[j];
                         }
-                        
+
                         var type = null;
                         for (var k = 0; k < data.artefacttypes.length; k++) {
-                            if(data.artefacttypes[k].id === data.artefacts[i].type_id) type = data.artefacttypes[k];
+                            if (data.artefacttypes[k].id === data.artefacts[i].type_id)
+                                type = data.artefacttypes[k];
                         }
 
                         $(document).find("#body-artefacts").append("<tr>" + "<td>" + data.artefacts[i].nom + "</td>" + "<td>" + type.nom + "</td>" + "<td>" + maison.nom + "</td>" + "</tr>");
@@ -263,7 +289,7 @@ $(function() {
 
                     }
                 }
-                
+
                 if (data.cdbacademie.length > 0) {
 
                     for (var i = 0; i < data.cdbacademie.length; i++) {
@@ -472,11 +498,11 @@ $(function() {
                 });
 
                 $(document).on("click", "#perso-caracs label", function(e) {
-                    
+
                     $(this).parent("div:first").find("label").each(function(index) {
                         $(this).removeClass("active");
                     });
-                    
+
                     if ($(this).hasClass("active")) {
                         $(this).removeClass("active");
                     } else {
