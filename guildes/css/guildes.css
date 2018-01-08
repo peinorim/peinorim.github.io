@@ -72,7 +72,8 @@ body.nightMode h* {
     color: #5a666b !important;
 }
 
-body.nightMode .nav-tabs>li.active>a, body.nightMode .nav-tabs>li.active>a:hover, 
+body.nightMode .nav-tabs>li.active>a, 
+body.nightMode .nav-tabs>li.active>a:hover, 
 body.nightMode .nav-tabs>li.active>a:focus,
 body.nightMode .nav-tabs>li>a:hover, 
 body.nightMode .nav-tabs>li>a:focus {
@@ -86,7 +87,14 @@ body.nightMode .table>tfoot>tr>th,
 body.nightMode .table>thead>tr>td, 
 body.nightMode .table>tbody>tr>td, 
 body.nightMode .table>tfoot>tr>td {
-    border: 1px solid #bdc7c1;
+    border: none;
+    border-top: 1px solid #bdc7c1;
+    border-bottom: 1px solid #bdc7c1;
+}
+
+body.nightMode .table>thead>tr>th {
+    border: none;
+    border-bottom: 2px solid #bdc7c1;
 }
 
 body.nightMode .thumbnail {
