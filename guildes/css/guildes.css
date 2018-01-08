@@ -72,17 +72,20 @@ body.nightMode h* {
     color: #5a666b !important;
 }
 
-body.nightMode .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+body.nightMode .nav-tabs>li.active>a, body.nightMode .nav-tabs>li.active>a:hover, 
+body.nightMode .nav-tabs>li.active>a:focus,
+body.nightMode .nav-tabs>li>a:hover, 
+body.nightMode .nav-tabs>li>a:focus {
     background-color: #142634 !important;
     border: 1px solid #bdc7c1;
 }
 
-body.nightMode .nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
-    background-color: #142634 !important;
-    border: 1px solid #bdc7c1;
-}
-
-body.nightMode .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+body.nightMode .table>thead>tr>th, 
+body.nightMode .table>tbody>tr>th, 
+body.nightMode .table>tfoot>tr>th, 
+body.nightMode .table>thead>tr>td, 
+body.nightMode .table>tbody>tr>td, 
+body.nightMode .table>tfoot>tr>td {
     border: 1px solid #bdc7c1;
 }
 
@@ -106,7 +109,9 @@ body.nightMode .panel-primary>.panel-heading {
     color: #bdc7c1 !important;
 }
 
-body.nightMode .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+body.nightMode .list-group-item.active, 
+body.nightMode .list-group-item.active:hover, 
+body.nightMode .list-group-item.active:focus {
     background-color: #5a666b !important;
     border-color: #5a666b !important;
 }
