@@ -78,7 +78,6 @@ body.nightMode .nav-tabs>li.active>a:focus,
 body.nightMode .nav-tabs>li>a:hover, 
 body.nightMode .nav-tabs>li>a:focus {
     background-color: #142634 !important;
-    border: 1px solid #bdc7c1;
 }
 
 body.nightMode .table>thead>tr>th, 
