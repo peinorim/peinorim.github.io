@@ -137,6 +137,7 @@ body.nightMode .open>.dropdown-toggle.btn-primary {
     color: #bdc7c1;
     background-color: #8e3015;
     border-color: #d48872;
+    outline-color: #d48872;
 }
 
 .material-switch > input[type="checkbox"] {
