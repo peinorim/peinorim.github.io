@@ -123,6 +123,22 @@ body.nightMode .list-group-item.active:focus {
     border-color: #5a666b !important;
 }
 
+body.nightMode .btn-primary {
+    color: #d48872;
+    background-color: #0c0c0c;
+    border-color: #d48872;
+}
+
+body.nightMode .btn-primary:active, 
+body.nightMode .btn-primary.active, 
+body.nightMode .btn-primary.active:focus, 
+body.nightMode .btn-primary.active:hover, 
+body.nightMode .open>.dropdown-toggle.btn-primary {
+    color: #bdc7c1;
+    background-color: #8e3015;
+    border-color: #d48872;
+}
+
 .material-switch > input[type="checkbox"] {
     display: none;   
 }
