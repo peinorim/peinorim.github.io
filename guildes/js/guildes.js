@@ -194,22 +194,26 @@ $(function() {
 
     var d = new Date();
     var hour = d.getHours();
+    var setNightMode = false;
 
     if (hour >= 21 || hour <= 8) {
-        $("body").addClass("nightMode");
+        setNightMode = true;
     }
 
     if (typeof (Storage) !== "undefined") {
         var nightMode = localStorage.getItem("nightMode");
         if (nightMode === "true") {
-            $("body").addClass("nightMode");
-            $("#nightMode").prop('checked', true);
+            setNightMode = true;
         } else {
-            $("body").removeClass("nightMode");
-            $("#nightMode").prop('checked', false);
+            setNightMode = false;
         }
     }
-    
+
+    if (setNightMode) {
+        $("body").addClass("nightMode");
+        $("#nightMode").prop('checked', true);
+    }
+
     $(document).on("change", "#nightMode", function(index) {
         var nightMode = false;
         if ($(this).is(':checked')) {
