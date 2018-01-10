@@ -68,7 +68,8 @@ body.nightMode a {
     color: #d48872 !important;
 }
 
-body.nightMode h* {
+body.nightMode h1, body.nightMode h2, body.nightMode h3, 
+body.nightMode h4, body.nightMode h5, body.nightMode h6 {
     color: #5a666b !important;
 }
 
