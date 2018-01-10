@@ -212,15 +212,18 @@ $(function() {
     if (setNightMode) {
         $("body").addClass("nightMode");
         $("#nightMode").prop('checked', true);
+        $("meta[name='theme-color']").attr('content', '#142634');
     }
 
     $(document).on("change", "#nightMode", function(index) {
         var nightMode = false;
         if ($(this).is(':checked')) {
             $("body").addClass("nightMode");
+            $("meta[name='theme-color']").attr("content", "#142634");
             nightMode = true;
         } else {
             $("body").removeClass("nightMode");
+            $("meta[name='theme-color']").attr("content", "#dae3e7");
         }
         if (typeof (Storage) !== "undefined") {
             localStorage.setItem("nightMode", nightMode);
