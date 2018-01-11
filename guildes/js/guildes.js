@@ -534,6 +534,10 @@ $(function() {
                     var metier_id = $(this).val();
                     if (metier_id !== "0") {
                         $("#container-metiers-comp").removeClass("hidden");
+                        $("#body-perso-metiers-comp").html("");
+                        $("#body-perso-metiers-compaca").html("");
+                        $("#compPts").text("0");
+                        $("#compAcaPts").text("0");
                         var compmetiers = data.competencemetier.filter(function(item) {
                             return item.metier_id === metier_id;
                         });
