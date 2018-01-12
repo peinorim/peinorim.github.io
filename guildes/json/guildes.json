@@ -749,22 +749,10 @@
 			"maison_id": "1"
 		},
 		{
-			"id": "5",
-			"nom": "Crache-feu long",
-			"type_id": "1",
-			"maison_id": "2"
-		},
-		{
 			"id": "6",
 			"nom": "Bourse enchantée",
 			"type_id": "1",
 			"maison_id": "2"
-		},
-		{
-			"id": "7",
-			"nom": "Gueule de dragon",
-			"type_id": "1",
-			"maison_id": "3"
 		},
 		{
 			"id": "8",

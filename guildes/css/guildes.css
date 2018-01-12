@@ -60,6 +60,10 @@ img.center {
     margin: 0 auto;
 }
 
+.tab-pane>.container {
+    margin-top: 20px;
+}
+
 body.nightMode {
     color: #bdc7c1 !important;
     background-color: #142634;
