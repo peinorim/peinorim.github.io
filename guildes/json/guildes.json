@@ -3675,7 +3675,7 @@
 		{
 			"id": "5",
 			"nom": "Je suis un bâtard illégitime et sans avenir. Peu importe que ma mère ait été consentante ou non, elle n'aurait pas dû me garder. j'en paye les conséquences maintenant.",
-			"effet": "Tu peux choisir des mésaventures dans n'importe laquelle de tes deux Maisons maos pas de coups de bol. Cette mésaventure est interdite aux Felsins."
+			"effet": "Tu peux choisir des mésaventures dans n'importe laquelle de tes deux Maisons mais pas de coups de bol. Cette mésaventure est interdite aux Felsins."
 		},
 		{
 			"id": "6",
@@ -3684,7 +3684,7 @@
 		},
 		{
 			"id": "7",
-			"nom": "Je ne sais plus que je suis. Je ne sais pas si j'étais quelqu'un ou personne. Je ne sais pas d'où je viens... c'est tout. Pas de nom, pas de famille, peu d'amis et un âge approximatif. Est-ce qu'on m'a jeté un sort ? Etait-ce un accident ? Je sais faire des choses mais j'ignore où j'ai bien pu les apprendre.",
+			"nom": "Je ne sais plus qui je suis. Je ne sais pas si j'étais quelqu'un ou personne. Je ne sais pas d'où je viens... c'est tout. Pas de nom, pas de famille, peu d'amis et un âge approximatif. Est-ce qu'on m'a jeté un sort ? Etait-ce un accident ? Je sais faire des choses mais j'ignore où j'ai bien pu les apprendre.",
 			"effet": "Une mésaventure secrète dont tu ne sais rien, c'est ton passé. Elle ne rapporte pas de coups de bol mais son effet technique s'applique."
 		}
 	],
