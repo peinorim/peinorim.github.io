@@ -229,6 +229,8 @@ $(function() {
             localStorage.setItem("nightMode", nightMode);
         }
     });
+    
+    $("#author").text($("#author").text() + " - " + d.getFullYear());
 
     function loadData() {
         $.getJSON("guildes/json/guildes.json", function(data) {

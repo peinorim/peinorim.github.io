@@ -1308,7 +1308,7 @@
 			"titre": "J'ai participé à une conspiration contre le Doge lui-même.",
 			"cdb": "C'est moi qui ai eu l'idée du complot originel bien que mes aînés l'aient beaucoup enrichie. Le complot a abouti exactement selon mes plans. A la suite de ce coup d'éclat les plus hautes sphères du pouvoir se sont ouvertes à moi.",
 			"effet": "Tu peux acquérir des machinations en art guildien si ton métier et ton niveau te le permettent.",
-			"mes": "Le complot a été éventé par le Doge lui-même. Suite à celà on m'a 'condamné' à m'engager dans une Académie et à partir sur le Continent. Régulièrement un Venn'Dys me confie un ordre de mission signé par le Doge lui-même. En as d'échec, mes parents, frères, soeurs et tous ceux qui me sont proches paieront pour moi.",
+			"mes": "Le complot a été éventé par le Doge lui-même. Suite à celà on m'a 'condamné' à m'engager dans une Académie et à partir sur le Continent. Régulièrement un Venn'Dys me confie un ordre de mission signé par le Doge lui-même. En cas d'échec, mes parents, frères, soeurs et tous ceux qui me sont proches paieront pour moi.",
 			"mes_effet": "Hum ! Je ne peux pas être considéré comme un proche n'est-ce pas ?",
 			"maison_id": "1"
 		},

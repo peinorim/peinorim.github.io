@@ -188,11 +188,26 @@ body.nightMode .table-hover>tbody>tr:hover {
     background-color: #d48872;
 }
 
+/********************************************************************************************************* */
+/********************************************** FOOTER *************************************************** */
+/********************************************************************************************************* */
+.footer {
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
 @media ( min-width : 768px) and (max-width: 1047px) {
 }
 
 @media ( max-width : 767px) {
     #body-metiers-comp li, #body-metiers-metier li, #body-metiers-chap li, #body-metiers-carac li {
         width: 50%;
+    }
+    .footer {
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 }
