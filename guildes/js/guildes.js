@@ -214,6 +214,8 @@ $(function() {
         $("#nightMode").prop('checked', true);
         $("meta[name='theme-color']").attr('content', '#142634');
     }
+    
+    $("#author").text($("#author").text() + " - " + d.getFullYear());
 
     $(document).on("change", "#nightMode", function(index) {
         var nightMode = false;
@@ -229,8 +231,6 @@ $(function() {
             localStorage.setItem("nightMode", nightMode);
         }
     });
-    
-    $("#author").text($("#author").text() + " - " + d.getFullYear());
 
     function loadData() {
         $.getJSON("guildes/json/guildes.json", function(data) {

@@ -4607,7 +4607,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "Prochain jet de compétence",
-			"effet": "Le Maître Etrange apprend provisoirement une des compétences que la cible maîtrise au niveau initié minimum (le Maître etrange peut choisir la compétence). Cette compétence ne peut pas être un Art Etrange, ni même la compétence Loom. La prochaine fois que le Maître Etrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bénéficiera du niveau de maîtrise directement inférieur à celui de la cible (si la cible maîtrisait la compétence au niveau expert, le Mâitre Etrange la connaîtra au niveau initié). Les compétences automatiques des autochtones (langues, connaissance des us et coutumes...) sont obtenues au niveau expert.",
+			"effet": "Le Maître Etrange apprend provisoirement une des compétences que la cible maîtrise au niveau initié minimum (le Maître etrange peut choisir la compétence). Cette compétence ne peut pas être un Art Etrange, ni même la compétence Loom. La prochaine fois que le Maître Etrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bénéficiera du niveau de maîtrise directement inférieur à celui de la cible (si la cible maîtrisait la compétence au niveau expert, le Maître Etrange la connaîtra au niveau initié). Les compétences automatiques des autochtones (langues, connaissance des us et coutumes...) sont obtenues au niveau expert.",
 			"maison_id": "5"
 		},
 		{
