@@ -108,7 +108,8 @@ body.nightMode .form-control, body.nightMode .panel-primary>.panel-heading {
     color: #bdc7c1 !important;
 }
 
-body.nightMode .list-group-item.active, body.nightMode .list-group-item.active:hover, body.nightMode .list-group-item.active:focus {
+body.nightMode .list-group-item.active, body.nightMode .list-group-item.active:hover, body.nightMode .list-group-item.active:focus, .list-group-item.searched,
+    body.nightMode .list-group-item.searched {
     background-color: #5a666b !important;
     border-color: #5a666b !important;
 }
