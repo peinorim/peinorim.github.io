@@ -433,7 +433,6 @@ $(function() {
 
                 $(document).on("mouseenter", "#body-metiers-comp li a", function() {
                     $(document).find("#body-metiers-carac li a[data-carac-id='" + $(this).attr("data-carac-id") + "']").addClass("searched");
-                    
                 });
                 
                 $(document).on("mouseleave", "#body-metiers-comp li a", function() {
