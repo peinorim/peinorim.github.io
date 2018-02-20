@@ -1063,7 +1063,7 @@
 		},
 		{
 			"id": "10",
-			"nom": "Art Etrange",
+			"nom": "Art Étrange",
 			"type_id": "3"
 		},
 		{
@@ -1104,8 +1104,8 @@
 		},
 		{
 			"id": "12",
-			"nom": "Apprentissage magique supérieur, j'ai suivi des cours particuliers dans les Arts Etranges, j'ai appris un ou deux tours supplémentaires.",
-			"effet": "Tu peux acheter des tours ou des sorts (pas de sortilèges), ils valent 1 point de compétence pour les tours et 2 pour les sorts. Ces coût sont doublés pour ceux qui n'ont pas un métier dans les Arts Etranges."
+			"nom": "Apprentissage magique supérieur, j'ai suivi des cours particuliers dans les Arts Étranges, j'ai appris un ou deux tours supplémentaires.",
+			"effet": "Tu peux acheter des tours ou des sorts (pas de sortilèges), ils valent 1 point de compétence pour les tours et 2 pour les sorts. Ces coût sont doublés pour ceux qui n'ont pas un métier dans les Arts Étranges."
 		},
 		{
 			"id": "13",
@@ -1134,7 +1134,7 @@
 		},
 		{
 			"id": "18",
-			"nom": "Etrange maître, il y avait un maître étrange doublement étrange dans mon Académie. D'habitude ils sont complètement tarés et franchement paranoïaques, celui-là c'était pas du tout ça. Bon il était quand même un peu frappé mais il a accepté de m'enseigner la magie d'une autre Maison que la mienne.",
+			"nom": "Étrange maître, il y avait un maître étrange doublement étrange dans mon Académie. D'habitude ils sont complètement tarés et franchement paranoïaques, celui-là c'était pas du tout ça. Bon il était quand même un peu frappé mais il a accepté de m'enseigner la magie d'une autre Maison que la mienne.",
 			"effet": "Tu peux ouvrir un art d'une autre Maison que la tienne au coût professionnel et tu obtiens deux tours de cet art."
 		},
 		{
@@ -1176,7 +1176,7 @@
 		},
 		{
 			"id": "6",
-			"nom": "J'étais auprès d'un Maître Etrange plusieurs mois avant l'académie. Forcément ça m'a aidé.",
+			"nom": "J'étais auprès d'un Maître Étrange plusieurs mois avant l'académie. Forcément ça m'a aidé.",
 			"effet": "Un niveau supplémentaire dans l'art de ta Maison et un tour."
 		},
 		{
@@ -3679,7 +3679,7 @@
 	"mesacademie": [
 		{
 			"id": "1",
-			"nom": "Pas d'Académie, ben... je vais te confier un secret, en fait je ne suis pas passé par l'Académie. J'ai soudoyé un Maître Etrange pour avoir un guilder constellé et des papiers en règle et vogue la galère. Je l'ai payé cher sur le Continent mais je suis sûr que j'étais destiné à y aller, l'Académie n'aurait jamais dû me virer.",
+			"nom": "Pas d'Académie, ben... je vais te confier un secret, en fait je ne suis pas passé par l'Académie. J'ai soudoyé un Maître Étrange pour avoir un guilder constellé et des papiers en règle et vogue la galère. Je l'ai payé cher sur le Continent mais je suis sûr que j'étais destiné à y aller, l'Académie n'aurait jamais dû me virer.",
 			"effet": "Inutile de répartir des points sur L'Académie ou d'y choisir des coups de bol."
 		},
 		{
@@ -3714,7 +3714,7 @@
 		},
 		{
 			"id": "8",
-			"nom": "Incident magique, je n'ai jamais su si c'était un avertissement, un accident ou une volonté délibérée de me nuire. Toujours est-il qu'un Maître Etrange m'a marqué magiquement. Un signe me suit, qui me désigne comme un être à part, anormal.",
+			"nom": "Incident magique, je n'ai jamais su si c'était un avertissement, un accident ou une volonté délibérée de me nuire. Toujours est-il qu'un Maître Étrange m'a marqué magiquement. Un signe me suit, qui me désigne comme un être à part, anormal.",
 			"effet": "Laisse-moi deviner, tu n'as plus d'ombre ? Elle se comporte différemment de toi ? Tes yeux brillent dans le noir ? Tu fais peur aux animaux ? (Choisis une manifestation de cette marque)."
 		},
 		{
@@ -4607,7 +4607,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "Prochain jet de compétence",
-			"effet": "Le Maître Etrange apprend provisoirement une des compétences que la cible maîtrise au niveau initié minimum (le Maître etrange peut choisir la compétence). Cette compétence ne peut pas être un Art Etrange, ni même la compétence Loom. La prochaine fois que le Maître Etrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bénéficiera du niveau de maîtrise directement inférieur à celui de la cible (si la cible maîtrisait la compétence au niveau expert, le Maître Etrange la connaîtra au niveau initié). Les compétences automatiques des autochtones (langues, connaissance des us et coutumes...) sont obtenues au niveau expert.",
+			"effet": "Le Maître Étrange apprend provisoirement une des compétences que la cible maîtrise au niveau initié minimum (le Maître etrange peut choisir la compétence). Cette compétence ne peut pas être un Art Étrange, ni même la compétence Loom. La prochaine fois que le Maître Étrange sollicite cette aptitude (au plus tard, lors de la PA suivante), il bénéficiera du niveau de maîtrise directement inférieur à celui de la cible (si la cible maîtrisait la compétence au niveau expert, le Maître Étrange la connaîtra au niveau initié). Les compétences automatiques des autochtones (langues, connaissance des us et coutumes...) sont obtenues au niveau expert.",
 			"maison_id": "5"
 		},
 		{
@@ -4625,7 +4625,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "Prochaine action",
-			"effet": "Le Maître Etrange force la victime à frapper la plus proche personne ou objet se trouvant à proximité. Si elle a une arme en main, la victime l'utilisera automatiquement, sinon, elle frappera à mains nues. Après l'acte, la victime saura déceler le Maître Etrange auteur de ce tour. ",
+			"effet": "Le Maître Étrange force la victime à frapper la plus proche personne ou objet se trouvant à proximité. Si elle a une arme en main, la victime l'utilisera automatiquement, sinon, elle frappera à mains nues. Après l'acte, la victime saura déceler le Maître Étrange auteur de ce tour. ",
 			"maison_id": "5"
 		},
 		{
@@ -4634,7 +4634,7 @@
 			"portee": "Toucher",
 			"cible": "Une serrure",
 			"duree": "instantanée",
-			"effet": "Le Maître Etrange matérialise un gaz onirique bleuté qui s'introduit dans une serrure, la rendant plus facile à crocheter. La prochaine personne qui tentera de crocheter cette serrure bénéficiera d'une diminution d'un niveau de Difficulté (minimu: Très Facile) à son jet de Crochetage.",
+			"effet": "Le Maître Étrange matérialise un gaz onirique bleuté qui s'introduit dans une serrure, la rendant plus facile à crocheter. La prochaine personne qui tentera de crocheter cette serrure bénéficiera d'une diminution d'un niveau de Difficulté (minimu: Très Facile) à son jet de Crochetage.",
 			"maison_id": "5"
 		},
 		{
@@ -4652,7 +4652,7 @@
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "instantanée",
-			"effet": "Ce tour permet au Maître Etrange de savoir avec certitude si la personne visée a des intentions belliqueuses à son égard ou pas.",
+			"effet": "Ce tour permet au Maître Étrange de savoir avec certitude si la personne visée a des intentions belliqueuses à son égard ou pas.",
 			"maison_id": "5"
 		},
 		{
@@ -4661,7 +4661,7 @@
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "5 PA",
-			"effet": "En fixant la cible dans les yeux, le Maître Etrange lui inspire confiance, dans une certaine limite. Cette confiance n'ira pas à l'encontre des sentiments les plus forts de la cible mais peut temporairement les atténuer. Elle acceptera, par exemple, de discuter avec quelqu'un qu'elle refusait d'écouter préalablement.",
+			"effet": "En fixant la cible dans les yeux, le Maître Étrange lui inspire confiance, dans une certaine limite. Cette confiance n'ira pas à l'encontre des sentiments les plus forts de la cible mais peut temporairement les atténuer. Elle acceptera, par exemple, de discuter avec quelqu'un qu'elle refusait d'écouter préalablement.",
 			"maison_id": "5"
 		},
 		{
@@ -4679,7 +4679,7 @@
 			"portee": "5m",
 			"cible": "Le maître étrange",
 			"duree": "5 PA",
-			"effet": "Le Maître Etrange invoque une libellule luminescente et immatérielle, qui volette près de lui en dégageant une lumière équivalente à celle d'une bougie. La libellule suit le Maître Etrange et reste, quoi qu'il arrive, près de lui jusqu'à la fin du tour.",
+			"effet": "Le Maître Étrange invoque une libellule luminescente et immatérielle, qui volette près de lui en dégageant une lumière équivalente à celle d'une bougie. La libellule suit le Maître Étrange et reste, quoi qu'il arrive, près de lui jusqu'à la fin du tour.",
 			"maison_id": "5"
 		},
 		{
@@ -4715,7 +4715,7 @@
 			"portee": "Toucher",
 			"cible": "Le maître étrange ",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange prend la couleur d'une flamme. S'il se positionne à moins d'un mètre d'une flamme de taille au moins équivalente à celle d'une torche, il devient très difficile à distinguer. Tout individu qui le cherche subit un malus d'un niveau de Difficulté supplémentaire pour le repérer (par exemple, à son jet de Vigilance). Si le Maître Etrange attaque, parle, ou bouge trop brusquement, il se découvre instantanément et le tour prend fin.",
+			"effet": "Le Maître Étrange prend la couleur d'une flamme. S'il se positionne à moins d'un mètre d'une flamme de taille au moins équivalente à celle d'une torche, il devient très difficile à distinguer. Tout individu qui le cherche subit un malus d'un niveau de Difficulté supplémentaire pour le repérer (par exemple, à son jet de Vigilance). Si le Maître Étrange attaque, parle, ou bouge trop brusquement, il se découvre instantanément et le tour prend fin.",
 			"maison_id": "3"
 		},
 		{
@@ -4724,7 +4724,7 @@
 			"portee": "5m",
 			"cible": "Une personne",
 			"duree": "instantanée",
-			"effet": "Le Maître Etrange provoque à distance une profonde estafilade sur le cou de la cible, qui subit automatiquement une Blessure légère.",
+			"effet": "Le Maître Étrange provoque à distance une profonde estafilade sur le cou de la cible, qui subit automatiquement une Blessure légère.",
 			"maison_id": "3"
 		},
 		{
@@ -4733,7 +4733,7 @@
 			"portee": "Toucher",
 			"cible": "Serrure",
 			"duree": "6 PA",
-			"effet": "Le mécanisme de fermeture touché par le Maître Etrange se scelle et devient difficile à ouvrir. Pour toute la durée du tour, le mécanisme ne pourra être ouvert qu'en réussissant un jet de caractéristique Fort ou un jet de compétence Crochetage Difficile.",
+			"effet": "Le mécanisme de fermeture touché par le Maître Étrange se scelle et devient difficile à ouvrir. Pour toute la durée du tour, le mécanisme ne pourra être ouvert qu'en réussissant un jet de caractéristique Fort ou un jet de compétence Crochetage Difficile.",
 			"maison_id": "3"
 		},
 		{
@@ -4742,7 +4742,7 @@
 			"portee": "Toucher",
 			"cible": "Le maître étrange",
 			"duree": "Prochain jet de Commandement",
-			"effet": "Le prochain jet de Commandement du Maître Etrange (dans les 3 PA qui suivent le tour) bénéficie d'une réduction d'un niveau de Difficulté.",
+			"effet": "Le prochain jet de Commandement du Maître Étrange (dans les 3 PA qui suivent le tour) bénéficie d'une réduction d'un niveau de Difficulté.",
 			"maison_id": "3"
 		},
 		{
@@ -4760,7 +4760,7 @@
 			"portee": "5m",
 			"cible": "L'entourage du maître étrange",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange acquiert une présence majestueuse. Tous ceux qui l'ont dans leur champ de vision et qui ratent leur jet de résistance magique se tournent vers lui et sont plongés dans un état de fascination intense pendant toute la durée de la PA. Les victimes ne peuvent même pas se défendre tant qu'elles sont sous ce charme.",
+			"effet": "Le Maître Étrange acquiert une présence majestueuse. Tous ceux qui l'ont dans leur champ de vision et qui ratent leur jet de résistance magique se tournent vers lui et sont plongés dans un état de fascination intense pendant toute la durée de la PA. Les victimes ne peuvent même pas se défendre tant qu'elles sont sous ce charme.",
 			"maison_id": "3"
 		},
 		{
@@ -4787,7 +4787,7 @@
 			"portee": "5m",
 			"cible": "Air environnant",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange fait apparaître devant lui un mur d'air condensé d'un mètre carré, qui soustrait 3 points à l'ATT de tous les projectiles qui passent au travers.",
+			"effet": "Le Maître Étrange fait apparaître devant lui un mur d'air condensé d'un mètre carré, qui soustrait 3 points à l'ATT de tous les projectiles qui passent au travers.",
 			"maison_id": "1"
 		},
 		{
@@ -4796,7 +4796,7 @@
 			"portee": "Toucher",
 			"cible": "Un objet de moins d1 kg",
 			"duree": "30 secondes",
-			"effet": "L'objet touché par le Maître Etrange paraît soudainement beaucoup plus beau, et ses défauts apparents disparaissent.",
+			"effet": "L'objet touché par le Maître Étrange paraît soudainement beaucoup plus beau, et ses défauts apparents disparaissent.",
 			"maison_id": "1"
 		},
 		{
@@ -4805,7 +4805,7 @@
 			"portee": "5m",
 			"cible": "L'air environnant",
 			"duree": "5 PA",
-			"effet": "Le Maître Etrange fait apparaître au-dessus de lui une petite sphère de lumière, qui éclaire comme une torche mais ne peut être déplacée.",
+			"effet": "Le Maître Étrange fait apparaître au-dessus de lui une petite sphère de lumière, qui éclaire comme une torche mais ne peut être déplacée.",
 			"maison_id": "1"
 		},
 		{
@@ -4814,7 +4814,7 @@
 			"portee": "Toucher",
 			"cible": "Le maître étrange",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange modifie légèrement les traits de son visage, et devient difficile à reconnaître (jet de caractéristique Difficile pour le reconnaître).",
+			"effet": "Le Maître Étrange modifie légèrement les traits de son visage, et devient difficile à reconnaître (jet de caractéristique Difficile pour le reconnaître).",
 			"maison_id": "1"
 		},
 		{
@@ -4823,7 +4823,7 @@
 			"portee": "5m",
 			"cible": "Une mèche",
 			"duree": "instantanée",
-			"effet": "Le Maître Etrange fait s'enflammer spontanément la mèche d'une chandelle, d'une lanterne, ou d'un autre objet de ce type",
+			"effet": "Le Maître Étrange fait s'enflammer spontanément la mèche d'une chandelle, d'une lanterne, ou d'un autre objet de ce type",
 			"maison_id": "1"
 		},
 		{
@@ -4832,7 +4832,7 @@
 			"portee": "Toucher",
 			"cible": "Le maître étrange",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange peut léviter à trente centimètres du sol, et marcher sur l'air à une vitesse maximale de (Agile) mètres par PA.",
+			"effet": "Le Maître Étrange peut léviter à trente centimètres du sol, et marcher sur l'air à une vitesse maximale de (Agile) mètres par PA.",
 			"maison_id": "1"
 		},
 		{
@@ -4841,7 +4841,7 @@
 			"portee": "Toucher",
 			"cible": "Le maître étrange",
 			"duree": "3 PA",
-			"effet": "Le Maître Etrange se colle contre une plante ou un arbre au moins aussi grand que lui et s'y dissimule. La Difficulté de son ou ses jets de Discrétion est alors diminuée d'un niveau pour toute la durée du tour (mais le Maître Etrange ne peut pas se déplacer, ni parler, sous peine d'interrompre prématurément l'effet de ce tour.",
+			"effet": "Le Maître Étrange se colle contre une plante ou un arbre au moins aussi grand que lui et s'y dissimule. La Difficulté de son ou ses jets de Discrétion est alors diminuée d'un niveau pour toute la durée du tour (mais le Maître Étrange ne peut pas se déplacer, ni parler, sous peine d'interrompre prématurément l'effet de ce tour.",
 			"maison_id": "1"
 		},
 		{
@@ -4850,7 +4850,7 @@
 			"portee": "Toucher",
 			"cible": "Le maître étrange",
 			"duree": "Résistant + 2 minutes",
-			"effet": "Le Maître Etrange peut rester sous l'eau sans subir le moindre malus pour une durée de Résistant + 2 minutes.",
+			"effet": "Le Maître Étrange peut rester sous l'eau sans subir le moindre malus pour une durée de Résistant + 2 minutes.",
 			"maison_id": "1"
 		},
 		{
@@ -4859,7 +4859,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "prochain ATT (durée maximale 24 heures)",
-			"effet": "Le Maître Etrange appose ses mains sur le front d'une personne, qui bénéficiera pour son prochain combat au corps à corps, d'un bonuss de +1 à son premier ATT. Ce bonus disparaît si le bénéficiaire ne s'en sert pas.",
+			"effet": "Le Maître Étrange appose ses mains sur le front d'une personne, qui bénéficiera pour son prochain combat au corps à corps, d'un bonus de +1 à son premier ATT. Ce bonus disparaît si le bénéficiaire ne s'en sert pas.",
 			"maison_id": "1"
 		},
 		{
@@ -4868,7 +4868,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "instantanée",
-			"effet": "Le Maître Etrange appose ses mains sur la cible dont une blessure est réduite d'un niveau, à condition que la blessure visée ait été occasionnée dans la demi-heure précédente.",
+			"effet": "Le Maître Étrange appose ses mains sur la cible dont une blessure est réduite d'un niveau, à condition que la blessure visée ait été occasionnée dans la demi-heure précédente.",
 			"maison_id": "1"
 		},
 		{
@@ -4958,7 +4958,7 @@
 			"portee": "Toucher",
 			"cible": "Un cadavre",
 			"duree": "Permanente",
-			"effet": "Ce tour permet au Maître Etrange de rigidifier un cadavre comme s'il avait atteint son stade ultime de raideur cadavérique. Le cadavre, ausi dur que du bois, peut ainsi être déplacé plus facilement ou même servir d'élément de construction.",
+			"effet": "Ce tour permet au Maître Étrange de rigidifier un cadavre comme s'il avait atteint son stade ultime de raideur cadavérique. Le cadavre, ausi dur que du bois, peut ainsi être déplacé plus facilement ou même servir d'élément de construction.",
 			"maison_id": "2"
 		},
 		{
@@ -4967,7 +4967,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "3 PA",
-			"effet": "Le Maître Etrange fait pousser une grosse fleur rouge dans l'une des mains de la cible (au choix du Maître Etrange), qui subit un malus de +1 à la Difficulté de toute action nécessitant l'usage de sa main. Si la cible est dans une situation de combat, ses Indices d'Attaque et de Défense sont simplement diminués chacun de 3 points. La fleur disparaît automatiquement à la fin de la troisième PA, mais la victime peut l'arracher avant, à condition d'y consacrer une PA entière (elle ne peut alors pas attaquer, mais simplement se défendre).",
+			"effet": "Le Maître Étrange fait pousser une grosse fleur rouge dans l'une des mains de la cible (au choix du Maître Étrange), qui subit un malus de +1 à la Difficulté de toute action nécessitant l'usage de sa main. Si la cible est dans une situation de combat, ses Indices d'Attaque et de Défense sont simplement diminués chacun de 3 points. La fleur disparaît automatiquement à la fin de la troisième PA, mais la victime peut l'arracher avant, à condition d'y consacrer une PA entière (elle ne peut alors pas attaquer, mais simplement se défendre).",
 			"maison_id": "6"
 		},
 		{
@@ -4976,7 +4976,7 @@
 			"portee": "5 mètres",
 			"cible": "Une plante de moins d'un mètre de haut.",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange fait doubler la taille d'une plante vivante non loomique.",
+			"effet": "Le Maître Étrange fait doubler la taille d'une plante vivante non loomique.",
 			"maison_id": "6"
 		},
 		{
@@ -4985,7 +4985,7 @@
 			"portee": "Toucher",
 			"cible": "Une plante",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange fait parler une plante ou un arbre, qui lui avoue le nom de la dernière personne qui l'a approchée à moins d'un mètre.",
+			"effet": "Le Maître Étrange fait parler une plante ou un arbre, qui lui avoue le nom de la dernière personne qui l'a approchée à moins d'un mètre.",
 			"maison_id": "6"
 		},
 		{
@@ -5003,7 +5003,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "1 minute",
-			"effet": "Le Maître Etrange peut, en tenant les mains d'une personne consentante et en regardant sa pupille, y voir une scène précise qui s'est déroulée dans l'heure précédente. La durée de cette scène ne peut dépasser une minute.",
+			"effet": "Le Maître Étrange peut, en tenant les mains d'une personne consentante et en regardant sa pupille, y voir une scène précise qui s'est déroulée dans l'heure précédente. La durée de cette scène ne peut dépasser une minute.",
 			"maison_id": "6"
 		},
 		{
@@ -5012,16 +5012,16 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange appose ses mains sur la plaie du blessé qui récupère aussitôt un niveau de blessure. Le tour ne peut être lancé qu'une seule fois sur une même blessure, et celle-ci doit avoir été infligée dans le quart d'heure précédent.",
+			"effet": "Le Maître Étrange appose ses mains sur la plaie du blessé qui récupère aussitôt un niveau de blessure. Le tour ne peut être lancé qu'une seule fois sur une même blessure, et celle-ci doit avoir été infligée dans le quart d'heure précédent.",
 			"maison_id": "6"
 		},
 		{
 			"id": "50",
 			"nom": "Étincelles",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "2 PA",
-			"effet": "Le Maître Etrange fait apparaître des étincelles du bout de ses doigts. Elles peuvent être facilement aperçues à très longue distance (cinq cent mètres le jour, deux kilomètres la nuit) ou permettre d'enflammer de la poudre ou une mèche.",
+			"effet": "Le Maître Étrange fait apparaître des étincelles du bout de ses doigts. Elles peuvent être facilement aperçues à très longue distance (cinq cent mètres le jour, deux kilomètres la nuit) ou permettre d'enflammer de la poudre ou une mèche.",
 			"maison_id": "6"
 		},
 		{
@@ -5030,7 +5030,7 @@
 			"portee": "5 mètres",
 			"cible": "Un objet non magique",
 			"duree": "5 PA",
-			"effet": "Le Maître Etrange transforme l'ombre de l'objet visé et lui donne l'aspect de l'ombre de n'importe quelle chose. Si l'objet est touché, l'illusion s'interrompt.",
+			"effet": "Le Maître Étrange transforme l'ombre de l'objet visé et lui donne l'aspect de l'ombre de n'importe quelle chose. Si l'objet est touché, l'illusion s'interrompt.",
 			"maison_id": "6"
 		},
 		{
@@ -5055,72 +5055,72 @@
 			"id": "54",
 			"nom": "Acuité auditive",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Vigilance impliquant l'ouïe.",
+			"effet": "Le Maître Étrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Vigilance impliquant l'ouïe.",
 			"maison_id": "4"
 		},
 		{
 			"id": "55",
 			"nom": "Acuité visuelle",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Vigilance impliquant la vue.",
+			"effet": "Le Maître Étrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Vigilance impliquant la vue.",
 			"maison_id": "4"
 		},
 		{
 			"id": "56",
 			"nom": "Ancrage",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "3 PA",
-			"effet": "Les ongles du Maître Etrange peuvent se planter dans toute surface ferme et inanimée et l'y maintenir fermement ancré.",
+			"effet": "Les ongles du Maître Étrange peuvent se planter dans toute surface ferme et inanimée et l'y maintenir fermement ancré.",
 			"maison_id": "4"
 		},
 		{
 			"id": "57",
 			"nom": "Charisme",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet d'Etiquette, de Marchandage, de Diplomatie ou de Négoce.",
+			"effet": "Le Maître Étrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet d'Etiquette, de Marchandage, de Diplomatie ou de Négoce.",
 			"maison_id": "4"
 		},
 		{
 			"id": "58",
 			"nom": "Combat nocturne",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "1 PA",
-			"effet": "Qu'il soit aveuglé ou plongé dans le noir complet, le Maître Etrange 'perçoit' de manière surnaturelle son adversaire jusqu'à une distance de Art Etrange x 2 mètres.",
+			"effet": "Qu'il soit aveuglé ou plongé dans le noir complet, le Maître Étrange 'perçoit' de manière surnaturelle son adversaire jusqu'à une distance de Art Étrange x 2 mètres.",
 			"maison_id": "4"
 		},
 		{
 			"id": "59",
 			"nom": "Domination",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet d'Intimidation ou de Commandement.",
+			"effet": "Le Maître Étrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet d'Intimidation ou de Commandement.",
 			"maison_id": "4"
 		},
 		{
 			"id": "60",
 			"nom": "Flair",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "AE minutes",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Chasse ou de Vigilance.",
+			"effet": "Le Maître Étrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Chasse ou de Vigilance.",
 			"maison_id": "4"
 		},
 		{
 			"id": "61",
 			"nom": "Furtivité",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "Instantanée",
-			"effet": "Le Maître Etrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Discrétion.",
+			"effet": "Le Maître Étrange bénéficie d'une diminution d'un niveau de Difficulté pour son prochain jet de Discrétion.",
 			"maison_id": "4"
 		},
 		{
@@ -5129,7 +5129,7 @@
 			"portee": "Toucher",
 			"cible": "Une personne",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange provoque un orgasme chez sa cible, qui perd automatiquement sa prochaine action. En cas de combat, la victime ne peut pas attaquer, mais elle peut se défendre. Toutefois, elle perd 1 point à son indice de Défense.",
+			"effet": "Le Maître Étrange provoque un orgasme chez sa cible, qui perd automatiquement sa prochaine action. En cas de combat, la victime ne peut pas attaquer, mais elle peut se défendre. Toutefois, elle perd 1 point à son indice de Défense.",
 			"maison_id": "4"
 		},
 		{
@@ -5138,25 +5138,25 @@
 			"portee": "5 mètres",
 			"cible": "Un animal",
 			"duree": "3 PA",
-			"effet": "Le Maître Etrange peut calmer et tenir en respect n'importe quel animal sauvage non loomique pris pour cible.",
+			"effet": "Le Maître Étrange peut calmer et tenir en respect n'importe quel animal sauvage non loomique pris pour cible.",
 			"maison_id": "4"
 		},
 		{
 			"id": "64",
 			"nom": "Peau de cuir",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "3 PA",
-			"effet": "La peau du Maître Etrange se durcit, et lui confère la protection d'une armure de cuir.",
+			"effet": "La peau du Maître Étrange se durcit, et lui confère la protection d'une armure de cuir.",
 			"maison_id": "4"
 		},
 		{
 			"id": "65",
 			"nom": "Rapidité",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange peut parcourir le nombre de puces associé à la caractéristique Agile en mètres supplémentaires durant la PA en cours, mais le nombre d'actions qu'il peut accomplir reste identique.",
+			"effet": "Le Maître Étrange peut parcourir le nombre de puces associé à la caractéristique Agile en mètres supplémentaires durant la PA en cours, mais le nombre d'actions qu'il peut accomplir reste identique.",
 			"maison_id": "4"
 		},
 		{
@@ -5165,25 +5165,25 @@
 			"portee": "5 mètres",
 			"cible": "Une personne",
 			"duree": "1 PA",
-			"effet": "Le Maître Etrange pousse un terrible rugissement qui paralyse l'être humain visé. Si elle a échoué dans son jet de résistance à la magie, la victime se crispe et ne peut plus effectuer la moindre action durant toute la PA.",
+			"effet": "Le Maître Étrange pousse un terrible rugissement qui paralyse l'être humain visé. Si elle a échoué dans son jet de résistance à la magie, la victime se crispe et ne peut plus effectuer la moindre action durant toute la PA.",
 			"maison_id": "4"
 		},
 		{
 			"id": "67",
 			"nom": "Sens du danger",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
+			"cible": "Le Maître Étrange lui-même",
 			"duree": "Une minute",
-			"effet": "Pour toute la durée du tour, le Maître Etrange sentira l'imminence d'un danger physique le menaçant, sans savoir exactement de quoi il s'agit. Il ne pourra être surpris par une attaque et, si un combat s'ensuit, il bénéficiera d'un bonus de +1 à son initiative.",
+			"effet": "Pour toute la durée du tour, le Maître Étrange sentira l'imminence d'un danger physique le menaçant, sans savoir exactement de quoi il s'agit. Il ne pourra être surpris par une attaque et, si un combat s'ensuit, il bénéficiera d'un bonus de +1 à son initiative.",
 			"maison_id": "4"
 		},
 		{
 			"id": "68",
 			"nom": "Vaillance",
 			"portee": "Toucher",
-			"cible": "Le Maître Etrange lui-même",
-			"duree": "",
-			"effet": "",
+			"cible": "Le Maître Étrange lui-même",
+			"duree": "5 PA",
+			"effet": "Le Maître Étrange peut annuler les malus liés à son niveau de blessure pour toute la durée du tour.",
 			"maison_id": "4"
 		}
 	]
