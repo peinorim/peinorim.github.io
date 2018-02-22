@@ -602,11 +602,11 @@ $(function() {
                     var compAcaPts = 0;
                     $(document).find("#body-perso-metiers-compaca select").each(function() {
                         if ($(this).val() === "N") {
-                            compAcaPts++;
+                            compAcaPts += 2;
                         } else if ($(this).val() === "I") {
-                            compAcaPts += 3;
+                            compAcaPts += 6;
                         } else if ($(this).val() === "E") {
-                            compAcaPts += 7;
+                            compAcaPts += 14;
                         }
                     });
                     $("#compAcaPts").text(compAcaPts);
