@@ -192,19 +192,14 @@ $(function() {
         sortTable(table, $(this).index());
     });
 
-    var d = new Date();
-    var hour = d.getHours();
-    var setNightMode = false;
-
-    if (hour >= 21 || hour <= 8) {
-        setNightMode = true;
-    }
+    var today = new Date();
+    var setNightMode = true;
 
     if (typeof (Storage) !== "undefined") {
         var nightMode = localStorage.getItem("nightMode");
         if (nightMode === "true") {
             setNightMode = true;
-        } else {
+        } else if(nightMode === "false") {
             setNightMode = false;
         }
     }
@@ -215,7 +210,7 @@ $(function() {
         $("meta[name='theme-color']").attr('content', '#142634');
     }
     
-    $("#author").text($("#author").text() + " - " + d.getFullYear());
+    $("#author").text($("#author").text() + " - " + today.getFullYear());
 
     $(document).on("change", "#nightMode", function(index) {
         var nightMode = false;
