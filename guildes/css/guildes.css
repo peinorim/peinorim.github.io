@@ -106,6 +106,7 @@ body.nightMode .panel, body.nightMode .list-group-item {
 body.nightMode .form-control, body.nightMode .panel-primary>.panel-heading {
     background-color: #5a666b !important;
     color: #bdc7c1 !important;
+    border-color: #5a666b !important;
 }
 
 body.nightMode .list-group-item.active, body.nightMode .list-group-item.active:hover, body.nightMode .list-group-item.active:focus, .list-group-item.searched,

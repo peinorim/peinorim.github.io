@@ -199,7 +199,7 @@ $(function() {
         var nightMode = localStorage.getItem("nightMode");
         if (nightMode === "true") {
             setNightMode = true;
-        } else if(nightMode === "false") {
+        } else if (nightMode === "false") {
             setNightMode = false;
         }
     }
@@ -209,7 +209,7 @@ $(function() {
         $("#nightMode").prop('checked', true);
         $("meta[name='theme-color']").attr('content', '#142634');
     }
-    
+
     $("#author").text($("#author").text() + " - " + today.getFullYear());
 
     $(document).on("change", "#nightMode", function(index) {
@@ -388,7 +388,7 @@ $(function() {
                         $(document).find("#perso-metiers").append($("<option></option>").attr("value", data.metiers[i].id).text(data.metiers[i].nom));
                     }
                     for (var i = 0; i < data.competences.length; i++) {
-                        $(document).find("#body-metiers-comp").append('<li><a class="list-group-item" data-comp-id="' + data.competences[i].id + '" data-carac-id="' + data.competences[i].carac_id + '" data-chap-id="' + data.competences[i].chapitre_id  + '" href="#">' + data.competences[i].nom + "</a></li>");
+                        $(document).find("#body-metiers-comp").append('<li><a class="list-group-item" data-comp-id="' + data.competences[i].id + '" data-carac-id="' + data.competences[i].carac_id + '" data-chap-id="' + data.competences[i].chapitre_id + '" href="#">' + data.competences[i].nom + "</a></li>");
                     }
                     for (var i = 0; i < data.caracs.length; i++) {
                         $(document).find("#body-metiers-carac").append('<li><a class="list-group-item" data-carac-id="' + data.caracs[i].id + '" href="#">' + data.caracs[i].nom + "</a></li>");
@@ -429,7 +429,7 @@ $(function() {
                 $(document).on("mouseenter", "#body-metiers-comp li a", function() {
                     $(document).find("#body-metiers-carac li a[data-carac-id='" + $(this).attr("data-carac-id") + "']").addClass("searched");
                 });
-                
+
                 $(document).on("mouseleave", "#body-metiers-comp li a", function() {
                     $(document).find("#body-metiers-carac li a[data-carac-id='" + $(this).attr("data-carac-id") + "']").removeClass("searched");
                 });
