@@ -1134,7 +1134,7 @@
 		},
 		{
 			"id": "18",
-			"nom": "Étrange maître, il y avait un maître étrange doublement étrange dans mon Académie. D'habitude ils sont complètement tarés et franchement paranoïaques, celui-là c'était pas du tout ça. Bon il était quand même un peu frappé mais il a accepté de m'enseigner la magie d'une autre Maison que la mienne.",
+			"nom": "Étrange maître, il y avait un Maître Étrange doublement étrange dans mon Académie. D'habitude ils sont complètement tarés et franchement paranoïaques, celui-là c'était pas du tout ça. Bon il était quand même un peu frappé mais il a accepté de m'enseigner la magie d'une autre Maison que la mienne.",
 			"effet": "Tu peux ouvrir un art d'une autre Maison que la tienne au coût professionnel et tu obtiens deux tours de cet art."
 		},
 		{
@@ -1234,7 +1234,7 @@
 		{
 			"id": "9",
 			"titre": "Je suis l'un de ceux qui ont arrêté Corin-Sans-Visage, le voleur Kheyza.",
-			"cdb": "Un maître étrange adepte de l'Art Mystique m'a remarqué à cette occasion et m'a enseigné, j'ignore pourquoi, l'art de regarder.",
+			"cdb": "Un Maître Étrange adepte de l'Art Mystique m'a remarqué à cette occasion et m'a enseigné, j'ignore pourquoi, l'art de regarder.",
 			"effet": "Un point de plus en observateur.",
 			"mes": "en dehors des honneurs cette histoire ne m'a rien rapporté. Et maintenant on dit que Corin a été vu sur le Continent et qu'il aurait même passé la Barrière. Si jamais il me retrouve...",
 			"mes_effet": "Il a bien été vu à Port MacKaer, pour le reste...",
@@ -1297,7 +1297,7 @@
 		{
 			"id": "16",
 			"titre": "Je me suis engagé dans la Marine de la République...",
-			"cdb": "Après des études insupportablement longues dans une université, je me suis enfui de chez mes parents, qui voulaient absolument faire de moi un patricien, pour satisfaire mon goût de l'aventure je me suis engagé dans la Marine de la République. J'ai déserté un peu plus tard profitant d'une escale sur le continent. le plus dur a été ensuite de trouver un maître étrange et de le soudoyer afin d'obtenir un guilder constellé.",
+			"cdb": "Après des études insupportablement longues dans une université, je me suis enfui de chez mes parents, qui voulaient absolument faire de moi un patricien, pour satisfaire mon goût de l'aventure je me suis engagé dans la Marine de la République. J'ai déserté un peu plus tard profitant d'une escale sur le continent. le plus dur a été ensuite de trouver un Maître Étrange et de le soudoyer afin d'obtenir un guilder constellé.",
 			"effet": "Tu n'es donc pas passé par l'Académie. Ton premier métier est forcément diplomate ou stratège. Tu disposes de 10 points supplémentaires à répartir dedans puis de 10 autres points destinés à la profession de corsaire.",
 			"mes": "Engagé est un bien grand mot, je me suis réveillé un matin à fond de cale et j'ai fait mon 'Académie' à bord jusqu'à ce que je parvienne à m'enfuir au cours d'une escale sur le Continent. La Scabare m'a fournir un guilder vierge... et voilà.",
 			"mes_effet": "Tu n'es donc pas passé par l'Académie. En retour tu disposes de 7 points de compétence à répartir, que tu pourras abandonner si tu le souhaites pour revenir à ton ancienne profession dès ton arrivée sur le continent. De plus ton guilder est vierge et il te désigne comme un hors-la-loi du point de vue des guildes.",
@@ -3878,7 +3878,7 @@
 			"type": "Rituel",
 			"portee": "Toucher",
 			"cible": "Un cube en verre",
-			"effet": "",
+			"effet": "Ce sort doit être lancé sur un récipient en verre, de forme cubique. Si le sort est lancé avec succès, le cube se remplit d'une substance liquide translucide. Lorsqu'on secoue le cube, le liquide se met à dégager, durant une demi-heure, une lumière pâle équivalente à la lueur d'une bougie. Au bout d'une demi-heure il faut à nouveau secouer le cube pour qu'il produise de la lumière. Le cube ainsi enchanté conservera ses facultés d'éclairage durant toute la durée du sort, soit six jours. Même ennchanté, le cube de verre reste fragile, et peut donc se briser si son possesseur n'y prend pas garde.",
 			"maison_id": "5"
 		},
 		{
@@ -3886,9 +3886,9 @@
 			"nom": "De la vallée des sept jours",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une personne",
+			"effet": "Ce sort permet au Maître Étrange d'assimiler de manière intuitive la langue, les coutumes et l'attitude du peuple de la dernière personne qu'il a touchée avant de lancer le sort. Durant toute la durée du sort, le Maître Étrange maîtrise les compétences Autochtones, Sagesse populaire et Langue correspondant à la peuplade de la cible au niveau Novice. Il perd ces compétences sitôt le sort fini.",
 			"maison_id": "5"
 		},
 		{
@@ -3896,9 +3896,9 @@
 			"nom": "Décoction salvatrice",
 			"diff": "Très difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une personne",
+			"effet": "Ce sort permet de préparer une potion de soins très efficace. La potion contient trois doses. Si ces doses de potion ne sont pas utilisées avant la fin de la durée du sort, elles perdent leur capacité régénératrice. La cible qui boit une dose de cette potion récupère instantanément six points de santé (ce qui sera donc sans effet sur les niveaux de blessure).",
 			"maison_id": "5"
 		},
 		{
@@ -3906,9 +3906,9 @@
 			"nom": "La chambre de persistance",
 			"diff": "Difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "5 mètres",
+			"cible": "Une personne",
+			"effet": "Le Maître Étrange doit s'approcher d'une personne endormie avant de lancer le sort. Une créature humanoïde de Nocte apparaît alors dans le rêve du dormeur et cherche à le tuer. Rêveur et créature combattent tous deux à mains nues. Les caractéristiques de la créature sont les suivantes : INIT 6 ATT 7 DEF 4, Égratignure, Sheï 2. Si le dormeur gagne le combat, il se réveille en nage après plusieurs minutes de cauchemar. S'il perd ce combat, le dormeur sombre dans le coma pour une durée de (douze - Résistant) heures.",
 			"maison_id": "5"
 		},
 		{
@@ -3916,19 +3916,19 @@
 			"nom": "Oniris vivalis",
 			"diff": "Difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "20 mètres",
+			"cible": "Une personne",
+			"effet": "Le Maître Étrange du sort replonge la victime dans le dernier cauchemar qu'elle a fait. La cible reste éveillée, mais se trouve dans un état proche du somnambulisme, reproduisant tous les actes de son cauchemar. Lancer 1D6 pour déterminer la nature du cauchemar:<br/>1-2 : Cauchemar terrifiant. la cible se met à fuir le plus vite possible en hurlant, dans une direction aléatoire.<br/>3-4 : Cauchemar paranoïaque. la cible voit des ennemis partout et se défendra par tous les moyens de chaque individu qui s'approche d'elle.<br/>5-6 : Cauchemar hypocondriaque. La cible croit être piquée par des dizaines de parasites et se met à arracher frénétiquement ses vêtements en hurlant, avant de se gratter tout le corps.",
 			"maison_id": "5"
 		},
 		{
 			"id": "6",
-			"nom": "Cube luminescent",
-			"diff": "Facile",
-			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"nom": "Le semblant",
+			"diff": "Très difficile",
+			"type": "Instantané",
+			"portee": "10 mètres",
+			"cible": "Une personne",
+			"effet": "Le Maître Étrange fait apparaître devant la cible son sosie onirique, sauf si elle réussit son jet de résistance magique (auquel cas le sort échoue). Le double attaquera alors immédiatement la victime. Les compétences du sosie sont exactement les mêmes que celles de la cible, mais ses caractéristiques sont minorées d'un point. Le combat est inévitable et si le double l'emporte, la cible encaisse effectivement les blessures qu'elles a reçues de son double. Si elle triomphe du combat, le double disparaît ainsi que toutes les blessures qu'il a occasionnées.",
 			"maison_id": "5"
 		},
 		{
@@ -3936,9 +3936,9 @@
 			"nom": "Epée preste",
 			"diff": "Facile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une épée",
+			"effet": "Le Maître Étrange chauffe l'épée à blanc, puis la trempe dans le sang d'un animal en lançant le sort rituel. A l'issue du temps d'incantation, l'épée est enchantée et acquiert pour toute la durée du rituel (soit six jours), un tranchant beaucoup plus affûté. Pendant cette période, le niveau de blessure de l'épée est majoré d'un niveau.",
 			"maison_id": "3"
 		},
 		{
@@ -3946,9 +3946,9 @@
 			"nom": "Par l'emblème du corps",
 			"diff": "Difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "5 mètres",
+			"cible": "Une personne",
+			"effet": "Grâce à ce sort, le Maître Étrange peut analyser sa cible et connaître instantanément la valeur exacte de : Résistant, Art Guerrier et Art Étrange.",
 			"maison_id": "3"
 		},
 		{
@@ -3956,9 +3956,9 @@
 			"nom": "Par l'Escal dans la pierre",
 			"diff": "Très difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une pierre de plus de vingt kilogrammes",
+			"effet": "La pierre ainsi touchée par le Maître Étrange du sort devient enchantée. Elle acquiert la capacité d'attirer à elle, telle un monstrueux aimant, toutes les attaques physiques portées sur le magicien à l'aide d'armes métalliques. Le rayon d'influence de la pierre est de 2 mètres, et toute arme située dans son rayon d'action se 'colle' littéralement à la pierre, devenant inutilisable le temps du sort. L'arme ne pourra être détachée de la pierre que lorsque le sort cessera d'agir.",
 			"maison_id": "3"
 		},
 		{
@@ -3966,9 +3966,9 @@
 			"nom": "Par la lame visionnaire",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une épée",
+			"effet": "Ce sort permet à celui qui le lance de visualiser sur le plat de son épée un court extrait d'une scène violente s'étant récemment déroulée dans le lieu où le sort est lancé. Le Maître Étrange peut comprendre l'état d'esprit des protagonistes et deviner les actions qu'ils ont entreprises, mais la scène n'est pas assez précise pour qu'il puisse les identifier formellement.",
 			"maison_id": "3"
 		},
 		{
@@ -3976,9 +3976,9 @@
 			"nom": "Par le jugement de Wysd",
 			"diff": "Très difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Un dard",
+			"effet": "Le Maître Étrange doit tenir entre ses doigts un dard en métal, puis lancer son sort. Une fois le dard enchanté, le Maître Étrange pourra le pointer sur quelqu'un et obtenir un renseignement à son sujet. En visant la cible, le Maître Étrange doit poser une question puis projeter le dard à l'aide d'une sarbacane (jet d'ATT, Dificulté 9). Si la réponse à la question est positive, le dard disparaît avant de la toucher. Sinon il se plante sur la cible et lui occasionne une blessure moyenne. Le dard ne peut pas être enduit de poison.",
 			"maison_id": "3"
 		},
 		{
@@ -3986,9 +3986,9 @@
 			"nom": "Par les fusions solaires",
 			"diff": "Très difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une armure métallique",
+			"effet": "Lorsque ce sort est lancé sur l'armure, elle se met à émettre une vive lumière aussi éblouissante que le soleil. L'armure devient, d'une part, visible à très grande distance (plusieurs kilomètres). D'autre part lors d'un combat, tout individu affrontant le porteur de l'armure enchantée est ébloui et subit un malus de -2 à son ATT et à sa DEF.",
 			"maison_id": "3"
 		},
 		{
@@ -3996,9 +3996,9 @@
 			"nom": "Je marche sur l'eau",
 			"diff": "Facile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "5 mètres",
+			"cible": "Une personne",
+			"effet": "Pendant toute la durée du sort, l'eau devient, pour la cible, un élément solide. Elle peut donc marcher ou courir dessus, mais ne peut plus s'y enfoncer. Elle peut même s'écraser si elle chute d'une grande hauteur sur la surface de cette eau devenue pour elle aussi dure que de la pierre. Si la cible n'est pas consentante, elle a bien entendu droit à un jet de résistance à la magie.",
 			"maison_id": "1"
 		},
 		{
@@ -4006,9 +4006,9 @@
 			"nom": "Je me confie aux vents",
 			"diff": "Très difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Le Maître Étrange lui-même",
+			"effet": "Le Maître Étrange et tout le matériel qu'il transporte deviennent évanescents et se dispersent dans l'air ambiant. Lancer 1D6 : sur 1 ou 2, le Maître Étrange peut se déplacer ainsi dans la direction de son choix jusqu'à 5 kilomètres, sur 3 à 6 il est emporté sur 5 kilomètres respectivement au nord (3), au sud (4), à l'est (5) ou à l'ouest (6). A l'issue de ce voyage aérien, le Maître Étrange peut se matérialiser de nouveau.",
 			"maison_id": "1"
 		},
 		{
@@ -4016,9 +4016,9 @@
 			"nom": "Je modèle la chaleur",
 			"diff": "Très difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "20 mètres",
+			"cible": "Un objet ou une personne",
+			"effet": "Le Maître Étrange du sort crée une boule de chaleur, repérable uniquement à la distorsion visuelle qu'elle provoque. Il peut peut projeter cette boule sur un objet ou une personne situés à portée du sort. Tout objet inflammable prend immédiatement feu. Si la cible est une personne, elle a droit à un jet de résistance à la magie.<br/>Schkoumoune : la boule pénètre dans le corps de la victime, qui est brûlée de l'intérieur, ses vêtements et son équipement étant à peine roussis. La victime subit une blessure grave.<br/>Echec normal : comme pour la schkoumoune, mais la victime ne subit plus qu'une blessure moyenne.<br/>Réussite normale: la victime évite la plus grosse partie de la boule de chaleur. Ses cheveux, ses sourcils et sa peau sont légèrement brûlés, la victime subit une blessure moyenne.<br/>Baraka : la cible évite complètement la boule de chaleur.",
 			"maison_id": "1"
 		},
 		{
@@ -4026,9 +4026,9 @@
 			"nom": "Je rejoins la Terre-Mère",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Le Maître Étrange lui-même",
+			"effet": "S'il se trouve sur la terre ferme, le Maître Étrange peut s'y enfoncer jusqu'à dix mètres de profondeur. Il emporte tous les objets et vêtements qu'il portait, qui se \"fondent\" avec lui dans la matière même du sol. Le Maître Étrange ne peut pas se déplacer, ne peut pas se transférer dans d'éventuelles cavités souterraines et, bien que conscient de ce qui se passe autour de lui, reste sous cette forme terreuse pour toute la durée du sort.",
 			"maison_id": "1"
 		},
 		{
@@ -4036,9 +4036,9 @@
 			"nom": "Je te oins d'eau sacrée",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Le Maître Étrange lui-même",
+			"effet": "De l'eau apparaît dans le creux des mains du Maître Étrange. Lorsqu'il oint une personne de cette eau, le Maître Étrange acquiert aux yeux de celle-ci un charisme mystique qui lui fait croire qu'il est une sorte de messie, un envoyé des dieux. Jusqu'à trois personnes peuvent être converties à cette \"religion\" prônée par le Maître Étrange, mais ces personnes ne sont affectées que si elles ratent leur jet de résistance à la magie. Durant toute la durée du sort, les cibles affectées seront entièrement dévouées au \"messie\" et lui viendront en aide par tous les moyens possibles, hormis ceux faisant appel à la violence.",
 			"maison_id": "1"
 		},
 		{
@@ -4046,9 +4046,9 @@
 			"nom": "Je te vole tes mots",
 			"diff": "Facile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "10 mètres",
+			"cible": "Une personne",
+			"effet": "Pendant toute la durée du sort, rien de ce que dit la cible ne peut être entendu par son entourage, sauf par le Maître Étrange qui, lui, entend tout comme si la victime le lui disait dans le creux de l'oreille. La victime s'entend parler, mais, pour toute autre personne à l'exception du Maître Étrange, elle ne fait que remuer les lèvres sans produire le moindre son.",
 			"maison_id": "1"
 		},
 		{
@@ -4056,9 +4056,9 @@
 			"nom": "Cadavre animé",
 			"diff": "Très difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Un cadavre humain non-Felsin",
+			"effet": "Ce sort permet de transformer le cadavre humain en \"non-mort\". le corps visé se relève et sera, pour toute la durée du sort, aux ordres du Maître Étrange. Le non-mort n'a aucune intelligence. Il conserve ses anciennes caractéristiques physiques mais ses caractéristiques mentales sont toutes à \"une puce\" et il oublie toutes ses compétences. Il ne procède donc qu'à des jets de non-compétence. Son attribut Art Guerrier demeure identique à celui qu'il avait avant sa mort, mais les attributs Art Étrange et Art Guildien sont diminués de 2 points (minimum 1). Un non-mort ne subit aucun malus lié aux blessures, mais sera détruit si toutes les cases de son compteur de Santé sont à nouveau remplies.",
 			"maison_id": "2"
 		},
 		{
@@ -4066,9 +4066,9 @@
 			"nom": "Fétiche de localité",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Un crâne et deux fémurs humains",
+			"effet": "Le Maître Étrange du sort construit, à l'aide du crâne et des deux fémurs, une sculpture macabre. Puis il marque le crâne d'une rune symbolisant une personne qu'il a déjà vue; il lance ensuite le sort sur la sculpture. Dès lors, à tout moment et pour toute la durée du sort, le Maître Étrange pourra questionner le fétiche enchanté pour connaître la localisation actuelle de la personne visée. Le fétiche lui fournira le nom du milieu (forêt, désert...) ou du type de lieu (auberge, palais...) où la personne se trouve à ce moment-là.",
 			"maison_id": "2"
 		},
 		{
@@ -4076,9 +4076,9 @@
 			"nom": "Heaume à l'oeil de braise",
 			"diff": "Très difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Un heaume fabriqué à partir d'un crâne humain ou animal",
+			"effet": "Le Maître Étrange du sort fabrique un heaume en crâne (+1 à l'indice de défense) et y lie un Démon mineur. Ce dernier est capable de percevoir les émanations infrarouges autour de lui, et de les décrire en chuchotant à l'oreille du porteur du heaume. Le porteur peut ainsi, même dans une totale obscurité, avoir une idée de son environnement immédiat (silhouettes, obstacles, etc.)",
 			"maison_id": "2"
 		},
 		{
@@ -4086,9 +4086,9 @@
 			"nom": "Le duelliste ricaneur",
 			"diff": "Difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "5 mètres",
+			"cible": "Une personne",
+			"effet": "Ce sort permet de faire apparaître un petit démon grimaçant à quatre bras, aux yeux rouge rubis et au corps métallique recouvert de pointes. Ricanant et se moquant sans cesse de son adversaire, il finit par l'exaspérer, ce qui a pour effet de lui faire perdre automatiquement l'initiative lorsque le démon l'attaque. La créature se bat à la place du Maître Étrange, mais ce dernier ne doit pas s'en écarter de plus de cinq mètres. Le démon reste invoqué pour toute la durée du sort, et ses caractéristiques sont : ATT+6 DEF+4 Blessure : légère Points de santé : 8 Sheï 4",
 			"maison_id": "2"
 		},
 		{
@@ -4096,9 +4096,9 @@
 			"nom": "Nécrophobie",
 			"diff": "Facile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "20 mètres",
+			"cible": "Une personne",
+			"effet": "La victime de ce sort est en proie à une phobie intense liée à la mort et à toutes ses manifestations. Les cadavres la font hurler, et les non-morts provoquent des crises de panique incontrôlables. Sous l'effet de ce sort, elle ne peut plus agir de manière cohérente et constructive tant qu'elle est confrontée à une manifestation de la mort.",
 			"maison_id": "2"
 		},
 		{
@@ -4106,9 +4106,9 @@
 			"nom": "Prophétie fatale",
 			"diff": "Difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "2 mètres",
+			"cible": "Une personne",
+			"effet": "Le Maître Étrange fait apparaître devant les yeux de sa victime la scène de sa propre mort. Il ne s'agit pas réellement d'une prophétie, puisque le magicien peut choisir de quelle façon la mort survient. Mais la victime ne le sait pas et, si elle rate son jet de résistance à la magie, elle est terrorisée et incapable d'agir de manière cohérente et constructive durant toute la durée du sort.",
 			"maison_id": "2"
 		},
 		{
@@ -4116,9 +4116,9 @@
 			"nom": "Amitié animale",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Un animal domestique",
+			"effet": "Le Maître Étrange du sort apprend le Vrai Nom de l'animal domestique, qui devient alors très amical envers lui et parvient à communiquer dans la mesure de ses moyens. L'amitié qui peut naître entre l'animal et le Maître Étrange ne disparaît pas lorsque l'effet du sort prend fin.",
 			"maison_id": "6"
 		},
 		{
@@ -4126,9 +4126,9 @@
 			"nom": "Change matière",
 			"diff": "Très difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Un objet",
+			"effet": "Le Maître Étrange transforme le matériau dont un objet est fait en une autre matière : bois en pierre, verre en métal, pierre en terra, etc. Le volume de l'objet ne doit pas dépasser 1 mètre cube et sa masse est limitée à 200 kg. L'objet est transformé dans son intégralité et, une fois le sort révolu, il reprend sa forme et sa matière initiales.",
 			"maison_id": "6"
 		},
 		{
@@ -4136,9 +4136,9 @@
 			"nom": "Pousse colère",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une personne",
+			"effet": "La cible de ce sort est harcelée par une voix dans sa tête, forte et grinçante, mais qu'elle seule entend. Si elle a raté son jet de résistance à la magie, la victime subit un malus de -2 à toutes ses actions et ce pour toute la durée du sort.",
 			"maison_id": "6"
 		},
 		{
@@ -4146,9 +4146,9 @@
 			"nom": "Retour primaire",
 			"diff": "Très difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "10 mètres",
+			"cible": "Un objet manufacturé de moins d'un kilogramme",
+			"effet": "Grâce à ce sort, le Maître Étrange nomme de leur Vrai Nom chacun des différents éléments qui constituent l'objet, leur faisant ainsi retrouver leur état premier. L'objet est alors irrémédiablement et définitivement détruit, se transformant en un tas de matières premières séparées et éventuellement utilisables.",
 			"maison_id": "6"
 		},
 		{
@@ -4156,9 +4156,9 @@
 			"nom": "Soulève coeur",
 			"diff": "Difficile",
 			"type": "Instantané",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Quelques centimètres",
+			"cible": "Une personne",
+			"effet": "Le Maître Étrange connaît un Nom qui provoque chez la cible des nausées insupportables. Le Maître Étrange doit prononcer ce mot à l'oreille de la victime, qui doit être la seule à l'entendre. Si elle rate son jet de résistance à la magie, elle ne peut plus rien faire pour toute la durée du sort.",
 			"maison_id": "6"
 		},
 		{
@@ -4166,20 +4166,10 @@
 			"nom": "Talisman du beau parleur",
 			"diff": "Difficile",
 			"type": "Rituel",
-			"portee": "",
-			"cible": "",
-			"effet": "",
+			"portee": "Toucher",
+			"cible": "Une gemme",
+			"effet": "La gemme sur laquelle le sort est lancé confère à celui qui la porte une réduction d'un niveau de Difficulté pour tous ses jets de Conte, Langue, Marchandage, Commandemment et Négoce.",
 			"maison_id": "6"
-		},
-		{
-			"id": "31",
-			"nom": "Le semblant",
-			"diff": "Très difficile",
-			"type": "Instantané",
-			"portee": "10 mètres",
-			"cible": "Une personne",
-			"effet": "",
-			"maison_id": "5"
 		}
 	],
 	"sortileges": [
@@ -4677,7 +4667,7 @@
 			"id": "9",
 			"nom": "La libelumière",
 			"portee": "5m",
-			"cible": "Le maître étrange",
+			"cible": "Le Maître Étrange",
 			"duree": "5 PA",
 			"effet": "Le Maître Étrange invoque une libellule luminescente et immatérielle, qui volette près de lui en dégageant une lumière équivalente à celle d'une bougie. La libellule suit le Maître Étrange et reste, quoi qu'il arrive, près de lui jusqu'à la fin du tour.",
 			"maison_id": "5"
@@ -4713,7 +4703,7 @@
 			"id": "13",
 			"nom": "Par la flamme fidèle",
 			"portee": "Toucher",
-			"cible": "Le maître étrange ",
+			"cible": "Le Maître Étrange ",
 			"duree": "2 PA",
 			"effet": "Le Maître Étrange prend la couleur d'une flamme. S'il se positionne à moins d'un mètre d'une flamme de taille au moins équivalente à celle d'une torche, il devient très difficile à distinguer. Tout individu qui le cherche subit un malus d'un niveau de Difficulté supplémentaire pour le repérer (par exemple, à son jet de Vigilance). Si le Maître Étrange attaque, parle, ou bouge trop brusquement, il se découvre instantanément et le tour prend fin.",
 			"maison_id": "3"
@@ -4740,7 +4730,7 @@
 			"id": "16",
 			"nom": "Par la voix du général",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le Maître Étrange",
 			"duree": "Prochain jet de Commandement",
 			"effet": "Le prochain jet de Commandement du Maître Étrange (dans les 3 PA qui suivent le tour) bénéficie d'une réduction d'un niveau de Difficulté.",
 			"maison_id": "3"
@@ -4758,7 +4748,7 @@
 			"id": "18",
 			"nom": "Par le regard dor",
 			"portee": "5m",
-			"cible": "L'entourage du maître étrange",
+			"cible": "L'entourage du Maître Étrange",
 			"duree": "1 PA",
 			"effet": "Le Maître Étrange acquiert une présence majestueuse. Tous ceux qui l'ont dans leur champ de vision et qui ratent leur jet de résistance magique se tournent vers lui et sont plongés dans un état de fascination intense pendant toute la durée de la PA. Les victimes ne peuvent même pas se défendre tant qu'elles sont sous ce charme.",
 			"maison_id": "3"
@@ -4812,7 +4802,7 @@
 			"id": "24",
 			"nom": "Je change de visage",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le Maître Étrange",
 			"duree": "2 PA",
 			"effet": "Le Maître Étrange modifie légèrement les traits de son visage, et devient difficile à reconnaître (jet de caractéristique Difficile pour le reconnaître).",
 			"maison_id": "1"
@@ -4830,7 +4820,7 @@
 			"id": "26",
 			"nom": "Je marche sur le vent",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le Maître Étrange",
 			"duree": "2 PA",
 			"effet": "Le Maître Étrange peut léviter à trente centimètres du sol, et marcher sur l'air à une vitesse maximale de (Agile) mètres par PA.",
 			"maison_id": "1"
@@ -4839,7 +4829,7 @@
 			"id": "27",
 			"nom": "Je me fonds dans le vert",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le Maître Étrange",
 			"duree": "3 PA",
 			"effet": "Le Maître Étrange se colle contre une plante ou un arbre au moins aussi grand que lui et s'y dissimule. La Difficulté de son ou ses jets de Discrétion est alors diminuée d'un niveau pour toute la durée du tour (mais le Maître Étrange ne peut pas se déplacer, ni parler, sous peine d'interrompre prématurément l'effet de ce tour.",
 			"maison_id": "1"
@@ -4848,7 +4838,7 @@
 			"id": "28",
 			"nom": "Je respire sous l'eau",
 			"portee": "Toucher",
-			"cible": "Le maître étrange",
+			"cible": "Le Maître Étrange",
 			"duree": "Résistant + 2 minutes",
 			"effet": "Le Maître Étrange peut rester sous l'eau sans subir le moindre malus pour une durée de Résistant + 2 minutes.",
 			"maison_id": "1"

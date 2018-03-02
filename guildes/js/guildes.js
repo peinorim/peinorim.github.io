@@ -331,7 +331,7 @@ $(function() {
                             return item.maison_id === data.maisons[i].id;
                         });
                         for (var j = 0; j < sorts.length; j++) {
-                            $(document).find("#body-sorts").append("<tr>" + "<td>" + sorts[j].nom + "</td>" + "<td>" + sorts[j].diff + "</td>" + "<td>" + sorts[j].type + "</td>" + "<td>" + sorts[j].portee + "</td>" + "<td>" + sorts[j].cible + "</td>" + "<td>" + data.maisons[i].nom + "</td>" + "</tr>");
+                            $(document).find("#body-sorts").append("<tr>" + "<td>" + sorts[j].nom + "</td>" + "<td>" + sorts[j].diff + "</td>" + "<td>" + sorts[j].type + "</td>" + "<td>" + sorts[j].portee + "</td>" + "<td>" + sorts[j].cible + "</td>" + "<td>" + sorts[j].effet + "</td>" + "<td>" + data.maisons[i].nom + "</td>" + "</tr>");
                         }
                     }
                 }
