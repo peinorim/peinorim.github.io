@@ -24,9 +24,10 @@ function Armure(id, nom, init, att, def, protec, enc, fort) {
     this.fort = fort;
 }
 
-function Artefact(id, nom, maison_id, type_id) {
+function Artefact(id, nom, desc, maison_id, type_id) {
     this.id = id;
     this.nom = nom;
+    this.desc = desc;
     this.maison_id = maison_id;
     this.type_id = type_id;
 }
@@ -266,7 +267,7 @@ $(function() {
                                 type = data.artefacttypes[k];
                         }
 
-                        $(document).find("#body-artefacts").append("<tr>" + "<td>" + data.artefacts[i].nom + "</td>" + "<td>" + type.nom + "</td>" + "<td>" + maison.nom + "</td>" + "</tr>");
+                        $(document).find("#body-artefacts").append("<tr>" + "<td>" + data.artefacts[i].nom + "</td>" + "<td>" + type.nom + "</td>" + "<td>" + data.artefacts[i].desc + "</td>" + "<td>" + maison.nom + "</td>" + "</tr>");
                     }
                 }
                 if (data.cdball.length > 0) {

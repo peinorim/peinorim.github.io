@@ -727,276 +727,315 @@
 		{
 			"id": "1",
 			"nom": "Boussole",
+			"desc": "Très précise, très rare et très fragile (+1 aux jets d'Orientation)",
 			"type_id": "1",
 			"maison_id": "1"
 		},
 		{
 			"id": "2",
 			"nom": "Longue vue",
+			"desc": "+1 aux jets de Vigilance ou Observateur",
 			"type_id": "1",
 			"maison_id": "1"
 		},
 		{
 			"id": "3",
 			"nom": "Arc à poulies",
+			"desc": "",
 			"type_id": "1",
 			"maison_id": "1"
 		},
 		{
 			"id": "4",
 			"nom": "Crache-feu court",
+			"desc": "",
 			"type_id": "1",
 			"maison_id": "1"
 		},
 		{
 			"id": "6",
 			"nom": "Bourse enchantée",
+			"desc": "Contient toujours un guilder d'écume en verroterie.",
 			"type_id": "1",
 			"maison_id": "2"
 		},
 		{
 			"id": "8",
 			"nom": "Sceau personnel infalsifiable",
+			"desc": "",
 			"type_id": "1",
 			"maison_id": "7"
 		},
 		{
 			"id": "9",
 			"nom": "Animal de compagnie",
+			"desc": "Un ami qui vous suit partout et ne vous laissera jamais tomber.",
 			"type_id": "1",
 			"maison_id": "7"
 		},
 		{
 			"id": "10",
 			"nom": "Grimoire",
+			"desc": "Un livre contenant un ou deux sorts que vous n'avez jamais pris le temps d'apprendre.",
 			"type_id": "1",
 			"maison_id": "7"
 		},
 		{
 			"id": "11",
 			"nom": "Médaillon loomique",
+			"desc": "S'illumine en présence de loom d'une unique couleur",
 			"type_id": "2",
 			"maison_id": "7"
 		},
 		{
 			"id": "12",
 			"nom": "Grimoire",
+			"desc": "3 à 4 sorts que vous n'avez pas pris le temps d'apprendre.",
 			"type_id": "2",
 			"maison_id": "7"
 		},
 		{
 			"id": "13",
 			"nom": "Une mystérieuse carte",
+			"desc": "Elle indique l'emplacement d'une route, d'un phylum ou d'un fabuleux trésor.",
 			"type_id": "3",
 			"maison_id": "7"
 		},
 		{
 			"id": "14",
 			"nom": "Artefact",
+			"desc": "Un objet ancien aux pouvoirs mystérieux et inconnus mais sûrements puissants !",
 			"type_id": "3",
 			"maison_id": "7"
 		},
 		{
 			"id": "15",
 			"nom": "Grimoire de sort",
+			"desc": "6 à 8 sorts que vous n'avez pas pris le temps d'apprendre.",
 			"type_id": "3",
 			"maison_id": "7"
 		},
 		{
 			"id": "16",
 			"nom": "Noctant",
+			"desc": "Permet de s'orienter à partir de la position des étoiles (+2 aux jets d'Orientation, de nuit seulement).",
 			"type_id": "1",
 			"maison_id": "5"
 		},
 		{
 			"id": "17",
 			"nom": "Pierre de rêve",
+			"desc": "Permet l'utilisation de la compétence Art Onirique (tous les Ulmèques en ont une).'",
 			"type_id": "1",
 			"maison_id": "5"
 		},
 		{
 			"id": "18",
 			"nom": "Cube luminescent",
+			"desc": "Brille dès qu'on le secoue et s'éteint de même.",
 			"type_id": "1",
 			"maison_id": "5"
 		},
 		{
 			"id": "19",
 			"nom": "Armure renforcée en élytre Kriln",
+			"desc": "N'importe qu'elle armure, agrmentée de plaques de chitine prélevées sur un scarabée géant (DEF+1, encombrement divisé par deux).",
 			"type_id": "2",
 			"maison_id": "5"
 		},
 		{
 			"id": "20",
 			"nom": "Pierre onirique",
+			"desc": "Posée sur le front d'un dormeur, elle permet de voir à quoi il rêve.",
 			"type_id": "2",
 			"maison_id": "5"
 		},
 		{
 			"id": "21",
 			"nom": "Armure-scarabée complète",
+			"desc": "",
 			"type_id": "3",
 			"maison_id": "5"
 		},
 		{
 			"id": "22",
 			"nom": "Gemme guérisseuse",
+			"desc": "Inhibe les effets d'une maladie (mais n'en guérit pas). Inutile contre la Langueur.",
 			"type_id": "3",
 			"maison_id": "5"
 		},
 		{
 			"id": "23",
 			"nom": "Takshir",
+			"desc": "",
 			"type_id": "1",
 			"maison_id": "4"
 		},
 		{
 			"id": "24",
 			"nom": "Cape marchande",
+			"desc": "Aide à la négociation si l'on s'assoit dessus (+1 aux jets de Négoce ou Marchandage).",
 			"type_id": "1",
 			"maison_id": "4"
 		},
 		{
 			"id": "25",
 			"nom": "Ceinture de vitesse",
+			"desc": "+2 à l'indice d'Initiative",
 			"type_id": "2",
 			"maison_id": "4"
 		},
 		{
 			"id": "26",
 			"nom": "Bracelet de force",
+			"desc": "La caractéristique Fort du porteur est augmentée de 1 point (maximum : 6).",
 			"type_id": "3",
 			"maison_id": "4"
 		},
 		{
 			"id": "27",
 			"nom": "Turban de résistance",
+			"desc": "La caractéristique Résistant du porteur est augmentée de 1 point (maximum : 6).",
 			"type_id": "3",
 			"maison_id": "4"
 		},
 		{
 			"id": "28",
 			"nom": "Bouclier en Silien",
+			"desc": "+1 DEF",
 			"type_id": "1",
 			"maison_id": "3"
 		},
 		{
 			"id": "29",
 			"nom": "Arme en Ralgar",
+			"desc": "+1 ATT",
 			"type_id": "1",
 			"maison_id": "3"
 		},
 		{
 			"id": "30",
 			"nom": "Arme en Armor",
+			"desc": "+1 DOM",
 			"type_id": "1",
 			"maison_id": "3"
 		},
 		{
 			"id": "31",
 			"nom": "Torque en Yielix",
+			"desc": "Ajoute +1 aux jets de Commandement du porteur.",
 			"type_id": "1",
 			"maison_id": "3"
 		},
 		{
 			"id": "32",
 			"nom": "Talisman en Ertilm",
+			"desc": "La caractéristique Observateur du porteur est augmentée de 1 point (maximum : 6).",
 			"type_id": "2",
 			"maison_id": "3"
 		},
 		{
 			"id": "33",
 			"nom": "Armure / Arme indestructible",
+			"desc": "Enchantée, on ne peut ni la perdre, ni se la faire voler et elle ne peut être détruite.",
 			"type_id": "3",
 			"maison_id": "3"
 		},
 		{
 			"id": "34",
 			"nom": "Arc en os",
+			"desc": "Identique à l'arc composite mais ajoute +1 à l'indice d'Attaque.",
 			"type_id": "1",
 			"maison_id": "2"
 		},
 		{
 			"id": "35",
 			"nom": "Crâne qui parle",
+			"desc": "Cet objet connaît toutes les compétences d'apprenti au niveau Novice. Son propriétaire, s'il ne maîtrise pas ces compétences, bénéficie d'un +1 aux jets qui leur sont associés. Le crâne explique ce qu'il sait.",
 			"type_id": "1",
 			"maison_id": "2"
 		},
 		{
 			"id": "36",
 			"nom": "Parchemin de malédiction",
+			"desc": "Le lire à quelqu'un lui fait une sale blague (rhume chronique, perte de cheveux, etc.). Une seule utilisation.",
 			"type_id": "1",
 			"maison_id": "2"
 		},
 		{
 			"id": "37",
 			"nom": "Statuette grimaçante",
+			"desc": "Repousse les animaux qui la voient.",
 			"type_id": "2",
 			"maison_id": "2"
 		},
 		{
 			"id": "38",
 			"nom": "Crâne parlant",
+			"desc": "Cet objet connaît toutes les compétences d'apprenti au niveau Initié et toutes les compétences de compagnon au niveau Novice. Son propriétaire, s'il ne maîtrise pas ces compétences, bénéficie d'un +2 aux jets qui leur sont associés. Le crâne explique ce qu'il sait.",
 			"type_id": "2",
 			"maison_id": "2"
 		},
 		{
 			"id": "39",
 			"nom": "Parchemin de malédiction",
+			"desc": "Le lire à quelqu'un provoque sa mort à long terme (quelques années). Une seule utilisation.",
 			"type_id": "2",
 			"maison_id": "2"
 		},
 		{
 			"id": "40",
 			"nom": "Fifre en os",
+			"desc": "Exacerbe une émotion (la colère se transforme en rage, la tristesse en désespoir, etc.) sur un jet de Art : musique Difficile.",
 			"type_id": "2",
 			"maison_id": "2"
 		},
 		{
 			"id": "41",
 			"nom": "Crâne parlant",
+			"desc": "Cet objet connaît toutes les compétences d'apprenti au niveau Expert et toutes les compétences de compagnon au niveau Initié. Son propriétaire, s'il ne maîtrise pas ces compétences, bénéficie d'un +3 aux jets qui leur sont associés. Le crâne explique ce qu'il sait.",
 			"type_id": "3",
 			"maison_id": "2"
 		},
 		{
 			"id": "42",
 			"nom": "Parchemin de malédiction",
+			"desc": "Le lire à la cible provoque la mort de toute sa famille sur plusieurs générations. Une seule utilisation.",
 			"type_id": "3",
 			"maison_id": "2"
 		},
 		{
 			"id": "43",
 			"nom": "Manteau très discret",
+			"desc": "Jets de discrétion à +1.",
 			"type_id": "1",
 			"maison_id": "6"
 		},
 		{
 			"id": "44",
 			"nom": "Un sachet de graines enchantées",
+			"desc": "Jetées au sol, ces graines poussent brutalement, défonçant les éventuels obstacles comme le ferait un arbre.",
 			"type_id": "2",
 			"maison_id": "6"
 		},
 		{
 			"id": "45",
 			"nom": "Un dictionnaire Kheyza",
+			"desc": "Un gros livre qui contient toujours une traduction des mots simples de toutes les langues.",
 			"type_id": "3",
 			"maison_id": "6"
 		},
 		{
 			"id": "46",
 			"nom": "Crache-feu long",
-			"type_id": "2",
-			"maison_id": "1"
-		},
-		{
-			"id": "47",
-			"nom": "Bourse enchantée",
+			"desc": "",
 			"type_id": "2",
 			"maison_id": "1"
 		},
 		{
 			"id": "48",
 			"nom": "Gueule de dragon",
+			"desc": "",
 			"type_id": "3",
 			"maison_id": "1"
 		}
@@ -1236,7 +1275,7 @@
 			"titre": "Je suis l'un de ceux qui ont arrêté Corin-Sans-Visage, le voleur Kheyza.",
 			"cdb": "Un Maître Étrange adepte de l'Art Mystique m'a remarqué à cette occasion et m'a enseigné, j'ignore pourquoi, l'art de regarder.",
 			"effet": "Un point de plus en observateur.",
-			"mes": "en dehors des honneurs cette histoire ne m'a rien rapporté. Et maintenant on dit que Corin a été vu sur le Continent et qu'il aurait même passé la Barrière. Si jamais il me retrouve...",
+			"mes": "En dehors des honneurs cette histoire ne m'a rien rapporté. Et maintenant on dit que Corin a été vu sur le Continent et qu'il aurait même passé la Barrière. Si jamais il me retrouve...",
 			"mes_effet": "Il a bien été vu à Port MacKaer, pour le reste...",
 			"maison_id": "4"
 		},
@@ -4746,7 +4785,7 @@
 		},
 		{
 			"id": "18",
-			"nom": "Par le regard dor",
+			"nom": "Par le regard d'or",
 			"portee": "5m",
 			"cible": "L'entourage du Maître Étrange",
 			"duree": "1 PA",
