@@ -825,7 +825,7 @@
 		{
 			"id": "17",
 			"nom": "Pierre de rêve",
-			"desc": "Permet l'utilisation de la compétence Art Onirique (tous les Ulmèques en ont une).'",
+			"desc": "Permet l'utilisation de la compétence Art Onirique (tous les Ulmèques en ont une).",
 			"type_id": "1",
 			"maison_id": "5"
 		},
@@ -839,7 +839,7 @@
 		{
 			"id": "19",
 			"nom": "Armure renforcée en élytre Kriln",
-			"desc": "N'importe qu'elle armure, agrmentée de plaques de chitine prélevées sur un scarabée géant (DEF+1, encombrement divisé par deux).",
+			"desc": "N'importe qu'elle armure, agrémentée de plaques de chitine prélevées sur un scarabée géant (DEF+1, encombrement divisé par deux).",
 			"type_id": "2",
 			"maison_id": "5"
 		},
@@ -1285,7 +1285,7 @@
 			"cdb": "Ma mère était une esclave en vue et concubine de mon père. Je suis donc un bâtard mais respecté. Elle m'a enseigné la langue de mon pays et l'Art Démonique. mon père de son côté s'est assuré que j'aie une éducation digne de mon rang.",
 			"effet": "Niveau novice en Art Démonique et deux tours.",
 			"mes": "Ma mère a été violée par la Dame sait qui. Je suis né esclave et je n'ai donc pas été formé à un métier et j'ai dû tout apprendre par moi-même.",
-			"mes_effet": "Pas de métier. Tu dois tout acheter au coût hors profession sauf trois compétences d'apprenti ainsi que l'Art Démonique que ta mère t'a transmis en cachette avec deux tours ou un sort de cet art. Tu n'as pas de compétence de compétence de compagnon mais tu gagnes quelques belles cicatrices et un point de Fort ou de Résistant supplémentaire.",
+			"mes_effet": "Pas de métier. Tu dois tout acheter au coût hors profession sauf trois compétences d'apprenti ainsi que l'Art Démonique que ta mère t'a transmis en cachette avec deux tours ou un sort de cet art. Tu n'as pas de compétence de compagnon mais tu gagnes quelques belles cicatrices et un point de Fort ou de Résistant supplémentaire.",
 			"maison_id": "3"
 		},
 		{
