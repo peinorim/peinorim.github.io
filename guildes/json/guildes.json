@@ -1195,7 +1195,7 @@
 		},
 		{
 			"id": "2",
-			"nom": "L'Académie est venue tard, au point où je ne pensais même plus devenir Aventurier. ne pleurons tout de même pas sur mon sort ça m'a permis d'aller plus loin que n'importe qui.",
+			"nom": "L'Académie est venue tard, au point où je ne pensais même plus devenir Aventurier. Ne pleurons tout de même pas sur mon sort ça m'a permis d'aller plus loin que n'importe qui.",
 			"effet": "Tu peux ouvrir une compétence de maître."
 		},
 		{
@@ -1254,7 +1254,7 @@
 		},
 		{
 			"id": "5",
-			"titre": "Vers 213, j'ai suivi les enseignements d'un Mystiques des Arts Martiaux.",
+			"titre": "Vers 213, j'ai suivi les enseignements d'un Mystique des Arts Martiaux.",
 			"cdb": "J'ai reçu un entraînement poussé. je suis désormais un pratiquant des arts martiaux Felsins.",
 			"effet": "Accès aux arts martiaux. N'oublie pas que les Felsins ont accès à la compétence Sheï comme si elle faisait partie de leur profil de métier.",
 			"mes": "Fils d'une prostituée Phaleeni je dus interrompre mon apprentissage (bien avant d'avoir appris quelque chose d'utile) lorsqu'une guerre secrète éclata entre les courtisanes felsines et les prostituées sacrées. Afin d'éviter que je ne trahisse mon enseignement, mon maître me rendit définitivement incapable de pratiquer les Arts Martiaux en me mutilant.",
@@ -1319,7 +1319,7 @@
 			"id": "14",
 			"titre": "J'ai vécu la capture de Corin Sans Visage et assisté à sa mise à mort...",
 			"cdb": "J'ai failli lui permettre de s'enfuir, ces maudits Felsins lui sont tombés dessus. En attendant j'ai quand même vécu trois mois à ses côtés.",
-			"effet": "5 points à dépenser dans des compétences en rapport avec le vol (crochetage, escalade, discrétion, escalade, pickpocket.",
+			"effet": "5 points à dépenser dans des compétences en rapport avec le vol (crochetage, escalade, discrétion, pickpocket.",
 			"mes": "C'est moi qui l'ai dénoncé. j'ai appris après coup que toute cette affaire c'était qu'une fumisterie destinée à lui permettre de disparaître. Aujourd'hui il est sur le Continent et il sait que j'y suis aussi. Je dois donc porter ce lourd secret qui peut faire de moi un paria auprès des Kheyza, mais aussi prendre garde à sa vengeance.",
 			"mes_effet": "",
 			"maison_id": "6"
@@ -4230,7 +4230,7 @@
 		},
 		{
 			"id": "3",
-			"nom": "Je taide à te rétablir",
+			"nom": "Je t'aide à te rétablir",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4310,7 +4310,7 @@
 		},
 		{
 			"id": "13",
-			"nom": "Aide doutre-tombe",
+			"nom": "Aide d'outre-tombe",
 			"diff": "Très facile",
 			"portee": "",
 			"effet": "",
@@ -4334,7 +4334,7 @@
 		},
 		{
 			"id": "16",
-			"nom": "Une voix doutre-tombe",
+			"nom": "Une voix d'outre-tombe",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4358,7 +4358,7 @@
 		},
 		{
 			"id": "19",
-			"nom": "Lesprit domine le corps",
+			"nom": "L'esprit domine le corps",
 			"diff": "Difficile",
 			"portee": "",
 			"effet": "",
@@ -4398,7 +4398,7 @@
 		},
 		{
 			"id": "24",
-			"nom": "Loeil du corbeau",
+			"nom": "L'oeil du corbeau",
 			"diff": "Très facile",
 			"portee": "",
 			"effet": "",
@@ -4406,7 +4406,7 @@
 		},
 		{
 			"id": "25",
-			"nom": "Mon ombre festois",
+			"nom": "Mon ombre festoie",
 			"diff": "Très facile",
 			"portee": "",
 			"effet": "",
@@ -4422,7 +4422,7 @@
 		},
 		{
 			"id": "27",
-			"nom": "Louie du corbeau",
+			"nom": "L'ouie du corbeau",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4430,7 +4430,7 @@
 		},
 		{
 			"id": "28",
-			"nom": "Le bouffon de lombre",
+			"nom": "Le bouffon de l'ombre",
 			"diff": "Facile",
 			"portee": "",
 			"effet": "",
@@ -4462,7 +4462,7 @@
 		},
 		{
 			"id": "32",
-			"nom": "Léclair dans la nuit",
+			"nom": "L'éclair dans la nuit",
 			"diff": "Difficile",
 			"portee": "",
 			"effet": "",
@@ -4502,7 +4502,7 @@
 		},
 		{
 			"id": "37",
-			"nom": "Frère dombre",
+			"nom": "Frère d'ombre",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",
@@ -4622,7 +4622,7 @@
 		},
 		{
 			"id": "52",
-			"nom": "Lépée de feu",
+			"nom": "L'épée de feu",
 			"diff": "Impossible",
 			"portee": "",
 			"effet": "",

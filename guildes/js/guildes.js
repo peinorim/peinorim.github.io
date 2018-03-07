@@ -273,13 +273,13 @@ $(function() {
                 if (data.cdball.length > 0) {
 
                     for (var i = 0; i < data.cdball.length; i++) {
-                        $(document).find("#body-cdbmes").append('<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + data.cdball[i].nom + '</p>' + '<p>' + data.cdball[i].effet + '</p>' + '</div></div>');
+                        $(document).find("#body-cdbmes").append('<div class="col-md-4 col-xs-6"><div class="thumbnail"><div class="caption"><p class="bold">' + data.cdball[i].nom + '</p>' + '<p>' + data.cdball[i].effet + '</p>' + '</div></div></div>');
                     }
 
                     $(document).find("#body-cdbmes").append('<div class="page-header col-xs-12"><h3>Mésaventures</h3></div>');
 
                     for (var i = 0; i < data.mesall.length; i++) {
-                        $(document).find("#body-cdbmes").append('<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + data.mesall[i].nom + '</p>' + '<p>' + data.mesall[i].effet + '</p>' + '</div></div>');
+                        $(document).find("#body-cdbmes").append('<div class="col-md-4 col-xs-6"><div class="thumbnail"><div class="caption"><p class="bold">' + data.mesall[i].nom + '</p>' + '<p>' + data.mesall[i].effet + '</p>' + '</div></div></div>');
                     }
                 }
 
@@ -295,8 +295,8 @@ $(function() {
                         for (var j = 0; j < cdbMaisons.length; j++) {
 
                             $(document).find(htmlKeys[i]).append(
-                                    '<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + cdbMaisons[j].titre + '</p>' + '<p>' + cdbMaisons[j].cdb + '</p>' + '<p><i>' + cdbMaisons[j].effet + '</i></p>' + '<hr></hr>' + '<p>' + cdbMaisons[j].mes + '</p>' + '<p><i>' + cdbMaisons[j].mes_effet + '</i></p>'
-                                            + '</div></div>');
+                                    '<div class="col-md-4 col-xs-6"><div class="thumbnail"><div class="caption"><p class="bold">' + cdbMaisons[j].titre + '</p>' + '<p>' + cdbMaisons[j].cdb + '</p>' + '<p><i>' + cdbMaisons[j].effet + '</i></p>' + '<hr></hr>' + '<p>' + cdbMaisons[j].mes + '</p>' + '<p><i>' + cdbMaisons[j].mes_effet + '</i></p>'
+                                            + '</div></div></div>');
                         }
 
                     }
@@ -305,13 +305,13 @@ $(function() {
                 if (data.cdbacademie.length > 0) {
 
                     for (var i = 0; i < data.cdbacademie.length; i++) {
-                        $(document).find("#body-academie").append('<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + data.cdbacademie[i].nom + '</p>' + '<p>' + data.cdbacademie[i].effet + '</p>' + '</div></div>');
+                        $(document).find("#body-academie").append('<div class="col-md-4 col-xs-6"><div class="thumbnail"><div class="caption"><p class="bold">' + data.cdbacademie[i].nom + '</p>' + '<p>' + data.cdbacademie[i].effet + '</p>' + '</div></div></div>');
                     }
 
                     $(document).find("#body-academie").append('<div class="page-header col-xs-12"><h3>Mésaventures</h3></div>');
 
                     for (var i = 0; i < data.mesacademie.length; i++) {
-                        $(document).find("#body-academie").append('<div class="thumbnail col-md-4 col-xs-12">' + '<div class="caption"><p class="bold">' + data.mesacademie[i].nom + '</p>' + '<p>' + data.mesacademie[i].effet + '</p>' + '</div></div>');
+                        $(document).find("#body-academie").append('<div class="col-md-4 col-xs-6"><div class="thumbnail"><div class="caption"><p class="bold">' + data.mesacademie[i].nom + '</p>' + '<p>' + data.mesacademie[i].effet + '</p>' + '</div></div></div>');
                     }
                 }
 
