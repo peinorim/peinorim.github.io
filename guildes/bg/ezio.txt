@@ -50,3 +50,68 @@ comme mission de m'en faire baver, je pense que mon statut de patricien l'agaça
 mon propre intérêt. Au final ce sadique m'a beaucoup appris mais dans la douleur, on peut dire qu'il était aux antipodes d'Aldo mais il était
 en revanche bien plus doué et savant dans notre art étrange, si doué qu'il me fit assister à ce que je n'aurais jamais dû voir, la création
 d'un guilder constellé, j'y ai d'ailleurs appris certains de ces secrets de fabrique...
+
+
+/**************************************************************************************************************************************/
+
+
+Agile : 5        Charmeur : 3
+
+Fort : 4         Rusé : 5
+
+Résistant : 4    Savant : 4
+
+Observateur : 3  Talentueux : 3
+
+ 
+
+AGue : 4 (for+res+sav)
+AE :   4 (agi+rus+char)
+AGui : 3 (obs+tal)
+
+
+CDB : métier passionnant, auprès d'un maître étrange (art sorcier à E, tour je respire sous l'eau), mon père m'a appris (armes de trait)
+Més : il m'est arrivé un truc (charmeur descend à 3 vers fort), famille décadente (crise cauchemars, res descend à 4 vers savant) 
+
+Tours : je te rends un peu de vie, j'élève un mur d'air
+Sort : je modèle la chaleur
+
+
+Art sorcier     -> I  (3pts)
+Patois          -> N  (1pt)
+Loom            -> E  (7pts)
+Discrétion      -> I  (3pts)
+ 
+Déguisement     -> I  (3pts)
+Falsification   -> N  (1pt)
+Lois            -> NC (0pt)
+Armes de trait  -> I  (3pts)
+                =  21 pts
+
+CDB : surentraînement, maître felsin (+1 à rusé), maître sadique (c'est ton guilder ça ?), réserve de loom (10pts de loom)
+Més : ennemi acharné (maitre ashragor académie), querelle de maîtres (guildes et routes NC, armes de trait à expert), incident magique (pas d'ombre)
+
+ 
+Athlétisme          ->  N  (2pts)
+Autochtones         ->  N (2pts)
+Guildes             ->  N (2pts)
+Langue wish         ->  N  (2pts)
+Natation            ->  N  (2pts)
+Orientation         ->  N  (2pts)
+Premiers soins      ->  N  (2pts)
+Routes              ->  N (2pts)
+Survie              ->  N  (2pts)
+Vigilance           ->  N  (2pts)
+
+Armes tranchantes   -> I (6pts)
+Lois                -> N (1pt)
+                    =  27 pts
+                    
+Incompétent     Novice  1
+Incompétent     Initié  3
+Incompétent     Expert  7
+Novice          Initié  2
+Novice          Expert  6
+Initié          Expert  4
+
+Equipement : arbalète à cric + sabre, 40m de corde, 3sem de rations, torche, tente 2 places, sac de clous
