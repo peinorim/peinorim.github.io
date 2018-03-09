@@ -352,7 +352,7 @@ $(function() {
                 }
 
                 if (data.competences.length > 0) {
-                    data.competences.sort(predicateBy("nom"));
+                    
                     for (var i = 0; i < data.competences.length; i++) {
                         var chapitres = data.chapitres.filter(function(item) {
                             return item.id === data.competences[i].chapitre_id;
@@ -385,7 +385,7 @@ $(function() {
                 }
 
                 if (data.metiers.length > 0) {
-                    data.metiers.sort(predicateBy("nom"));
+                    
                     for (var i = 0; i < data.metiers.length; i++) {
                         $(document).find("#body-metiers-metier").append('<li><a class="list-group-item" data-metier-id="' + data.metiers[i].id + '" href="#">' + data.metiers[i].nom + "</a></li>");
                         $(document).find("#perso-metiers").append($("<option></option>").attr("value", data.metiers[i].id).text(data.metiers[i].nom));
@@ -401,6 +401,9 @@ $(function() {
                         $(document).find("#body-metiers-chap").append('<li><a class="list-group-item" data-chap-id="' + data.chapitres[i].id + '" href="#">' + data.chapitres[i].nom + "</a></li>");
                     }
                 }
+                
+                data.competences.sort(predicateBy("nom"));
+                data.metiers.sort(predicateBy("nom"));
 
                 $(document).find("table").each(function(index) {
                     sortTable($(this), 0);
