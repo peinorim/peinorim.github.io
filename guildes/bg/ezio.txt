@@ -93,19 +93,19 @@ Més : ennemi acharné (maitre ashragor académie), querelle de maîtres (guilde
 
  
 Athlétisme          ->  N  (2pts)
-Autochtones         ->  N (2pts)
-Guildes             ->  N (2pts)
+Autochtones         ->  N  (2pts)
+Guildes             ->  N  (2pts)
 Langue wish         ->  N  (2pts)
 Natation            ->  N  (2pts)
 Orientation         ->  N  (2pts)
 Premiers soins      ->  N  (2pts)
-Routes              ->  N (2pts)
+Routes              ->  N  (2pts)
 Survie              ->  N  (2pts)
 Vigilance           ->  N  (2pts)
 
-Armes tranchantes   -> I (6pts)
-Lois                -> N (1pt)
-                    =  27 pts
+Armes tranchantes   ->  I  (6pts)
+Lois                ->  N  (1pt)
+                    =   27 pts
                     
 Incompétent     Novice  1
 Incompétent     Initié  3

@@ -75,12 +75,12 @@ CDB : métier passionnant, enseignements arts martiaux, transformation en animal
 Més : arrestation corin, il m'est arrivé un truc (-1 char et +1 à fort)
 
 Athlétisme         ->  N  (1pt)
-Arts martiaux      ->  N  (1pt) 
-Armes tranchantes  ->  I  (3pts)  
-Equilibre          ->  I  (3pts)   
+Arts martiaux      ->  N  (1pt)
+Armes tranchantes  ->  I  (3pts)
+Equilibre          ->  I  (3pts)
 
-Premiers soins     ->  N  (1pt)  
-Acrobaties         ->  I  (3pts)  
+Premiers soins     ->  N  (1pt)
+Acrobaties         ->  I  (3pts)
 Contorsions        ->  N  (1pt)
 Shei               ->  E  (7pts)
                    =   21 pts
@@ -90,17 +90,17 @@ CDB : surentraînement, maître felsin (+1 à rusé), maître sadique (il ne peu
 Més : ennemi acharné, querelle de maîtres (guildes et routes NC, armes tranchantes à expert), incident magique (pas d'ombre)
  
 
-Autochtones    ->  N  (2pts) 
-Guildes        ->  N  (2pts) 
-Langue         ->  N  (2pts)  
-Natation       ->  N  (2pts)    
-Orientation    ->  N  (2pts) 
-Routes         ->  N  (2pts)  
-Survie         ->  N  (2pts)  
+Autochtones    ->  N  (2pts)
+Guildes        ->  N  (2pts)
+Langue         ->  N  (2pts)
+Natation       ->  N  (2pts)
+Orientation    ->  N  (2pts)
+Routes         ->  N  (2pts)
+Survie         ->  N  (2pts)
 Vigilance      ->  N  (2pts)
 Athlétisme     ->  I  (3pts)
-Arts martiaux  ->  E  (6pts) 
-Premiers soins ->  I  (2pts)  
+Arts martiaux  ->  E  (6pts)
+Premiers soins ->  I  (2pts)
                =   27 pts
               
 

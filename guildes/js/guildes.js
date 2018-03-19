@@ -383,6 +383,9 @@ $(function() {
                                         + data.machinations[i].effet_pervers + "</td>" + "<td>" + chapitres[0].nom + "</td>" + "</tr>");
                     }
                 }
+                
+                data.competences.sort(predicateBy("nom"));
+                data.metiers.sort(predicateBy("nom"));
 
                 if (data.metiers.length > 0) {
                     
@@ -401,9 +404,6 @@ $(function() {
                         $(document).find("#body-metiers-chap").append('<li><a class="list-group-item" data-chap-id="' + data.chapitres[i].id + '" href="#">' + data.chapitres[i].nom + "</a></li>");
                     }
                 }
-                
-                data.competences.sort(predicateBy("nom"));
-                data.metiers.sort(predicateBy("nom"));
 
                 $(document).find("table").each(function(index) {
                     sortTable($(this), 0);
