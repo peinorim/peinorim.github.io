@@ -1,0 +1,95 @@
+Cozatl (stratège ulmeq)
+
+J'ai grandi à Fayrik au coeur d'une famille de guerriers relativement aisée pour cette caste, mes parents étaient des pontes de l'armée
+et c'est donc naturellement que je l'ai rejointe dès que j'en ai eu l'âge étant une armoire à glace passionné par l'utilisation des masses
+et autres marteaux de guerre contrairement à mon frère Patloc qui était plutôt fluet et complètement inapte au combat mais il était pourvu 
+d'autres talents et devint un espion plutôt doué. Mon frère et moi partagions en revanche une certaine capacité à diriger les gens et à 
+élaborer des stratégies complexes et retors, ce qui m'a permis de grimper assez rapidement les échelons de la hiérarchie militaire et a 
+fait de moi un officier en quelques années.
+
+Après de nombreuses escarmouches victorieuses le gouvernement créa une unité spéciale d'élite nommée "la main rouge" composée d'une
+dizaine de d'hommes avec moi à leur tête, nous étions envoyés partout sur les Rivages, la plupart du temps en infiltration discrète et
+d'autres fois prêtant main forte à d'autres armées alliées. Nous avions alors carte blanche pour mener à bien les objectifs de la mission
+et ne répondions uniquement soit au plus haut commandement de l'armée soit directement au Fils des feux du ciel, cette unité mena ces
+opérations pendant plusieurs années et nous fûmes alors hautement réputés à travers l'armée et même parmi les rêveurs sacrés.
+
+Mais tout ça c'était avant le drame, une mission particulièrement dangereuse nous mena en territoire ashragor où nous devions secourir un
+prisonnier Venn'Dys important. Nous nous sommes donc infiltrés sur les terres mortifères jusqu'à un fort prison où se trouvait notre cible,
+cependant une fois arrivés sur place nous eûmes non seulement la mauvaise surprise de constater que notre homme était déjà mort depuis
+longtemps mais qu'en plus une embuscade nous avait été tendue, nous avions été trahis. Sur les sept qui fûmes envoyés pour accomplir la
+mission nous fûmes deux à survivre aux mois de tractations entre les gouvernements ashragor, venn'dys et le nôtre pour négocier notre
+liberté. A notre retour notre unité fut dissoute, c'était une des conditions de notre libération et je quittais donc l'armée avec les plus
+grands honneurs même si toute cette histoire me laissait un goût amer dans la bouche, après tout je n'ai jamais su qui nous avait trahi.
+
+J'intégrai alors l'académie ulmeq Titlanazlatq, Titlan pour les intimes, l'enseignement portant essentiellement sur les différentes techniques 
+de survie, tout ce petit monde est mis en condition dans la zone la plus sauvage et dangereuse de la Péninsule : la Forêt des Brumes. 
+Située, entre les plateaux de Popaya et de Qzotlathecl, au plus profond de la Gorge du Serpent, la Forêt des Brumes, qui recouvre toute cette 
+région de son manteau de verdure, jouit d'une très mauvaise réputation. Dense et humide, elle abrite nombre d'espèces hostiles à l'être humain, 
+si bien qu'un guildien rôdé au Continent ne s'y sentirait pas dépaysé. Je fus soumis à rude épreuve pendant ces trois années d'entraînement 
+mais je n'ai guère pu étudier assidûment car j'ai été au centre d'un conflit entre deux maîtres, un ashragor nommé Menlav qui essaya de me 
+soutirer des secrets sur l'armée et Shin un fascinant felsin qui fit tout pour me protéger et qui me pris à part pour m'enseigner une nouvelle 
+façon de penser, de réfléchir face aux événements et il est vrai que je me sens différent depuis lors. Excédé par mes refus, Menlav tenta de 
+me tuer mais je le blessai gravement d'un coup de masse, étant fautif Menlav fut renvoyé de l'académie et rejoignit le continent tout en 
+jurant d'en finir avec moi. La dernière année ne fut pas plus calme, j'eus pour seul maître un soldat gehemdal qui s'était fixé comme mission 
+de m'en faire baver, il est probable que mon ancien grade d'officier l'agaçait, n'empêche qu'il m'a beaucoup appris sur le maniement des
+armes.
+
+Mon guilder constellé obtenu, je pris alors un bateau pour Port-Franc où j'embarquais ensuite à destination du continent...
+
+
+/**************************************************************************************************************************************/
+
+
+Agile :  3       Charmeur : 4
+
+Fort :   5       Rusé : 5
+
+Résistant :  5   Savant : 3
+
+Observateur : 4   Talentueux : 2
+
+ 
+AGue : 5
+AEtr : 2
+AGui : 4
+
+
+CDB : métier passionnant, unité d'élite (armure renforcée)
+Més : il m'est arrivé un truc (-1 char, +1 fort)
+
+Athlétisme         ->  I  (3pts)
+Bagarre            ->  I  (3pts)
+Armes contondantes ->  I  (3pts)
+Intimidation       ->  N  (1pt)
+
+Politique          ->  N  (1pt)
+Stratégie          ->  E  (7pts)
+Commandement       ->  I  (3pts)
+                   =   21 pts
+
+                    
+CDB : surentraînement, maître felsin (+1 rusé), maître sadique (il ne peut en rester qu'un)
+Més : ennemi acharné, querelle de maîtres (guildes et routes NC, armes contondantes à expert)
+ 
+
+Autochtones    ->  N  (2pts)
+Guildes        ->  N  (2pts)
+Langue         ->  N  (2pts)
+Natation       ->  N  (2pts)
+Orientation    ->  N  (2pts)
+Routes         ->  N  (2pts)
+Survie         ->  N  (2pts)
+Vigilance      ->  N  (2pts)
+Politique      ->  E  (6pts)
+Commandement   ->  E  (4pts)
+               =   27 pts
+              
+
+Incompétent     Novice  1
+Incompétent     Initié  3
+Incompétent     Expert  7
+Novice          Initié  2
+Novice          Expert  6
+Initié          Expert  4
+
+Equipement : marteau de guerre, pavois, armure scarabée, 40m de corde, 3sem de rations, torche, tente 2 places, sac de clous

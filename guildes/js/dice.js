@@ -1,6 +1,6 @@
 $(function() {
-    
-    $(document).on("change",'#rad_comp',function() {
+
+    $(document).on("change", '#rad_comp', function() {
         $('#res').hide();
         if ($(this).is(':checked')) {
             $('#div_lanceur').show();
@@ -11,7 +11,7 @@ $(function() {
             $('#div_carac_niv').hide();
         }
     });
-    $(document).on("change",'#rad_noncomp',function() {
+    $(document).on("change", '#rad_noncomp', function() {
         $('#res').hide();
         if ($(this).is(':checked')) {
             $('#div_lanceur').show();
@@ -22,7 +22,7 @@ $(function() {
             $('#div_carac_niv').hide();
         }
     });
-    $(document).on("change",'#rad_carac',function() {
+    $(document).on("change", '#rad_carac', function() {
         $('#res').hide();
         if ($(this).is(':checked')) {
             $('#div_lanceur').show();
@@ -36,7 +36,7 @@ $(function() {
 
     init();
 
-    $(document).on("click",'#btn_des',function() {
+    $(document).on("click", '#btn_des', function() {
         dice();
     });
 });
@@ -59,11 +59,11 @@ function dice() {
         var comp_niv = $('#comp_niv').val();
         var nb_des = parseInt($('#nb_des').val());
 
-        if (comp_id != 0 && comp_niv != 0 && nb_des != 0) {
+        if (nb_des != 0) {
 
             if (comp_niv === 'N') {
 
-                var arraydest = [0];
+                var arraydest = [ 0 ];
                 var dicedest = (Math.floor(Math.random() * 6)) + 1;
                 arraydest.push(dicedest);
 
@@ -101,7 +101,7 @@ function dice() {
                     }
                 }
                 if (nb_des > 1) {
-                    var arraydices = [Number(sommedest)];
+                    var arraydices = [ Number(sommedest) ];
                     var max1 = sommedest;
                     var min1 = 0;
 
@@ -129,7 +129,7 @@ function dice() {
                     $('#res').html(jetdest + getDiff(sommedest).bold());
                 }
             } else if (comp_niv === 'I') {
-                var arraydest = [0];
+                var arraydest = [ 0 ];
                 var dicedest = (Math.floor(Math.random() * 6)) + 1;
                 arraydest.push(dicedest);
 
@@ -168,7 +168,7 @@ function dice() {
                     }
                 }
                 if (nb_des > 1) {
-                    var arraydices = [Number(sommedest)];
+                    var arraydices = [ Number(sommedest) ];
                     var max1 = sommedest;
                     var max2 = 0;
                     var min1 = 0;
@@ -207,7 +207,7 @@ function dice() {
                 }
 
             } else if (comp_niv === 'E') {
-                var arraydest = [0];
+                var arraydest = [ 0 ];
                 var dicedest = (Math.floor(Math.random() * 6)) + 1;
                 arraydest.push(dicedest);
 
@@ -246,7 +246,7 @@ function dice() {
                     }
                 }
                 if (nb_des > 1) {
-                    var arraydices = [Number(sommedest)];
+                    var arraydices = [ Number(sommedest) ];
                     var max1 = sommedest;
                     var max2 = 0;
                     var max3 = 0;
@@ -295,69 +295,53 @@ function dice() {
 
         var comp_id = $('#select_comp').val();
 
-        if (comp_id != 0) {
+        var arraydest = [ 0 ];
+        var dicedest = (Math.floor(Math.random() * 6)) + 1;
+        arraydest.push(dicedest);
 
-            var arraydest = [0];
+        while (dicedest === 6) {
             var dicedest = (Math.floor(Math.random() * 6)) + 1;
             arraydest.push(dicedest);
-
-            while (dicedest === 6)
-            {
-                var dicedest = (Math.floor(Math.random() * 6)) + 1;
-                arraydest.push(dicedest);
-            }
-
-            if (arraydest[0] === 0)
-            {
-                arraydest.shift();
-            }
-            var sommedest = 0;
-            var op = "";
-            var j = 0;
-            var jetdest = "";
-
-            for (var i = 0; i < arraydest.length; i++)
-            {
-                sommedest = (sommedest * 1) + Number(arraydest[i]);
-                j++;
-                if (arraydest.length > j)
-                {
-                    if (i === 0)
-                    {
-                        op = "(" + op + String(arraydest[i]) + " + ";
-                    }
-                    else
-                    {
-                        op = op + String(arraydest[i]) + " + ";
-                    }
-                }
-                else
-                {
-                    op = op + String(arraydest[i]) + ")";
-                }
-            }
-            sommedest -= 3;
-            if (arraydest.length > 1)
-            {
-                op = op.bold().fontcolor("red");
-                jetdest = op + " => " + sommedest;
-            }
-            else if (arraydest.length === 1)
-            {
-                op = op.replace(")", "");
-            }
-            else
-            {
-                jetdest = String(sommedest);
-                jetdest = jetdest.fontcolor("red");
-            }
-
-            op = op.fontcolor("red");
-
-            var jettot = op;
-            jettot = jettot + " - 3 " + " = " + sommedest;
-            $('#res').html(jettot + getDiff(sommedest).bold());
         }
+
+        if (arraydest[0] === 0) {
+            arraydest.shift();
+        }
+        var sommedest = 0;
+        var op = "";
+        var j = 0;
+        var jetdest = "";
+
+        for (var i = 0; i < arraydest.length; i++) {
+            sommedest = (sommedest * 1) + Number(arraydest[i]);
+            j++;
+            if (arraydest.length > j) {
+                if (i === 0) {
+                    op = "(" + op + String(arraydest[i]) + " + ";
+                } else {
+                    op = op + String(arraydest[i]) + " + ";
+                }
+            } else {
+                op = op + String(arraydest[i]) + ")";
+            }
+        }
+        sommedest -= 3;
+        if (arraydest.length > 1) {
+            op = op.bold().fontcolor("red");
+            jetdest = op + " => " + sommedest;
+        } else if (arraydest.length === 1) {
+            op = op.replace(")", "");
+        } else {
+            jetdest = String(sommedest);
+            jetdest = jetdest.fontcolor("red");
+        }
+
+        op = op.fontcolor("red");
+
+        var jettot = op;
+        jettot = jettot + " - 3 " + " = " + sommedest;
+        $('#res').html(jettot + getDiff(sommedest).bold());
+
     } else if ($('#rad_carac').is(':checked')) {
 
         var carac_id = $('#select_carac').val();
@@ -365,7 +349,7 @@ function dice() {
         var carac_niv = parseInt($('#carac_niv').val());
 
         if (carac_id != 0 && nb_des != 0 && carac_niv != 0) {
-            var arraydest = [0];
+            var arraydest = [ 0 ];
             var dicedest = (Math.floor(Math.random() * 6)) + 1;
             arraydest.push(dicedest);
 
@@ -403,7 +387,7 @@ function dice() {
                 }
             }
             if (nb_des > 1) {
-                var arraydices = [Number(sommedest)];
+                var arraydices = [ Number(sommedest) ];
                 var max1 = sommedest;
                 var min1 = 0;
 
@@ -458,21 +442,21 @@ function getDiff(tot) {
 
     switch (reussi) {
 
-        case ' Réussite normale.':
-            $('#res').removeClass().addClass('alert alert-success');
-            break;
-        case ' Baraka !':
-            $('#res').removeClass().addClass('alert alert-success');
-            break;
-        case ' Echec.':
-            $('#res').removeClass().addClass('alert alert-warning');
-            break;
-        case ' Schkoumoune...':
-            $('#res').removeClass().addClass('alert alert-danger');
-            break;
-        default:
-            $('#res').removeClass().addClass('alert alert-info');
-            break;
+    case ' Réussite normale.':
+        $('#res').removeClass().addClass('alert alert-success');
+        break;
+    case ' Baraka !':
+        $('#res').removeClass().addClass('alert alert-success');
+        break;
+    case ' Echec.':
+        $('#res').removeClass().addClass('alert alert-warning');
+        break;
+    case ' Schkoumoune...':
+        $('#res').removeClass().addClass('alert alert-danger');
+        break;
+    default:
+        $('#res').removeClass().addClass('alert alert-info');
+        break;
     }
     if (reussi !== null) {
         return reussi;
