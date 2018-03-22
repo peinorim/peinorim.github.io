@@ -64,6 +64,11 @@ img.center {
     margin-top: 20px;
 }
 
+#chrono li {
+    margin: 5px 0;
+    text-align: justify;
+}
+
 body.nightMode {
     color: #bdc7c1 !important;
     background-color: #142634;

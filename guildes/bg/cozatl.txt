@@ -16,10 +16,23 @@ opérations pendant plusieurs années et nous fûmes alors hautement réputés �
 Mais tout ça c'était avant le drame, une mission particulièrement dangereuse nous mena en territoire ashragor où nous devions secourir un
 prisonnier Venn'Dys important. Nous nous sommes donc infiltrés sur les terres mortifères jusqu'à un fort prison où se trouvait notre cible,
 cependant une fois arrivés sur place nous eûmes non seulement la mauvaise surprise de constater que notre homme était déjà mort depuis
-longtemps mais qu'en plus une embuscade nous avait été tendue, nous avions été trahis. Sur les sept qui fûmes envoyés pour accomplir la
+longtemps mais qu'en plus une embuscade nous avait été tendue, nous avions été trahis. Sur les sept qui furent envoyés pour accomplir la
 mission nous fûmes deux à survivre aux mois de tractations entre les gouvernements ashragor, venn'dys et le nôtre pour négocier notre
 liberté. A notre retour notre unité fut dissoute, c'était une des conditions de notre libération et je quittais donc l'armée avec les plus
-grands honneurs même si toute cette histoire me laissait un goût amer dans la bouche, après tout je n'ai jamais su qui nous avait trahi.
+grands honneurs même si toute cette histoire me laissait un goût amer dans la bouche, je voulais savoir qui nous avait trahi.
+
+J'ai donc mené mon enquête dans les plus hautes sphères du pouvoir me heurtant à certaines résistances mais mon influence me permit tout de
+même d'en savoir un peu plus, je fus rassuré de savoir qu'il ne s'agissait pas de l'un de mes hommes mais un diplomate venn'dys nous avait
+donné car il ne souhaitait pas que le prisonnier soit ramené vivant, en effet l'homme possédait sur lui des informations sensibles qui
+auraient pu ruiner sa carrière. Je me suis donc rendu à Brizio et me suis infiltré chez lui en pleine nuit, je ne l'ai pas fait beaucoup
+souffrir car la cruauté me répugne mais je lui ai bien fait comprendre que cinq de mes hommes avaient péri dans cette affaire, cependant
+après avoir accompli ma basse besogne je me suis fait pincer par les autorités locales et mon influence auprès des ambassadeurs de mon peuple
+m'évita d'être exécuté. Je ne passais donc que quelques mois en prison avec interdiction de remettre les pieds sur les Iles, en plus de
+recevoir une horrible marque au fer rouge sur l'épaule c'est à ce moment-là que je me suis dit qu'il fallait que je trouve une nouvelle voie 
+pour tourner définitivement la page de mon passé. C'est alors que quelque temps plus tard j'ai fait un rêve très étrange, jamais je n'avais 
+eu d'affinités avec Nocte mais je me souviens de ce rêve car il était aussi réaliste que peut l'être la réalité, une créature est venue me 
+rendre visite et m'a conseillé de m'engager dans une académie, je ne sais pas pourquoi mais mon instinct lui a fait tout de suite confiance 
+comme si je l'avais toujours connue.
 
 J'intégrai alors l'académie ulmeq Titlanazlatq, Titlan pour les intimes, l'enseignement portant essentiellement sur les différentes techniques 
 de survie, tout ce petit monde est mis en condition dans la zone la plus sauvage et dangereuse de la Péninsule : la Forêt des Brumes. 
@@ -32,7 +45,7 @@ façon de penser, de réfléchir face aux événements et il est vrai que je me 
 me tuer mais je le blessai gravement d'un coup de masse, étant fautif Menlav fut renvoyé de l'académie et rejoignit le continent tout en 
 jurant d'en finir avec moi. La dernière année ne fut pas plus calme, j'eus pour seul maître un soldat gehemdal qui s'était fixé comme mission 
 de m'en faire baver, il est probable que mon ancien grade d'officier l'agaçait, n'empêche qu'il m'a beaucoup appris sur le maniement des
-armes.
+marteaux et autres masses face à de nombreux adversaires simultanés.
 
 Mon guilder constellé obtenu, je pris alors un bateau pour Port-Franc où j'embarquais ensuite à destination du continent...
 
@@ -42,7 +55,7 @@ Mon guilder constellé obtenu, je pris alors un bateau pour Port-Franc où j'emb
 
 Agile :  3       Charmeur : 4
 
-Fort :   5       Rusé : 5
+Fort :   5       Rusé : 4+1
 
 Résistant :  5   Savant : 3
 
@@ -54,8 +67,8 @@ AEtr : 2
 AGui : 4
 
 
-CDB : métier passionnant, unité d'élite (armure renforcée)
-Més : il m'est arrivé un truc (-1 char, +1 fort)
+CDB : métier passionnant, unité d'élite (armure renforcée), j'ai fait un rêve très étrange
+Més : il m'est arrivé un truc (-1 char, +1 fort), j'ai fait une grosse bêtise
 
 Athlétisme         ->  I  (3pts)
 Bagarre            ->  I  (3pts)
