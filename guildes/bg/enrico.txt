@@ -1,0 +1,102 @@
+Enrico Dandolo (explorateur venn'dys)
+
+Et oui Enrico Dandolo le célèbre explorateur, c'est bien moi et non contrairement à ce que vous pensez je ne suis pas né avec une
+cuillère en argent dans la bouche, loin de là, je suis né dans une famille de fermiers n'ayant bien sûr aucun statut social dans la
+société à quelques dizaines de lieues de Brizio. Depuis tout jeune, j'ai toujours eu la bougeotte, me rendant constamment au-delà de nos
+terres pour explorer les rivières, collines et montagnes environnants, passant plusieurs jours en dehors de chez moi au grand dam de mon 
+père qui faisait tout pour me faire reprendre plus tard la ferme familiale alors que je n'y avais aucun talent.
+
+Mais on peut dire que le destin se précipita quand notre village fut attaqué par une bande de maraudeurs qui brûlèrent tout sur leur 
+passage, notre maison y passa aussi et mes parents décédèrent pour me protéger, je n'avais que quatorze ans... Jamais je n'ai compris
+pourquoi le gouvernement n'avait envoyé aucun renfort pour nous aider alors que nous étions si proches de Brizio, c'est pourquoi j'ai
+mené mon enquête bien décidé de comprendre ce qui s'était passé. Je me suis donc rendu à Brizio et ai trouvé un travail en tant
+qu'assitant d'un cartographe, je dois bien avouer que cet emploi me plaisait bien mais je passais le plus clair de mon temps auprès d'un
+petit groupe d'anarchistes qui étaient nombreux en ce temps-là, j'ai fini par découvrir que la Doge n'avait pas levé le petit doigt pour
+mon village car c'était dans son intérêt, d'importants gisements de fer se trouvaient juste en-dessous... 
+
+C'est à ce moment-là que j'ai décidé de faire tomber le gouvernement, cela prit plusieurs années mais avec l'aide de quelques aînés je mis
+au point un complot si retors que le Doge se suicida plutôt que d'affronter la honte et la disgrâce dans laquelle nous l'avions poussé, les
+portes du pouvoir s'ouvrirent donc à moi et je participais à la mise en place d'un nouveau gouvernement qui rétablit l'honneur du village et
+de ses habitants. On m'attribua ensuite le statut de patricien, ce qui était extrêmement rare pour quelqu'un venant d'un milieu pauvre mais
+je m'en fichais éperdument, depuis quelques années le continent me trottait dans la tête, j'étais déterminé à m'y rendre pour faire ce en 
+quoi j'étais le plus doué : l'exploration de contrées inconnues, mais pour cela je devais d'abord me rendre dans une académie.
+
+J'intégrai alors l'académie ulmeq Titlanazlatq, Titlan pour les intimes, l'enseignement portant essentiellement sur les différentes techniques 
+de survie, tout ce petit monde est mis en condition dans la zone la plus sauvage et dangereuse de la Péninsule : la Forêt des Brumes. 
+Située, entre les plateaux de Popaya et de Qzotlathecl, au plus profond de la Gorge du Serpent, la Forêt des Brumes, qui recouvre toute cette 
+région de son manteau de verdure, jouit d'une très mauvaise réputation. Dense et humide, elle abrite nombre d'espèces hostiles à l'être humain, 
+si bien qu'un guildien rôdé au Continent ne s'y sentirait pas dépaysé. Je fus mis à rude épreuve pendant ces trois années, dès la première
+je fus pris à partie par Menlav un horrible ashragor qui enseignait quelques techniques de survie, il semblait décidé à me faire craquer, 
+au point qu'un soir il me tendit une embuscade, sans raison, juste parce que je ne lui plaisait pas. Mais par chance j'étais accompagné d'un 
+collègue felsin et il fut mis à terre défiguré par ma lame mais mon ami felsin eut la malchance de ne pas survivre à cet affrontement, Menlav
+fut renvoyé de l'académie et se rendit sur le continent non sans jurer de me faire payer cette histoire. Quelques jours plus tard je compris
+qu'il avait utilisé un sort contre moi qui eut l'étrange effet secondaire de me faire perdre mon ombre définitivement et aucun des guérisseurs
+de l'académie ne put jamais me soigner. Les deux dernières années furent plus paisibles après ça, je suivais les cours d'un petit felsin
+particulièrement fascinant qui nous faisait davantage méditer que combattre, je vois la vie différemment depuis et j'y ai acquéri une certaine
+sérénité que je ne me connaissais pas. Nous nous liâmes d'amitié et lorsque j'obtins mon guilder constellé, il me fit un cadeau incroyable,
+une mystérieuse et ancienne carte qui menait droit vers un trésor ou quelque chose d'inestimable.
+
+Cependant cette carte devait être décryptée, je me rendis sur le continent pour Port MacKaer puis la Barrière ensuite et m'engagea à plusieurs
+reprises dans des guildes pour des contrats courts, je devais faire du repérage pour essayer de trouver une piste qui menait à la destination
+de la carte. Les années passèrent et les contrats furent de plus en plus importants, je finis donc par acquérir une certaine réputation
+d'explorateur chevronné, dont je l'avoue fut quelque peu relayée grâce à mon influence auprès du gouvernement des Iles mais je refusais de plus
+en plus de contrats, je n'avais qu'une envie, passer la Barrière avec une guilde m'appartenant et trouver ce trésor en mon nom propre...
+
+
+
+
+/**************************************************************************************************************************************/
+
+
+Agile :       4    Charmeur :   4
+
+Fort :        3    Rusé :       3
+
+Résistant :   4    Savant :     5
+
+Observateur : 4+1  Talentueux : 3
+
+ 
+AGue : 4 (res+agi+char)
+AEtr : 3 (fort+rus+tal)
+AGui : 5 (sav+obs)
+
+CDB : Métier passionnant, conspiration contre le doge (c'est par là !, à table !)
+MÉS : Il m'est arrivé un truc (-1 char, +1 res)
+
+Orientation     ->  E (7pts)
+Survie          ->  E (7pts)
+Vigilance       ->  I (3pts)
+Routes          ->  N (1pt)
+
+Autochtones     ->  I  (3pts)
+Escalade        ->  NC (0pts)
+Premiers soins  ->  NC (0pts)
+                    =  21pts
+
+CDB : surentraînement, maître amical (carte trésor), maître felsin (+1 obs)
+MÉS : ennemi acharné, incident magique (pas d'ombre)
+
+
+Athlétisme          ->  N (2pts)
+Guildes             ->  N (2pts)
+Langue              ->  I (6pts)
+Natation            ->  N (2pts)
+
+Routes              ->  I (2pts)
+Premiers soins      ->  I (3pts)
+Escalade            ->  N (1pt)
+Armes tranchantes   ->  I (6pts)
+Sagesse populaire   ->  N (2pts)
+                        = 26 pts
+
+Incompétent     Novice  1
+Incompétent     Initié  3
+Incompétent     Expert  7
+Novice          Initié  2
+Novice          Expert  6
+Initié          Expert  4
+
+
+Equipement : épée longue, machette, 40m de corde, 6sem de rations, torche, tente 2 places, sac de clous
+

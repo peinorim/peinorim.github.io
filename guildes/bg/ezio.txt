@@ -1,8 +1,8 @@
 Ezio Medici
 
 Vous ne connaissez pas la célèbre famille patricienne Medici de Brizio ? On a pourtant fait les gros titres de l'Archipel à la fois 
-glorieusement dans le passé et aussi honteusement plus récemment, vous trouvez ça étrange ? Laissez-moi vous expliquer ce qui s'est passé.
-Ah au fait, prononcez mon noble nom à la manière venn'dys "méditchi" et non pas "médissi" comme ces balourds de Gehemdals.
+glorieusement dans le passé mais aussi honteusement plus récemment, vous trouvez ça étrange ? Laissez-moi vous expliquer ce qui s'est passé.
+Ah au fait, prononcez mon noble nom à la manière Venn'dys "méditchi" et non pas "médissi" comme ces balourds de Gehemdals.
 
 Notre famille est ancienne, elle date de plusieurs siècles et a fait fortune il y a bien longtemps lorsque mes ancêtres sont devenus des 
 banquiers, parmi les premiers de Brizio à réussir et surtout à durer. Nous possédions un magnifique palais stratégiquement placé entre le 
@@ -57,7 +57,7 @@ d'un guilder constellé, j'y ai d'ailleurs appris certains de ces secrets de fab
 
 Agile : 5        Charmeur : 3
 
-Fort : 4         Rusé : 5
+Fort : 4         Rusé : 4+1
 
 Résistant : 4    Savant : 4
 
@@ -71,7 +71,7 @@ AGui : 3 (obs+tal)
 
 
 CDB : métier passionnant, auprès d'un maître étrange (art sorcier à E, tour je respire sous l'eau), mon père m'a appris (armes de trait)
-Més : il m'est arrivé un truc (charmeur descend à 3 vers fort), famille décadente (crise cauchemars, res descend à 4 vers savant) 
+MÉS : il m'est arrivé un truc (char -1, fort +1), famille décadente (crise cauchemars, res descend à 4 vers savant) 
 
 Tours : je te rends un peu de vie, j'élève un mur d'air
 Sort : je modèle la chaleur
@@ -89,7 +89,7 @@ Armes de trait  -> I  (3pts)
                 =  21 pts
 
 CDB : surentraînement, maître felsin (+1 à rusé), maître sadique (c'est ton guilder ça ?), réserve de loom (10pts de loom)
-Més : ennemi acharné (maitre ashragor académie), querelle de maîtres (guildes et routes NC, armes de trait à expert), incident magique (pas d'ombre)
+MÉS : ennemi acharné (maitre ashragor académie), querelle de maîtres (guildes et routes NC, armes de trait à expert), incident magique (pas d'ombre)
 
  
 Athlétisme          ->  N  (2pts)
@@ -115,3 +115,5 @@ Novice          Expert  6
 Initié          Expert  4
 
 Equipement : arbalète à cric + sabre, 40m de corde, 3sem de rations, torche, tente 2 places, sac de clous
+
+

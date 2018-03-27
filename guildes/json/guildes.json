@@ -3957,7 +3957,7 @@
 			"type": "Instantané",
 			"portee": "20 mètres",
 			"cible": "Une personne",
-			"effet": "Le Maître Étrange du sort replonge la victime dans le dernier cauchemar qu'elle a fait. La cible reste éveillée, mais se trouve dans un état proche du somnambulisme, reproduisant tous les actes de son cauchemar. Lancer 1D6 pour déterminer la nature du cauchemar:<br/>1-2 : Cauchemar terrifiant. la cible se met à fuir le plus vite possible en hurlant, dans une direction aléatoire.<br/>3-4 : Cauchemar paranoïaque. la cible voit des ennemis partout et se défendra par tous les moyens de chaque individu qui s'approche d'elle.<br/>5-6 : Cauchemar hypocondriaque. La cible croit être piquée par des dizaines de parasites et se met à arracher frénétiquement ses vêtements en hurlant, avant de se gratter tout le corps.",
+			"effet": "Le Maître Étrange du sort replonge la victime dans le dernier cauchemar qu'elle a fait. La cible reste éveillée, mais se trouve dans un état proche du somnambulisme, reproduisant tous les actes de son cauchemar. Lancer 1D6 pour déterminer la nature du cauchemar:<br/>1-2 : Cauchemar terrifiant. La cible se met à fuir le plus vite possible en hurlant, dans une direction aléatoire.<br/>3-4 : Cauchemar paranoïaque. La cible voit des ennemis partout et se défendra par tous les moyens de chaque individu qui s'approche d'elle.<br/>5-6 : Cauchemar hypocondriaque. La cible croit être piquée par des dizaines de parasites et se met à arracher frénétiquement ses vêtements en hurlant, avant de se gratter tout le corps.",
 			"maison_id": "5"
 		},
 		{

@@ -28,7 +28,7 @@ auraient pu ruiner sa carrière. Je me suis donc rendu à Brizio et me suis infi
 souffrir car la cruauté me répugne mais je lui ai bien fait comprendre que cinq de mes hommes avaient péri dans cette affaire, cependant
 après avoir accompli ma basse besogne je me suis fait pincer par les autorités locales et mon influence auprès des ambassadeurs de mon peuple
 m'évita d'être exécuté. Je ne passais donc que quelques mois en prison avec interdiction de remettre les pieds sur les Iles, en plus de
-recevoir une horrible marque au fer rouge sur l'épaule c'est à ce moment-là que je me suis dit qu'il fallait que je trouve une nouvelle voie 
+recevoir une horrible marque au fer rouge sur l'épaule, c'est à ce moment-là que je me suis dit qu'il fallait que je trouve une nouvelle voie 
 pour tourner définitivement la page de mon passé. C'est alors que quelque temps plus tard j'ai fait un rêve très étrange, jamais je n'avais 
 eu d'affinités avec Nocte mais je me souviens de ce rêve car il était aussi réaliste que peut l'être la réalité, une créature est venue me 
 rendre visite et m'a conseillé de m'engager dans une académie, je ne sais pas pourquoi mais mon instinct lui a fait tout de suite confiance 
@@ -59,7 +59,7 @@ Fort :   5       Rusé : 4+1
 
 Résistant :  5   Savant : 3
 
-Observateur : 4   Talentueux : 2
+Observateur : 4  Talentueux : 2
 
  
 AGue : 5
@@ -68,7 +68,7 @@ AGui : 4
 
 
 CDB : métier passionnant, unité d'élite (armure renforcée), j'ai fait un rêve très étrange
-Més : il m'est arrivé un truc (-1 char, +1 fort), j'ai fait une grosse bêtise
+MÉS : il m'est arrivé un truc (-1 char, +1 fort), j'ai fait une grosse bêtise
 
 Athlétisme         ->  I  (3pts)
 Bagarre            ->  I  (3pts)
@@ -82,7 +82,7 @@ Commandement       ->  I  (3pts)
 
                     
 CDB : surentraînement, maître felsin (+1 rusé), maître sadique (il ne peut en rester qu'un)
-Més : ennemi acharné, querelle de maîtres (guildes et routes NC, armes contondantes à expert)
+MÉS : ennemi acharné, querelle de maîtres (guildes et routes NC, armes contondantes à expert)
  
 
 Autochtones    ->  N  (2pts)
@@ -106,3 +106,5 @@ Novice          Expert  6
 Initié          Expert  4
 
 Equipement : marteau de guerre, pavois, armure scarabée, 40m de corde, 3sem de rations, torche, tente 2 places, sac de clous
+
+
