@@ -7,19 +7,21 @@ terres pour explorer les rivières, collines et montagnes environnants, passant 
 père qui faisait tout pour me faire reprendre plus tard la ferme familiale alors que je n'y avais aucun talent.
 
 Mais on peut dire que le destin se précipita quand notre village fut attaqué par une bande de maraudeurs qui brûlèrent tout sur leur 
-passage, notre maison y passa aussi et mes parents décédèrent pour me protéger, je n'avais que quatorze ans... Jamais je n'ai compris
+passage, notre maison y passa aussi et mes parents décédèrent pour me protéger, je n'avais que quatorze ans... Je ne compris pas
 pourquoi le gouvernement n'avait envoyé aucun renfort pour nous aider alors que nous étions si proches de Brizio, c'est pourquoi j'ai
-mené mon enquête bien décidé de comprendre ce qui s'était passé. Je me suis donc rendu à Brizio et ai trouvé un travail en tant
+mené mon enquête bien décidé de comprendre ce qui s'était passé. Je me suis donc rendu à Brizio où j'y ai trouvé un travail en tant
 qu'assitant d'un cartographe, je dois bien avouer que cet emploi me plaisait bien mais je passais le plus clair de mon temps auprès d'un
-petit groupe d'anarchistes qui étaient nombreux en ce temps-là, j'ai fini par découvrir que la Doge n'avait pas levé le petit doigt pour
-mon village car c'était dans son intérêt, d'importants gisements de fer se trouvaient juste en-dessous... 
+de ces petit groupes d'anarchistes qui étaient nombreux en ce temps-là, j'ai fini par découvrir que le Doge n'avait pas levé le petit doigt 
+pour mon village car c'était dans son intérêt, d'importants gisements de fer se trouvaient juste en-dessous et on l'avait soudoyé avec
+beaucoup d'argent pour ne pas agir... 
 
-C'est à ce moment-là que j'ai décidé de faire tomber le gouvernement, cela prit plusieurs années mais avec l'aide de quelques aînés je mis
-au point un complot si retors que le Doge se suicida plutôt que d'affronter la honte et la disgrâce dans laquelle nous l'avions poussé, les
-portes du pouvoir s'ouvrirent donc à moi et je participais à la mise en place d'un nouveau gouvernement qui rétablit l'honneur du village et
-de ses habitants. On m'attribua ensuite le statut de patricien, ce qui était extrêmement rare pour quelqu'un venant d'un milieu pauvre mais
-je m'en fichais éperdument, depuis quelques années le continent me trottait dans la tête, j'étais déterminé à m'y rendre pour faire ce en 
-quoi j'étais le plus doué : l'exploration de contrées inconnues, mais pour cela je devais d'abord me rendre dans une académie.
+C'est à ce moment-là que j'ai décidé de faire tomber ce gouvernement corrompu, cela prit plusieurs années mais avec l'aide de quelques aînés 
+je mis au point un complot si retors que le Doge se suicida plutôt que d'affronter la honte et la disgrâce dans laquelle nous l'avions poussé, 
+les portes du pouvoir s'ouvrirent donc à moi et je participais à la mise en place d'un nouveau gouvernement qui rétablit l'honneur du village 
+et de ses habitants. On m'attribua ensuite pour services rendus le statut de patricien, ce qui était extrêmement rare pour quelqu'un venant 
+d'un milieu pauvre mais je m'en fichais éperdument, depuis quelques années le continent me trottait dans la tête, j'étais déterminé à m'y 
+rendre pour faire ce en quoi j'étais le plus doué : l'exploration de contrées inconnues, mais pour cela je devais d'abord me rendre dans une 
+académie.
 
 J'intégrai alors l'académie ulmeq Titlanazlatq, Titlan pour les intimes, l'enseignement portant essentiellement sur les différentes techniques 
 de survie, tout ce petit monde est mis en condition dans la zone la plus sauvage et dangereuse de la Péninsule : la Forêt des Brumes. 
@@ -27,7 +29,7 @@ Située, entre les plateaux de Popaya et de Qzotlathecl, au plus profond de la G
 région de son manteau de verdure, jouit d'une très mauvaise réputation. Dense et humide, elle abrite nombre d'espèces hostiles à l'être humain, 
 si bien qu'un guildien rôdé au Continent ne s'y sentirait pas dépaysé. Je fus mis à rude épreuve pendant ces trois années, dès la première
 je fus pris à partie par Menlav un horrible ashragor qui enseignait quelques techniques de survie, il semblait décidé à me faire craquer, 
-au point qu'un soir il me tendit une embuscade, sans raison, juste parce que je ne lui plaisait pas. Mais par chance j'étais accompagné d'un 
+au point qu'un soir il me tendit une embuscade, sans raison, juste parce que je ne lui plaisais pas. Mais par chance j'étais accompagné d'un 
 collègue felsin et il fut mis à terre défiguré par ma lame mais mon ami felsin eut la malchance de ne pas survivre à cet affrontement, Menlav
 fut renvoyé de l'académie et se rendit sur le continent non sans jurer de me faire payer cette histoire. Quelques jours plus tard je compris
 qu'il avait utilisé un sort contre moi qui eut l'étrange effet secondaire de me faire perdre mon ombre définitivement et aucun des guérisseurs
@@ -41,8 +43,6 @@ reprises dans des guildes pour des contrats courts, je devais faire du repérage
 de la carte. Les années passèrent et les contrats furent de plus en plus importants, je finis donc par acquérir une certaine réputation
 d'explorateur chevronné, dont je l'avoue fut quelque peu relayée grâce à mon influence auprès du gouvernement des Iles mais je refusais de plus
 en plus de contrats, je n'avais qu'une envie, passer la Barrière avec une guilde m'appartenant et trouver ce trésor en mon nom propre...
-
-
 
 
 /**************************************************************************************************************************************/
@@ -99,4 +99,5 @@ Initié          Expert  4
 
 
 Equipement : épée longue, machette, 40m de corde, 6sem de rations, torche, tente 2 places, sac de clous
+
 

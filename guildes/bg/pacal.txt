@@ -1,0 +1,104 @@
+Pacal (espion ulmeq)
+
+Bon moi c'est Pacal et vous ne saurez rien d'autre sur mon identité, n'insistez pas, en revanche je peux vous raconter comment j'en
+suis arrivé là aujourd'hui.
+
+Je suis né il y a une trentaine d'années dans une famille noble de Fayrik, premier d'une fratrie de trois et comme notre père était
+un ambassadeur, c'est moi qui l'ai suivi la plupart du temps à travers les Rivages pendant que mon frère et ma soeur étaient formés
+à d'autres métiers administratifs sous la hiérarchie des rêveurs sacrés. Je dois bien avouer que ces années de formation ont été
+passionnantes et j'ai beaucoup appris dans l'art de la diplomatie, de l'étiquette et autres compétences dans ce genre, mon père pensait
+que je prendrai sa suite à la tête d'une ambassade mais mes talents de ruse et d'élocution m'ont peu à peu permis de me faire remarquer
+parmi les rêveurs sacrés et d'apprenti diplomate je suis devenu un espion au service du gouvernement. Enfin officiellement j'étais
+toujours considéré comme un diplomate n'est-ce pas. Vous me suivez ? Non ? Tant mieux. 
+
+Au fil des ans j'ai rempli de nombreuses missions un peu partout sur les rivages, de la récupération de positions d'armées ennemies, en 
+passant à la conspiration contre des gouvernements qu'on a fait tomber jusqu'à faire pression sur des gens importants afin d'avoir des 
+leviers de pression dans toutes les Maisons, c'est selon moi ce que notre peuple fait de mieux d'après moi et je ne suis pas peu fier 
+d'avoir apporté ma modeste pierre à l'édifice. 
+
+Cependant j'ai aussi des échecs à mon actif hélas, le dernier est probablement celui qui a d'ailleurs fait le plus de bruit depuis des
+années ce qui n'est jamais bon dans mon métier, alors que j'étais affecté comme faux diplomate à l'ambassade ulmeq de Kashmin, j'ai 
+notamment participé à réunir des informations concernant la capture de Corin sans visage. On a passé des mois à organiser cette opération
+de fond en comble, JAMAIS je dis bien JAMAIS il n'a été question de le capturer vraiment pour le mettre à mort, mais ces imbéciles de Felsins
+ont fait du zêle et sont parvenus, contre toutes nos prévisions, à capturer l'individu en question, j'en ai ri jaune un sacré moment...
+Je ne vous raconte même pas le nombre de gens dont il a fallu graisser la pâte pour organiser son évasion, quoi qu'il en soit je suis
+parvenu à retomber sur mes pattes mais mon homologue felsin, vert de rage, a réussi à faire croire aux kheyzas qui soutenaient Corin, que
+c'était moi le responsable de son arrestation. Et lorsqu'une rumeur, peu importe qu'elle soit vraie ou non, est lancée on ne peut plus
+l'arrêter, je suis donc revenu au pays en rasant les murs car contrairement à ce qu'on pourrait croire les Kheyzas sont pratiquement partout.
+
+Puis après quelques mois passés à me faire oublier à Fayrik, j'ai finalement été assigné à une nouvelle mission très particulière, je dois
+infiltrer une guilde se rendant sur le continent en vue d'un objectif secret dont je n'ai pas la liberté de parler ici. C'est ainsi que
+je me suis fait admettre à la prestigieuse académie de Fayrik où l'on enseigne la rhétorique et la diplomatie notamment, mais je dois bien
+avouer n'avoir jamais autant travaillé que pendant ces trois années-là. La première année j'ai eu un maître complètement dingue qui me 
+faisait travailler mes techniques de persuasion jour et nuit, au bout de quelques mois je n'en pouvais plus mais cela m'a permis de comprendre
+une chose sur la nature humaine : tout le monde a son prix, il suffit de le trouver. Je dois aussi raconter une inimitié qui s'est faite
+entre moi et un venn'dys nommé Pietro Ponti. Au début nous échangions juste des points de vue opposés pendant les cours de débats et une
+cartaine rivalité s'est mise en place, mais tout a dérapé lorsque je l'ai convaincu à tort qu'il était suffisamment doué pour débattre avec
+le doyen de l'académie, bien sûr il s'est fait ridiculiser et m'en a toujours voulu de s'être fait avoir. Peu à peu la situation s'est
+dégradée et on en est venus à se provoquer en duel à la rapière, nous étions de force égale mais le sort a voulu que je finissse par le
+dominer et je l'ai gravement défiguré sans le vouloir, évidemment il m'en veut à mort depuis et je sais qu'il me traquera partout où j'irai,
+cependant cela ne m'inquiète pas, je serai prêt à le recevoir quand ça arrivera.
+
+Enfin au bout de trois ans j'obtins mon guilder constellé et je pris alors un bateau pour Port-Franc où j'embarquais ensuite à destination 
+du continent, la suite du plan allait enfin pouvoir s'amorcer...
+
+
+/**************************************************************************************************************************************/
+
+
+Agile :        4     Charmeur :   5
+
+Fort :         2+1   Rusé :       5
+
+Résistant :    4     Savant :     3
+
+Observateur :  5     Talentueux : 3
+
+ 
+AGue : 4 (agi+res+char)
+AEtr : 3 (sav+tal+fort)
+AGui : 5 (obs+rus)
+
+CDB : Métier passionnant, mon père était un ambassadeur
+MÉS : arrestation Corin
+
+Discrétion          ->  I (3pts)
+Etiquette           ->  E (7pts)
+Vigilance           ->  I (3pts)
+Sagesse populaire   ->  I (3pts)
+
+Déguisement         ->  N (1pt)
+Guildes             ->  N (1pts)
+Diplomatie          ->  I (3pts)
+Langue 1            ->  N (2pts)
+Langue 2            ->  N (2pts)
+                        = 21pts
+
+CDB : surentraînement, maître sadique (combien tu veux ?), maître felsin (+1 fort)
+MÉS : ennemi acharné, incident magique (pas d'ombre)
+
+
+Athlétisme          ->  N  (2pts)
+Autochtones         ->  N  (2pts)
+Natation            ->  N  (2pts)
+Orientation         ->  N  (2pts)
+Premiers soins      ->  N  (2pts)
+Routes              ->  N  (2pts)
+Survie              ->  N  (2pts)
+
+Sagesse populaire   ->  E  (4pts)
+Armes tranchantes   ->  I  (6pts)
+Déguisement         ->  I  (3pts)
+                        = 27pts
+
+Incompétent     Novice  1
+Incompétent     Initié  3
+Incompétent     Expert  7
+Novice          Initié  2
+Novice          Expert  6
+Initié          Expert  4
+
+
+Equipement : épée longue, dague, 40m de corde, 6sem de rations, torche, tente 2 places, sac de clous
+
+

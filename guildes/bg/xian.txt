@@ -59,13 +59,13 @@ Mon guilder constellé obtenu, je pris alors un bateau pour Port-Franc où j'emb
 /**************************************************************************************************************************************/
 
 
-Agile : 5         Charmeur : 3
+Agile :       5     Charmeur :   3
 
-Fort : 5          Rusé : 4+1
+Fort :        5     Rusé :       4+1
 
-Résistant : 4+1   Savant : 2
+Résistant :   4+1   Savant :     2
 
-Observateur : 4   Talentueux : 3
+Observateur : 4     Talentueux : 3
 
  
 AGue : 5 (agi+for+rus)
