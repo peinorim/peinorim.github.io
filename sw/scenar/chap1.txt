@@ -83,14 +83,12 @@ très dangereuse d'accès. Le voyage est périlleux, ils arrivent sur une planè
 Une poussée de force est suffisante pour ouvrir la porte pourtant hermétique, ils progressent et tombent sur une grande salle contenant au 
 centre un tombeau placé sur un piédestal. En ouvrant la sarcophage, une voix d'outre tombe retentit et un silhouette fantomatique apparaît,
 l'ancien seigneur sith les désignent comme indignes et les attaquent, il parvient à attaquer et à se défendre des deux en même temps. Après le
-combat ils découvrent un ancien holocron en ouvrant le sarcophage, l'holocron se déclenche et leur explique que le sith a caché deux reliques 
-de pouvoir, le coeur gauche et le coeur droit de katar, un pendentif coupé en deux parties, les deux reliques combinées ensemble déclenchent 
-un grand et mystérieux pouvoir obscur. Le coeur droit est caché sur geonosis, il n'y a pas d'indication sur le coeur gauche.
+combat ils découvrent le coeur droit de katar, un pendentif coupé en deux parties, les deux reliques combinées ensemble déclenchent 
+un grand et mystérieux pouvoir obscur, il n'y a pas d'indication sur le coeur gauche.
 
-La relique sur geonosis est cachée au coeur d'une caverne rocailleuse marquée sur la carte, ils devront réussir un jet de talent pour la trouver. 
-Elle est protégée par deux cadavres ranimés de jedi qui leur tiennent tête férocement. Le coeur droit est une gemme noire qui peut rentrer dans un 
-sabre laser ou être portée en pendentif pour accroître sa maîtrise de la Force mais son vrai potentiel est utilisé en combinaison avec le 
-coeur gauche de Katar. Celui-ci n'est pas sur geonosis, des graffitis sith leur indique qu'il se trouve sur coruscant.
+Le coeur droit est une gemme noire qui peut rentrer dans un sabre laser ou être portée en pendentif pour accroître sa maîtrise de la Force mais 
+son vrai potentiel est utilisé en combinaison avec le coeur gauche de Katar. Celui-ci n'est pas sur geonosis, des graffitis sith leur indique 
+qu'il se trouve sur coruscant.
 
 Les sith se rendent sur coruscant pour découvrir le coeur gauche de katar, s'il leur reste de l'argent non donné aux hutts, leur réseau d'espions
 leur donnera l'information que le coeur se trouve sur rothana sinon l'un d'eux devra se rendre au temple jedi dissimulé pour apprendre ce qu'il
