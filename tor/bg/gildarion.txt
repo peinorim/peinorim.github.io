@@ -1,0 +1,76 @@
+Gildarion, Haut-Elfe de Fondcombe
+
+Niveau de vie : prospère
+
+Avantage culturel : Face à l'invisible
+
+Compétences communes :
+
+Présence    2       Voyage             1     Connaissances 3
+Athlé       2       Guérison           2
+Vigi        2       Courtoisie         1
+Chant *     2       Art de la guerre   2
+Artisanat   2       Persuasion         2
+
+Compétences d'armes :
+
+(Lances)        2
+Epée longue *   1
+Arc             1
+Dague           1
+
+Spécialités :
+
+Ennemi de Sauron
+Herboristerie ou Connaissances elfiques
+
+Origine : Vengeur
+
+Attributs de base : Corps 6 Coeur 3 Esprit 8
+
+Compétence favorite : Art de la guerre
+
+Particularités :
+
+Fier 
+Impétueux
+Majestueux
+Méfiant
+Rapide
+Sévère 
+Sinistre
+Vengeur
+
+Personnalisation :
+
+Corps + 3 = 9
+Coeur + 2 = 5
+Esprit + 1 = 9
+
+Compétences communes :
+16pts à dépenser
+
+Présence    2+1=3   Voyage             1+1=2       Connaissances 3+1=4
+Athlé       2+3=5   Guérison           2
+Vigi        2+3=5   Courtoisie         1
+Chant *     2       Art de la guerre   2+4=6
+Artisanat   2       Persuasion         2
+
+Epée longue *   1->3 (6pts)
+
+Vocation : Protecteur
+
+Comp favorites : personnalité, survie.
+Trait : Conscience de l'Ombre
+Part d'ombre : attrait du pouvoir
+
+Endurance : 25 + Coeur = 30
+Espoir : 7 + Coeur = 12
+
+Vaillance : 1
+Sagesse : 2 (prouesse des Eldar)
+
+Equipement : épée longue à deux mains + chemise de mailles
+
+
+
