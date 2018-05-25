@@ -1,0 +1,79 @@
+Beran le Fort, béornide
+
+
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+Niveau de vie : martial
+
+Avantage culturel : forcené
+
+Compétences communes :
+
+Présence      3       Inspiration         1        Persuasion        0
+Athlétisme *  2       Voyage              0        Discrétion        0
+Vigilance  *  2       Intuition           3        Fouille           1
+Exploration   0       Guérison            1        Chasse            3
+Chant         0       Courtoisie          0        Enigmes           1
+Artisanat     1       Art de la guerre    0        Connaissances     0
+
+
+Compétences d'armes :
+
+(Hache) 2
+Lance   1
+Dague   1
+
+Spécialités : Connaissances régionales (Anduin), connaissance de la faune
+
+Origine : chef de famille
+
+Attributs de base : Corps 6 Coeur 4 Esprit 4
+
+Compétence favorite : Vigilance
+
+Particularités :
+
+Curieux
+Déterminé
+Entêté
+Généreux
+->Inébranlable
+Loyal
+->Résistant
+Sinistre
+
+Personnalisation :
+
+Corps + 3 = 9
+Coeur + 2 = 6
+Esprit + 1 = 5
+
+Compétences communes :
+10pts à dépenser
+
+Présence      3             Inspiration         1            Persuasion        0
+Athlétisme *  2             Voyage              0->1 (1pt)   Discrétion        0->2 (3pts)
+Vigilance  *  2->3 (3pts)   Intuition           3            Fouille           1
+Exploration   0->1 (1pt)    Guérison            1            Chasse            3
+Chant         0             Courtoisie          0            Enigmes           1
+Artisanat     1             Art de la guerre    0->1 (1pt)   Connaissances     0->1 (1pt)
+
+Vocation : Protecteur
+
+Comp favorites : personnalité, survie
+Trait : Conscience de l'Ombre
+Part d'ombre : Attrait du pouvoir
+
+Endurance : 24 + Coeur = 28
+Espoir : 8 + Coeur = 12
+
+Vaillance : 1
+Sagesse : 2 (vagabond nocturne)
+
+Equipement : grande hache, hache, lance, dague, corselet à manches longues, cervelière de fer et de cuir
+
+
+
+

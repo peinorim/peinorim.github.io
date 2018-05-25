@@ -32,8 +32,8 @@ Avantage culturel : Bon sens hobbit
 Compétences communes :
 
 Présence      0       Inspiration        0        Persuasion        2
-Athlétisme    0       Voyage             1        Discrétion *      3
-Vigilance *   2       Intuition          1        Fouille           2
+Athlétisme    0       Voyage  *          1        Discrétion *      3
+Vigilance     2       Intuition          1        Fouille           2
 Exploration   0       Guérison           0        Chasse            0
 Chant         2       Courtoisie         3        Enigmes           2
 Artisanat     0       Art de la guerre   0        Connaissances     0
@@ -53,13 +53,22 @@ Attributs de base : Corps 4 Coeur 5 Esprit 5
 
 Compétence favorite : Voyage
 
-Particularités : Astucieux, audacieux, curieux, passionné, preste, robuste, sincère, vue perçante
+Particularités : 
+
+->Astucieux
+Audacieux
+Curieux
+Passionné
+Preste
+->Robuste
+Sincère
+Vue perçante
 
 Personnalisation : Corps 4+3=7 Coeur 5+2=7 Esprit 5+1=6
 10 pts à dépenser
 
 Présence      0             Inspiration        0              Persuasion        2
-Athlétisme    0             Voyage             1->2 (2pts)    Discrétion  *     3->4 (4pts)
+Athlétisme    0             Voyage  *          1->2 (2pts)    Discrétion  *     3->4 (4pts)
 Vigilance     2             Intuition          1              Fouille           2
 Exploration   0->2 (3pts)   Guérison           0              Chasse            0
 Chant         2             Courtoisie         3              Enigmes           2
@@ -72,8 +81,8 @@ Comp favorites : déplacement, perception
 Traits : Monte-en-l'air
 Part d'ombre: Mal du dragon
 
-Endurance : 16 + 7 = 23
-Espoir : 12 + 7 = 19
+Endurance : 16 + 5 = 21
+Espoir : 12 + 5 = 17
 
 Vaillance : 1
 Sagesse : 2 (art de la disparition)

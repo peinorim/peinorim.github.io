@@ -30,7 +30,7 @@ Avantage culturel : Peuple du crépuscule
 Compétences communes :
 
 Présence      2       Inspiration        0        Persuasion        0
-Athlétisme    3       Voyage             0        Discrétion        2
+Athlétisme    3       Voyage             0        Discrétion  *     2
 Vigilance *   2       Intuition          0        Fouille           0
 Exploration   0       Guérison           1        Chasse            1
 Chant         2       Courtoisie         0        Enigmes           0
@@ -58,8 +58,8 @@ Endurci
 Insaisissable
 Méfiant
 Ouïe fine
-Patient
-Vue perçante
+->Patient
+->Vue perçante
 
 Personnalisation :
 
@@ -85,8 +85,8 @@ Comp favorites : personnalité, déplacement.
 Trait : Connaissance des ennemis (orcs)
 Part d'ombre : Malédiction de vengeance
 
-Endurance : 22 + Coeur = 27
-Espoir : 8 + Coeur = 13
+Endurance : 22 + Coeur = 25
+Espoir : 8 + Coeur = 11
 
 Vaillance : 1
 Sagesse : 2 (les hérauts)
