@@ -1,6 +1,29 @@
-Merilon Touque, fils de Fortinbras Touque II et Lalia Clayhanger, petit-fils de Isumbras Touque IV 3ème fils du Vieux Touque 
-Hobbit de Bourg de Touque
+Merilon Touque Hobbit de Bourg de Touque né en T.A 2915, fils de Lalia Bolger et Fredegar Touque, fils de Isembold Touque 
+5ème fils du Vieux Touque.
 
+Merilon est un hobbit né à Bourg de Touque où il possède un confortable terrier hérité de ses parents non loin des grands 
+smials qui sont partis vivre à Grand-Cave en 2935 où ils avaient davantage de famille, Merilon, lui, a préféré rester 
+sur place et est devenu indépendant depuis lors. Merilon n'est cependant pas du genre à rester en place, il n'y a pas de
+sentiers qui ne méritent pas d'être foulés sans parler des trésors qu'on peut y trouver, c'est pourquoi il passe auprès 
+de beaucoup dont son ancien pour "un gars bizarre". 
+
+Il adore par dessus tout explorer de vieilles ruines pour y trouver d'anciennes et précieuses reliques qu'il peut revendre 
+à Bree où à la société des Mathoms de Grand-Cave pour un bon prix ou bien à garder pour lui dans son trou où il s'est 
+constitué une impressionnante collection d'objets divers et variés.
+
+Il lui arrive fréquemment de partir pour plusieurs jours explorer sa chère Comté et ses quatre quartiers dans ses moindres 
+recoins, depuis les champs de Longoulet, jusqu'à Dwaling, en passant par le bac de Chateaubouc jusqu'au chas de l'aiguille 
+et même régulièrement jusqu'à Bree où il a rencontré de chaleureux Hobbits habitant Staddle. Et même s'il n'a jamais osé 
+pénétrer dans la vieille forêt, il a été fasciné par les récits de Bilbon Sacquet qui est une sorte de héros pour lui, il 
+rêve depuis lors d'aller plus à l'est jusqu'à Fondcombe et pourquoi pas encore plus loin au-delà des Monts Brumeux jusqu'au 
+Mont Solitaire...
+
+physique : 1m20, légèrement bedonnant, cheveux bouclés châtains foncés et yeux verts foncés.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 
 Niveau de vie : prospère
 
@@ -8,14 +31,16 @@ Avantage culturel : Bon sens hobbit
 
 Compétences communes :
 
-Vigilance      2     Courtoisie    3      Fouilles      2
-Chant          2     Persuasion    2
-Voyage         1     Discrétion    3
-Intuition      1     Enigmes       2
+Présence      0       Inspiration        0        Persuasion        2
+Athlétisme    0       Voyage             1        Discrétion *      3
+Vigilance *   2       Intuition          1        Fouille           2
+Exploration   0       Guérison           0        Chasse            0
+Chant         2       Courtoisie         3        Enigmes           2
+Artisanat     0       Art de la guerre   0        Connaissances     0
 
 Compétences d'armes :
 
-Epée courte    2
+Epée courte *  2
 Dague          1
 Arc            1
 
@@ -31,19 +56,21 @@ Compétence favorite : Voyage
 Particularités : Astucieux, audacieux, curieux, passionné, preste, robuste, sincère, vue perçante
 
 Personnalisation : Corps 4+3=7 Coeur 5+2=7 Esprit 5+1=6
+10 pts à dépenser
 
-Vigilance      2      Courtoisie    3      Fouilles      2
-Chant          2      Persuasion    2
-Voyage         1+2=3  Discrétion *  3+2=5
-Intuition      1+2=3  Enigmes       2
+Présence      0             Inspiration        0              Persuasion        2
+Athlétisme    0             Voyage             1->2 (2pts)    Discrétion  *     3->4 (4pts)
+Vigilance     2             Intuition          1              Fouille           2
+Exploration   0->2 (3pts)   Guérison           0              Chasse            0
+Chant         2             Courtoisie         3              Enigmes           2
+Artisanat     0             Art de la guerre   0              Connaissances     0->1 (1pt)
 
-Epée courte    2->3 (4pts)
 
-Vocation : vagabond
+Vocation : chasseur de trésors
 
-Comp favorites : Coutûme, survie
-Traits : Folklore
-Part d'ombre: folie itinérante
+Comp favorites : déplacement, perception
+Traits : Monte-en-l'air
+Part d'ombre: Mal du dragon
 
 Endurance : 16 + 7 = 23
 Espoir : 12 + 7 = 19
