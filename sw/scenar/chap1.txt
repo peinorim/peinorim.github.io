@@ -27,11 +27,10 @@ a encadré le lieu et leur apprend qu'il s'agit d'une zone dangereuse. Les jedi 
 cautérisée net, seul un sabre laser peut infliger une telle trace. Mais les Jedi se font soudainement attaquer par un droïde assassin en jetpack qui 
 s'enfuit après leur avoir lancé quelques missiles. Les jedi suivent la piste et entrent de nuit dans une usine d'assemblage, des droides se mettent 
 à les attaquer sans raison. Une fois les droides détruits les jedi repèrent un employé qui se cachait dans un bureau, l'homme est terrifié 
-et ils remarquent qui lui manque une main, la blessure ressemble également à celle d'un sabre laser. Dans sa panique il dévoile le nom Tharvencorp, 
-une société détenue par la famille tharven qui assemble des droides en tous genres et dont la plupart des membres vivent dans une grande tour du 
-quartier riche.
+et ils remarquent qui lui manque une main, la blessure ressemble également à celle d'un sabre laser. Dans sa panique il dévoile qu'il s'est fait attaquer 
+par le fils Tharven héritier de la famille dont les membres vivent dans une grande tour du quartier riche.
 
-les jedi se rendent sur place et découvrent le patriarche chester enchaîné, l'homme dit ne pas être au courant et avoue qu'un bon nombre de ses 
+Les jedi se rendent sur place et découvrent le patriarche chester enchaîné, l'homme dit ne pas être au courant et avoue qu'un bon nombre de ses 
 affaires sont gérées par son fils et sa fille qui vivent à la campagne dans la demeure familiale. Un jet de perception indiquera que le vieillard 
 n'est pas sensible à la Force. Il informe les jedi que son fils a pris l'ascendant sur lui et sur sa fille et a détourné beaucoup d'argent
 pour construire des centaines de droides de guerre dans le but de renverser le gouvernement.

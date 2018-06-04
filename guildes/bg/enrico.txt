@@ -84,10 +84,11 @@ Langue              ->  I (6pts)
 Natation            ->  N (2pts)
 
 Routes              ->  I (2pts)
-Premiers soins      ->  I (3pts)
+Premiers soins      ->  N (1pt)
 Escalade            ->  N (1pt)
 Armes tranchantes   ->  I (6pts)
 Sagesse populaire   ->  N (2pts)
+Langue 2            ->  N (2pts)
                         = 26 pts
 
 Incompétent     Novice  1

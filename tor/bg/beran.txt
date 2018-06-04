@@ -1,4 +1,19 @@
-Beran le Fort, béornide
+Beran le Fort, béornide de 28 ans. La famille de Beran a toujours vécu près du Vieux Gué à l'est des Monts Brumeux et
+au sud de la maison de Béorn, surveillant ce passage et l'interdisant au créatures malveillantes, depuis toujours la
+famille de Beran s'est montrée fidèle avec Beorn et ses ancêtres et l'ont toujours aidé lorsqu'il le leur demandait ou dès
+qu'il s'agissait d'aider un autre clan dans la région de l'Anduin. 
+
+La maison de Beorn est pour eux un havre de paix dans une région souvent hostile, surtout depuis peu alors que Beran est
+devenu chef de famille et que son père Beonor est parti surveiller le Haut Col à la demande de Beorn pendant presque
+toute l'année.
+
+Beran est un excellent chasseur pisteur et il reste toujours vigilant à l'affût des créatures mauvaises qui peuplent cette
+région, même la nuit il utilise un don rare appris par Beorn lui-même qui lui permet de surveiller les environs sous la
+forme d'un grand ours semi-réel.
+
+
+Physique : 1m90 forte carrure musculeuse, cheveux serrés en chignon et barbe épaisse mais courte. Trois marques rouges 
+obliques en forme de griffe d'ours lui barrent le haut du visage.
 
 
 -------------------------------------------------------------------------------------------------------------------------
@@ -54,9 +69,9 @@ Compétences communes :
 10pts à dépenser
 
 Présence      3             Inspiration         1            Persuasion        0
-Athlétisme *  2             Voyage              0->1 (1pt)   Discrétion        0->2 (3pts)
+Athlétisme *  2             Voyage              0->1 (1pt)   Discrétion        0->1 (1pt)
 Vigilance  *  2->3 (3pts)   Intuition           3            Fouille           1
-Exploration   0->1 (1pt)    Guérison            1            Chasse            3
+Exploration   0->2 (3pts)   Guérison            1            Chasse            3
 Chant         0             Courtoisie          0            Enigmes           1
 Artisanat     1             Art de la guerre    0->1 (1pt)   Connaissances     0->1 (1pt)
 
