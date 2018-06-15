@@ -1,0 +1,82 @@
+Laerdan fils de Belerdan Rôdeur du Nord né à Bree en T.A 2884 (62 ans)
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Niveau de vie : martial
+
+Avantage culturel : prescience ancestrale
+
+Compétences communes :
+
+Présence      0       Inspiration        0        Persuasion        1
+Athlétisme    1       Voyage  *          2        Discrétion        2
+Vigilance     3       Intuition          1        Fouille           1
+Exploration   2       Guérison           1        Chasse            2
+Chant         1       Courtoisie         1        Enigmes           0
+Artisanat     0       Art de la guerre   1        Connaissances     2
+
+Compétences d'armes :
+
+Epée longue *   2
+(Arcs)          1
+Lance           1
+Dague           1
+
+Spécialités : Allume-feu, connaissance de la faune
+
+Origine : Vagabond solitaire
+
+Attributs de base : Corps 7 Coeur 5 Esprit 5
+
+Compétence favorite : Exploration
+
+Particularités :
+
+Energique
+Honorable
+Impétueux
+Inébranlable
+Majestueux
+->Malin
+Sinistre
+->Vue perçante
+
+Personnalisation :
+
+Corps + 2 = 9
+Coeur + 1 = 6
+Esprit + 3 = 8
+
+Compétences communes :
+14pts à dépenser
+
+Présence       0->1 (1pt)    Inspiration        0               Persuasion        1
+Athlétisme     1->2 (2pts)   Voyage  *          2               Discrétion        2
+Vigilance      3             Intuition          1               Fouille           1
+Exploration *  2->3 (3pts)   Guérison           1->2 (2pts)     Chasse            2
+Chant          1             Courtoisie         1               Enigmes           0
+Artisanat      0             Art de la guerre   1               Connaissances     2
+
+Epée longue *   2->3 (6pts)
+
+Vocation : Protecteur
+
+Comp favorites : personnalité, survie
+Trait : Conscience de l'ombre
+Part d'ombre : attrait du pouvoir
+
+Endurance : 23 + Coeur = 28
+Espoir : 8 + Coeur = 13
+
+Vaillance : 1
+Sagesse : 2 (Familier de la nature)
+
+Equipement : Epée longue (2m), arc, dague, corselet à manches longues
+
+
