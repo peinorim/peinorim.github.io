@@ -5,7 +5,7 @@ seigneurs Elfes de l'Eregion qui y ont vécu du temps où Celebrimbor forgea les
 ne sombre à cause des assauts orcs du Mordor et de Dol Guldur, ses aieux ont alors suivi Elrond jusqu'à Fondcombe d'où ils 
 n'ont pas bougé depuis. La haine de Sauron et des orcs est particulièrement vive chez Celebarad qu'il tient pour
 responsables de la perte de ses terres aujourd'hui désolées, Celebarad n'a bien sûr pas connu cette époque mais sa haine
-est toujours vive depuis la mort de son père tué par une embuscade de wargs alors qu'il était tout jeune. Sa mère 
+est toujours vive depuis la mort de son père tué par une embuscade d'araignées alors qu'il était tout jeune. Sa mère 
 inconsolable rejoignit les havres gris et pris la mer afin d'apaiser ses souffrances, Celebarad a préféré rester malgré
 les demandes de sa mère et a décidé qu'il ne partirait pas tant que Sauron sera en vie, il rêve de lui porter le coup
 fatal même s'il est conscient que l'occasion ne se présentera probablement jamais.
@@ -25,12 +25,12 @@ Avantage culturel : Face à l'invisible
 
 Compétences communes :
 
-Présence      2       Inspiration        0        Persuasion *      2
+Présence      2       Inspiration        0        Persuasion        2
 Athlétisme    2       Voyage             2        Discrétion        0
 Vigilance     2       Intuition          2        Fouille           0
 Exploration   0       Guérison           2        Chasse            0
-Chant         2       Courtoisie         2        Enigmes           2
-Artisanat     2       Art de la guerre   1        Connaissances     0
+Chant  *      2       Courtoisie         2        Enigmes           2
+Artisanat     2       Art de la guerre   1        Connaissances     3
 
 Compétences d'armes :
 
@@ -39,7 +39,7 @@ Epée longue  *   1
 Arc              1
 Dague            1
 
-Spécialités : Ennemi de Sauron, connaissances elfiques
+Spécialités : Forge, connaissances elfiques
 
 Origine : Seigneur Elfe
 
@@ -67,26 +67,26 @@ Esprit + 3 = 9
 Compétences communes :
 16pts à dépenser
 
-Présence  *   2->3 (3pts)   Inspiration         0->1 (1pt)    Persuasion *      2
-Athlétisme    2             Voyage              2             Discrétion        0->1 (1pt)
+Présence  *   2->3 (3pts)   Inspiration         0->1 (1pt)    Persuasion        2
+Athlétisme    2             Voyage              2             Discrétion        0->2 (2pts)
 Vigilance     2             Intuition           2             Fouille           0
 Exploration   0->1 (1pt)    Guérison            2             Chasse            0
-Chant         2             Courtoisie          2             Enigmes           2
-Artisanat     2             Art de la guerre    1->3 (5pts)   Connaissances     0->1 (1pt)
+Chant  *      2             Courtoisie          2             Enigmes           2
+Artisanat     2             Art de la guerre    1->3 (5pts)   Connaissances     3
 
 Epée longue  *   1->2 (4pts)
 
 Vocation : Tueur
 
 Comp favorites : personnalité, déplacement
-Trait : Connaissance des ennemis (orcs)
+Trait : Connaissance des ennemis (araignées)
 Part d'ombre : Malédiction de vengeance
 
 Endurance : 25 + Coeur = 30
 Espoir : 7 + Coeur = 12
 
 Vaillance : 1
-Sagesse : 2 (Prouesse des Eldar)
+Sagesse : 2 (Artisan d'Eregion)
 
 Equipement : lance + arc + épée longue (2m) + dague + cotte de mailles
 
