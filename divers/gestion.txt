@@ -13,7 +13,7 @@ les franchir. Une partie de la carte aura des montagnes infranchissables qui mar
 Les ressources utiles : nourriture, bois, pierre, fer, or.
 
 Chaque territoire démarre avec une capitale, seule ville du territoire, des villages pourront s'implanter ailleurs par la suite.
-Chaque ville évolue de la façon : niv 1 hameau (200), niv 2 village(500), niv 3 petite ville (1000), niv 4 ville moyenne (2000), niv 5 grande ville (5000), 
+Chaque ville évolue de la façon : niv 1 hameau (200), niv 2 village (500), niv 3 petite ville (1000), niv 4 ville moyenne (2000), niv 5 grande ville (5000), 
 niv 6 métropole (10000+)
 
 Le joueur possède un palais au centre de la capitale qui s'améliore selon le niveau de la ville. Le style du palais est complètement personnalisable mais dépend des
@@ -41,7 +41,7 @@ Il est possible de faire du commerce extérieur vers des mondes non joueurs mais
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Toutes races fantasy disponibles tant que ce n'est pas trop cheaté, le PJ incorruptible d'un acolyte est à créer selon les mêmes bases que son perso
+Toutes races fantasy humanoïde disponibles tant que ce n'est pas trop cheaté, le PJ incorruptible d'un acolyte est à créer selon les mêmes bases que son perso
 
 Caracs de 1 à 10, 35 pts à répartir
 
@@ -76,7 +76,7 @@ Jets : D100 , 1-5 réussite critique, 95-100 échec critique
 
 Jets de caracs : D100 réussit si résultat <= CARACx10
 
-Jets magie/physique : D100 réussit si résultat <= CARACx10, en combat le plus haut score gagne
+Jets magie/physique : D100, pour la magie jet d'intelligence x10, agilité x10 pour combat à distance, force x10 pour le cac, en combat le plus haut score gagne.
 
 
 
@@ -90,7 +90,7 @@ Jets magie/physique : D100 réussit si résultat <= CARACx10, en combat le plus 
 
 
 
-Quelque soit le type de population il existe 5 types d'unités parmi les légions disponibles : lanciers, cavaliers (plaines avec hevaux requises), archers, boucliers, fantassins
+Quelque soit le type de population il existe 5 types d'unités parmi les légions disponibles : lanciers, cavaliers (plaines avec chevaux requis), archers, boucliers, fantassins
 
 boucliers résistent aux archers, vulnérables aux fantassins
 lanciers battent les cavaliers, vulnérables aux unités à pied
@@ -105,6 +105,11 @@ catapultes, trébuchet (bois et fer requis)
 
 Une ville assiégée peut tenir X mois par niveau de taille (3 mois pour une petite ville).
 
+Un D100 est lancé par chaque légion qui veut en attaquer une autre, le score est majoré à +20 contre une légion vulnérable et minoré de -20 contre une légion résistante.
+La légion perdante perd 10% de ses effectifs par tranche de 10 d'écart du jet de dé. Une légion réduite en taille prend un malus à ses prochains jets de 10% par taille réduite.
+
+Un PJ peut attaquer une légion à lui seul mais pas deux en même temps sous peine d'être capturé ou pire.
+Le PJ donne un bonus d'attaque de 10% aux jets de la légion dans laquelle il est proche.
 
 
 
