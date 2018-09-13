@@ -31,6 +31,9 @@ partir du niveau 4.
 Chaque ville/village produit une légion armée par niveau de taille, une légion fait 50 soldats.
 
 
+Il est possible de faire du commerce entre joueurs pour échanger/acheter des ressources
+
+
 Il est possible de faire du commerce extérieur vers des mondes non joueurs mais il faut un accès à la mer, par contre des invasions par la mer pourront arriver.
 
 
@@ -41,7 +44,8 @@ Il est possible de faire du commerce extérieur vers des mondes non joueurs mais
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Toutes races fantasy humanoïde disponibles tant que ce n'est pas trop cheaté, le PJ incorruptible d'un acolyte est à créer selon les mêmes bases que son perso
+Toutes races fantasy humanoïde disponibles tant que ce n'est pas trop cheaté, le PJ incorruptible d'un acolyte est à créer selon les mêmes bases que son perso mais
+avec moins de points (25 pts caracs)
 
 Caracs de 1 à 10, 35 pts à répartir
 
@@ -50,7 +54,7 @@ Agilité (définit l'agilité, la dextérité et l'aptitude à se déplacer de f
 Vitalité (définit l'endurance, la santé, résistance aux maladies et la vigueur)
 Volonté (définit la force mentale)
 Intelligence (définit le savoir, la ruse, la puissance de réflexion et de résolution de problèmes)
-Charisme (définit l'aura et l'apparence ainsi que les relations sociales)
+Charisme (définit l'apparence ainsi que les relations sociales)
 
 PV : (Vita + For) x2
 Mana : (Int + Vol) x2
