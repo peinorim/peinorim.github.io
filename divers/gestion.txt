@@ -32,9 +32,13 @@ Chaque ville/village produit une légion armée par niveau de taille, une légio
 
 
 Il est possible de faire du commerce entre joueurs pour échanger/acheter des ressources
-
-
 Il est possible de faire du commerce extérieur vers des mondes non joueurs mais il faut un accès à la mer, par contre des invasions par la mer pourront arriver.
+
+
+Un PNJ peut parcourir à pied environ 30km par jour (60km à cheval).
+Un PJ  peut parcourir à pied environ 40km par jour (80km à cheval).
+Un corbeau peut parcourir environ 50km par jour.
+
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -52,21 +56,36 @@ Caracs de 1 à 10, 35 pts à répartir
 Force (définit la force physique et la carrure, utile pour le combat au cac et travaux lourds)
 Agilité (définit l'agilité, la dextérité et l'aptitude à se déplacer de façon rapide ou silencieuse, utile pour combat à distance)
 Vitalité (définit l'endurance, la santé, résistance aux maladies et la vigueur)
-Volonté (définit la force mentale)
-Intelligence (définit le savoir, la ruse, la puissance de réflexion et de résolution de problèmes)
+Volonté (définit la force mentale, la capacité à utiliser la magie)
+Intelligence (définit le savoir, la ruse, la puissance de réflexion)
 Charisme (définit l'apparence ainsi que les relations sociales)
 
 PV : (Vita + For) x2
-Mana : (Int + Vol) x2
+PM : (Int + Vol) x2
 
 
-Spécialité : favorise les cultures, ressources, meneur de soldats, intellectuel etc.
-
-
-
+Spécialité : combat cac/dist, magie, favorise les cultures, ressources, meneur de soldats, intellectuel etc.
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------         LA MAGIE         ----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+La magie se base principalement sur la manipulation des élements basiques (eau, air, feu, terre) et c'est le choix du type de sort qui en conditionne les effets,
+les éléments sont de force égale et n'ont pas d'avantage les uns sur les autres.
+
+Le niveau du sort et ses effets descriptifs sont à la discrétion du MJ selon l'action que veut réaliser le PJ.
+
+
+Sort mineur       : coût -2PM, manipulation basique (faire bouger un objet, allumer une petite flamme, faire un courant d'air, etc.)
+Sort moyen		  : coût -4PM, manipulation en vue d'un combat ou qui affecte une seule personne tierce.
+Sort puissant	  : coût -8PM, manipulation destinée à un effet plus fort ou qui peut affecter plusieurs cibles.
+Sort dévastateur  : coût -10PM, manipulation très importante qui peut affecter plusieurs personnes avec un effet redoutable ou affecte grandement l'environnement.
+
+Les PM se régénèrent par 2PM/heure ou complètement au bout d'une nuit de repos.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -80,10 +99,28 @@ Jets : D100 , 1-5 réussite critique, 95-100 échec critique
 
 Jets de caracs : D100 réussit si résultat <= CARACx10
 
-Jets magie/physique : D100, pour la magie jet d'intelligence x10, agilité x10 pour combat à distance, force x10 pour le cac, en combat le plus haut score gagne.
+Jets magie/physique : D100, pour la magie jet de volonté x10, agilité x10 pour combat à distance, force x10 pour le cac, en combat le plus haut score gagne.
 
 
+- Si la différence est négative ou nulle, la cible n'encaisse aucun dégât.
+- Si la différence est comprise entre 1 et 10, la cible encaisse une égratignure -2PV
+- Si la différence est comprise entre 11 et 20, la cible encaisse une blessure légère -4PV
+- Si la différence est comprise entre 21 et 30, la cible encaisse une blessure moyenne -6PV
+- Si la différence est comprise entre 31 et 40, la cible encaisse une blessure grave -8PV
+- Si la différence est comprise entre 41 et 50 , la cible encaisse une blessure critique -10PV
 
+- Si la différence est supérieure ou égale à 51, la cible encaisse une blessure fatale et décède...
+
+ 
+
+Superficielle : Une petite plaie, coupure
+Légère : foulure, coups, chutes,...
+Moyenne : Fratures mineures, brulure au premier degré, os demis, plaie profonde,...
+Grave : Membres tranchés, os broyés, perforations pulmonaire, maladies infectieuses, brûlures au troisième degré,...
+Critique : crâne fendu, éviscération, organes détruits, cœur perforé, corps rongé par la maladie...
+Fatale : décapitation, corps coupé en deux et autres blessures mortelles etc.
+
+Les détails des blessures infligées dans le contexte du jeu est à la discrétion du MJ.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
