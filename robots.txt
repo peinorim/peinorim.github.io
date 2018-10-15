@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /guildes/
+Disallow: /sw/
+Disallow: /tor/
+Disallow: /elric/
+Disallow: /divers/

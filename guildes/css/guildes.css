@@ -1,220 +1,220 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .thumbnail {
-    min-height: 310px;
+	min-height: 310px;
 }
 
 body {
-    background: #ffffff none repeat scroll 0 0;
+	background: #ffffff none repeat scroll 0 0;
 }
 
 table th {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 #home p {
-    text-align: justify;
+	text-align: justify;
 }
 
 #body-metiers-comp li {
-    display: inline-block;
-    width: 25%;
+	display: inline-block;
+	width: 25%;
 }
 
 #body-metiers-metier, #body-metiers-chap, #body-metiers-carac, #chrono {
-    list-style: none;
+	list-style: none;
 }
 
 #body-metiers-metier li, #body-metiers-chap li, #body-metiers-carac li {
-    display: inline-block;
-    width: 50%;
+	display: inline-block;
+	width: 50%;
 }
 
 .hiddenNormal {
-    display: none;
+	display: none;
 }
 
 .btn-toolbar {
-    margin: 20px;
+	margin: 20px;
 }
 
 .btn-toolbar span {
-    float: left;
-    margin: 0 10px;
-    padding: 7px 0;
-    width: 100px;
+	float: left;
+	margin: 0 10px;
+	padding: 7px 0;
+	width: 100px;
 }
 
 .center {
-    text-align: center;
+	text-align: center;
 }
 
 img.center {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .tab-pane>.container {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 #chrono li {
-    margin: 5px 0;
-    text-align: justify;
+	margin: 5px 0;
+	text-align: justify;
 }
 
 body.nightMode {
-    color: #bdc7c1 !important;
-    background-color: #142634;
+	color: #bdc7c1 !important;
+	background-color: #142634;
 }
 
 body.nightMode a {
-    color: #d48872 !important;
+	color: #d48872 !important;
 }
 
 body.nightMode .nav-tabs>li.active>a, body.nightMode .nav-tabs>li.active>a:hover, body.nightMode .nav-tabs>li.active>a:focus, body.nightMode .nav-tabs>li>a:hover,
-    body.nightMode .nav-tabs>li>a:focus {
-    background-color: #142634 !important;
+	body.nightMode .nav-tabs>li>a:focus {
+	background-color: #142634 !important;
 }
 
 body.nightMode .table>thead>tr>th, body.nightMode .table>tbody>tr>th, body.nightMode .table>tfoot>tr>th, body.nightMode .table>thead>tr>td, body.nightMode .table>tbody>tr>td,
-    body.nightMode .table>tfoot>tr>td {
-    border: none;
-    border-top: 1px solid #bdc7c1;
-    border-bottom: 1px solid #bdc7c1;
+	body.nightMode .table>tfoot>tr>td {
+	border: none;
+	border-top: 1px solid #bdc7c1;
+	border-bottom: 1px solid #bdc7c1;
 }
 
 body.nightMode .table>thead>tr>th {
-    border: none;
-    border-bottom: 2px solid #bdc7c1;
+	border: none;
+	border-bottom: 2px solid #bdc7c1;
 }
 
 body.nightMode .thumbnail {
-    background-color: #142634 !important;
+	background-color: #142634 !important;
 }
 
 body.nightMode .thumbnail .caption {
-    color: #bdc7c1 !important;
+	color: #bdc7c1 !important;
 }
 
 body.nightMode .panel, body.nightMode .list-group-item {
-    background-color: #142634 !important;
-    border-color: #5a666b !important;
+	background-color: #142634 !important;
+	border-color: #5a666b !important;
 }
 
 body.nightMode .form-control, body.nightMode .panel-primary>.panel-heading {
-    background-color: #5a666b !important;
-    color: #bdc7c1 !important;
-    border-color: #5a666b !important;
+	background-color: #5a666b !important;
+	color: #bdc7c1 !important;
+	border-color: #5a666b !important;
 }
 
 body.nightMode .list-group-item.active, body.nightMode .list-group-item.active:hover, body.nightMode .list-group-item.active:focus, .list-group-item.searched,
-    body.nightMode .list-group-item.searched {
-    background-color: #5a666b !important;
-    border-color: #5a666b !important;
+	body.nightMode .list-group-item.searched {
+	background-color: #5a666b !important;
+	border-color: #5a666b !important;
 }
 
 body.nightMode .btn-primary {
-    color: #d48872;
-    background-color: #0c0c0c;
-    border-color: #d48872;
+	color: #d48872;
+	background-color: #0c0c0c;
+	border-color: #d48872;
 }
 
 body.nightMode .btn-primary:active, body.nightMode .btn-primary.active, body.nightMode .btn-primary.active:focus, body.nightMode .btn-primary.active:hover,
-    body.nightMode .open>.dropdown-toggle.btn-primary {
-    color: #bdc7c1;
-    background-color: #8e3015;
-    border-color: #d48872;
-    outline-color: #d48872;
+	body.nightMode .open>.dropdown-toggle.btn-primary {
+	color: #bdc7c1;
+	background-color: #8e3015;
+	border-color: #d48872;
+	outline-color: #d48872;
 }
 
 body.nightMode .table-hover>tbody>tr:hover {
-    background-color: #8e3015;
+	background-color: #8e3015;
 }
 
 .material-switch>input[type="checkbox"] {
-    display: none;
+	display: none;
 }
 
 .material-switch>label {
-    cursor: pointer;
-    height: 0px;
-    position: relative;
-    width: 40px;
+	cursor: pointer;
+	height: 0px;
+	position: relative;
+	width: 40px;
 }
 
 .material-switch>label::before {
-    background: rgb(0, 0, 0);
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
-    content: '';
-    height: 16px;
-    margin-top: -8px;
-    position: absolute;
-    opacity: 0.3;
-    transition: all 0.4s ease-in-out;
-    width: 40px;
+	background: rgb(0, 0, 0);
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	content: '';
+	height: 16px;
+	margin-top: -8px;
+	position: absolute;
+	opacity: 0.3;
+	transition: all 0.4s ease-in-out;
+	width: 40px;
 }
 
 .material-switch>label::after {
-    background: rgb(255, 255, 255);
-    border-radius: 16px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    content: '';
-    height: 24px;
-    left: -4px;
-    margin-top: -8px;
-    position: absolute;
-    top: -4px;
-    transition: all 0.3s ease-in-out;
-    width: 24px;
+	background: rgb(255, 255, 255);
+	border-radius: 16px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	content: '';
+	height: 24px;
+	left: -4px;
+	margin-top: -8px;
+	position: absolute;
+	top: -4px;
+	transition: all 0.3s ease-in-out;
+	width: 24px;
 }
 
 .material-switch>input[type="checkbox"]:checked+label::before {
-    background: inherit;
-    opacity: 0.5;
+	background: inherit;
+	opacity: 0.5;
 }
 
 .material-switch>input[type="checkbox"]:checked+label::after {
-    background: inherit;
-    left: 20px;
+	background: inherit;
+	left: 20px;
 }
 
 .nightModeSwitch .list-group-item {
-    background-color: none;
-    border: none;
+	background-color: none;
+	border: none;
 }
 
 .nightMode .nightModeSwitch .label-default {
-    background-color: #d48872;
+	background-color: #d48872;
 }
 
 /********************************************************************************************************* */
 /********************************************** FOOTER *************************************************** */
 /********************************************************************************************************* */
 .footer {
-    float: left;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
-    width: 100%;
+	float: left;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+	width: 100%;
 }
 
 @media ( min-width : 768px) and (max-width: 1047px) {
 }
 
 @media ( max-width : 767px) {
-    #body-metiers-comp li, #body-metiers-metier li, #body-metiers-chap li, #body-metiers-carac li {
-        width: 50%;
-    }
-    .footer {
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
+	#body-metiers-comp li, #body-metiers-metier li, #body-metiers-chap li, #body-metiers-carac li {
+		width: 50%;
+	}
+	.footer {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
 }

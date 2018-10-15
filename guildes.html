@@ -12,79 +12,76 @@
 <link rel="stylesheet" type="text/css" href="guildes/css/guildes.css" />
 </head>
 <body>
-    <header class="container-fluid">
-        <ul class="list-group pull-right col-xs-12 col-sm-3 col-md-1 nightModeSwitch">
-            <li class="list-group-item">Mode nuit
-                <div class="material-switch pull-right">
-                    <input id="nightMode" name="nightMode" type="checkbox" /> <label for="nightMode" class="label-default"></label>
-                </div>
-            </li>
-        </ul>
+	<header class="container-fluid">
+		<ul class="list-group pull-right col-xs-12 col-sm-3 col-md-1 nightModeSwitch">
+			<li class="list-group-item">Mode nuit
+				<div class="material-switch pull-right">
+					<input id="nightMode" name="nightMode" type="checkbox" /> <label for="nightMode" class="label-default"></label>
+				</div>
+			</li>
+		</ul>
 
-        <div class="page-header">
-            <h1>
-                Guildes Eldorado&nbsp;<small>Aides de jeu</small>
-            </h1>
-        </div>
-    </header>
-    <section class="container-fluid">
-        <ul class="nav nav-tabs" id="myTabs" role="tablist">
-            <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home"
-                aria-expanded="true">Contexte</a></li>
-            <li role="presentation"><a href="#armes" role="tab" id="armes-tab" data-toggle="tab" aria-controls="armes">Armes &amp; Armures</a></li>
-            <li role="presentation"><a href="#comp" role="tab" id="comp-tab" data-toggle="tab" aria-controls="comp">Compétences &amp;
-                    Machinations</a></li>
-            <li role="presentation"><a href="#metiers" role="tab" id="metiers-tab" data-toggle="tab" aria-controls="metiers">Métiers</a></li>
-            <li role="presentation"><a href="#cdbmes" role="tab" id="cdbmes-tab" data-toggle="tab" aria-controls="cdbmes">Coups de bol &amp;
-                    Mésaventures</a></li>
-            <li role="presentation"><a href="#equip" role="tab" id="equip-tab" data-toggle="tab" aria-controls="equip">Équipement &amp;
-                    Artefacts</a></li>
-            <li role="presentation"><a href="#dice" role="tab" id="dice-tab" data-toggle="tab" aria-controls="dice">Lanceur de dés</a></li>
-            <li role="presentation"><a href="#loom" role="tab" id="loom-tab" data-toggle="tab" aria-controls="loom">Loom</a></li>
-            <li role="presentation"><a href="#perso" role="tab" id="perso-tab" data-toggle="tab" aria-controls="perso">Personnage</a></li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane in active container" role="tabpanel" id="home" aria-labelledby="home-tab">
-                <section include-html="guildes/home.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="armes" aria-labelledby="armes-tab">
-                <section include-html="guildes/armes.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="comp" aria-labelledby="comp-tab">
-                <section include-html="guildes/comp.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="metiers" aria-labelledby="metiers-tab">
-                <section include-html="guildes/metiers.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="cdbmes" aria-labelledby="cdbmes-tab">
-                <section include-html="guildes/cdbmes.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="equip" aria-labelledby="equip-tab">
-                <section include-html="guildes/equip.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="dice" aria-labelledby="dice-tab">
-                <section include-html="guildes/dice.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="loom" aria-labelledby="loom-tab">
-                <section include-html="guildes/loom.html"></section>
-            </div>
-            <div class="tab-pane" role="tabpanel" id="perso" aria-labelledby="perso-tab">
-                <section include-html="guildes/perso.html"></section>
-            </div>
-        </div>
-    </section>
+		<div class="page-header">
+			<h1>
+				Guildes Eldorado&nbsp;<small>Aides de jeu</small>
+			</h1>
+		</div>
+	</header>
+	<section class="container-fluid">
+		<ul class="nav nav-tabs" id="myTabs" role="tablist">
+			<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Contexte</a></li>
+			<li role="presentation"><a href="#armes" role="tab" id="armes-tab" data-toggle="tab" aria-controls="armes">Armes &amp; Armures</a></li>
+			<li role="presentation"><a href="#comp" role="tab" id="comp-tab" data-toggle="tab" aria-controls="comp">Compétences &amp; Machinations</a></li>
+			<li role="presentation"><a href="#metiers" role="tab" id="metiers-tab" data-toggle="tab" aria-controls="metiers">Métiers</a></li>
+			<li role="presentation"><a href="#cdbmes" role="tab" id="cdbmes-tab" data-toggle="tab" aria-controls="cdbmes">Coups de bol &amp;
+					Mésaventures</a></li>
+			<li role="presentation"><a href="#equip" role="tab" id="equip-tab" data-toggle="tab" aria-controls="equip">Équipement &amp; Artefacts</a></li>
+			<li role="presentation"><a href="#dice" role="tab" id="dice-tab" data-toggle="tab" aria-controls="dice">Lanceur de dés</a></li>
+			<li role="presentation"><a href="#loom" role="tab" id="loom-tab" data-toggle="tab" aria-controls="loom">Loom</a></li>
+			<li role="presentation"><a href="#perso" role="tab" id="perso-tab" data-toggle="tab" aria-controls="perso">Personnage</a></li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane in active container" role="tabpanel" id="home" aria-labelledby="home-tab">
+				<section include-html="guildes/home.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="armes" aria-labelledby="armes-tab">
+				<section include-html="guildes/armes.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="comp" aria-labelledby="comp-tab">
+				<section include-html="guildes/comp.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="metiers" aria-labelledby="metiers-tab">
+				<section include-html="guildes/metiers.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="cdbmes" aria-labelledby="cdbmes-tab">
+				<section include-html="guildes/cdbmes.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="equip" aria-labelledby="equip-tab">
+				<section include-html="guildes/equip.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="dice" aria-labelledby="dice-tab">
+				<section include-html="guildes/dice.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="loom" aria-labelledby="loom-tab">
+				<section include-html="guildes/loom.html"></section>
+			</div>
+			<div class="tab-pane" role="tabpanel" id="perso" aria-labelledby="perso-tab">
+				<section include-html="guildes/perso.html"></section>
+			</div>
+		</div>
+	</section>
 
-    <footer class="footer container">
-        <div class="row">
-            <div class="col-md-12 center">
-                <a id="author" rel="author" href="https://peinorim.github.io">peinorim.github.io</a>
-            </div>
-        </div>
-    </footer>
+	<footer class="footer container">
+		<div class="row">
+			<div class="col-md-12 center">
+				<a id="author" rel="author" href="https://peinorim.github.io">peinorim.github.io</a>
+			</div>
+		</div>
+	</footer>
 
-    <script src="guildes/js/jquery-3.3.1.min.js"></script>
-    <script src="guildes/js/bootstrap.min.js"></script>
-    <script src="guildes/js/guildes.js"></script>
-    <script src="guildes/js/dice.js"></script>
+	<script src="guildes/js/jquery-3.3.1.min.js"></script>
+	<script src="guildes/js/bootstrap.min.js"></script>
+	<script src="guildes/js/guildes.js"></script>
+	<script src="guildes/js/dice.js"></script>
 </body>
 </html>

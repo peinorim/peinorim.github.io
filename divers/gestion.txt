@@ -4,6 +4,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 1 map divisée en quatre territoires de même taille d'environ 30j de marche de bord à bord.
 
 Chaque territoire est unique et composé de reliefs différents, chaque relief amène des ressources différentes. Tous les territoires n'ont pas accès à la mer
@@ -39,6 +40,7 @@ Un PNJ peut parcourir à pied environ 30km par jour (60km à cheval).
 Un PJ  peut parcourir à pied environ 40km par jour (80km à cheval).
 Un corbeau peut parcourir environ 50km par jour.
 
+Ces valeurs sont divisées par deux en terrains difficiles (déserts, marécages, montagnes, etc.) sauf pour les corbeaux.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,7 +51,9 @@ Un corbeau peut parcourir environ 50km par jour.
 
 
 Toutes races fantasy humanoïde disponibles tant que ce n'est pas trop cheaté, le PJ incorruptible d'un acolyte est à créer selon les mêmes bases que son perso mais
-avec moins de points (25 pts caracs)
+avec moins de points (25 pts caracs).
+
+Le joueur peut jouer toutes sortes d'alignements du plus bienveillant au plus malveillant mais en restant logique et courtois.
 
 Caracs de 1 à 10, 35 pts à répartir
 
@@ -74,13 +78,14 @@ Spécialité : combat cac/dist, magie, favorise les cultures, ressources, meneur
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 La magie se base principalement sur la manipulation des élements basiques (eau, air, feu, terre) et c'est le choix du type de sort qui en conditionne les effets,
 les éléments sont de force égale et n'ont pas d'avantage les uns sur les autres.
 
 Le niveau du sort et ses effets descriptifs sont à la discrétion du MJ selon l'action que veut réaliser le PJ.
 
 
-Sort mineur       : coût -2PM, manipulation basique (faire bouger un objet, allumer une petite flamme, faire un courant d'air, etc.)
+Sort mineur       : coût -1PM, manipulation basique (faire bouger un objet, allumer une petite flamme, faire un courant d'air, etc.)
 Sort moyen		  : coût -4PM, manipulation en vue d'un combat ou qui affecte une seule personne tierce.
 Sort puissant	  : coût -8PM, manipulation destinée à un effet plus fort ou qui peut affecter plusieurs cibles.
 Sort dévastateur  : coût -10PM, manipulation très importante qui peut affecter plusieurs personnes avec un effet redoutable ou affecte grandement l'environnement.
@@ -90,7 +95,7 @@ Les PM se régénèrent par 2PM/heure ou complètement au bout d'une nuit de rep
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------         SYSTEME          ----------------------------------------------------------------------------------
+------------------------------------------------------------         SYSTEME         -----------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -107,7 +112,7 @@ Jets magie/physique : D100, pour la magie jet de volonté x10, agilité x10 pour
 - Si la différence est comprise entre 11 et 20, la cible encaisse une blessure légère -4PV
 - Si la différence est comprise entre 21 et 30, la cible encaisse une blessure moyenne -6PV
 - Si la différence est comprise entre 31 et 40, la cible encaisse une blessure grave -8PV
-- Si la différence est comprise entre 41 et 50 , la cible encaisse une blessure critique -10PV
+- Si la différence est comprise entre 41 et 50, la cible encaisse une blessure critique -10PV
 
 - Si la différence est supérieure ou égale à 51, la cible encaisse une blessure fatale et décède...
 
@@ -117,10 +122,29 @@ Superficielle : Une petite plaie, coupure
 Légère : foulure, coups, chutes,...
 Moyenne : Fratures mineures, brulure au premier degré, os demis, plaie profonde,...
 Grave : Membres tranchés, os broyés, perforations pulmonaire, maladies infectieuses, brûlures au troisième degré,...
-Critique : crâne fendu, éviscération, organes détruits, cœur perforé, corps rongé par la maladie...
+Critique : crâne fendu, éviscération, organes détruits, coeur perforé, corps rongé par la maladie...
 Fatale : décapitation, corps coupé en deux et autres blessures mortelles etc.
 
-Les détails des blessures infligées dans le contexte du jeu est à la discrétion du MJ.
+Les détails des blessures infligées dans le contexte du jeu sont à la discrétion du MJ.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------     GESTION DU TEMPS     ----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Deux modes d'écoulement du temps peuvent être envisagés.
+
+- Si le PJ agit dans une scène/mission en direct, le temps ne s'écoule pas à l'extérieur de cette scène, sauf s'il reste inactif pendant longtemps (prison, exil, etc.)
+
+- Pour les actions impactant le monde, chaque joueur peut effectuer des actions pendant un tour, tour qui peut durer plusieurs années pendant lesquelles certains
+événements ont lieu (agrandissement d'une ville, création d'une armée, etc.), tous les PJ avancent au même rythme de tour et en même temps.
+
+
+
+
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -131,7 +155,8 @@ Les détails des blessures infligées dans le contexte du jeu est à la discrét
 
 
 
-Quelque soit le type de population il existe 5 types d'unités parmi les légions disponibles : lanciers, cavaliers (plaines avec chevaux requis), archers, boucliers, fantassins
+Quelque soit le type de population il existe 5 types d'unités parmi les légions disponibles : lanciers, cavaliers (plaines avec chevaux requis), archers, boucliers, 
+fantassins.
 
 boucliers résistent aux archers, vulnérables aux fantassins
 lanciers battent les cavaliers, vulnérables aux unités à pied
@@ -147,7 +172,8 @@ catapultes, trébuchet (bois et fer requis)
 Une ville assiégée peut tenir X mois par niveau de taille (3 mois pour une petite ville).
 
 Un D100 est lancé par chaque légion qui veut en attaquer une autre, le score est majoré à +20 contre une légion vulnérable et minoré de -20 contre une légion résistante.
-La légion perdante perd 10% de ses effectifs par tranche de 10 d'écart du jet de dé. Une légion réduite en taille prend un malus à ses prochains jets de 10% par taille réduite.
+La légion perdante perd 10% de ses effectifs par tranche de 10 d'écart du jet de dé. Une légion réduite en taille prend un malus à ses prochains jets de 10% par 
+taille réduite.
 
 Un PJ peut attaquer une légion à lui seul mais pas deux en même temps sous peine d'être capturé ou pire.
 Le PJ donne un bonus d'attaque de 10% aux jets de la légion dans laquelle il est proche.

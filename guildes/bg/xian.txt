@@ -59,9 +59,9 @@ Mon guilder constellé obtenu, je pris alors un bateau pour Port-Franc où j'emb
 /**************************************************************************************************************************************/
 
 
-Agile :       5     Charmeur :   3
+Agile :       5+1   Charmeur :   3
 
-Fort :        5     Rusé :       4+1
+Fort :        5     Rusé :       4
 
 Résistant :   4+1   Savant :     2
 
@@ -88,7 +88,7 @@ Shei               ->  E  (7pts)
                    =   21 pts
 
                     
-CDB : surentraînement, maître felsin (+1 à rusé), maître sadique (il ne peut en rester qu'un), maître amical (turban de résistance)
+CDB : surentraînement, maître felsin (+1 à agi), maître sadique (il ne peut en rester qu'un), maître amical (turban de résistance)
 MÉS : ennemi acharné, querelle de maîtres (guildes et routes NC, armes tranchantes à expert), incident magique (pas d'ombre)
  
 
