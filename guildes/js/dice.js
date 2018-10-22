@@ -434,7 +434,7 @@ function getDiff(tot) {
         } else if (tot >= diff + 6) {
             reussi = " Baraka !";
         } else if (tot < diff && tot > diff - 6) {
-            reussi = " Echec.";
+            reussi = " Échec.";
         } else if (tot < diff - 6) {
             reussi = " Schkoumoune...";
         }
