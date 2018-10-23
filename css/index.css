@@ -46,10 +46,6 @@ textarea {
 	margin-top: 0;
 }
 
-.locales, .locales a, .locales img {
-	padding: 0;
-}
-
 .header .profile-content .social a {
 	background: #b0b7bf;
 	width: 36px;
@@ -71,10 +67,6 @@ textarea {
 	background: #000000;
 }
 
-.header .profile-content .social a.android:hover {
-	background: #2a7526;
-}
-
 .header .profile-content .social a.linkedin:hover {
 	background: #2089b5;
 }
@@ -82,24 +74,6 @@ textarea {
 .header .profile-content .social a .fa {
 	font-size: 20px;
 	padding-top: 8px;
-}
-
-nav.nav-menu.row {
-	margin: 10px 0;
-}
-
-nav.nav-menu ul {
-	margin: 0;
-}
-
-nav.nav-menu li {
-	display: inline-block;
-	text-align: center;
-}
-
-nav.nav-menu li a {
-	font-weight: bold;
-	padding: 10px;
 }
 
 .center {
@@ -151,9 +125,8 @@ nav.nav-menu li a {
 	padding-left: 25px;
 }
 
-/* ======= ! INDEX ======= */
-#activity {
-	padding-bottom: 15px;
+.bold {
+	font-weight: bold;
 }
 
 /* ======= Footer ======= */
@@ -166,21 +139,10 @@ nav.nav-menu li a {
 }
 
 @media ( min-width : 768px) and (max-width: 1047px) {
-	nav.nav-menu li {
-		padding: 10px;
-	}
+
 }
 
 @media ( max-width : 767px) {
-	nav.nav-menu li {
-		padding: 10px;
-	}
-	.locales a:nth-child(2) {
-		padding-right: 20px;
-	}
-	.filters {
-		margin: 10px 0;
-	}
 	h2 {
 		margin-bottom: 0;
 	}

@@ -140,7 +140,8 @@ Deux modes d'écoulement du temps peuvent être envisagés.
 - Si le PJ agit dans une scène/mission en direct, le temps ne s'écoule pas à l'extérieur de cette scène, sauf s'il reste inactif pendant longtemps (prison, exil, etc.)
 
 - Pour les actions impactant le monde, chaque joueur peut effectuer des actions pendant un tour, tour qui peut durer plusieurs années pendant lesquelles certains
-événements ont lieu (agrandissement d'une ville, création d'une armée, etc.), tous les PJ avancent au même rythme de tour et en même temps.
+événements ont lieu (agrandissement d'une ville, création d'une armée, etc.), tous les PJ avancent au même rythme de tour et en même temps. Le nombre d'actions que
+peut effectuer un joueur pendant son tour dépend de l'envergure des actions et s'effectue au cas par cas à la discrétion du MJ.
 
 
 
@@ -175,7 +176,6 @@ Un D100 est lancé par chaque légion qui veut en attaquer une autre, le score e
 La légion perdante perd 10% de ses effectifs par tranche de 10 d'écart du jet de dé. Une légion réduite en taille prend un malus à ses prochains jets de 10% par 
 taille réduite.
 
-Un PJ peut attaquer une légion à lui seul mais pas deux en même temps sous peine d'être capturé ou pire.
 Le PJ donne un bonus d'attaque de 10% aux jets de la légion dans laquelle il est proche.
 
 
