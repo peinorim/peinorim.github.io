@@ -228,6 +228,15 @@ $(function() {
             localStorage.setItem("nightMode", nightMode);
         }
     });
+    
+    $(document).on("click", "#myTabs a", function(e) {
+    	e.preventDefault();
+    	location.hash = $(this).attr("id");
+    });
+    
+    if (location.hash !== "" && $(location.hash).length) {
+    	$(location.hash).tab('show');
+    }
 
     function loadData() {
         $.getJSON("guildes/json/guildes.json", function(data) {
