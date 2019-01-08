@@ -232,6 +232,7 @@ $(function() {
     $(document).on("click", "#myTabs a", function(e) {
     	e.preventDefault();
     	location.hash = $(this).attr("id");
+    	return false;
     });
     
     if (location.hash !== "" && $(location.hash).length) {
