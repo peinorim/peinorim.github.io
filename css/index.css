@@ -10,32 +10,29 @@ body {
 }
 
 a {
-	color: #32383e;
+	color: #bdc7c1;
 }
 
 a:hover {
 	text-decoration: none;
+	color: #ea8a63;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #778492;
 	font-weight: 700;
 }
 
 .header {
-	background: #f5f5f5 none repeat scroll 0 0;
 	padding-top: 10px;
 }
 
 .header .profile-content .name {
-	color: #49515a;
 	font-size: 38px;
 	margin-bottom: 5px;
 	margin-top: 0;
 }
 
 .header .profile-content .desc {
-	color: #778492;
 	font-size: 24px;
 	font-weight: 400;
 	margin-bottom: 15px;
@@ -43,7 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header .profile-content .social a {
-	background: #b0b7bf;
+	background: #535556;
+	color: #fff;
 	width: 36px;
 	height: 36px;
 	display: inline-block;
@@ -64,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header .profile-content .social a.linkedin:hover {
-	background: #0077B5;
+	background: #0077b5;
 }
 
 .header .profile-content .social a .fa {
@@ -82,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section .heading {
-	color: #545e69;
 	font-size: 24px;
 	margin-bottom: 30px;
 	margin-top: 0;
@@ -96,12 +93,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .experience .item .title .place {
-	color: #999;
-	font-weight: normal;
-}
-
-.experience .item .title .place {
-	color: #32383e;
 	font-weight: bold;
 }
 
@@ -115,7 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .education .item .university {
-	color: #999;
 	font-size: 13px;
 	font-weight: 600;
 	padding-left: 25px;
@@ -123,6 +113,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .bold {
 	font-weight: bold;
+}
+
+body.nightMode {
+    color: #bdc7c1 !important;
+    background-color: #142634;
+}
+
+body.nightMode {
+    color: #bdc7c1 !important;
+}
+
+body.nightMode .panel {
+    background-color: #142634 !important;
+    border-color: #5a666b !important;
 }
 
 /* ======= Footer ======= */
