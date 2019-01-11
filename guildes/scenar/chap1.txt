@@ -1,0 +1,112 @@
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+********************************************              EN VRAC              *****************************************************************
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+
+
+- Les guildiens seront tous un minimum expérimentés, pas de débutants.
+- On refond le système et on ajoute des niveaux (N, I, E, M, GM).
+- Le scénario est court et centré sur un unique écrin qu'il faudra explorer, plusieurs peuples seront rencontrés.
+- La carte du relief est accessible dès le début mais sans les détails à trouver.
+- Les choix moraux et stratégiques seront au coeur de la partie.
+- Année de départ : 230 (10 ans après le premier passage de la Barrière)
+- Tous les guildiens font partie d'une même grande guilde dont ils sont des personnages importants, on les a sélectionnés 
+pour leurs compétences et certains peuvent se connaître.
+    
+    
+    
+https://jdrvirtuel.com/viewforum.php?f=772&sid=429d37b571191e51e993786e93cd607f  
+
+
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+********************************************              LA GUILDE            *****************************************************************
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+
+Guilde du poing métallique
+
+Créée à l'origine par des Gehemdals en 185, elle s'est depuis lors ouverte à toutes les maisons et compte aujourd'hui des centaines
+de membres disséminés un peu partout sur les écrins côtiers et sur les Rivages, son quartier général est à Port Mackaer dans une grande 
+forteresse nommée simplement "Le QG".
+
+La guilde a grandi progressivement au fil des ans mais a réussi à devenir une guilde importante en parvenant à tirer parti des nombreuses 
+richesses des écrins en explorant des contrées éloignées considérées comme non accessibles, de plus sa puissance en armes et soldats
+s'est renforcée grâce aux liens des fondateurs avec la maison gehemdale, ces liens sont encore aujourd'hui très ancrés mais tendent à de diluer
+car toutes les autres maisons sont présentes à tous les étages de par une volonté réformatrice de nouveaux dirigeants depuis les années 210.
+
+Mais la guilde s'est vraiment fait un nom en parvenant à exploiter des passages réguliers à travers la barrière des enfants cyclones depuis 220,
+cependant plutôt que de vendre ce savoir, les dirigeants actuels ont préféré gardé le secret et n'ont envoyé de l'autre côté que des membres de
+confiance, ceux qui après des années de bons et loyaux services ont le privilège d'obtenir le statut de "frère" au cours d'une cérémonie 
+rituelle d'intronisation où les nouveaux frères jurent fidélité et allégeance à la guilde. Le Grand Maître actuel est un Gehemdal âgé nommé Thror 
+Enriksen, il est secondé par quatre maîtres de chapitres (guerre, savoir, loom, route, loom).
+
+
+Maîtres de chapitre :
+    Savoir - Marco Mancini
+    Guerre - Harald Haraldson
+    Route - Enrico Dandolo
+    Loom - Pacal Coatl
+
+
+Caractéristique :
+    Peu Belliqueuse
+    Pas Étrange
+    Pas Fortunée
+    Pas Docte
+
+Syndic :
+    Charte : Soleil
+    Troupe : Restreinte
+    Ancienneté : Velléitaire (- de 30 ans)
+    Gestion : Dilapidateur
+
+Chapitre de la Guerre (Unité) :
+    Taille : Détachement
+    Expérience : Milice
+    Discipline : Désordonnée
+    Equipement : Dépenaillée
+
+Chapitre de la Route (Route) :
+    Rapport : Gouffre
+    Implantation : Désertique
+    Contrôle : Présence
+    Exploitation : Abandonnée
+
+Chapitre du Savoir (Archives) :
+    Étendue : Rivage
+    Richesse : Pauvre
+    Qualification : Incultes
+    Accessibilité : Inexploitable
+
+Chapitre du Loom (Phylum) :
+    Complétude : Notions
+    Enseignement : Docte
+    Accessibilité : Ignoré
+    Recherche : Hasardeuse
+
+Influence : 1 (Insignifiante)
+
+
+
+    
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+********************************************              L'ÉCRIN              *****************************************************************
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+
+
+
+
+
+
+
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+********************************************              SCÉNARIO             *****************************************************************
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+
+ 
