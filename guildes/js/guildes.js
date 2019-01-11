@@ -209,11 +209,7 @@ $(function() {
     if (setNightMode) {
         $("body").addClass("nightMode");
         $("#nightMode").prop('checked', true);
-        $("meta[name='theme-color']").attr("content", "#142634");
-    } else {
-    	 $("body").removeClass("nightMode");
-         $("#nightMode").prop('checked', false);
-         $("meta[name='theme-color']").attr("content", "#ffffff");
+        $("meta[name='theme-color']").attr('content', '#142634');
     }
 
     $("#author").text($("#author").text() + " - " + today.getFullYear());
@@ -226,7 +222,7 @@ $(function() {
             nightMode = true;
         } else {
             $("body").removeClass("nightMode");
-            $("meta[name='theme-color']").attr("content", "#ffffff");
+            $("meta[name='theme-color']").attr("content", "#dae3e7");
         }
         if (typeof (Storage) !== "undefined") {
             localStorage.setItem("nightMode", nightMode);
