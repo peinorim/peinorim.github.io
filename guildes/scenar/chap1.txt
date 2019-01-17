@@ -39,9 +39,15 @@ car toutes les autres maisons sont présentes à tous les étages de par une vol
 Mais la guilde s'est vraiment fait un nom en parvenant à exploiter des passages réguliers à travers la barrière des enfants cyclones depuis 220,
 cependant plutôt que de vendre ce savoir, les dirigeants actuels ont préféré gardé le secret et n'ont envoyé de l'autre côté que des membres de
 confiance, ceux qui après des années de bons et loyaux services ont le privilège d'obtenir le statut de "frère" au cours d'une cérémonie 
-rituelle d'intronisation où les nouveaux frères jurent fidélité et allégeance à la guilde. Le Grand Maître actuel est un Gehemdal âgé nommé Thror 
-Enriksen, il est secondé par quatre maîtres de chapitre (guerre, savoir, loom, route).
+rituelle d'intronisation où les nouveaux frères jurent fidélité et allégeance à la guilde. Le Grand Maître actuel est un , il est secondé par quatre maîtres de chapitre (guerre, savoir, loom, route).
 
+Fondateur : Durin IV le sage
+
+Dirigeant actuel : Gehemdal âgé nommé Thror Enriksen
+
+Bannière : Poing serré vers le haut gris sur fond rouge
+
+Devise : Vis dans l'honneur
 
 Maîtres de chapitre :
     Savoir - Marco Mancini
@@ -50,44 +56,13 @@ Maîtres de chapitre :
     Loom - Pacal Coatl
 
 
-Caractéristique :
-    Peu Belliqueuse
-    Pas Étrange
-    Pas Fortunée
-    Pas Docte
+Caractéristiques :
+    Très Belliqueuse
+    Très Étrange
+    Fortunée
+    Docte
 
-Syndic :
-    Charte : Soleil
-    Troupe : Restreinte
-    Ancienneté : Velléitaire (- de 30 ans)
-    Gestion : Dilapidateur
-
-Chapitre de la Guerre (Unité) :
-    Taille : Détachement
-    Expérience : Milice
-    Discipline : Désordonnée
-    Equipement : Dépenaillée
-
-Chapitre de la Route (Route) :
-    Rapport : Gouffre
-    Implantation : Désertique
-    Contrôle : Présence
-    Exploitation : Abandonnée
-
-Chapitre du Savoir (Archives) :
-    Étendue : Rivage
-    Richesse : Pauvre
-    Qualification : Incultes
-    Accessibilité : Inexploitable
-
-Chapitre du Loom (Phylum) :
-    Complétude : Notions
-    Enseignement : Docte
-    Accessibilité : Ignoré
-    Recherche : Hasardeuse
-
-Influence : 1 (Insignifiante)
-
+Charte : Les Soleils
 
 
     
