@@ -39,7 +39,8 @@ car toutes les autres maisons sont présentes à tous les étages de par une vol
 Mais la guilde s'est vraiment fait un nom en parvenant à exploiter des passages réguliers à travers la barrière des enfants cyclones depuis 220,
 cependant plutôt que de vendre ce savoir, les dirigeants actuels ont préféré gardé le secret et n'ont envoyé de l'autre côté que des membres de
 confiance, ceux qui après des années de bons et loyaux services ont le privilège d'obtenir le statut de "frère" au cours d'une cérémonie 
-rituelle d'intronisation où les nouveaux frères jurent fidélité et allégeance à la guilde. Le Grand Maître actuel est un , il est secondé par quatre maîtres de chapitre (guerre, savoir, loom, route).
+rituelle d'intronisation où les nouveaux frères jurent fidélité et allégeance à la guilde. Le Grand Maître actuel est un , il est secondé par 
+quatre maîtres de chapitre (guerre, savoir, loom, route).
 
 Fondateur : Durin IV le sage
 
@@ -72,10 +73,25 @@ Charte : Les Soleils
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
 
+L'écrin est une immense île entourée par un gigantesque fleuve qui en fait le tour, le fleuve est très large et on ne distingue la rive opposée
+que de loin, les eaux sont rapides et dangereuses et d'inquiétantes ombres vont et viennent dans les flots.
 
 
+L'écrin est en quelque sorte partagé en trois parties :
 
+    -Au sud et à l'ouest : c'est là que se trouve l'arrivée du passage ainsi que le comptoir de la guilde. Le comptoir est fait
+    de quelques bâtisses en pierre proches du fleuve. C'est l'été, la température est assez élevée et cette zone comporte beaucoup de savanes,
+    prairies à hautes herbes et quelques collines. Non loin du comptoir se trouve une ville Lore d'une cinquantaines de maisons nommée Karanak,
+    c'est une ville fortifée de type médiéval tenue par un peuple Lore amical les Karanas, la ville est dirigée par le seigneur Kark XXII qui
+    règle sur la ville depuis son château fort autour duquel se trouvent les autres maisons. Il règne également sur les quelques autres villages
+    peuplant cette zone en système féodal.
+    
+    -Au nord :
+    
+    -A l'est :
 
+    -Ces parties sont séparées par des bandes de jungle dense au climat tropical chaud et humide parsemée de quelques collines ou par du désert
+    chaud et sec selon les endroits, il faut environ deux jours de marche pour les traverser en moyenne selon les endroits.
 
 
 ************************************************************************************************************************************************
