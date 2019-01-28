@@ -1,6 +1,6 @@
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
-********************************************              EN VRAC              *****************************************************************
+************************************************              EN VRAC              *************************************************************
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
 
@@ -21,7 +21,7 @@ https://jdrvirtuel.com/viewforum.php?f=772&sid=429d37b571191e51e993786e93cd607f
 
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
-********************************************              LA GUILDE            *****************************************************************
+************************************************              LA GUILDE            *************************************************************
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
 
@@ -69,7 +69,7 @@ Charte : Les Soleils
     
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
-********************************************              L'ÉCRIN              *****************************************************************
+************************************************              L'ÉCRIN              *************************************************************
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
 
@@ -84,20 +84,84 @@ L'écrin est en quelque sorte partagé en trois parties :
     prairies à hautes herbes et quelques collines. Non loin du comptoir se trouve une ville Lore d'une cinquantaines de maisons nommée Karanak,
     c'est une ville fortifée de type médiéval tenue par un peuple Lore amical les Karanas, la ville est dirigée par le seigneur Kark XXII qui
     règle sur la ville depuis son château fort autour duquel se trouvent les autres maisons. Il règne également sur les quelques autres villages
-    peuplant cette zone en système féodal.
+    peuplant cette zone en système féodal. 
     
-    -Au nord :
+        Ressources : nombreuses carrières de pierres, terres fertiles, 
+        
+        Loom : loom rouge mais en faible quantité, les Karanas refusent d'en échanger et le stocke dans un endroit secret dès qu'ils en trouvent.
+        
+        Locus : une épée à lame rouge se trouve plantée dans un rocher au coeur d'une épaisse forêt, la tradition Karana veut qu'un puissant 
+        guerrier aurait planté son épée dans ce rocher pour qu'elle ne tombe pas entre les mains de ses ennemis. Aucun Karana n'a réussi à sortir 
+        l'épée ni même à entailler le rocher qui la tient même en utilisant de puissants outils, l'endroit est devenu une sorte de culte local
+        dédié au courage et à l'honneur. (le possesseur obtient une épée incassable supérieure aux épées normales et aux dommages accrus et celle-ci 
+        revient toujours intacte le lendemain auprès de son possesseur même s'il la perd ou se la fait voler.
     
-    -A l'est :
+    -Au nord : de nombreuses montagnes et plateaux assez élevées sont présentes, la guilde sait qu'elles contiennent beaucoup de fer et autres 
+    pierres précieuses mais la région est dirigée par une civilisation arkhès très développée les Itiliens. Leur cité Itil est splendide et 
+    faite de fer, de verre et de pierre, leur artisanat est remarquablement beau. Le souverain Itilum est un théocrathe au pouvoir absolué vénéré 
+    comme un demi-dieu, leur culte est basé sur les lunes et les étoiles et sont d'excellents astronomes. Ils vivent dans une cité principale et 
+    ont des mines un peu partout mais pas d'autres villages ou villes, seulement des avants-postes qui surveillent les frontières et les mines. 
+    Leur armée est composée principalement de lanciers et d'archers, le fer leur donne une puissance non négligeable mais ils n'ont aucune 
+    volonté agressive ou expansionniste, ils sont en revanche fermés aux autres peuples de l'écrin avec lesquels ils n'entretiennent aucune 
+    relation ou presque.
+    
+        Ressources : mines de fer et pierres précieuses, intellectuelles (architecture, artisanat, astronomie), 
+        
+        Loom : des gemmes brutes de loom vert sont parfois trouvées dans les mines, les Itiliens les écrasent pour les fumer ou les infuser et 
+        accéder directement à Nocte par un sommeil profond.
+        
+        Locus : Une caverne dans l'une des montagnes proche de Itil est considérée comme maudite, ceux qui ont osé y pénétrer et en sont ressortis
+        vivants n'ont plus jamais été les mêmes et n'ont jamais voulu parler de ce qui leur était arrivé à l'intérieur... (les guildiens devront
+        affronter une créature mystique, s'ils gagnent des points de compétences leur seront offert, s'ils perdent un traumatisme leur sera attribué
+        dans tous les cas, ils seront dans l'impossibilité de raconter ce qui leur est arrivé dans cette grotte.
+    
+    -A l'est : Ce sont les terres les plus ingrates et les plus froides, composées de nombreux marais, mangroves et de beaucoup de jungles, 
+    un peuple drak les Pelarions vit dans cet hiver éternel, peuple rudimentaire réparti dans trois villages de petites huttes indépendants mais 
+    se connaissant les uns les autres et s'ils ne s'apprécient guère ils peuvent coopérer et s'unir entre eux selon le besoin. Eux aussi sont très 
+    isolationnistes et se montrent très hostiles envers tous les étrangers.
+    
+        Ressources : bois précieux et solides.
+        
+        Loom : loom noir en quantité dans les marais dont la couleur de l'eau est noire (la guilde ne le sait pas).
+        
+        Locus : au beau milieu d'un désert se trouve une oasis en apparence banale et agréable, s'ils dorment dans cette oasis de petites lumières
+        tenteront de leur faire du mal.
 
     -Ces parties sont séparées par des bandes de jungle dense au climat tropical chaud et humide parsemée de quelques collines ou par du désert
     chaud et sec selon les endroits, il faut environ deux jours de marche pour les traverser en moyenne selon les endroits.
+    
 
 
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
-********************************************              SCÉNARIO             *****************************************************************
+************************************************              SCÉNARIO             *************************************************************
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
