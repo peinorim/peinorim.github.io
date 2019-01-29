@@ -356,7 +356,7 @@ $(function() {
                             return item.maison_id === data.maisons[i].id;
                         });
                         for (var j = 0; j < sortileges.length; j++) {
-                            $(document).find("#body-sortileges").append("<tr>" + "<td>" + sortileges[j].nom + "</td>" + "<td>" + sortileges[j].diff + "</td>" + "<td>" + sortileges[j].portee + "</td>" + "<td>" + data.maisons[i].nom + "</td>" + "</tr>");
+                            $(document).find("#body-sortileges").append("<tr>" + "<td>" + sortileges[j].nom + "</td>" + "<td>" + sortileges[j].diff + "</td>" + "<td>" + data.maisons[i].nom + "</td>" + "<td>" + sortileges[j].portee + "</td>" + "<td>" + sortileges[j].effet + "</td>" + "</tr>");
                         }
                     }
                 }

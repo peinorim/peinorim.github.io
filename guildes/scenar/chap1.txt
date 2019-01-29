@@ -11,7 +11,7 @@
 - La carte du relief est accessible dès le début mais sans les détails à trouver.
 - Les choix moraux et stratégiques seront au coeur de la partie.
 - Année de départ : 230 (10 ans après le premier passage de la Barrière)
-- Tous les guildiens font partie d'une même grande guilde dont ils sont des personnages importants, on les a sélectionnés 
+- Tous les guildiens font partie d'une même grande guilde dont ils sont des personnages relativement importants, on les a sélectionnés 
 pour leurs compétences et certains peuvent se connaître.
     
     
@@ -39,8 +39,8 @@ car toutes les autres maisons sont présentes à tous les étages de par une vol
 Mais la guilde s'est vraiment fait un nom en parvenant à exploiter des passages réguliers à travers la barrière des enfants cyclones depuis 220,
 cependant plutôt que de vendre ce savoir, les dirigeants actuels ont préféré gardé le secret et n'ont envoyé de l'autre côté que des membres de
 confiance, ceux qui après des années de bons et loyaux services ont le privilège d'obtenir le statut de "frère" au cours d'une cérémonie 
-rituelle d'intronisation où les nouveaux frères jurent fidélité et allégeance à la guilde. Le Grand Maître actuel est un , il est secondé par 
-quatre maîtres de chapitre (guerre, savoir, loom, route).
+rituelle d'intronisation où les nouveaux frères jurent fidélité et allégeance à la guilde. Le Grand Maître actuel est un Gehemdal, il est secondé 
+par quatre maîtres de chapitre (guerre, savoir, loom, route).
 
 Fondateur : Durin IV le sage
 
@@ -91,18 +91,18 @@ L'écrin est en quelque sorte partagé en trois parties :
         Loom : loom rouge mais en faible quantité, les Karanas refusent d'en échanger et le stocke dans un endroit secret dès qu'ils en trouvent.
         
         Locus : une épée à lame rouge se trouve plantée dans un rocher au coeur d'une épaisse forêt, la tradition Karana veut qu'un puissant 
-        guerrier aurait planté son épée dans ce rocher pour qu'elle ne tombe pas entre les mains de ses ennemis. Aucun Karana n'a réussi à sortir 
-        l'épée ni même à entailler le rocher qui la tient même en utilisant de puissants outils, l'endroit est devenu une sorte de culte local
-        dédié au courage et à l'honneur. (le possesseur obtient une épée incassable supérieure aux épées normales et aux dommages accrus et celle-ci 
-        revient toujours intacte le lendemain auprès de son possesseur même s'il la perd ou se la fait voler.
+        guerrier aurait planté son épée dans ce rocher pour qu'elle ne tombe pas entre les mains de ses ennemis. Aucun Karana n'a réussi à 
+        sortir l'épée ni même à entailler le rocher qui la tient même en utilisant de puissants outils, l'endroit est devenu une sorte de culte 
+        local dédié au courage et à l'honneur. (le possesseur obtient une épée incassable supérieure aux épées normales et aux dommages accrus 
+        et celle-ci revient toujours intacte le lendemain auprès de son possesseur même s'il la perd ou se la fait voler.
     
     -Au nord : de nombreuses montagnes et plateaux assez élevées sont présentes, la guilde sait qu'elles contiennent beaucoup de fer et autres 
     pierres précieuses mais la région est dirigée par une civilisation arkhès très développée les Itiliens. Leur cité Itil est splendide et 
-    faite de fer, de verre et de pierre, leur artisanat est remarquablement beau. Le souverain Itilum est un théocrathe au pouvoir absolué vénéré 
-    comme un demi-dieu, leur culte est basé sur les lunes et les étoiles et sont d'excellents astronomes. Ils vivent dans une cité principale et 
-    ont des mines un peu partout mais pas d'autres villages ou villes, seulement des avants-postes qui surveillent les frontières et les mines. 
-    Leur armée est composée principalement de lanciers et d'archers, le fer leur donne une puissance non négligeable mais ils n'ont aucune 
-    volonté agressive ou expansionniste, ils sont en revanche fermés aux autres peuples de l'écrin avec lesquels ils n'entretiennent aucune 
+    faite de fer, de verre et de pierre, leur artisanat est remarquablement beau. Le souverain Itilum est un théocrathe au pouvoir absolué 
+    vénéré comme un demi-dieu, leur culte est basé sur les lunes et les étoiles et sont d'excellents astronomes. Ils vivent dans une cité 
+    principale et ont des mines un peu partout mais pas d'autres villages ou villes, seulement des avants-postes qui surveillent les frontières 
+    et les mines. Leur armée est composée principalement de lanciers et d'archers, le fer leur donne une puissance non négligeable mais ils n'ont 
+    aucune volonté agressive ou expansionniste, ils sont en revanche fermés aux autres peuples de l'écrin avec lesquels ils n'entretiennent aucune 
     relation ou presque.
     
         Ressources : mines de fer et pierres précieuses, intellectuelles (architecture, artisanat, astronomie), 
@@ -112,8 +112,8 @@ L'écrin est en quelque sorte partagé en trois parties :
         
         Locus : Une caverne dans l'une des montagnes proche de Itil est considérée comme maudite, ceux qui ont osé y pénétrer et en sont ressortis
         vivants n'ont plus jamais été les mêmes et n'ont jamais voulu parler de ce qui leur était arrivé à l'intérieur... (les guildiens devront
-        affronter une créature mystique, s'ils gagnent des points de compétences leur seront offert, s'ils perdent un traumatisme leur sera attribué
-        dans tous les cas, ils seront dans l'impossibilité de raconter ce qui leur est arrivé dans cette grotte.
+        affronter une créature mystique, s'ils gagnent des points de compétences leur seront offert, s'ils perdent un traumatisme leur sera 
+        attribué dans tous les cas, ils seront dans l'impossibilité de raconter ce qui leur est arrivé dans cette grotte.
     
     -A l'est : Ce sont les terres les plus ingrates et les plus froides, composées de nombreux marais, mangroves et de beaucoup de jungles, 
     un peuple drak les Pelarions vit dans cet hiver éternel, peuple rudimentaire réparti dans trois villages de petites huttes indépendants mais 
@@ -124,8 +124,9 @@ L'écrin est en quelque sorte partagé en trois parties :
         
         Loom : loom noir en quantité dans les marais dont la couleur de l'eau est noire (la guilde ne le sait pas).
         
-        Locus : au beau milieu d'un désert se trouve une oasis en apparence banale et agréable, s'ils dorment dans cette oasis de petites lumières
-        tenteront de leur faire du mal.
+        Locus : au beau milieu d'un désert se trouve une oasis en apparence banale et agréable, s'ils dorment dans cette oasis un vieillard en
+        apparence nommé Okto parlera à celui qui surveille le camp, les autres ne pourront se réveiller pendant sa visite. Il offrira du loom et
+        ou des pts de compétences selon les réussites de dés du personnage à qui il parle.
 
     -Ces parties sont séparées par des bandes de jungle dense au climat tropical chaud et humide parsemée de quelques collines ou par du désert
     chaud et sec selon les endroits, il faut environ deux jours de marche pour les traverser en moyenne selon les endroits.
@@ -139,10 +140,13 @@ L'écrin est en quelque sorte partagé en trois parties :
 ************************************************************************************************************************************************
 
 
+Les PJ sont convoqués par un des maîtres de chapitre pour une mission à laquelle ils ont été sélectionnés parmi des dizaines d'autres membres,
+la guilde dispose d'un moyen de passage régulier vers un écrin découvert il y a seulement deux ans, un comptoir y a été implanté et de bonnes
+relations ont été créées avec le peuple Karana proche duquel se trouve le comptoir.
 
 
-
-
+Le Maître leur dévoile alors la carte connue de l'écrin, le relief global est connu grâce à de nombreux explorateurs venndys ainsi que quelques
+cités mais les peuples autochtones sont encore largement méconnus
 
 
 
