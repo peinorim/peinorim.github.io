@@ -6,7 +6,7 @@
 
 
 - Les guildiens seront tous un minimum expérimentés, pas de débutants.
-- On refond le système et on ajoute des niveaux (N, I, E, M, GM).
+- On refond le système et on ajoute des niveaux (N, I, E, M).
 - Le scénario est court et centré sur un unique écrin qu'il faudra explorer, plusieurs peuples seront rencontrés.
 - La carte du relief est accessible dès le début mais sans les détails à trouver.
 - Les choix moraux et stratégiques seront au coeur de la partie.
@@ -25,7 +25,7 @@ https://jdrvirtuel.com/viewforum.php?f=772&sid=429d37b571191e51e993786e93cd607f
 ************************************************************************************************************************************************
 ************************************************************************************************************************************************
 
-Guilde du poing métallique
+Guilde du Soleil métallique
 
 Créée à l'origine par des Gehemdals en 185, elle s'est depuis lors ouverte à toutes les maisons et compte aujourd'hui des centaines
 de membres disséminés un peu partout sur les écrins côtiers et sur les Rivages, son quartier général est à Port Mackaer dans une grande 
@@ -33,7 +33,7 @@ forteresse nommée simplement "Le QG".
 
 La guilde a grandi progressivement au fil des ans mais a réussi à devenir une guilde importante en parvenant à tirer parti des nombreuses 
 richesses des écrins en explorant des contrées éloignées considérées comme non accessibles, de plus sa puissance en armes et soldats
-s'est renforcée grâce aux liens des fondateurs avec la maison gehemdale, ces liens sont encore aujourd'hui très ancrés mais tendent à de diluer
+s'est renforcée grâce aux liens des fondateurs avec la maison gehemdale, ces liens sont encore aujourd'hui très ancrés mais tendent à se diluer
 car toutes les autres maisons sont présentes à tous les étages de par une volonté réformatrice de nouveaux dirigeants depuis les années 210.
 
 Mais la guilde s'est vraiment fait un nom en parvenant à exploiter des passages réguliers à travers la barrière des enfants cyclones depuis 220,
@@ -46,7 +46,7 @@ Fondateur : Durin IV le sage
 
 Dirigeant actuel : Gehemdal âgé nommé Thror Enriksen
 
-Bannière : Poing serré vers le haut gris sur fond rouge
+Bannière : Soleil jaune sur fond noir
 
 Devise : Vis dans l'honneur
 
@@ -81,24 +81,28 @@ L'écrin est en quelque sorte partagé en trois parties :
 
     -Au sud et à l'ouest : c'est là que se trouve l'arrivée du passage ainsi que le comptoir de la guilde. Le comptoir est fait
     de quelques bâtisses en pierre proches du fleuve. C'est l'été, la température est assez élevée et cette zone comporte beaucoup de savanes,
-    prairies à hautes herbes et quelques collines. Non loin du comptoir se trouve une ville Lore d'une cinquantaines de maisons nommée Karanak,
-    c'est une ville fortifée de type médiéval tenue par un peuple Lore amical les Karanas, la ville est dirigée par le seigneur Kark XXII qui
-    règle sur la ville depuis son château fort autour duquel se trouvent les autres maisons. Il règne également sur les quelques autres villages
-    peuplant cette zone en système féodal. 
+    prairies à hautes herbes et quelques collines. Non loin du comptoir se trouve une ville Lore d'une cinquantaines de maisons nommée Karanas,
+    c'est une ville fortifée de type médiéval tenue par un peuple Lore amical les Karanas, la ville est dirigée par le Roi Kark XXII qui règne 
+    sur la ville depuis son château fort autour duquel se trouvent les autres maisons. Il règne également sur les quelques autres villages 
+    peuplant cette zone en système féodal qui sont dirigés par des Seigneurs qui lui ont prêté allégeance.
     
-        Ressources : nombreuses carrières de pierres, terres fertiles, 
+        Ressources : nombreuses carrières de pierres, terres fertiles, la guilde fait le commerce de tissus et autres produits artisanaux en
+        échange de nourriture.
         
-        Loom : loom rouge mais en faible quantité, les Karanas refusent d'en échanger et le stocke dans un endroit secret dès qu'ils en trouvent.
+        Loom : Les Karanas possèdent d'étranges arbres à l'écorce blanche et aux feuilles rouges qui une fois par an donnent des fruits rouges
+        ronds aussi durs que du métal, il s'agit en fait de loom rouge. Les Karanas surveillent l'accès à ces arbres en période d'éclosion et
+        stockent ces fruits loomiques dans un endroit secret à l'intérieur du château du Seigneur, personne ne sait ce qu'ils en font et ils
+        refusent obstinément de l'échanger.
         
-        Locus : une épée à lame rouge se trouve plantée dans un rocher au coeur d'une épaisse forêt, la tradition Karana veut qu'un puissant 
-        guerrier aurait planté son épée dans ce rocher pour qu'elle ne tombe pas entre les mains de ses ennemis. Aucun Karana n'a réussi à 
-        sortir l'épée ni même à entailler le rocher qui la tient même en utilisant de puissants outils, l'endroit est devenu une sorte de culte 
+        Locus : une épée à lame rouge se trouve plantée dans un rocher au coeur d'une forêt d'arbres rouges, la tradition Karana veut qu'un 
+        puissant guerrier aurait planté son épée dans ce rocher pour qu'elle ne tombe pas entre les mains de ses ennemis. Aucun Karana n'a réussi 
+        à sortir l'épée ni même à entailler le rocher qui la tient même en utilisant de puissants outils, l'endroit est devenu une sorte de culte 
         local dédié au courage et à l'honneur. (le possesseur obtient une épée incassable supérieure aux épées normales et aux dommages accrus 
         et celle-ci revient toujours intacte le lendemain auprès de son possesseur même s'il la perd ou se la fait voler.
     
     -Au nord : de nombreuses montagnes et plateaux assez élevées sont présentes, la guilde sait qu'elles contiennent beaucoup de fer et autres 
     pierres précieuses mais la région est dirigée par une civilisation arkhès très développée les Itiliens. Leur cité Itil est splendide et 
-    faite de fer, de verre et de pierre, leur artisanat est remarquablement beau. Le souverain Itilum est un théocrathe au pouvoir absolué 
+    faite de fer, de verre et de pierre, leur artisanat est remarquablement beau. Le souverain Itilum est un théocrathe au pouvoir absolu et 
     vénéré comme un demi-dieu, leur culte est basé sur les lunes et les étoiles et sont d'excellents astronomes. Ils vivent dans une cité 
     principale et ont des mines un peu partout mais pas d'autres villages ou villes, seulement des avants-postes qui surveillent les frontières 
     et les mines. Leur armée est composée principalement de lanciers et d'archers, le fer leur donne une puissance non négligeable mais ils n'ont 
@@ -145,8 +149,16 @@ la guilde dispose d'un moyen de passage régulier vers un écrin découvert il y
 relations ont été créées avec le peuple Karana proche duquel se trouve le comptoir.
 
 
-Le Maître leur dévoile alors la carte connue de l'écrin, le relief global est connu grâce à de nombreux explorateurs venn'dys ainsi que quelques
-cités mais les peuples autochtones sont encore largement méconnus
+Le Maître leur dévoile alors la carte connue de l'écrin, le relief global est connu ainsi que quelques cités grâce à de nombreux explorateurs 
+venn'dys mais les peuples autochtones sont encore largement méconnus. L'écrin est présenté comme riches en ressources dans la partie ouest mais
+la guilde souhaite étendre son influence sur tout le reste de l'écrin, en créant de nouveaux comptoirs par exemple mais peu importe les moyens,
+même s'il faut pour cela déclencher des guerres, la guilde pourra fournir hommes et armes en cas de force majeure mais on préfère éviter les
+bains de sang avec ses propres hommes.
+
+Il serait en revanche préférable de ne pas se quereller avec les Karanas mais sait-on jamais si l'occasion se présente, et il est possible de 
+jouer d'éventuelles rivalités entre ces peuples.
+
+
 
 
 
