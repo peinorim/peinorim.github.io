@@ -129,7 +129,7 @@ L'écrin est en quelque sorte partagé en trois parties :
         Loom : loom noir en quantité dans les marais dont la couleur de l'eau est noire (la guilde ne le sait pas).
         
         Locus : au beau milieu d'un désert se trouve une oasis en apparence banale et agréable, s'ils dorment dans cette oasis un vieillard en
-        apparence nommé Okto parlera à celui qui surveille le camp, les autres ne pourront se réveiller pendant sa visite. Il offrira du loom et
+        apparence nommé Akto parlera à celui qui surveille le camp, les autres ne pourront se réveiller pendant sa visite. Il offrira du loom et
         ou des pts de compétences selon les réussites de dés du personnage à qui il parle.
 
     -Ces parties sont séparées par des bandes de jungle dense au climat tropical chaud et humide parsemée de quelques collines ou par du désert
