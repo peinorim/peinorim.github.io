@@ -94,15 +94,15 @@ L'écrin est en quelque sorte partagé en trois parties :
         stockent ces fruits loomiques dans un endroit secret à l'intérieur du château du Seigneur, personne ne sait ce qu'ils en font et ils
         refusent obstinément de l'échanger.
         
-        Locus : une épée à lame rouge se trouve plantée dans un rocher au coeur d'une forêt d'arbres rouges, la tradition Karana veut qu'un 
-        puissant guerrier aurait planté son épée dans ce rocher pour qu'elle ne tombe pas entre les mains de ses ennemis. Aucun Karana n'a réussi 
+        Locus : une hache à lame rouge se trouve plantée dans un rocher au coeur d'une forêt d'arbres rouges, la tradition Karana veut qu'un 
+        puissant guerrier aurait planté sa hache dans ce rocher pour qu'elle ne tombe pas entre les mains de ses ennemis. Aucun Karana n'a réussi 
         à sortir l'épée ni même à entailler le rocher qui la tient même en utilisant de puissants outils, l'endroit est devenu une sorte de culte 
-        local dédié au courage et à l'honneur. (le possesseur obtient une épée incassable supérieure aux épées normales et aux dommages accrus 
-        et celle-ci revient toujours intacte le lendemain auprès de son possesseur même s'il la perd ou se la fait voler.
+        local dédié au courage et à l'honneur. (le possesseur obtient une hache incassable qui revient toujours intacte le lendemain auprès de son 
+        possesseur même s'il la perd ou se la fait voler.
     
     -Au nord : de nombreuses montagnes et plateaux assez élevées sont présentes, la guilde sait qu'elles contiennent beaucoup de fer et autres 
     pierres précieuses mais la région est dirigée par une civilisation arkhès très développée les Itiliens. Leur cité Itil est splendide et 
-    faite de fer, de verre et de pierre, leur artisanat est remarquablement beau. Le souverain Itilum est un théocrathe au pouvoir absolu et 
+    faite de fer, de verre et de pierre, leur artisanat est remarquablement beau. Le souverain Kukulkan est un théocrathe au pouvoir absolu et 
     vénéré comme un demi-dieu, leur culte est basé sur les lunes et les étoiles et sont d'excellents astronomes. Ils vivent dans une cité 
     principale et ont des mines un peu partout mais pas d'autres villages ou villes, seulement des avants-postes qui surveillent les frontières 
     et les mines. Leur armée est composée principalement de lanciers et d'archers, le fer leur donne une puissance non négligeable mais ils n'ont 
@@ -160,6 +160,47 @@ jouer d'éventuelles rivalités entre ces peuples.
 
 
 
+
+Écrin Ouest :
+
+    - Possibilité pour le gehemdal de séduire la reine amarik, si la hache légendaire est déterrée celle-ci lui proposera de tuer son époux le
+    roi pour prendre sa place, le peuple suivra le porteur de la hache légendaire. Une fois roi le gehemdal sera libre d'utiliser les ressources
+    de l'écrin et d'y appliquer des lois comme bon lui semble. Si le roi n'est pas renversé mais que le pj est découvert en train de faire cocu
+    le roi, les relations avec la guilde seront dégradées et les pj sera emprisonné ainsi que la reine et le reste du groupe banni de la ville
+    ou emprisonné s'ils résistent.
+    
+    -Les PJ peuvent tenter de persuader le roi de commercer son loom rouge (de grandes quantités sont disposées en sous-sol), des jets de
+    diplomatie seront demandés, par ailleurs le roi exigera que l'écrin nord lui soit rattaché car il exècre le peuple arkhès qui y vit et
+    convoite ses mines de fer et de pierres précieuses. En revanche il méprise l'écrin Est dont il ne voit que des terres hostiles et sans 
+    valeur.
+    
+
+Écrin Nord :
+
+    - Les PJ devront déjà convaincre les sentinelles de ne pas les renvoyer hors de leur territoire, une fois fait ils seront conduits à la
+    grande cité d'Itil dont ils sont émerveillés de voir le niveau d'architecture et de raffinement. Ils seront reçus par le souverain Kukulkan
+    qui est vénéré comme un demi-dieu, il leur expliquera qu'il ne veut rien à voir à faire avec le reste de l'écrin ni ne commercer avec
+    personne, il n'en restera pas moins amical envers les pj mais se montrera peu avenant et très réservé à l'exception de l'oniromancien du 
+    groupe qu'il essaiera de recruter, les itiliens utilisent Nocte à leur façon mais ils l'utilisent et s'y promènent de façon rudimentaire, 
+    l'oniromancien pourra lui faire découvrir son expertise et peut-être l'influencer petit à petit jusqu'en faire sa marionnette.
+    
+    -S'ils parviennent à dominer le roi et le convaincre d'une quelconque façon, ils s'apercevront que son armée est plutôt rudimentaire mais
+    est redoutable sur le terrain montagneux et contrôle tous les accès à Itil qui sont étroits et piégés rendant la cité quasiment imprenable.
+    Du coup son armée ne peut pas être utilisée en dehors de son territoire, en revanche il peut fournir beaucoup de fer et de pierres précieuses
+    et des quantités raisonnables de loom vert. Un comptoir modeste peut être bâti dans la cité mais il sera très rentable.
+    
+    
+Écrin Est :
+
+    -Les pj seront attaqués ou mis en joug dès leur entrée sur le territoire, seul l'assassin/démoniste ou l'oniromancien pourrait les convaincre
+    de les écouter en faisant démonstration de loom noir, les pj peuvent aussi foncer dans le tas et tuer toutes les sentinelles. 
+    
+    -Un seul village se trouve près des marais, les autres pelarions de l'écrin se cachent dans des cavernes ou sous terre dans le désert. 
+    Le chef Zeltok qui fait office d'autorité tribale supérieure refusera de commercer mais les pj trouveront du bois précieux dans les mangroves 
+    qui composent le marais et du loom noir en grande quantité dans les trous d'eau. La seule chose qui pourrait amener le chef à commercer ses 
+    ressources serait d'anéantir tous les peuples des autres écrins, il dispose de beaucoup d'hommes qui sont féroces et cruels et dont les chamans 
+    pratiquent la nécromancie pour maintenir en vie et terroriser le camp adverse.
+    
 
 
 
