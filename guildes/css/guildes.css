@@ -74,12 +74,12 @@ body.nightMode {
 	background-color: #142634;
 }
 
-body.nightMode a {
+body.nightMode button, body.nightMode a {
 	color: #d48872 !important;
 }
 
-body.nightMode .nav-tabs>li.active>a, body.nightMode .nav-tabs>li.active>a:hover, body.nightMode .nav-tabs>li.active>a:focus, body.nightMode .nav-tabs>li>a:hover,
-	body.nightMode .nav-tabs>li>a:focus {
+body.nightMode .nav-tabs>li.active>button, body.nightMode .nav-tabs>li.active>a:hover, body.nightMode .nav-tabs>li.active>button:focus, body.nightMode .nav-tabs>li>button:hover,
+	body.nightMode .nav-tabs>li>button:focus, body.nightMode .nav-tabs .nav-link.active {
 	background-color: #142634 !important;
 }
 
@@ -99,7 +99,7 @@ body.nightMode .thumbnail {
 	background-color: #142634 !important;
 }
 
-body.nightMode .thumbnail .caption {
+body.nightMode .thumbnail .caption, body.nightMode table {
 	color: #bdc7c1 !important;
 }
 
@@ -187,7 +187,7 @@ body.nightMode .table-hover>tbody>tr:hover {
 }
 
 .nightModeSwitch .list-group-item {
-	background-color: none;
+	background-color: unset;
 	border: none;
 }
 
