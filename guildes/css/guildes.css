@@ -7,8 +7,9 @@
 	font-weight: bold;
 }
 
-.thumbnail {
+.card {
 	min-height: 310px;
+	margin-bottom: 5px;
 }
 
 body {
@@ -95,11 +96,11 @@ body.nightMode .table>thead>tr>th {
 	border-bottom: 2px solid #bdc7c1;
 }
 
-body.nightMode .thumbnail {
-	background-color: #142634 !important;
+body.nightMode .card {
+	background-color: #1f2938 !important;
 }
 
-body.nightMode .thumbnail .caption, body.nightMode table {
+body.nightMode .card .card-body, body.nightMode table {
 	color: #bdc7c1 !important;
 }
 
@@ -197,6 +198,10 @@ body.nightMode .table-hover>tbody>tr:hover {
 
 a:focus {
     outline: none;
+}
+
+.list-group {
+	display: inline;
 }
 
 /********************************************************************************************************* */

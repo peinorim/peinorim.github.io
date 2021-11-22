@@ -286,13 +286,13 @@ $(function() {
                 if (data.cdball.length > 0) {
 
                     for (var i = 0; i < data.cdball.length; i++) {
-                        $(document).find("#body-cdbmes").append('<div class="col-md-4 col-xs-12"><div class="thumbnail"><div class="caption"><p class="bold">' + data.cdball[i].nom + '</p>' + '<p>' + data.cdball[i].effet + '</p>' + '</div></div></div>');
+                        $(document).find("#body-cdbmes").append('<div class="col-md-4 col-xs-12"><div class="card"><div class="card-body"><p class="bold">' + data.cdball[i].nom + '</p>' + '<p>' + data.cdball[i].effet + '</p>' + '</div></div></div>');
                     }
 
                     $(document).find("#body-cdbmes").append('<div class="page-header col-xs-12"><h3>Mésaventures</h3></div>');
 
                     for (var i = 0; i < data.mesall.length; i++) {
-                        $(document).find("#body-cdbmes").append('<div class="col-md-4 col-xs-12"><div class="thumbnail"><div class="caption"><p class="bold">' + data.mesall[i].nom + '</p>' + '<p>' + data.mesall[i].effet + '</p>' + '</div></div></div>');
+                        $(document).find("#body-cdbmes").append('<div class="col-md-4 col-xs-12"><div class="card"><div class="card-body"><p class="bold">' + data.mesall[i].nom + '</p>' + '<p>' + data.mesall[i].effet + '</p>' + '</div></div></div>');
                     }
                 }
 
@@ -308,7 +308,7 @@ $(function() {
                         for (var j = 0; j < cdbMaisons.length; j++) {
 
                             $(document).find(htmlKeys[i]).append(
-                                    '<div class="col-md-4 col-xs-12"><div class="thumbnail"><div class="caption"><p class="bold">' + cdbMaisons[j].titre + '</p>' + '<p>' + cdbMaisons[j].cdb + '</p>' + '<p><i>' + cdbMaisons[j].effet + '</i></p>' + '<hr></hr>' + '<p>' + cdbMaisons[j].mes + '</p>' + '<p><i>' + cdbMaisons[j].mes_effet + '</i></p>'
+                                    '<div class="col-md-4 col-xs-12"><div class="card"><div class="card-body"><p class="bold">' + cdbMaisons[j].titre + '</p>' + '<p>' + cdbMaisons[j].cdb + '</p>' + '<p><i>' + cdbMaisons[j].effet + '</i></p>' + '<hr></hr>' + '<p>' + cdbMaisons[j].mes + '</p>' + '<p><i>' + cdbMaisons[j].mes_effet + '</i></p>'
                                             + '</div></div></div>');
                         }
 
@@ -318,13 +318,13 @@ $(function() {
                 if (data.cdbacademie.length > 0) {
 
                     for (var i = 0; i < data.cdbacademie.length; i++) {
-                        $(document).find("#body-academie").append('<div class="col-md-4 col-xs-12"><div class="thumbnail"><div class="caption"><p class="bold">' + data.cdbacademie[i].nom + '</p>' + '<p>' + data.cdbacademie[i].effet + '</p>' + '</div></div></div>');
+                        $(document).find("#body-academie").append('<div class="col-md-4 col-xs-12"><div class="card"><div class="card-body"><p class="bold">' + data.cdbacademie[i].nom + '</p>' + '<p>' + data.cdbacademie[i].effet + '</p>' + '</div></div></div>');
                     }
 
                     $(document).find("#body-academie").append('<div class="page-header col-xs-12"><h3>Mésaventures</h3></div>');
 
                     for (var i = 0; i < data.mesacademie.length; i++) {
-                        $(document).find("#body-academie").append('<div class="col-md-4 col-xs-12"><div class="thumbnail"><div class="caption"><p class="bold">' + data.mesacademie[i].nom + '</p>' + '<p>' + data.mesacademie[i].effet + '</p>' + '</div></div></div>');
+                        $(document).find("#body-academie").append('<div class="col-md-4 col-xs-12"><div class="card"><div class="card-body"><p class="bold">' + data.mesacademie[i].nom + '</p>' + '<p>' + data.mesacademie[i].effet + '</p>' + '</div></div></div>');
                     }
                 }
 
@@ -400,18 +400,18 @@ $(function() {
                 if (data.metiers.length > 0) {
                     
                     for (var i = 0; i < data.metiers.length; i++) {
-                        $(document).find("#body-metiers-metier").append('<li><a class="list-group-item" data-metier-id="' + data.metiers[i].id + '" href="#">' + data.metiers[i].nom + "</a></li>");
+                        $(document).find("#body-metiers-metier").append('<li><a class="list-group-item list-group-item-action" data-metier-id="' + data.metiers[i].id + '" href="#">' + data.metiers[i].nom + "</a></li>");
                         $(document).find("#perso-metiers").append($("<option></option>").attr("value", data.metiers[i].id).text(data.metiers[i].nom));
                     }
                     for (var i = 0; i < data.competences.length; i++) {
-                        $(document).find("#body-metiers-comp").append('<li><a class="list-group-item" data-comp-id="' + data.competences[i].id + '" data-carac-id="' + data.competences[i].carac_id + '" data-chap-id="' + data.competences[i].chapitre_id + '" href="#">' + data.competences[i].nom + "</a></li>");
+                        $(document).find("#body-metiers-comp").append('<li><a class="list-group-item list-group-item-action" data-comp-id="' + data.competences[i].id + '" data-carac-id="' + data.competences[i].carac_id + '" data-chap-id="' + data.competences[i].chapitre_id + '" href="#">' + data.competences[i].nom + "</a></li>");
                     }
                     for (var i = 0; i < data.caracs.length; i++) {
-                        $(document).find("#body-metiers-carac").append('<li><a class="list-group-item" data-carac-id="' + data.caracs[i].id + '" href="#">' + data.caracs[i].nom + "</a></li>");
+                        $(document).find("#body-metiers-carac").append('<li><a class="list-group-item list-group-item-action" data-carac-id="' + data.caracs[i].id + '" href="#">' + data.caracs[i].nom + "</a></li>");
                         $(document).find("#select_carac").append($("<option></option>").attr("value", data.caracs[i].id).text(data.caracs[i].nom));
                     }
                     for (var i = 0; i < data.chapitres.length; i++) {
-                        $(document).find("#body-metiers-chap").append('<li><a class="list-group-item" data-chap-id="' + data.chapitres[i].id + '" href="#">' + data.chapitres[i].nom + "</a></li>");
+                        $(document).find("#body-metiers-chap").append('<li><a class="list-group-item list-group-item-action" data-chap-id="' + data.chapitres[i].id + '" href="#">' + data.chapitres[i].nom + "</a></li>");
                     }
                 }
 
