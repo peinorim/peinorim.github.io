@@ -195,7 +195,7 @@ $(function() {
     });
 
     var today = new Date();
-    var setNightMode = true;
+    var setNightMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     if (typeof (Storage) !== "undefined") {
         var nightMode = localStorage.getItem("nightMode");
