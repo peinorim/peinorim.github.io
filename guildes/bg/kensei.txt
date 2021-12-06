@@ -39,14 +39,14 @@ Chapitre 2 : L'académie et la Guilde
 
 Bien qu'ayant servi de longs mois durant sur un navire en tant que pirate novice, j'aspirais à une vie beaucoup plus exaltante que celle-là 
 et bien que les petits nouveaux issus de l'école du faucon-sabre étaient presque tous voués à la piraterie à vie, je désirais plus que tout 
-m'enfuir loin d'ici en direction du continent et de ses contrées vierges et inexplorées. C'est ainsi que peu après mes seize ans je m'infiltrais 
-clandestinement à bord d'un navire marchand Venn'dys livrant des matières premières à un des écrins du continent. Caché dans un baril de pommes 
+m'enfuir loin d'ici en direction du Continent et de ses contrées vierges et inexplorées. C'est ainsi que peu après mes seize ans je m'infiltrais
+clandestinement à bord d'un navire marchand Venn'dys livrant des matières premières à un des écrins du Continent. Caché dans un baril de pommes
 je passais trois mois de voyage particulièrement difficiles bien que mes transformations en faucon purent me permettre de faire quelques allers 
 et retours dans les airs sans éveiller l'attention de l'équipage. 
 
 Le bateau débarqua dans l'écrin côtier de la couronne stellaire à Port Concorde la capitale guildienne, après des années de guerre sanglante 
 entre les guildes c'est finalement la guilde du fer de Shaal qui eut la main-mise sur la ville et la rendit donc très sûre mais peu propice à 
-l'aventure car très ennuyeuse. Cet écrin est séparé du continent inexploré par la mystérieuse barrière des enfants cyclones qui se situe à 
+l'aventure car très ennuyeuse. Cet écrin est séparé du Continent inexploré par la mystérieuse barrière des enfants cyclones qui se situe à
 quelques dizaines de kilomètres de la ville et interdit à priori tout passage. Mais tout cela n'était pas encore pour moi hélas, l'exploration 
 de la terra incognita est du domaine des explorateurs chevronnés à l'expérience accomplie et non aux novices, je devais donc commencer par le 
 commencement c'est à dire l'académie. La formation académicienne est très rude mais très complète et dure trois ans, à chaque élève on assigne 
@@ -72,9 +72,9 @@ connaître et de voir un nouveau Felsin parmi nous, tout cela me rend nostalgiqu
 te proposer un travail à la fois très risqué mais aussi très rentable sur le plan des honneurs et si tu réussis nous pouvons être certains 
 d'obtenir des postes de choix dans la Guilde. »
 
-« Tout ce que je désire Maître est d'aller explorer le continent, je suis parti des Rivages dans ce but. »
+« Tout ce que je désire Maître est d'aller explorer le Continent, je suis parti des Rivages dans ce but. »
 
-« Oui oui bien sûr, le continent est une source inépuisable d'aventures mais le soutien d'une guilde y est particulièrement appréciable 
+« Oui oui bien sûr, le Continent est une source inépuisable d'aventures mais le soutien d'une guilde y est particulièrement appréciable
 surtout lorsqu'on se retrouve au milieu de nulle part sur une terre inconnue et hostile... »
 
 « Vous avez déjà passé la Barrière Maître ? » Demandais-je d'un ton à la fois stupéfait et curieux.
@@ -101,13 +101,13 @@ les services de deux Felsins qu'il faudrait payer bien davantage ? »
 la science des arts martiaux par un renégat felsin et bien qu'il ne sera jamais aussi doué que l'un des nôtres ne pouvant maîtriser le Sheï, 
 il ne faut surtout pas le prendre à la légère. La Guilde nous assurera lors de cette mission naturellement cependant l'ensemble du peuple 
 Kheyza soutient son "champion" et ceux qui reconnaîtront les responsables de sa mort voudront le venger. Le risque est grand mais si tu 
-désires aller sur le continent, la guilde organisera un passage sûr en guise de paiement ajouté à une totale liberté, tu auras leur soutien 
+désires aller sur le Continent, la guilde organisera un passage sûr en guise de paiement ajouté à une totale liberté, tu auras leur soutien
 mais sans être employé ce qui n'est pas rien comme tu le sais. Quant à moi j'aurai un poste à hautes responsabilités mais sans danger ce qui 
 est parfait pour un vieil homme dans mon genre. »
 
 Keesa avait raison, trouver un passage pour la Barrière n'était pas difficile, en revanche trouver un passage limitant au maximum les risques 
 de mort pour les explorateurs était bien plus difficile et seules les Guildes pouvaient se vanter de taux de réussite majeurs. Cette offre ne 
-pouvait décemment se refuser et je ne voulais pas repousser mon expédition de plusieurs années ou bien d'être contraint d'aller sur le continent 
+pouvait décemment se refuser et je ne voulais pas repousser mon expédition de plusieurs années ou bien d'être contraint d'aller sur le Continent
 mais en étant employé par la guilde ce qui finalement ne me laisserait aucune liberté d'action.
 
 « Je marche bien entendu, voilà une opportunité que je ne reverrai pas deux fois dans ma vie et je dois dire que je n'aime guère ces sales 
@@ -276,7 +276,7 @@ finalement les deux êtres s'arrêtent sur le toit d'une maison prêts à se liv
 « En effet cher petit donc tu sais pertinemment que tu ne peux rien contre moi, ma maîtrise de l'art étrange est infiniment plus subtile 
 et supérieure à la tienne alors sois raisonnable et soumets-toi à moi. »
 
-« Je suis un guildien désormais et personne ne me fera reculer, j'ai un but à atteindre sur le continent par conséquent je ne peux pas 
+« Je suis un guildien désormais et personne ne me fera reculer, j'ai un but à atteindre sur le Continent par conséquent je ne peux pas
 mourir ici, en garde ! Piqûre ! » 
 
 Metilev lança un sort qui permettait de paralyser temporairement sa cible mais le Moine Rouge l'esquiva à peine démontrant sa grande agilité.
@@ -381,9 +381,9 @@ Nous ramenâmes notre prisonnier au quartier général de la Guilde qui fixa son
 émeutes de protestation fomentées par des Kheyzas avaient pris naissance un peu partout dans l'écrin mais elles furent rapidement maîtrisées. 
 Metilev et moi eurent donc droit à de nombreux honneurs mais nous nous étions fait un ennemi mortel, en effet nous apprîmes quelques jours 
 plus tard que Corin s'était échappé le matin de son exécution en tuant son bourreau, la rumeur prétend qu'il aurait à présent passé la 
-Barrière des enfants cyclones en direction du continent, si jamais il nous reconnaît... Malgré cela la Guilde nous devait beaucoup en 
+Barrière des enfants cyclones en direction du Continent, si jamais il nous reconnaît... Malgré cela la Guilde nous devait beaucoup en
 compensation de nos efforts et de notre loyauté, elle nous envoya donc en direction de la Barrière ville miteuse au bord de la Barrière 
-des enfants cyclones frontière entre les écrins et le nouveau monde pour nous organiser un passage en direction de l'intérieur du continent, 
+des enfants cyclones frontière entre les écrins et le nouveau monde pour nous organiser un passage en direction de l'intérieur du Continent,
 l'exploration en terra incognita ainsi que la véritable aventure allaient enfin pouvoir commencer...
 
 Chapitre 4 : La Barrière et le passage
@@ -398,7 +398,7 @@ il inspecta rapidement le parchemin d'ordre rédigé par un des leaders.
 
 "Voyons ce qu'il est écrit, 
 Messires Kenseï et Metilev pour services rendus à la Guilde dans l'affaire Corin-sans-visage se verront attribuer une place pour chacun 
-d'eux dans le prochain passage à destination de l'intérieur du continent, une fois là-bas leur totale liberté d'action leur sera accordée 
+d'eux dans le prochain passage à destination de l'intérieur du Continent, une fois là-bas leur totale liberté d'action leur sera accordée
 puisqu'ils ne seront à partir de ce moment-là plus employés par la guilde. 
 Ils doivent vraiment vous apprécier pour vous permettre une telle offre sans pour autant exiger vos services en retour, c'est intéressant 
 en tout cas. Bien parlons sérieusement, le prochain passage a lieu dans cinq jours, d'ici là vous êtes libres d'aller où bon vous semble 
@@ -419,5 +419,5 @@ bien de repartir pour Port Concorde, ce dont Metilev et moi-même n'avions aucun
 à utiliser ce plan et après s'être enduits de Loom on nous éjecta à l'aide de catapultes à travers la barrière, je ne me rappelle pas avoir 
 été autant secoué dans tous les sens imaginables que cette fois-là. Quand je revins à moi Metilev se trouvait à côté de moi mais aucune 
 trace de nos autres compagnons de Guilde, nous étions assis sur le sol d'une plaine rocailleuse qui s'étendait en face de nous à perte de 
-vue et on devinait la barrière à quelques centaines de mètres derrière nous, nous avions réussi à passer de l'autre côté, le continent 
+vue et on devinait la barrière à quelques centaines de mètres derrière nous, nous avions réussi à passer de l'autre côté, le Continent
 s'offrait à nous…

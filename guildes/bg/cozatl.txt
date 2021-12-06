@@ -1,14 +1,13 @@
 Cozatl (stratège ulmeq)
 
 J'ai grandi à Fayrik au coeur d'une famille de guerriers relativement aisée pour cette caste, mes parents étaient des pontes de l'armée
-et c'est donc naturellement que je l'ai rejointe dès que j'en ai eu l'âge étant une armoire à glace passionné par l'utilisation des masses
-et autres marteaux de guerre contrairement à mon frère Patloc qui était plutôt fluet et complètement inapte au combat mais il était pourvu 
-d'autres talents et devint un espion plutôt doué. Mon frère et moi partagions en revanche une certaine capacité à diriger les gens et à 
-élaborer des stratégies complexes et retors, ce qui m'a permis de grimper assez rapidement les échelons de la hiérarchie militaire et a 
-fait de moi un officier en quelques années.
+et c'est donc naturellement que je l'ai rejointe dès que j'en ai eu l'âge, contrairement à mon frère Patloc, qui était plutôt fluet et
+complètement inapte au combat mais pourvu d'autres talents, il devint un espion plutôt doué.
+Mon frère et moi partagions en revanche une certaine capacité à diriger les gens et à élaborer des stratégies complexes et retorses, ce
+qui m'a permis de grimper assez rapidement les échelons de la hiérarchie militaire et a fait de moi un officier en quelques années.
 
-Après de nombreuses escarmouches victorieuses le gouvernement créa une unité spéciale d'élite nommée "la main rouge" composée d'une
-dizaine de d'hommes avec moi à leur tête, nous étions envoyés partout sur les Rivages, la plupart du temps en infiltration discrète et
+Après de nombreuses escarmouches victorieuses le gouvernement créa une unité spéciale d'élite nommée "le soleil rouge" composée d'une
+dizaine d'hommes avec moi à leur tête, nous étions envoyés partout sur les Rivages, la plupart du temps en infiltration discrète et
 d'autres fois prêtant main forte à d'autres armées alliées. Nous avions alors carte blanche pour mener à bien les objectifs de la mission
 et ne répondions uniquement soit au plus haut commandement de l'armée soit directement au Fils des feux du ciel, cette unité mena ces
 opérations pendant plusieurs années et nous fûmes alors hautement réputés à travers l'armée et même parmi les rêveurs sacrés.
@@ -42,12 +41,12 @@ si bien qu'un guildien rôdé au Continent ne s'y sentirait pas dépaysé. Je fu
 mais je n'ai guère pu étudier assidûment car j'ai été au centre d'un conflit entre deux maîtres, un ashragor nommé Menlav qui essaya de me 
 soutirer des secrets sur l'armée et Shin un fascinant felsin qui fit tout pour me protéger et qui me pris à part pour m'enseigner une nouvelle 
 façon de penser, de réfléchir face aux événements et il est vrai que je me sens différent depuis lors. Excédé par mes refus, Menlav tenta de 
-me tuer mais je le blessai gravement d'un coup de masse, étant fautif Menlav fut renvoyé de l'académie et rejoignit le continent tout en 
+me tuer mais je le blessai gravement d'un coup de masse, étant fautif Menlav fut renvoyé de l'académie et rejoignit le Continent tout en
 jurant d'en finir avec moi. La dernière année ne fut pas plus calme, j'eus pour seul maître un soldat gehemdal qui s'était fixé comme mission 
 de m'en faire baver, il est probable que mon ancien grade d'officier l'agaçait, n'empêche qu'il m'a beaucoup appris sur le maniement des
 marteaux et autres masses face à de nombreux adversaires simultanés.
 
-Mon guilder constellé obtenu, je pris alors un bateau pour Port-Franc où j'embarquais ensuite à destination du continent...
+Mon guilder constellé obtenu, je pris alors un bateau pour Port-Franc où j'embarquais ensuite à destination du Continent...
 
 
 /**************************************************************************************************************************************/
