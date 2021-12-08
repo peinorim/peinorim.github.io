@@ -13,19 +13,19 @@ les franchir. Une partie de la carte aura des montagnes infranchissables qui mar
 
 Les ressources utiles : nourriture, bois, pierre, fer, or.
 
-Chaque territoire démarre avec une capitale, seule ville du territoire, des villages pourront s'implanter ailleurs par la suite.
+Chaque territoire démarre avec une capitale, des villes secondaires pourront s'implanter ailleurs par la suite.
 Chaque ville évolue de la façon : niv 1 hameau (200), niv 2 village (500), niv 3 petite ville (1000), niv 4 ville moyenne (2000), niv 5 grande ville (5000), 
 niv 6 métropole (10000+)
 
-Le joueur possède un palais au centre de la capitale qui s'améliore selon le niveau de la ville. Le style du palais est complètement personnalisable mais dépend des
-ressources dispo (pas de château en pierres si pas de pierres sur le territoire)
+Le joueur possède un palais au centre de la capitale qui s'améliore selon le niveau de la ville. Le style du palais est complètement personnalisable, mais dépend des
+ressources disponibles (pas de château en pierres si pas de pierres sur le territoire)
 
 Si le palais est pris par un joueur ou une tribu pnj, le possesseur de la ville est chassé et ne peut plus gérer son territoire.
 
 
 Une création de ville peut s'effectuer n'importe où si le terrain le permet, c'est possible si une ressource de bois est disponible, la capitale est gratuite.
 
-Pour s'améliorer une ville doit posséder un niveau de nourriture et de bois suffisant. (3 bois et 3 nourriture requis pour passer niv 3), de la pierre est nécessaire à
+Pour s'améliorer une ville doit posséder un niveau de nourriture et de bois suffisants. (3 bois et 3 nourritures requis pour passer niv 3), de la pierre est nécessaire à
 partir du niveau 4.
 
 
@@ -33,12 +33,12 @@ Chaque ville/village produit une légion armée par niveau de taille, une légio
 
 
 Il est possible de faire du commerce entre joueurs pour échanger/acheter des ressources
-Il est possible de faire du commerce extérieur vers des mondes non joueurs mais il faut un accès à la mer, par contre des invasions par la mer pourront arriver.
+Il est possible de faire du commerce extérieur vers des mondes non-joueurs, mais il faut un accès à la mer, par contre des invasions par la mer pourront arriver.
 
 
-Un PNJ peut parcourir à pied environ 30km par jour (60km à cheval).
-Un PJ  peut parcourir à pied environ 40km par jour (80km à cheval).
-Un corbeau peut parcourir environ 50km par jour.
+Un PNJ peut parcourir à pied environ 30 km par jour (60 km à cheval).
+Un PJ peut parcourir à pied environ 40 km par jour (80 km à cheval).
+Un corbeau peut parcourir environ 50 km par jour.
 
 Ces valeurs sont divisées par deux en terrains difficiles (déserts, marécages, montagnes, etc.) sauf pour les corbeaux.
 
@@ -50,10 +50,10 @@ Ces valeurs sont divisées par deux en terrains difficiles (déserts, marécages
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Toutes races fantasy humanoïde disponibles tant que ce n'est pas trop cheaté, le PJ incorruptible d'un acolyte est à créer selon les mêmes bases que son perso mais
+Toutes races fantasy humanoïdes disponibles tant que ce n'est pas trop cheaté, le PJ incorruptible d'un acolyte est à créer selon les mêmes bases que son perso mais
 avec moins de points (25 pts caracs).
 
-Le joueur peut jouer toutes sortes d'alignements du plus bienveillant au plus malveillant mais en restant logique et courtois.
+Le joueur peut jouer toutes sortes d'alignements du plus bienveillant au plus malveillant, mais en restant logique et courtois.
 
 Caracs de 1 à 10, 35 pts à répartir
 
@@ -79,7 +79,7 @@ Spécialité : combat cac/dist, magie, favorise les cultures, ressources, meneur
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-La magie se base principalement sur la manipulation des élements basiques (eau, air, feu, terre) et c'est le choix du type de sort qui en conditionne les effets,
+La magie se base principalement sur la manipulation des éléments basiques (eau, air, feu, terre) et c'est le choix du type de sort qui en conditionne les effets,
 les éléments sont de force égale et n'ont pas d'avantage les uns sur les autres.
 
 Le niveau du sort et ses effets descriptifs sont à la discrétion du MJ selon l'action que veut réaliser le PJ.
@@ -100,7 +100,7 @@ Les PM se régénèrent par 2PM/heure ou complètement au bout d'une nuit de rep
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Jets : D100 , 1-5 réussite critique, 95-100 échec critique
+Jets : D100, 1-5 réussite critique, 95-100 échec critique
 
 Jets de caracs : D100 réussit si résultat <= CARACx10
 
@@ -113,17 +113,16 @@ Jets magie/physique : D100, pour la magie jet de volonté x10, agilité x10 pour
 - Si la différence est comprise entre 21 et 30, la cible encaisse une blessure moyenne -6PV
 - Si la différence est comprise entre 31 et 40, la cible encaisse une blessure grave -8PV
 - Si la différence est comprise entre 41 et 50, la cible encaisse une blessure critique -10PV
-
 - Si la différence est supérieure ou égale à 51, la cible encaisse une blessure fatale et décède...
 
  
 
 Superficielle : Une petite plaie, coupure
-Légère : foulure, coups, chutes,...
-Moyenne : Fratures mineures, brulure au premier degré, os demis, plaie profonde,...
-Grave : Membres tranchés, os broyés, perforations pulmonaire, maladies infectieuses, brûlures au troisième degré,...
+Légère : foulure, coups, chutes, ...
+Moyenne : Fractures mineures, brulure au premier degré, os demis, plaie profonde, ...
+Grave : Membres tranchés, os broyés, perforations pulmonaires, maladies infectieuses, brûlures au troisième degré, ...
 Critique : crâne fendu, éviscération, organes détruits, coeur perforé, corps rongé par la maladie...
-Fatale : décapitation, corps coupé en deux et autres blessures mortelles etc.
+Fatale : décapitation, corps coupé en deux et autres blessures mortelles, etc.
 
 Les détails des blessures infligées dans le contexte du jeu sont à la discrétion du MJ.
 
@@ -145,9 +144,6 @@ peut effectuer un joueur pendant son tour dépend de l'envergure des actions et 
 
 
 
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------         BATAILLE          ---------------------------------------------------------------------------------
@@ -156,14 +152,14 @@ peut effectuer un joueur pendant son tour dépend de l'envergure des actions et 
 
 
 
-Quelque soit le type de population il existe 5 types d'unités parmi les légions disponibles : lanciers, cavaliers (plaines avec chevaux requis), archers, boucliers, 
+Quel que soit le type de population il existe 5 types d'unités parmi les légions disponibles : lanciers, cavaliers (plaines avec chevaux requis), archers, boucliers,
 fantassins.
 
 boucliers résistent aux archers, vulnérables aux fantassins
 lanciers battent les cavaliers, vulnérables aux unités à pied
-cavaliers battent unités à pied mais vulnérables aux archers et lanciers
-archers battent toutes les unités mais n'ont pas de défense
-fantassins sont supérieurs aux autres unités à pied mais ne résistent pas aux archers
+cavaliers battent unités à pied, mais vulnérables aux archers et lanciers
+archers battent toutes les unités, mais n'ont pas de défense
+fantassins sont supérieurs aux autres unités à pied, mais ne résistent pas aux archers
 
 Des armes de siège sont disponibles :
 
