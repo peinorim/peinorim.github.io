@@ -1,83 +1,124 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<title>Guildes El Dorado - Aides de jeu</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<meta name="robots" content="index, nofollow" />
-<meta name="theme-color" content="#142634">
-<meta name="description" content="Aides de jeu pour le jeu de rôle Guildes El Dorado. Compétences, artefacts, loom, jets de dés...">
-<link rel="icon" type="image/jpg" href="img/guilder.jpg" />
-<link rel="stylesheet" type="text/css" href="guildes/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="guildes/css/guildes.css" />
+    <meta charset="utf-8">
+    <title>Guildes El Dorado - Aides de jeu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="robots" content="index, nofollow"/>
+    <meta name="theme-color" content="#142634">
+    <meta name="description"
+          content="Aides de jeu pour le jeu de rôle Guildes El Dorado. Compétences, artefacts, loom, jets de dés...">
+    <link rel="icon" type="image/jpg" href="img/guilder.jpg"/>
+    <link rel="stylesheet" type="text/css" href="guildes/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="guildes/css/guildes.css"/>
 </head>
 <body>
-	<header class="container-fluid">
-		<ul class="list-group float-end col-xs-12 col-sm-3 col-md-1 nightModeSwitch">
-			<li class="list-group-item">Mode nuit
-				<div class="material-switch pull-right">
-					<input id="nightMode" name="nightMode" type="checkbox" /> <label for="nightMode" class="label-default"></label>
-				</div>
-			</li>
-		</ul>
-		<h1 class="display-5">
-			Guildes El Dorado&nbsp;<small class="text-muted">Aides de jeu</small>
-		</h1>
-	</header>
-	<section class="container-fluid mt-5">
-		<ul class="nav nav-tabs" id="myTabs" role="tablist">
-			<li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#home" id="contexte" role="tab" data-toggle="tab" aria-controls="home" aria-selected="true">Contexte</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#armes" role="tab" id="armes-et-armures" data-toggle="tab" aria-controls="armes" aria-selected="false">Armes &amp; Armures</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#comp" role="tab" id="competences-et-machinations" data-toggle="tab" aria-controls="comp" aria-selected="false">Compétences &amp; Machinations</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#metie" role="tab" id="metiers" data-toggle="tab" aria-controls="metiers" aria-selected="false">Métiers</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#cdbmes" role="tab" id="coupsdebol-et-mesaventures" data-toggle="tab" aria-controls="cdbmes" aria-selected="false">Coups de bol &amp; Mésaventures</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#equip" role="tab" id="equipement-et-artefacts" data-toggle="tab" aria-controls="equip" aria-selected="false">Équipement &amp; Artefacts</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#dice" role="tab" id="lanceur-de-des" data-toggle="tab" aria-controls="dice" aria-selected="false">Lanceur de dés</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#loom" role="tab" id="loom-la-magie" data-toggle="tab" aria-controls="loom" aria-selected="false">Loom</button></li>
-			<li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#perso" role="tab" id="personnage" data-toggle="tab" aria-controls="perso" aria-selected="false">Personnage</button></li>
-		</ul>
-		<div class="tab-content mt-2" id="myTabContent">
-			<div class="tab-pane fade show active container" role="tabpanel" id="home" aria-labelledby="contexte">
-				<section include-html="guildes/home.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="armes" aria-labelledby="armes-et-armures">
-				<section include-html="guildes/armes.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="comp" aria-labelledby="competences-et-machinations">
-				<section include-html="guildes/comp.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="metie" aria-labelledby="metiers">
-				<section include-html="guildes/metiers.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="cdbmes" aria-labelledby="coupsdebol-et-mesaventures">
-				<section include-html="guildes/cdbmes.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="equip" aria-labelledby="equipement-et-artefacts">
-				<section include-html="guildes/equip.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="dice" aria-labelledby="lanceur-de-des">
-				<section include-html="guildes/dice.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="loom" aria-labelledby="loom">
-				<section include-html="guildes/loom.html"></section>
-			</div>
-			<div class="tab-pane fade" role="tabpanel" id="perso" aria-labelledby="personnage">
-				<section include-html="guildes/perso.html"></section>
-			</div>
-		</div>
-	</section>
+<header class="container-fluid">
+    <ul class="list-group float-end col-xs-12 col-sm-3 col-md-1 nightModeSwitch">
+        <li class="list-group-item">Mode nuit
+            <div class="material-switch pull-right">
+                <input id="nightMode" name="nightMode" type="checkbox"/> <label for="nightMode"
+                                                                                class="label-default"></label>
+            </div>
+        </li>
+    </ul>
+    <h1 class="display-5">
+        Guildes El Dorado&nbsp;<small class="text-muted">Aides de jeu</small>
+    </h1>
+</header>
+<section class="container-fluid mt-5">
+    <ul class="nav nav-tabs" id="myTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#home" id="contexte" role="tab"
+                    data-toggle="tab" aria-controls="home" aria-selected="true">Contexte
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#armes" role="tab" id="armes-et-armures"
+                    data-toggle="tab" aria-controls="armes" aria-selected="false">Armes &amp; Armures
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#comp" role="tab"
+                    id="competences-et-machinations" data-toggle="tab" aria-controls="comp" aria-selected="false">
+                Compétences &amp; Machinations
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#metie" role="tab" id="metiers"
+                    data-toggle="tab" aria-controls="metiers" aria-selected="false">Métiers
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#cdbmes" role="tab"
+                    id="coupsdebol-et-mesaventures" data-toggle="tab" aria-controls="cdbmes" aria-selected="false">Coups
+                de bol &amp; Mésaventures
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#equip" role="tab"
+                    id="equipement-et-artefacts" data-toggle="tab" aria-controls="equip" aria-selected="false">
+                Équipement &amp; Artefacts
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#dice" role="tab" id="lanceur-de-des"
+                    data-toggle="tab" aria-controls="dice" aria-selected="false">Lanceur de dés
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#loom" role="tab" id="loom-la-magie"
+                    data-toggle="tab" aria-controls="loom" aria-selected="false">Loom
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#perso" role="tab" id="personnage"
+                    data-toggle="tab" aria-controls="perso" aria-selected="false">Personnage
+            </button>
+        </li>
+    </ul>
+    <div class="tab-content mt-2" id="myTabContent">
+        <div class="tab-pane fade show active container" role="tabpanel" id="home" aria-labelledby="contexte">
+            <section include-html="guildes/home.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="armes" aria-labelledby="armes-et-armures">
+            <section include-html="guildes/armes.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="comp" aria-labelledby="competences-et-machinations">
+            <section include-html="guildes/comp.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="metie" aria-labelledby="metiers">
+            <section include-html="guildes/metiers.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="cdbmes" aria-labelledby="coupsdebol-et-mesaventures">
+            <section include-html="guildes/cdbmes.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="equip" aria-labelledby="equipement-et-artefacts">
+            <section include-html="guildes/equip.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="dice" aria-labelledby="lanceur-de-des">
+            <section include-html="guildes/dice.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="loom" aria-labelledby="loom">
+            <section include-html="guildes/loom.html"></section>
+        </div>
+        <div class="tab-pane fade" role="tabpanel" id="perso" aria-labelledby="personnage">
+            <section include-html="guildes/perso.html"></section>
+        </div>
+    </div>
+</section>
 
-	<footer class="footer container-fluid">
-		<div class="row">
-			<div class="col-md-12 mx-auto">
-				<a id="author" rel="author" href="https://peinorim.github.io">peinorim.github.io</a>
-			</div>
-		</div>
-	</footer>
+<footer class="footer container-fluid">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <a id="author" rel="author" href="https://peinorim.github.io">peinorim.github.io</a>
+        </div>
+    </div>
+</footer>
 
-	<script src="guildes/js/jquery-3.6.0.min.js"></script>
-	<script src="guildes/js/bootstrap.bundle.min.js"></script>
-	<script src="guildes/js/guildes.js"></script>
-	<script src="guildes/js/dice.js"></script>
+<script src="guildes/js/jquery-3.6.0.min.js"></script>
+<script src="guildes/js/bootstrap.bundle.min.js"></script>
+<script src="guildes/js/guildes.js"></script>
+<script src="guildes/js/dice.js"></script>
 </body>
 </html>
