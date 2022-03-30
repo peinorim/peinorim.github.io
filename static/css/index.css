@@ -7,6 +7,7 @@ body {
     background: #142634 none repeat scroll 0 0 !important;
     font-family: Helvetica, sans-serif;
     color: #bdc7c1 !important;
+    padding-top: 1rem;
 }
 
 a, button.btn {
