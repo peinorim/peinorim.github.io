@@ -23,16 +23,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
         [1, -1, 1, -1, 0]
     ];
 
-    const getResult = function (id) {
+    const getResult = function (playerMove) {
         const computerMove = computerOptions[Math.floor(Math.random() * computerOptions.length)];
-        const result = scheme[rpslvEnum[id]][rpslvEnum[computerMove]];
+        const result = scheme[rpslvEnum[playerMove]][rpslvEnum[computerMove]];
         switch (result) {
             case 0:
                 return "It's a tie";
             case 1:
-                return "Player one had won";
+                return "Player (" + playerMove + ") has won against Computer (" + computerMove + ")";
             case -1:
-                return "Player two had won";
+                return "Player (" + playerMove + ") has lost against Computer (" + computerMove + ")";
             default:
                 throw new Error("Something unexpected happened");
         }
