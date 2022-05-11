@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const lizardBtn = document.querySelector('#lizard');
     const spockBtn = document.querySelector('#spock');
     const computerOptions = ['rock', 'paper', 'scissors', 'lizard', 'spock']
+    const win = document.querySelector('#win');
+    const draw = document.querySelector('#draw');
+    const loose = document.querySelector('#loose');
 
     const rpslvEnum = {
         rock: 0,
@@ -28,10 +31,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
         const result = scheme[rpslvEnum[playerMove]][rpslvEnum[computerMove]];
         switch (result) {
             case 0:
+                draw.innerHTML++;
                 return "It's a tie";
             case 1:
+                win.innerHTML++;
                 return "Player (" + playerMove + ") has won against Computer (" + computerMove + ")";
             case -1:
+                loose.innerHTML++;
                 return "Player (" + playerMove + ") has lost against Computer (" + computerMove + ")";
             default:
                 throw new Error("Something unexpected happened");
@@ -39,19 +45,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
     rockBtn.addEventListener('click', event => {
-        alert(getResult(rockBtn.id));
+        console.log(getResult(rockBtn.id));
     });
     paperBtn.addEventListener('click', event => {
-        alert(getResult(paperBtn.id));
+        console.log(getResult(paperBtn.id));
     });
     scissorsBtn.addEventListener('click', event => {
-        alert(getResult(scissorsBtn.id));
+        console.log(getResult(scissorsBtn.id));
     });
     lizardBtn.addEventListener('click', event => {
-        alert(getResult(lizardBtn.id));
+        console.log(getResult(lizardBtn.id));
     });
     spockBtn.addEventListener('click', event => {
-        alert(getResult(spockBtn.id));
+        console.log(getResult(spockBtn.id));
     });
 
 
