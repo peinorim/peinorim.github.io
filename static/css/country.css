@@ -6,7 +6,10 @@ body {
     background-color: #1a1e21;
 }
 
+i {
+    color: #adb5bd;
+}
+
 #weather {
     font-size: 6rem;
-    color: #adb5bd;
 }
