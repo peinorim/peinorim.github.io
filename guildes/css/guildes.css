@@ -72,7 +72,7 @@ img.center {
 
 body.nightMode {
 	color: #bdc7c1 !important;
-	background-color: #142634;
+	background-color: #1a1e21;
 }
 
 body.nightMode button, body.nightMode a {
@@ -81,7 +81,7 @@ body.nightMode button, body.nightMode a {
 
 body.nightMode .nav-tabs>li.active>button, body.nightMode .nav-tabs>li.active>a:hover, body.nightMode .nav-tabs>li.active>button:focus, body.nightMode .nav-tabs>li>button:hover,
 	body.nightMode .nav-tabs>li>button:focus, body.nightMode .nav-tabs .nav-link.active {
-	background-color: #142634 !important;
+	background-color: #1a1e21 !important;
 }
 
 body.nightMode .table>thead>tr>th, body.nightMode .table>tbody>tr>th, body.nightMode .table>tfoot>tr>th, body.nightMode .table>thead>tr>td, body.nightMode .table>tbody>tr>td,
@@ -105,7 +105,7 @@ body.nightMode .card .card-body, body.nightMode table {
 }
 
 body.nightMode .panel, body.nightMode .list-group-item {
-	background-color: #142634 !important;
+	background-color: #1a1e21 !important;
 	border-color: #5a666b !important;
 }
 
