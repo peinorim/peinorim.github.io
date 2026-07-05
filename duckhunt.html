@@ -66,18 +66,30 @@
     margin-bottom:20px;
   }
   #startScreen p { margin:6px 0; font-size:16px; }
-  #startBtn {
-    margin-top:20px;
-    padding:12px 30px;
-    font-size:20px;
+  #difficultyLabel {
+    margin-top:16px;
+    font-size:14px;
+    opacity:0.85;
+  }
+  #difficultyButtons {
+    display:flex;
+    gap:14px;
+    margin-top:10px;
+  }
+  .diffBtn {
+    padding:12px 22px;
+    font-size:17px;
     font-family:inherit;
-    background:#c0392b;
     color:#fff;
-    border:3px solid #7a1f1f;
     border-radius:4px;
     cursor:pointer;
   }
-  #startBtn:hover { background:#e74c3c; }
+  .diffBtn[data-diff="easy"] { background:#2e8b3d; border:3px solid #1e5c28; }
+  .diffBtn[data-diff="easy"]:hover { background:#38a84a; }
+  .diffBtn[data-diff="medium"] { background:#c98a1c; border:3px solid #8a5e12; }
+  .diffBtn[data-diff="medium"]:hover { background:#e6a52a; }
+  .diffBtn[data-diff="hard"] { background:#c0392b; border:3px solid #7a1f1f; }
+  .diffBtn[data-diff="hard"]:hover { background:#e74c3c; }
 </style>
 </head>
 <body>
@@ -87,15 +99,21 @@
   <div id="hud">
     <div id="scoreDisplay">SCORE: 0</div>
     <div id="roundDisplay">ROUND: 1</div>
+    <div id="difficultyDisplay"></div>
     <div id="ammoDisplay">🔴🔴🔴</div>
   </div>
   <div id="message"></div>
   <div id="startScreen">
     <h1>🦆 DUCK HUNT 🦆</h1>
     <p>Clique pour tirer sur les canards avant qu'ils ne s'échappent !</p>
-    <p>3 balles par canard • Ne rate pas trop souvent ou le chien se moquera de toi</p>
+    <p>Ne rate pas trop souvent ou le chien se moquera de toi</p>
     <p>Utilise ta souris comme viseur</p>
-    <button id="startBtn">JOUER</button>
+    <p id="difficultyLabel">Choisis ta difficulté :</p>
+    <div id="difficultyButtons">
+      <button class="diffBtn" data-diff="easy">Facile</button>
+      <button class="diffBtn" data-diff="medium">Intermédiaire</button>
+      <button class="diffBtn" data-diff="hard">Difficile</button>
+    </div>
   </div>
 </div>
 
@@ -106,10 +124,19 @@ const W = canvas.width, H = canvas.height;
 
 const scoreDisplay = document.getElementById('scoreDisplay');
 const roundDisplay = document.getElementById('roundDisplay');
+const difficultyDisplay = document.getElementById('difficultyDisplay');
 const ammoDisplay = document.getElementById('ammoDisplay');
 const messageEl = document.getElementById('message');
 const startScreen = document.getElementById('startScreen');
-const startBtn = document.getElementById('startBtn');
+const diffButtons = document.querySelectorAll('.diffBtn');
+
+const DIFFICULTY_SETTINGS = {
+  easy:   { label: 'Facile',        speedMult: 1,    ducksBase: 3, ducksStep: 0.5,  turnMin: 60, turnMax: 140, ammo: 3, maxRound: 8,  scoreMult: 1    },
+  medium: { label: 'Intermédiaire', speedMult: 1.3,  ducksBase: 4, ducksStep: 0.6,  turnMin: 45, turnMax: 105, ammo: 3, maxRound: 9,  scoreMult: 1.15 },
+  hard:   { label: 'Difficile',     speedMult: 1.65, ducksBase: 5, ducksStep: 0.75, turnMin: 28, turnMax: 75,  ammo: 3, maxRound: 11, scoreMult: 1.35 }
+};
+let difficulty = 'medium';
+let diffSettings = DIFFICULTY_SETTINGS.medium;
 
 let mouseX = W/2, mouseY = H/2;
 let score = 0;
@@ -212,7 +239,7 @@ const DUCK_COLORS = [
 function spawnDuck() {
   const colorSet = DUCK_COLORS[Math.floor(rand(0, DUCK_COLORS.length))];
   const fromLeft = Math.random() < 0.5;
-  const baseSpeed = 1.6 + round * 0.25;
+  const baseSpeed = (1.6 + round * 0.25) * diffSettings.speedMult;
   const duck = {
     x: fromLeft ? -40 : W + 40,
     y: rand(H*0.35, H*0.65),
@@ -225,8 +252,8 @@ function spawnDuck() {
     alive: true,
     fallVy: 0,
     bounces: 0,
-    turnTimer: rand(60, 140),
-    scoreVal: 10 * round,
+    turnTimer: rand(diffSettings.turnMin, diffSettings.turnMax),
+    scoreVal: Math.round(10 * round * diffSettings.scoreMult),
     id: Math.random()
   };
   ducks.push(duck);
@@ -237,7 +264,7 @@ function updateDuck(d) {
     d.turnTimer--;
     if (d.turnTimer <= 0) {
       d.vy = rand(-1.2, 1.2);
-      d.turnTimer = rand(60, 140);
+      d.turnTimer = rand(diffSettings.turnMin, diffSettings.turnMax);
       // occasional direction flap
       if (Math.random() < 0.3) {
         d.vx *= -1;
@@ -742,12 +769,12 @@ function showMessage(text, duration) {
 function hideMessage() { messageEl.style.display = 'none'; }
 
 function startRound() {
-  ducksToSpawnThisRound = 3 + Math.floor((round-1)/2);
+  ducksToSpawnThisRound = Math.round(diffSettings.ducksBase + (round-1) * diffSettings.ducksStep);
   ducksLeftToSpawn = ducksToSpawnThisRound;
   ducksKilledThisRound = 0;
   ducksEscapedThisRound = 0;
   missesInRound = 0;
-  ammo = 3;
+  ammo = diffSettings.ammo;
   updateAmmoDisplay();
   roundDisplay.textContent = 'ROUND: ' + round;
   ducks = [];
@@ -761,7 +788,7 @@ function maybeSpawnNext() {
   if (gameState !== 'playing') return;
   if (ducksLeftToSpawn > 0 && ducks.length === 0) {
     ducksLeftToSpawn--;
-    ammo = 3;
+    ammo = diffSettings.ammo;
     updateAmmoDisplay();
     spawnDuck();
   }
@@ -769,7 +796,7 @@ function maybeSpawnNext() {
 
 function updateAmmoDisplay() {
   let s = '';
-  for (let i = 0; i < 3; i++) s += (i < ammo) ? '🔴' : '⚫';
+  for (let i = 0; i < diffSettings.ammo; i++) s += (i < ammo) ? '🔴' : '⚫';
   ammoDisplay.textContent = s;
 }
 
@@ -804,7 +831,7 @@ function endRoundCheck() {
 
 function nextRoundOrEnd() {
   round++;
-  if (round > 8) {
+  if (round > diffSettings.maxRound) {
     gameState = 'gameover';
     showMessage('PARTIE TERMINÉE ! Score final: ' + score, 999999);
     setTimeout(() => {
@@ -855,14 +882,19 @@ canvas.addEventListener('click', () => {
   }
 });
 
-startBtn.addEventListener('click', () => {
-  initAudio();
-  startScreen.style.display = 'none';
-  score = 0;
-  round = 1;
-  scoreDisplay.textContent = 'SCORE: 0';
-  initClouds();
-  startRound();
+diffButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    initAudio();
+    difficulty = btn.dataset.diff;
+    diffSettings = DIFFICULTY_SETTINGS[difficulty];
+    difficultyDisplay.textContent = diffSettings.label.toUpperCase();
+    startScreen.style.display = 'none';
+    score = 0;
+    round = 1;
+    scoreDisplay.textContent = 'SCORE: 0';
+    initClouds();
+    startRound();
+  });
 });
 
 // ---------- Main loop ----------
