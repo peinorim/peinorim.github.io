@@ -15,21 +15,24 @@
             height: 100vh;
             margin: 0;
             font-family: 'Press Start 2P', monospace;
+            /* Empêche de surligner le texte en cliquant vite */
             user-select: none;
+            -webkit-user-select: none;
         }
 
         #game-container {
             position: relative;
             width: 800px;
             height: 600px;
-            /* Ciel en dégradé */
             background: linear-gradient(to bottom, #4A90E2, #87CEEB);
             overflow: hidden;
             border: 4px solid #fff;
             cursor: crosshair;
+            /* Empêche les comportements tactiles par défaut (zoom, scroll) */
+            touch-action: none; 
         }
 
-        /* Décor de forêt (Arbres et buissons) */
+        /* Décor de forêt */
         #forest {
             position: absolute;
             bottom: 0;
@@ -37,12 +40,14 @@
             width: 100%;
             height: 100%;
             z-index: 2;
-            /* Empêche la forêt de bloquer les clics de souris sur le canard */
+            /* CRUCIAL : Empêche la forêt d'intercepter les clics */
             pointer-events: none; 
         }
 
-        .tree, .bush {
+        /* Force aussi les enfants SVG à ignorer les clics */
+        #forest svg {
             position: absolute;
+            pointer-events: none;
         }
 
         #grass {
@@ -50,76 +55,7 @@
             bottom: 0;
             width: 100%;
             height: 150px;
-            background-color: #2E7D32; /* Herbe plus foncée pour coller à la forêt */
+            background-color: #2E7D32;
             z-index: 10;
             border-top: 10px solid #1B5E20;
-        }
-
-        #duck {
-            position: absolute;
-            z-index: 5; /* Devant la forêt (2) mais derrière l'herbe (10) */
-            display: none;
-            transition: transform 0.1s;
-        }
-
-        #ui-panel {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 80px;
-            background-color: #000;
-            z-index: 20;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            color: #58D854;
-        }
-
-        .ui-box {
-            border: 2px solid #58D854;
-            padding: 10px;
-            text-align: center;
-        }
-
-        #ammo-container, #score-container, #round-container {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-
-        #flash {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: white;
-            z-index: 30;
-            display: none;
             pointer-events: none;
-        }
-
-        #message {
-            position: absolute;
-            top: 40%;
-            width: 100%;
-            text-align: center;
-            color: white;
-            background: rgba(0,0,0,0.7);
-            padding: 20px 0;
-            z-index: 15;
-            display: none;
-        }
-    </style>
-</head>
-<body>
-
-    <div id="game-container">
-        <div id="flash"></div>
-        <div id="message">FLY AWAY</div>
-        
-        <div id="forest">
-            <svg class="tree" style="left: 10px; bottom: 100px; width: 150px; height: 400px;" viewBox="0 0 100 300">
-                <rect x="40" y="200" width="20" height="100" fill="#3E2723"/>
-                <polygon points="50,0 100,100 0,100" fill="#2E7D32"/>
-                <polygon points="50,70
