@@ -1,61 +1,609 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck Hunt - Forêt & Canard de Bain</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+<meta charset="UTF-8">
+<title>Duck Hunt</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#222;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    font-family: 'Courier New', monospace;
+    overflow:hidden;
+  }
+  #gameContainer {
+    position:relative;
+    border:8px solid #4a2c17;
+    border-radius:6px;
+    box-shadow:0 0 40px rgba(0,0,0,0.8);
+    cursor:none;
+  }
+  canvas { display:block; background:#5ec8f0; }
+  #hud {
+    position:absolute;
+    top:0; left:0;
+    width:100%;
+    padding:10px 20px;
+    display:flex;
+    justify-content:space-between;
+    color:#fff2c2;
+    font-size:20px;
+    text-shadow:2px 2px 0 #000;
+    pointer-events:none;
+    letter-spacing:1px;
+  }
+  #message {
+    position:absolute;
+    top:45%; left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-size:42px;
+    text-shadow:3px 3px 0 #000;
+    text-align:center;
+    pointer-events:none;
+    display:none;
+  }
+  #startScreen {
+    position:absolute;
+    top:0; left:0; width:100%; height:100%;
+    background:rgba(0,0,0,0.75);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    text-align:center;
+    z-index:10;
+  }
+  #startScreen h1 {
+    font-size:48px;
+    color:#ffd700;
+    text-shadow:3px 3px 0 #7a0000;
+    margin-bottom:20px;
+  }
+  #startScreen p { margin:6px 0; font-size:16px; }
+  #startBtn {
+    margin-top:20px;
+    padding:12px 30px;
+    font-size:20px;
+    font-family:inherit;
+    background:#c0392b;
+    color:#fff;
+    border:3px solid #7a1f1f;
+    border-radius:4px;
+    cursor:pointer;
+  }
+  #startBtn:hover { background:#e74c3c; }
+</style>
+</head>
+<body>
 
-        body {
-            background-color: #111;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Press Start 2P', monospace;
-            /* Empêche de surligner le texte en cliquant vite */
-            user-select: none;
-            -webkit-user-select: none;
+<div id="gameContainer">
+  <canvas id="game" width="800" height="600"></canvas>
+  <div id="hud">
+    <div id="scoreDisplay">SCORE: 0</div>
+    <div id="roundDisplay">ROUND: 1</div>
+    <div id="ammoDisplay">🔴🔴🔴</div>
+  </div>
+  <div id="message"></div>
+  <div id="startScreen">
+    <h1>🦆 DUCK HUNT 🦆</h1>
+    <p>Clique pour tirer sur les canards avant qu'ils ne s'échappent !</p>
+    <p>3 balles par canard • Ne rate pas trop souvent ou le chien se moquera de toi</p>
+    <p>Utilise ta souris comme viseur</p>
+    <button id="startBtn">JOUER</button>
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+const W = canvas.width, H = canvas.height;
+
+const scoreDisplay = document.getElementById('scoreDisplay');
+const roundDisplay = document.getElementById('roundDisplay');
+const ammoDisplay = document.getElementById('ammoDisplay');
+const messageEl = document.getElementById('message');
+const startScreen = document.getElementById('startScreen');
+const startBtn = document.getElementById('startBtn');
+
+let mouseX = W/2, mouseY = H/2;
+let score = 0;
+let round = 1;
+let ammo = 3;
+let ducksToSpawnThisRound = 3;
+let ducksLeftToSpawn = 3;
+let ducksKilledThisRound = 0;
+let ducksEscapedThisRound = 0;
+let missesInRound = 0;
+let gameState = 'waiting'; // waiting, playing, dogshow, roundend, gameover
+let ducks = [];
+let clouds = [];
+let dog = null;
+let flashTimer = 0;
+let shots = []; // muzzle flash markers
+
+// ---------- Utility ----------
+function rand(min, max) { return Math.random() * (max - min) + min; }
+
+// ---------- Clouds ----------
+function initClouds() {
+  clouds = [];
+  for (let i = 0; i < 5; i++) {
+    clouds.push({
+      x: rand(0, W),
+      y: rand(30, 150),
+      speed: rand(0.1, 0.3),
+      scale: rand(0.6, 1.3)
+    });
+  }
+}
+
+function drawCloud(c) {
+  ctx.save();
+  ctx.translate(c.x, c.y);
+  ctx.scale(c.scale, c.scale);
+  ctx.fillStyle = 'rgba(255,255,255,0.9)';
+  ctx.beginPath();
+  ctx.arc(0, 0, 20, 0, Math.PI*2);
+  ctx.arc(22, -8, 16, 0, Math.PI*2);
+  ctx.arc(40, 0, 20, 0, Math.PI*2);
+  ctx.arc(20, 8, 18, 0, Math.PI*2);
+  ctx.fill();
+  ctx.restore();
+}
+
+function updateClouds() {
+  clouds.forEach(c => {
+    c.x += c.speed;
+    if (c.x > W + 60) c.x = -60;
+  });
+}
+
+// ---------- Background ----------
+function drawBackground() {
+  // sky gradient
+  const grad = ctx.createLinearGradient(0,0,0,H);
+  grad.addColorStop(0, '#7ec8f5');
+  grad.addColorStop(0.75, '#bfe8ff');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0,0,W,H);
+
+  clouds.forEach(drawCloud);
+
+  // distant trees line
+  ctx.fillStyle = '#3f7a3f';
+  for (let i = 0; i < W; i += 40) {
+    ctx.beginPath();
+    ctx.moveTo(i, H*0.72);
+    ctx.lineTo(i+20, H*0.72 - 30 - (i%80===0?10:0));
+    ctx.lineTo(i+40, H*0.72);
+    ctx.fill();
+  }
+
+  // grass
+  const grassGrad = ctx.createLinearGradient(0, H*0.72, 0, H);
+  grassGrad.addColorStop(0, '#5aa73c');
+  grassGrad.addColorStop(1, '#3d7a28');
+  ctx.fillStyle = grassGrad;
+  ctx.fillRect(0, H*0.72, W, H*0.28);
+
+  // grass texture lines
+  ctx.strokeStyle = 'rgba(0,60,0,0.15)';
+  ctx.lineWidth = 2;
+  for (let i = 0; i < 40; i++) {
+    const gx = (i * 53) % W;
+    const gy = H*0.75 + (i*17)%(H*0.24);
+    ctx.beginPath();
+    ctx.moveTo(gx, gy);
+    ctx.lineTo(gx+6, gy-10);
+    ctx.stroke();
+  }
+}
+
+// ---------- Duck ----------
+const DUCK_COLORS = [
+  {body:'#3a3a3a', wing:'#1e1e1e', belly:'#666'},   // black duck
+  {body:'#5b3a29', wing:'#3b2216', belly:'#8a6b4f'}, // brown duck
+  {body:'#3a6ea5', wing:'#254a72', belly:'#7ea9d1'}  // blue duck
+];
+
+function spawnDuck() {
+  const colorSet = DUCK_COLORS[Math.floor(rand(0, DUCK_COLORS.length))];
+  const fromLeft = Math.random() < 0.5;
+  const baseSpeed = 1.6 + round * 0.25;
+  const duck = {
+    x: fromLeft ? -40 : W + 40,
+    y: rand(H*0.35, H*0.65),
+    vx: (fromLeft ? 1 : -1) * rand(baseSpeed, baseSpeed + 1),
+    vy: rand(-0.6, 0.6),
+    dir: fromLeft ? 1 : -1,
+    color: colorSet,
+    state: 'flying', // flying, hit, falling, escaping
+    wingPhase: Math.random()*Math.PI*2,
+    alive: true,
+    fallVy: 0,
+    turnTimer: rand(60, 140),
+    scoreVal: 10 * round,
+    id: Math.random()
+  };
+  ducks.push(duck);
+}
+
+function updateDuck(d) {
+  if (d.state === 'flying') {
+    d.turnTimer--;
+    if (d.turnTimer <= 0) {
+      d.vy = rand(-1.2, 1.2);
+      d.turnTimer = rand(60, 140);
+      // occasional direction flap
+      if (Math.random() < 0.3) {
+        d.vx *= -1;
+        d.dir *= -1;
+      }
+    }
+    d.x += d.vx;
+    d.y += d.vy;
+    d.wingPhase += 0.35;
+
+    if (d.y < H*0.12) d.vy = Math.abs(d.vy);
+    if (d.y > H*0.68) d.vy = -Math.abs(d.vy);
+
+    if (d.x < -60 || d.x > W + 60) {
+      d.alive = false;
+      ducksEscapedThisRound++;
+    }
+  } else if (d.state === 'hit') {
+    // brief stun pose before falling
+    d.hitTimer -= 1;
+    if (d.hitTimer <= 0) {
+      d.state = 'falling';
+      d.fallVy = 1;
+    }
+  } else if (d.state === 'falling') {
+    d.fallVy += 0.4;
+    d.y += d.fallVy;
+    d.x += d.vx * 0.2;
+    if (d.y > H*0.78) {
+      d.alive = false;
+      ducksKilledThisRound++;
+      score += d.scoreVal;
+      scoreDisplay.textContent = 'SCORE: ' + score;
+    }
+  }
+}
+
+function drawDuck(d) {
+  ctx.save();
+  ctx.translate(d.x, d.y);
+  const facing = d.dir;
+  ctx.scale(facing, 1);
+
+  if (d.state === 'falling') {
+    ctx.rotate(0.3);
+  }
+
+  const wingFlap = Math.sin(d.wingPhase) * 18;
+
+  // body
+  ctx.fillStyle = d.color.body;
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 22, 14, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // head
+  ctx.beginPath();
+  ctx.ellipse(18, -8, 10, 9, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // beak
+  ctx.fillStyle = '#e8a021';
+  ctx.beginPath();
+  ctx.moveTo(26, -8);
+  ctx.lineTo(38, -6);
+  ctx.lineTo(26, -3);
+  ctx.fill();
+
+  // eye
+  ctx.fillStyle = '#000';
+  ctx.beginPath();
+  ctx.arc(21, -10, 1.6, 0, Math.PI*2);
+  ctx.fill();
+
+  // belly
+  ctx.fillStyle = d.color.belly;
+  ctx.beginPath();
+  ctx.ellipse(-4, 5, 12, 7, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // wing (animated unless falling)
+  ctx.fillStyle = d.color.wing;
+  ctx.beginPath();
+  if (d.state === 'flying') {
+    ctx.ellipse(-4, wingFlap*0.15, 16, 8 + Math.abs(wingFlap)*0.3, -0.3, 0, Math.PI*2);
+  } else {
+    ctx.ellipse(-4, 10, 16, 7, 0.5, 0, Math.PI*2);
+  }
+  ctx.fill();
+
+  // tail
+  ctx.fillStyle = d.color.wing;
+  ctx.beginPath();
+  ctx.moveTo(-22, -2);
+  ctx.lineTo(-34, -8);
+  ctx.lineTo(-30, 2);
+  ctx.fill();
+
+  ctx.restore();
+
+  // hit flash stars
+  if (d.state === 'hit') {
+    ctx.fillStyle = '#fff';
+    ctx.font = '20px sans-serif';
+    ctx.fillText('✦', d.x - 30, d.y - 20);
+    ctx.fillText('✦', d.x + 20, d.y - 25);
+  }
+}
+
+// ---------- Dog ----------
+function drawDog(phase, x) {
+  ctx.save();
+  ctx.translate(x, H*0.85);
+  ctx.fillStyle = '#a8763f';
+  // body
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 30, 16, 0, 0, Math.PI*2);
+  ctx.fill();
+  // head
+  ctx.beginPath();
+  ctx.ellipse(28, -10, 14, 12, 0, 0, Math.PI*2);
+  ctx.fill();
+  // ear
+  ctx.fillStyle = '#7a5228';
+  ctx.beginPath();
+  ctx.ellipse(34, -4, 6, 10, 0.5, 0, Math.PI*2);
+  ctx.fill();
+  // legs
+  ctx.fillStyle = '#a8763f';
+  ctx.fillRect(-20, 8, 6, 14);
+  ctx.fillRect(10, 8, 6, 14);
+  // eye
+  ctx.fillStyle = '#000';
+  ctx.beginPath();
+  ctx.arc(34, -12, 1.5, 0, Math.PI*2);
+  ctx.fill();
+
+  if (phase === 'laughing') {
+    // duck in mouth held up, or laughing pose - simple mouth open
+    ctx.strokeStyle = '#000';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.arc(38, -4, 4, 0, Math.PI);
+    ctx.stroke();
+  } else if (phase === 'holding') {
+    ctx.fillStyle = '#5b3a29';
+    ctx.beginPath();
+    ctx.ellipse(40, -18, 10, 6, 0, 0, Math.PI*2);
+    ctx.fill();
+  }
+  ctx.restore();
+}
+
+// ---------- Crosshair ----------
+function drawCrosshair() {
+  ctx.save();
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(mouseX - 16, mouseY);
+  ctx.lineTo(mouseX + 16, mouseY);
+  ctx.moveTo(mouseX, mouseY - 16);
+  ctx.lineTo(mouseX, mouseY + 16);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(mouseX, mouseY, 10, 0, Math.PI*2);
+  ctx.stroke();
+  ctx.restore();
+}
+
+function drawMuzzleFlashes() {
+  shots.forEach(s => {
+    ctx.save();
+    ctx.globalAlpha = s.life / 10;
+    ctx.fillStyle = '#fff59d';
+    ctx.beginPath();
+    ctx.arc(s.x, s.y, 14 * (s.life/10), 0, Math.PI*2);
+    ctx.fill();
+    ctx.restore();
+    s.life--;
+  });
+  shots = shots.filter(s => s.life > 0);
+}
+
+// ---------- Round / game flow ----------
+function showMessage(text, duration) {
+  messageEl.textContent = text;
+  messageEl.style.display = 'block';
+  if (duration) {
+    setTimeout(() => { messageEl.style.display = 'none'; }, duration);
+  }
+}
+
+function hideMessage() { messageEl.style.display = 'none'; }
+
+function startRound() {
+  ducksToSpawnThisRound = 3 + Math.floor((round-1)/2);
+  ducksLeftToSpawn = ducksToSpawnThisRound;
+  ducksKilledThisRound = 0;
+  ducksEscapedThisRound = 0;
+  missesInRound = 0;
+  ammo = 3;
+  updateAmmoDisplay();
+  roundDisplay.textContent = 'ROUND: ' + round;
+  ducks = [];
+  gameState = 'playing';
+  showMessage('ROUND ' + round, 1200);
+  setTimeout(() => { if(gameState==='playing') maybeSpawnNext(); }, 1200);
+}
+
+function maybeSpawnNext() {
+  if (gameState !== 'playing') return;
+  if (ducksLeftToSpawn > 0 && ducks.length === 0) {
+    ducksLeftToSpawn--;
+    ammo = 3;
+    updateAmmoDisplay();
+    spawnDuck();
+  }
+}
+
+function updateAmmoDisplay() {
+  let s = '';
+  for (let i = 0; i < 3; i++) s += (i < ammo) ? '🔴' : '⚫';
+  ammoDisplay.textContent = s;
+}
+
+function endRoundCheck() {
+  if (gameState !== 'playing') return;
+  if (ducksLeftToSpawn === 0 && ducks.filter(d=>d.alive).length === 0) {
+    gameState = 'dogshow';
+    const totalDucks = ducksToSpawnThisRound;
+    const killed = ducksKilledThisRound;
+    setTimeout(() => {
+      if (killed >= Math.ceil(totalDucks/2)) {
+        // success dog holds duck
+        dog = { phase: 'holding', x: -50, targetX: W/2 };
+        animateDogIn(() => {
+          showMessage('Round ' + round + ' réussi ! (' + killed + '/' + totalDucks + ')', 1800);
+          setTimeout(nextRoundOrEnd, 1800);
+        });
+      } else {
+        // fail, dog laughs
+        dog = { phase: 'laughing', x: -50, targetX: W/2 };
+        animateDogIn(() => {
+          showMessage('Le chien se moque de toi... (' + killed + '/' + totalDucks + ')', 1800);
+          setTimeout(nextRoundOrEnd, 1800);
+        });
+      }
+    }, 500);
+  }
+}
+
+function animateDogIn(callback) {
+  function step() {
+    dog.x += 6;
+    if (dog.x < dog.targetX) {
+      requestAnimationFrame(step);
+    } else {
+      setTimeout(() => {
+        // dog walks off
+        function stepOut() {
+          dog.x += 6;
+          if (dog.x < W + 60) {
+            requestAnimationFrame(stepOut);
+          } else {
+            dog = null;
+            callback();
+          }
         }
+        requestAnimationFrame(stepOut);
+      }, 900);
+    }
+  }
+  requestAnimationFrame(step);
+}
 
-        #game-container {
-            position: relative;
-            width: 800px;
-            height: 600px;
-            background: linear-gradient(to bottom, #4A90E2, #87CEEB);
-            overflow: hidden;
-            border: 4px solid #fff;
-            cursor: crosshair;
-            /* Empêche les comportements tactiles par défaut (zoom, scroll) */
-            touch-action: none; 
-        }
+function nextRoundOrEnd() {
+  round++;
+  if (round > 8) {
+    gameState = 'gameover';
+    showMessage('PARTIE TERMINÉE ! Score final: ' + score, 999999);
+    setTimeout(() => {
+      hideMessage();
+      startScreen.style.display = 'flex';
+      startScreen.querySelector('h1').textContent = 'PARTIE TERMINÉE';
+      startScreen.querySelector('p').textContent = 'Score final : ' + score;
+    }, 2500);
+  } else {
+    startRound();
+  }
+}
 
-        /* Décor de forêt */
-        #forest {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 2;
-            /* CRUCIAL : Empêche la forêt d'intercepter les clics */
-            pointer-events: none; 
-        }
+// ---------- Input ----------
+canvas.addEventListener('mousemove', (e) => {
+  const rect = canvas.getBoundingClientRect();
+  mouseX = (e.clientX - rect.left) * (W / rect.width);
+  mouseY = (e.clientY - rect.top) * (H / rect.height);
+});
 
-        /* Force aussi les enfants SVG à ignorer les clics */
-        #forest svg {
-            position: absolute;
-            pointer-events: none;
-        }
+canvas.addEventListener('click', () => {
+  if (gameState !== 'playing') return;
+  if (ammo <= 0) return;
+  ammo--;
+  updateAmmoDisplay();
+  shots.push({x: mouseX, y: mouseY, life: 10});
 
-        #grass {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 150px;
-            background-color: #2E7D32;
-            z-index: 10;
-            border-top: 10px solid #1B5E20;
-            pointer-events: none;
+  let hitSomething = false;
+  for (const d of ducks) {
+    if (d.state !== 'flying') continue;
+    const dx = mouseX - d.x, dy = mouseY - d.y;
+    const dist = Math.sqrt(dx*dx + dy*dy);
+    if (dist < 30) {
+      d.state = 'hit';
+      d.hitTimer = 12;
+      hitSomething = true;
+      break;
+    }
+  }
+
+  if (!hitSomething) {
+    missesInRound++;
+    if (ammo === 0) {
+      // out of ammo, if duck still flying it escapes on next update pass naturally
+    }
+  }
+});
+
+startBtn.addEventListener('click', () => {
+  startScreen.style.display = 'none';
+  score = 0;
+  round = 1;
+  scoreDisplay.textContent = 'SCORE: 0';
+  initClouds();
+  startRound();
+});
+
+// ---------- Main loop ----------
+function loop() {
+  drawBackground();
+
+  updateClouds();
+
+  ducks.forEach(updateDuck);
+  ducks = ducks.filter(d => d.alive);
+  ducks.forEach(drawDuck);
+
+  drawMuzzleFlashes();
+
+  if (dog) drawDog(dog.phase, dog.x);
+
+  if (gameState === 'playing') {
+    if (ducks.length === 0 && ducksLeftToSpawn > 0) {
+      maybeSpawnNext();
+    }
+    endRoundCheck();
+  }
+
+  drawCrosshair();
+
+  requestAnimationFrame(loop);
+}
+
+initClouds();
+loop();
+</script>
+</body>
+</html>
