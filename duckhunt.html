@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Hunt - Clone Navigateur</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Press Start 2P', monospace;
+            user-select: none;
+        }
+
+        #game-container {
+            position: relative;
+            width: 800px;
+            height: 600px;
+            background-color: #64B0FF; /* Ciel bleu */
+            overflow: hidden;
+            border: 4px solid #fff;
+            cursor: crosshair; /* Curseur viseur */
+        }
+
+        /* L'herbe au premier plan derrière laquelle le canard apparait */
+        #grass {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            background-color: #00A800;
+            z-index: 10;
+            border-top: 10px solid #005800;
+        }
+
+        #duck {
+            position: absolute;
+            font-size: 50px; /* Taille de l'émoji */
+            line-height: 1;
+            z-index: 5;
+            display: none;
+            transition: transform 0.1s;
+        }
+
+        /* Interface utilisateur en bas */
+        #ui-panel {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 80px;
+            background-color: #000;
+            z-index: 20;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: #58D854;
+        }
+
+        .ui-box {
+            border: 2px solid #58D854;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #ammo-container, #score-container, #round-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        /* Effet de flash lors du tir */
+        #flash {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: 30;
+            display: none;
+            pointer-events: none;
+        }
+
+        #message {
+            position: absolute;
+            top: 40%;
+            width: 100%;
+            text-align: center;
+            color: white;
+            background: rgba(0,0,0,0.7);
+            padding: 20px 0;
+            z-index: 15;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="flash"></div>
+        <div id="message">FLY AWAY</div>
+        <div id="duck">🦆</div>
+        <div id="grass"></div>
+        
+        <div id="ui-panel">
+            <div id="round-container" class="ui-box">
+                <span>R= <span id="round">1</span></span>
+            </div>
+            <div id="ammo-container" class="ui-box">
+                <span>SHOTS</span>
+                <span id="ammo">|||</span>
+            </div>
+            <div id="score-container" class="ui-box">
+                <span>SCORE</span>
+                <span id="score">000000</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const gameContainer = document.getElementById('game-container');
+        const duckElement = document.getElementById('duck');
+        const ammoDisplay = document.getElementById('ammo');
+        const scoreDisplay = document.getElementById('score');
+        const roundDisplay = document.getElementById('round');
+        const flashElement = document.getElementById('flash');
+        const messageDisplay = document.getElementById('message');
+
+        // Variables d'état du jeu
+        let ammo = 3;
+        let score = 0;
+        let round = 1;
+        let ducksPerRound = 10;
+        let ducksSpawned = 0;
+        
+        // Variables du canard
+        let duckAlive = false;
+        let duckX = 0;
+        let duckY = 0;
+        let duckVx = 0;
+        let duckVy = 0;
+        let animationFrameId;
+        let escapeTimer;
+
+        // Démarrer le jeu
+        function startGame() {
+            score = 0;
+            round = 1;
+            updateUI();
+            startRound();
+        }
+
+        function startRound() {
+            ducksSpawned = 0;
+            updateUI();
+            setTimeout(spawnDuck, 1000);
+        }
+
+        function spawnDuck() {
+            if (ducksSpawned >= ducksPerRound) {
+                round++;
+                startRound();
+                return;
+            }
+
+            ducksSpawned++;
+            ammo = 3;
+            updateUI();
+
+            duckAlive = true;
+            duckElement.style.display = 'block';
+            duckElement.style.transform = 'scaleX(1) scaleY(1)'; // Reset transformation
+            duckElement.innerText = '🦆';
+
+            // Apparition aléatoire derrière l'herbe
+            duckX = Math.random() * (gameContainer.clientWidth - 100) + 50;
+            duckY = gameContainer.clientHeight - 150; 
+            
+            // Vitesse basée sur le round
+            let baseSpeed = 2 + (round * 0.5);
+            duckVx = (Math.random() > 0.5 ? 1 : -1) * baseSpeed;
+            duckVy = -baseSpeed - Math.random() * 2; // Vole vers le haut
+
+            // Temps avant que le canard s'échappe (plus court si le round est élevé)
+            let escapeTime = Math.max(3000, 7000 - (round * 500));
+            clearTimeout(escapeTimer);
+            escapeTimer = setTimeout(duckEscapes, escapeTime);
+
+            gameLoop();
+        }
+
+        function gameLoop() {
+            if (!duckAlive) return;
+
+            duckX += duckVx;
+            duckY += duckVy;
+
+            // Rebond sur les murs gauche/droite
+            if (duckX <= 0 || duckX >= gameContainer.clientWidth - 50) {
+                duckVx *= -1;
+            }
+            // Rebond sur le plafond
+            if (duckY <= 0) {
+                duckVy *= -1;
+            }
+            // Ne descend pas sous l'herbe tant qu'il est vivant
+            if (duckY >= gameContainer.clientHeight - 200 && duckVy > 0) {
+                duckVy *= -1;
+            }
+
+            // Orientation du canard en fonction de sa direction X
+            if (duckVx > 0) {
+                duckElement.style.transform = 'scaleX(-1)'; // Regarde à droite
+            } else {
+                duckElement.style.transform = 'scaleX(1)'; // Regarde à gauche
+            }
+
+            duckElement.style.left = duckX + 'px';
+            duckElement.style.top = duckY + 'px';
+
+            animationFrameId = requestAnimationFrame(gameLoop);
+        }
+
+        // Mécanique de tir
+        gameContainer.addEventListener('mousedown', function(e) {
+            // Empêcher de tirer si le canard est mort, en fuite, ou plus de munitions
+            if (ammo <= 0 || !duckAlive) return;
+
+            ammo--;
+            updateUI();
+            flashScreen();
+
+            // Vérifier la collision du clic avec le canard
+            const rect = duckElement.getBoundingClientRect();
+            const gameRect = gameContainer.getBoundingClientRect();
+            
+            const clickX = e.clientX - gameRect.left;
+            const clickY = e.clientY - gameRect.top;
+
+            // Hitbox tolérante (environ la taille de l'émoji)
+            if (clickX >= duckX - 10 && clickX <= duckX + 60 &&
+                clickY >= duckY - 10 && clickY <= duckY + 60) {
+                duckHit();
+            } else if (ammo === 0 && duckAlive) {
+                clearTimeout(escapeTimer);
+                duckEscapes();
+            }
+        });
+
+        function flashScreen() {
+            flashElement.style.display = 'block';
+            setTimeout(() => { flashElement.style.display = 'none'; }, 50);
+        }
+
+        function duckHit() {
+            duckAlive = false;
+            clearTimeout(escapeTimer);
+            cancelAnimationFrame(animationFrameId);
+
+            score += 500 * round;
+            updateUI();
+
+            // Animation de mort
+            duckElement.innerText = '💥';
+            setTimeout(() => {
+                duckElement.innerText = '🦆';
+                duckElement.style.transform += ' scaleY(-1)'; // Retourne le canard
+                fallDown();
+            }, 300);
+        }
+
+        function fallDown() {
+            duckY += 8; // Chute rapide
+            duckElement.style.top = duckY + 'px';
+
+            if (duckY < gameContainer.clientHeight) {
+                requestAnimationFrame(fallDown);
+            } else {
+                duckElement.style.display = 'none';
+                setTimeout(spawnDuck, 1000);
+            }
+        }
+
+        function duckEscapes() {
+            duckAlive = false;
+            cancelAnimationFrame(animationFrameId);
+            
+            messageDisplay.innerText = "FLY AWAY";
+            messageDisplay.style.display = "block";
+            
+            flyAway();
+        }
+
+        function flyAway() {
+            duckY -= 5; // Vole tout droit vers le haut
+            duckElement.style.top = duckY + 'px';
+
+            if (duckY > -100) {
+                requestAnimationFrame(flyAway);
+            } else {
+                duckElement.style.display = 'none';
+                setTimeout(() => {
+                    messageDisplay.style.display = "none";
+                    spawnDuck();
+                }, 1500);
+            }
+        }
+
+        function updateUI() {
+            let ammoStr = '';
+            for(let i=0; i<ammo; i++) ammoStr += '|';
+            ammoDisplay.innerText = ammoStr.padEnd(3, ' ');
+
+            scoreDisplay.innerText = score.toString().padStart(6, '0');
+            roundDisplay.innerText = round;
+        }
+
+        // Lancer le jeu au chargement
+        startGame();
+
+    </script>
+</body>
+</html>
