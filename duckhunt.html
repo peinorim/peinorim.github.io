@@ -254,6 +254,7 @@ function updateDuck(d) {
     if (d.x < -60 || d.x > W + 60) {
       d.alive = false;
       ducksEscapedThisRound++;
+      sfxEscape();
     }
   } else if (d.state === 'hit') {
     // brief stun pose before falling
@@ -272,6 +273,7 @@ function updateDuck(d) {
         // petit rebond caractéristique
         d.fallVy = -d.fallVy * 0.38;
         d.bounces++;
+        sfxBounce();
       } else {
         d.alive = false;
         ducksKilledThisRound++;
@@ -606,6 +608,7 @@ function updateDog() {
       dog.phase = 0;
       dog.poseTimer = 110;
       showMessage(dogResultText, 0);
+      if (dog.poseType === 'holding') sfxSuccess(); else sfxFail();
     }
   } else if (dog.state === 'pose') {
     dog.poseTimer--;
@@ -626,7 +629,77 @@ function updateDog() {
   }
 }
 
-// ---------- Crosshair ----------
+// ---------- Sound (sons synthétisés doux, sans fichier externe) ----------
+let audioCtx = null;
+function initAudio() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+}
+
+function playTone(freq, duration, vol, freqEnd) {
+  if (!audioCtx) return;
+  const t0 = audioCtx.currentTime;
+  const osc = audioCtx.createOscillator();
+  const gain = audioCtx.createGain();
+  osc.type = 'sine';
+  osc.frequency.setValueAtTime(freq, t0);
+  if (freqEnd) osc.frequency.exponentialRampToValueAtTime(freqEnd, t0 + duration);
+  gain.gain.setValueAtTime(0.0001, t0);
+  gain.gain.exponentialRampToValueAtTime(vol, t0 + 0.015);
+  gain.gain.exponentialRampToValueAtTime(0.0001, t0 + duration);
+  osc.connect(gain);
+  gain.connect(audioCtx.destination);
+  osc.start(t0);
+  osc.stop(t0 + duration + 0.02);
+}
+
+function playSoftNoise(duration, vol, filterFreq) {
+  if (!audioCtx) return;
+  const t0 = audioCtx.currentTime;
+  const bufferSize = Math.floor(audioCtx.sampleRate * duration);
+  const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+  const data = buffer.getChannelData(0);
+  for (let i = 0; i < bufferSize; i++) {
+    data[i] = (Math.random()*2 - 1) * (1 - i/bufferSize);
+  }
+  const noise = audioCtx.createBufferSource();
+  noise.buffer = buffer;
+  const filter = audioCtx.createBiquadFilter();
+  filter.type = 'lowpass';
+  filter.frequency.value = filterFreq;
+  const gain = audioCtx.createGain();
+  gain.gain.setValueAtTime(vol, t0);
+  gain.gain.exponentialRampToValueAtTime(0.0001, t0 + duration);
+  noise.connect(filter);
+  filter.connect(gain);
+  gain.connect(audioCtx.destination);
+  noise.start(t0);
+}
+
+// tir : un "pfft" étouffé plutôt qu'une détonation
+function sfxShoot() { playSoftNoise(0.09, 0.07, 900); }
+// touché : petit pépiement montant
+function sfxHit() { playTone(500, 0.14, 0.08, 850); }
+// canard qui s'échappe : petit son descendant discret
+function sfxEscape() { playTone(480, 0.22, 0.05, 240); }
+// rebond au sol : petit "boop" grave
+function sfxBounce() { playTone(220, 0.09, 0.06, 160); }
+// début de manche : petit carillon
+function sfxRoundStart() {
+  playTone(523, 0.14, 0.06);
+  setTimeout(() => playTone(659, 0.14, 0.06), 130);
+  setTimeout(() => playTone(784, 0.18, 0.06), 260);
+}
+// manche réussie : petite mélodie douce
+function sfxSuccess() {
+  playTone(392, 0.12, 0.07);
+  setTimeout(() => playTone(523, 0.18, 0.07), 110);
+}
+// manche ratée : petit son doux et un peu triste, sans agressivité
+function sfxFail() { playTone(300, 0.28, 0.05, 180); }
+
+
 function drawCrosshair() {
   ctx.save();
   ctx.strokeStyle = '#000';
@@ -680,6 +753,7 @@ function startRound() {
   ducks = [];
   gameState = 'playing';
   showMessage('ROUND ' + round, 1200);
+  sfxRoundStart();
   setTimeout(() => { if(gameState==='playing') maybeSpawnNext(); }, 1200);
 }
 
@@ -757,6 +831,7 @@ canvas.addEventListener('click', () => {
   ammo--;
   updateAmmoDisplay();
   shots.push({x: mouseX, y: mouseY, life: 10});
+  sfxShoot();
 
   let hitSomething = false;
   for (const d of ducks) {
@@ -767,6 +842,7 @@ canvas.addEventListener('click', () => {
       d.state = 'hit';
       d.hitTimer = 12;
       hitSomething = true;
+      sfxHit();
       break;
     }
   }
@@ -780,6 +856,7 @@ canvas.addEventListener('click', () => {
 });
 
 startBtn.addEventListener('click', () => {
+  initAudio();
   startScreen.style.display = 'none';
   score = 0;
   round = 1;
