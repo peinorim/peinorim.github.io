@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck Hunt - Clone Navigateur</title>
+    <title>Duck Hunt - Canard de Bain</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
@@ -22,13 +22,12 @@
             position: relative;
             width: 800px;
             height: 600px;
-            background-color: #64B0FF; /* Ciel bleu */
+            background-color: #64B0FF;
             overflow: hidden;
             border: 4px solid #fff;
-            cursor: crosshair; /* Curseur viseur */
+            cursor: crosshair;
         }
 
-        /* L'herbe au premier plan derrière laquelle le canard apparait */
         #grass {
             position: absolute;
             bottom: 0;
@@ -41,14 +40,11 @@
 
         #duck {
             position: absolute;
-            font-size: 50px; /* Taille de l'émoji */
-            line-height: 1;
             z-index: 5;
             display: none;
             transition: transform 0.1s;
         }
 
-        /* Interface utilisateur en bas */
         #ui-panel {
             position: absolute;
             bottom: 0;
@@ -74,7 +70,6 @@
             gap: 5px;
         }
 
-        /* Effet de flash lors du tir */
         #flash {
             position: absolute;
             top: 0;
@@ -105,7 +100,7 @@
     <div id="game-container">
         <div id="flash"></div>
         <div id="message">FLY AWAY</div>
-        <div id="duck">🦆</div>
+        <div id="duck"></div>
         <div id="grass"></div>
         
         <div id="ui-panel">
@@ -132,6 +127,20 @@
         const flashElement = document.getElementById('flash');
         const messageDisplay = document.getElementById('message');
 
+        // Dessin vectoriel du canard jaune style bain
+        const duckSVG = `
+        <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 80,45 Q 95,35 90,55" fill="#FFD700" />
+            <path d="M 30,50 Q 30,85 60,85 L 75,85 Q 95,85 90,55 Q 85,45 60,45 Z" fill="#FFD700" />
+            <circle cx="45" cy="35" r="20" fill="#FFD700" />
+            <circle cx="36" cy="30" r="3.5" fill="black" />
+            <circle cx="35" cy="29" r="1.5" fill="white" />
+            <path d="M 10,35 Q 25,32 28,40 Q 25,45 10,42 Z" fill="#FF9900" />
+            <path d="M 55,55 Q 75,55 75,65 Q 55,70 55,55 Z" fill="#ECA400" />
+        </svg>`;
+        
+        const explosionHTML = '<div style="font-size: 50px; line-height: 1;">💥</div>';
+
         // Variables d'état du jeu
         let ammo = 3;
         let score = 0;
@@ -148,7 +157,6 @@
         let animationFrameId;
         let escapeTimer;
 
-        // Démarrer le jeu
         function startGame() {
             score = 0;
             round = 1;
@@ -175,19 +183,16 @@
 
             duckAlive = true;
             duckElement.style.display = 'block';
-            duckElement.style.transform = 'scaleX(1) scaleY(1)'; // Reset transformation
-            duckElement.innerText = '🦆';
+            duckElement.style.transform = 'scaleX(1) scaleY(1)';
+            duckElement.innerHTML = duckSVG; // On injecte le canard de bain
 
-            // Apparition aléatoire derrière l'herbe
             duckX = Math.random() * (gameContainer.clientWidth - 100) + 50;
             duckY = gameContainer.clientHeight - 150; 
             
-            // Vitesse basée sur le round
             let baseSpeed = 2 + (round * 0.5);
             duckVx = (Math.random() > 0.5 ? 1 : -1) * baseSpeed;
-            duckVy = -baseSpeed - Math.random() * 2; // Vole vers le haut
+            duckVy = -baseSpeed - Math.random() * 2;
 
-            // Temps avant que le canard s'échappe (plus court si le round est élevé)
             let escapeTime = Math.max(3000, 7000 - (round * 500));
             clearTimeout(escapeTimer);
             escapeTimer = setTimeout(duckEscapes, escapeTime);
@@ -201,24 +206,21 @@
             duckX += duckVx;
             duckY += duckVy;
 
-            // Rebond sur les murs gauche/droite
-            if (duckX <= 0 || duckX >= gameContainer.clientWidth - 50) {
+            if (duckX <= 0 || duckX >= gameContainer.clientWidth - 60) {
                 duckVx *= -1;
             }
-            // Rebond sur le plafond
             if (duckY <= 0) {
                 duckVy *= -1;
             }
-            // Ne descend pas sous l'herbe tant qu'il est vivant
             if (duckY >= gameContainer.clientHeight - 200 && duckVy > 0) {
                 duckVy *= -1;
             }
 
-            // Orientation du canard en fonction de sa direction X
+            // Orientation du canard
             if (duckVx > 0) {
-                duckElement.style.transform = 'scaleX(-1)'; // Regarde à droite
+                duckElement.style.transform = 'scaleX(-1)'; 
             } else {
-                duckElement.style.transform = 'scaleX(1)'; // Regarde à gauche
+                duckElement.style.transform = 'scaleX(1)';
             }
 
             duckElement.style.left = duckX + 'px';
@@ -227,25 +229,20 @@
             animationFrameId = requestAnimationFrame(gameLoop);
         }
 
-        // Mécanique de tir
         gameContainer.addEventListener('mousedown', function(e) {
-            // Empêcher de tirer si le canard est mort, en fuite, ou plus de munitions
             if (ammo <= 0 || !duckAlive) return;
 
             ammo--;
             updateUI();
             flashScreen();
 
-            // Vérifier la collision du clic avec le canard
-            const rect = duckElement.getBoundingClientRect();
             const gameRect = gameContainer.getBoundingClientRect();
-            
             const clickX = e.clientX - gameRect.left;
             const clickY = e.clientY - gameRect.top;
 
-            // Hitbox tolérante (environ la taille de l'émoji)
-            if (clickX >= duckX - 10 && clickX <= duckX + 60 &&
-                clickY >= duckY - 10 && clickY <= duckY + 60) {
+            // Hitbox ajustée pour la taille du SVG
+            if (clickX >= duckX - 10 && clickX <= duckX + 70 &&
+                clickY >= duckY - 10 && clickY <= duckY + 70) {
                 duckHit();
             } else if (ammo === 0 && duckAlive) {
                 clearTimeout(escapeTimer);
@@ -266,17 +263,18 @@
             score += 500 * round;
             updateUI();
 
-            // Animation de mort
-            duckElement.innerText = '💥';
+            // Remplacer le SVG par l'explosion
+            duckElement.innerHTML = explosionHTML;
+            
             setTimeout(() => {
-                duckElement.innerText = '🦆';
-                duckElement.style.transform += ' scaleY(-1)'; // Retourne le canard
+                duckElement.innerHTML = duckSVG; // Remettre le canard
+                duckElement.style.transform += ' scaleY(-1)'; // Le retourner
                 fallDown();
             }, 300);
         }
 
         function fallDown() {
-            duckY += 8; // Chute rapide
+            duckY += 8;
             duckElement.style.top = duckY + 'px';
 
             if (duckY < gameContainer.clientHeight) {
@@ -298,7 +296,7 @@
         }
 
         function flyAway() {
-            duckY -= 5; // Vole tout droit vers le haut
+            duckY -= 5;
             duckElement.style.top = duckY + 'px';
 
             if (duckY > -100) {
@@ -321,7 +319,6 @@
             roundDisplay.innerText = round;
         }
 
-        // Lancer le jeu au chargement
         startGame();
 
     </script>
