@@ -166,42 +166,39 @@ function updateClouds() {
 
 // ---------- Background ----------
 function drawBackground() {
-  // sky gradient
-  const grad = ctx.createLinearGradient(0,0,0,H);
-  grad.addColorStop(0, '#7ec8f5');
-  grad.addColorStop(0.75, '#bfe8ff');
-  ctx.fillStyle = grad;
+  // flat sky (ton plus saturé, façon écran de jeu de tir rétro)
+  ctx.fillStyle = '#4f80e0';
   ctx.fillRect(0,0,W,H);
 
   clouds.forEach(drawCloud);
 
-  // distant trees line
-  ctx.fillStyle = '#3f7a3f';
-  for (let i = 0; i < W; i += 40) {
+  const bushY = H*0.62;
+
+  // pelouse de fond
+  ctx.fillStyle = '#5fae44';
+  ctx.fillRect(0, bushY, W, H - bushY);
+
+  // haie sombre en dents rondes le long de l'horizon
+  ctx.fillStyle = '#2f6b2f';
+  for (let i = -22; i < W + 22; i += 44) {
     ctx.beginPath();
-    ctx.moveTo(i, H*0.72);
-    ctx.lineTo(i+20, H*0.72 - 30 - (i%80===0?10:0));
-    ctx.lineTo(i+40, H*0.72);
+    ctx.arc(i + 22, bushY, 24, Math.PI, 2*Math.PI);
+    ctx.fill();
+  }
+  // touffes de buisson un peu plus foncées qui débordent
+  ctx.fillStyle = '#357a35';
+  for (let i = 0; i < W; i += 88) {
+    ctx.beginPath();
+    ctx.arc(i + 44, bushY + 4, 16, 0, Math.PI*2);
     ctx.fill();
   }
 
-  // grass
-  const grassGrad = ctx.createLinearGradient(0, H*0.72, 0, H);
-  grassGrad.addColorStop(0, '#5aa73c');
-  grassGrad.addColorStop(1, '#3d7a28');
-  ctx.fillStyle = grassGrad;
-  ctx.fillRect(0, H*0.72, W, H*0.28);
-
-  // grass texture lines
-  ctx.strokeStyle = 'rgba(0,60,0,0.15)';
-  ctx.lineWidth = 2;
-  for (let i = 0; i < 40; i++) {
-    const gx = (i * 53) % W;
-    const gy = H*0.75 + (i*17)%(H*0.24);
-    ctx.beginPath();
-    ctx.moveTo(gx, gy);
-    ctx.lineTo(gx+6, gy-10);
-    ctx.stroke();
+  // bandes de pelouse tondue au premier plan
+  const stripeStart = bushY + 34;
+  const stripeH = 22;
+  for (let y = stripeStart, i = 0; y < H; y += stripeH, i++) {
+    ctx.fillStyle = i % 2 === 0 ? 'rgba(255,255,255,0.06)' : 'rgba(0,40,0,0.10)';
+    ctx.fillRect(0, y, W, stripeH);
   }
 }
 
@@ -227,6 +224,7 @@ function spawnDuck() {
     wingPhase: Math.random()*Math.PI*2,
     alive: true,
     fallVy: 0,
+    bounces: 0,
     turnTimer: rand(60, 140),
     scoreVal: 10 * round,
     id: Math.random()
@@ -265,14 +263,21 @@ function updateDuck(d) {
       d.fallVy = 1;
     }
   } else if (d.state === 'falling') {
-    d.fallVy += 0.4;
+    d.fallVy += 0.5;
     d.y += d.fallVy;
-    d.x += d.vx * 0.2;
-    if (d.y > H*0.78) {
-      d.alive = false;
-      ducksKilledThisRound++;
-      score += d.scoreVal;
-      scoreDisplay.textContent = 'SCORE: ' + score;
+    d.x += d.vx * 0.15;
+    if (d.y >= H*0.78) {
+      d.y = H*0.78;
+      if (d.bounces < 1 && Math.abs(d.fallVy) > 2.2) {
+        // petit rebond caractéristique
+        d.fallVy = -d.fallVy * 0.38;
+        d.bounces++;
+      } else {
+        d.alive = false;
+        ducksKilledThisRound++;
+        score += d.scoreVal;
+        scoreDisplay.textContent = 'SCORE: ' + score;
+      }
     }
   }
 }
@@ -350,47 +355,275 @@ function drawDuck(d) {
 }
 
 // ---------- Dog ----------
-function drawDog(phase, x) {
+let pendingDogCallback = null;
+let dogResultText = '';
+
+function drawHeldDuck() {
+  ctx.fillStyle = '#5b3a29';
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 14, 9, 0, 0, Math.PI*2);
+  ctx.fill();
+  ctx.beginPath();
+  ctx.ellipse(10, -5, 7, 6, 0, 0, Math.PI*2);
+  ctx.fill();
+  ctx.fillStyle = '#e8a021';
+  ctx.beginPath();
+  ctx.moveTo(16, -5); ctx.lineTo(24, -3); ctx.lineTo(16, -1);
+  ctx.fill();
+  ctx.fillStyle = '#3b2216';
+  ctx.beginPath();
+  ctx.ellipse(-8, 3, 6, 5, 0, 0, Math.PI*2);
+  ctx.fill();
+}
+
+// chien de profil qui court (arrivée / sortie)
+function drawDogRunning(phase) {
+  const legSwing = Math.sin(phase) * 9;
+  const bob = Math.abs(Math.sin(phase)) * -3;
   ctx.save();
-  ctx.translate(x, H*0.85);
-  ctx.fillStyle = '#a8763f';
-  // body
+  ctx.translate(0, bob);
+
+  // pattes arrière
+  ctx.fillStyle = '#9c6b38';
+  ctx.fillRect(-20 + legSwing, 4, 8, 15);
+  ctx.fillRect(-6 - legSwing, 4, 8, 15);
+  // pattes avant
+  ctx.fillRect(14 + legSwing, 4, 8, 15);
+  ctx.fillRect(24 - legSwing, 4, 8, 15);
+
+  // queue
+  ctx.strokeStyle = '#8a5a30';
+  ctx.lineWidth = 6;
+  ctx.lineCap = 'round';
   ctx.beginPath();
-  ctx.ellipse(0, 0, 30, 16, 0, 0, Math.PI*2);
-  ctx.fill();
-  // head
+  ctx.moveTo(-28, -12);
+  ctx.quadraticCurveTo(-44, -22 + Math.sin(phase*2)*5, -36, -32);
+  ctx.stroke();
+
+  // corps
+  ctx.fillStyle = '#c8945a';
   ctx.beginPath();
-  ctx.ellipse(28, -10, 14, 12, 0, 0, Math.PI*2);
-  ctx.fill();
-  // ear
-  ctx.fillStyle = '#7a5228';
-  ctx.beginPath();
-  ctx.ellipse(34, -4, 6, 10, 0.5, 0, Math.PI*2);
-  ctx.fill();
-  // legs
-  ctx.fillStyle = '#a8763f';
-  ctx.fillRect(-20, 8, 6, 14);
-  ctx.fillRect(10, 8, 6, 14);
-  // eye
-  ctx.fillStyle = '#000';
-  ctx.beginPath();
-  ctx.arc(34, -12, 1.5, 0, Math.PI*2);
+  ctx.ellipse(0, -10, 32, 16, 0, 0, Math.PI*2);
   ctx.fill();
 
-  if (phase === 'laughing') {
-    // duck in mouth held up, or laughing pose - simple mouth open
-    ctx.strokeStyle = '#000';
-    ctx.lineWidth = 2;
-    ctx.beginPath();
-    ctx.arc(38, -4, 4, 0, Math.PI);
-    ctx.stroke();
-  } else if (phase === 'holding') {
-    ctx.fillStyle = '#5b3a29';
-    ctx.beginPath();
-    ctx.ellipse(40, -18, 10, 6, 0, 0, Math.PI*2);
-    ctx.fill();
+  // tache blanche sur le poitrail
+  ctx.fillStyle = '#eee3cf';
+  ctx.beginPath();
+  ctx.ellipse(-6, -2, 14, 9, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // tête
+  ctx.fillStyle = '#c8945a';
+  ctx.beginPath();
+  ctx.ellipse(32, -20, 15, 13, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // oreille tombante
+  ctx.fillStyle = '#8a5a30';
+  ctx.beginPath();
+  ctx.ellipse(28, -10, 8, 16, 0.35, 0, Math.PI*2);
+  ctx.fill();
+
+  // museau
+  ctx.fillStyle = '#eee3cf';
+  ctx.beginPath();
+  ctx.ellipse(44, -16, 8, 7, 0, 0, Math.PI*2);
+  ctx.fill();
+  ctx.fillStyle = '#1a1a1a';
+  ctx.beginPath();
+  ctx.arc(51, -16, 2.6, 0, Math.PI*2);
+  ctx.fill();
+
+  // oeil
+  ctx.beginPath();
+  ctx.arc(36, -24, 2, 0, Math.PI*2);
+  ctx.fill();
+
+  ctx.restore();
+}
+
+// pose victoire : le chien tient un ou deux canards bien haut, face au joueur
+function drawDogHolding(phase, duckCount) {
+  const bounce = Math.sin(phase*3) * 3;
+  ctx.save();
+  ctx.translate(0, bounce);
+
+  // pattes arrière (debout)
+  ctx.fillStyle = '#9c6b38';
+  ctx.fillRect(-15, 8, 10, 16);
+  ctx.fillRect(5, 8, 10, 16);
+
+  // corps
+  ctx.fillStyle = '#c8945a';
+  ctx.beginPath();
+  ctx.ellipse(0, -8, 20, 26, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // tache blanche poitrine
+  ctx.fillStyle = '#eee3cf';
+  ctx.beginPath();
+  ctx.ellipse(0, 2, 10, 14, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // pattes avant levées tenant les canards
+  ctx.strokeStyle = '#c8945a';
+  ctx.lineWidth = 8;
+  ctx.lineCap = 'round';
+  if (duckCount >= 2) {
+    ctx.beginPath(); ctx.moveTo(-13, -18); ctx.lineTo(-22, -56); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(13, -18); ctx.lineTo(22, -56); ctx.stroke();
+  } else {
+    ctx.beginPath(); ctx.moveTo(-13, -18); ctx.lineTo(-9, -58); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(13, -18); ctx.lineTo(9, -58); ctx.stroke();
+  }
+
+  // tête
+  ctx.fillStyle = '#c8945a';
+  ctx.beginPath();
+  ctx.ellipse(0, -44, 16, 15, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // oreilles tombantes
+  ctx.fillStyle = '#8a5a30';
+  ctx.beginPath(); ctx.ellipse(-14, -38, 7, 16, -0.25, 0, Math.PI*2); ctx.fill();
+  ctx.beginPath(); ctx.ellipse(14, -38, 7, 16, 0.25, 0, Math.PI*2); ctx.fill();
+
+  // museau
+  ctx.fillStyle = '#eee3cf';
+  ctx.beginPath();
+  ctx.ellipse(0, -36, 8, 7, 0, 0, Math.PI*2);
+  ctx.fill();
+  ctx.fillStyle = '#1a1a1a';
+  ctx.beginPath();
+  ctx.arc(0, -34, 2.4, 0, Math.PI*2);
+  ctx.fill();
+
+  // yeux joyeux fermés
+  ctx.strokeStyle = '#1a1a1a';
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.arc(-6, -46, 3, Math.PI, 0); ctx.stroke();
+  ctx.beginPath(); ctx.arc(6, -46, 3, Math.PI, 0); ctx.stroke();
+
+  // canard(s) tenu(s) au-dessus de la tête
+  if (duckCount >= 2) {
+    ctx.save();
+    ctx.translate(-20, -68 + Math.sin(phase*3)*2);
+    ctx.scale(0.85, 0.85);
+    drawHeldDuck();
+    ctx.restore();
+    ctx.save();
+    ctx.translate(20, -68 + Math.sin(phase*3 + 1)*2);
+    ctx.scale(-0.85, 0.85);
+    drawHeldDuck();
+    ctx.restore();
+  } else {
+    ctx.save();
+    ctx.translate(0, -70 + Math.sin(phase*3)*2);
+    drawHeldDuck();
+    ctx.restore();
+  }
+
+  ctx.restore();
+}
+
+// pose moquerie : le chien se roule de rire
+function drawDogLaughing(phase) {
+  const shake = Math.sin(phase*4) * 5;
+  ctx.save();
+  ctx.rotate(shake * 0.015);
+
+  // pattes en l'air
+  ctx.fillStyle = '#9c6b38';
+  ctx.fillRect(-32, -6 + shake*0.3, 10, 8);
+  ctx.fillRect(22, -6 - shake*0.3, 10, 8);
+
+  // corps allongé sur le dos
+  ctx.fillStyle = '#c8945a';
+  ctx.beginPath();
+  ctx.ellipse(0, 4, 28, 18, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  ctx.fillStyle = '#eee3cf';
+  ctx.beginPath();
+  ctx.ellipse(0, 8, 14, 9, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // tête renversée en arrière, riant
+  ctx.save();
+  ctx.translate(4, -18);
+  ctx.rotate(-0.35);
+
+  ctx.fillStyle = '#c8945a';
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 16, 14, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // oreilles
+  ctx.fillStyle = '#8a5a30';
+  ctx.beginPath(); ctx.ellipse(-14, -6, 6, 13, -0.4, 0, Math.PI*2); ctx.fill();
+  ctx.beginPath(); ctx.ellipse(13, -6, 6, 13, 0.4, 0, Math.PI*2); ctx.fill();
+
+  // bouche grande ouverte
+  ctx.fillStyle = '#7a2e2e';
+  ctx.beginPath();
+  ctx.ellipse(3, 6, 9, 10, 0, 0, Math.PI*2);
+  ctx.fill();
+  ctx.fillStyle = '#ffffff';
+  ctx.beginPath();
+  ctx.ellipse(3, 0, 8, 3, 0, 0, Math.PI, false);
+  ctx.fill();
+
+  // yeux fermés en accent rieur
+  ctx.strokeStyle = '#1a1a1a';
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(-11, -8); ctx.quadraticCurveTo(-6, -13, -1, -8); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(9, -9); ctx.quadraticCurveTo(14, -14, 19, -9); ctx.stroke();
+
+  ctx.restore();
+  ctx.restore();
+}
+
+function drawDog(d) {
+  ctx.save();
+  ctx.translate(d.x, H*0.80);
+  if (d.state === 'walkIn' || d.state === 'walkOut') {
+    drawDogRunning(d.phase);
+  } else if (d.state === 'pose') {
+    if (d.poseType === 'holding') drawDogHolding(d.phase, d.duckCount || 1);
+    else drawDogLaughing(d.phase);
   }
   ctx.restore();
+}
+
+function updateDog() {
+  if (!dog) return;
+  dog.phase += 0.18;
+  if (dog.state === 'walkIn') {
+    dog.x += 4;
+    if (dog.x >= dog.targetX) {
+      dog.x = dog.targetX;
+      dog.state = 'pose';
+      dog.phase = 0;
+      dog.poseTimer = 110;
+      showMessage(dogResultText, 0);
+    }
+  } else if (dog.state === 'pose') {
+    dog.poseTimer--;
+    if (dog.poseTimer <= 0) {
+      dog.state = 'walkOut';
+      hideMessage();
+    }
+  } else if (dog.state === 'walkOut') {
+    dog.x += 4;
+    if (dog.x > W + 70) {
+      dog = null;
+      if (pendingDogCallback) {
+        const cb = pendingDogCallback;
+        pendingDogCallback = null;
+        cb();
+      }
+    }
+  }
 }
 
 // ---------- Crosshair ----------
@@ -472,48 +705,27 @@ function endRoundCheck() {
     gameState = 'dogshow';
     const totalDucks = ducksToSpawnThisRound;
     const killed = ducksKilledThisRound;
-    setTimeout(() => {
-      if (killed >= Math.ceil(totalDucks/2)) {
-        // success dog holds duck
-        dog = { phase: 'holding', x: -50, targetX: W/2 };
-        animateDogIn(() => {
-          showMessage('Round ' + round + ' réussi ! (' + killed + '/' + totalDucks + ')', 1800);
-          setTimeout(nextRoundOrEnd, 1800);
-        });
-      } else {
-        // fail, dog laughs
-        dog = { phase: 'laughing', x: -50, targetX: W/2 };
-        animateDogIn(() => {
-          showMessage('Le chien se moque de toi... (' + killed + '/' + totalDucks + ')', 1800);
-          setTimeout(nextRoundOrEnd, 1800);
-        });
-      }
-    }, 500);
-  }
-}
+    const success = killed >= Math.ceil(totalDucks/2);
 
-function animateDogIn(callback) {
-  function step() {
-    dog.x += 6;
-    if (dog.x < dog.targetX) {
-      requestAnimationFrame(step);
-    } else {
-      setTimeout(() => {
-        // dog walks off
-        function stepOut() {
-          dog.x += 6;
-          if (dog.x < W + 60) {
-            requestAnimationFrame(stepOut);
-          } else {
-            dog = null;
-            callback();
-          }
-        }
-        requestAnimationFrame(stepOut);
-      }, 900);
-    }
+    dogResultText = success
+      ? ('Round ' + round + ' réussi ! (' + killed + '/' + totalDucks + ')')
+      : ('Le chien se moque de toi... (' + killed + '/' + totalDucks + ')');
+
+    dog = {
+      x: -50,
+      y: 0,
+      targetX: W/2,
+      state: 'walkIn',
+      phase: 0,
+      poseType: success ? 'holding' : 'laughing',
+      duckCount: Math.min(killed, 2)
+    };
+
+    pendingDogCallback = () => {
+      hideMessage();
+      nextRoundOrEnd();
+    };
   }
-  requestAnimationFrame(step);
 }
 
 function nextRoundOrEnd() {
@@ -588,7 +800,10 @@ function loop() {
 
   drawMuzzleFlashes();
 
-  if (dog) drawDog(dog.phase, dog.x);
+  if (dog) {
+    updateDog();
+    if (dog) drawDog(dog);
+  }
 
   if (gameState === 'playing') {
     if (ducks.length === 0 && ducksLeftToSpawn > 0) {
