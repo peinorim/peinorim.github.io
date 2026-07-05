@@ -23,18 +23,88 @@
     cursor:none;
   }
   canvas { display:block; background:#5ec8f0; }
-  #hud {
-    position:absolute;
-    top:0; left:0;
+
+  #hudBar {
+    position:relative;
     width:100%;
-    padding:10px 20px;
+    height:118px;
+    background-color:#8a6a3f;
+    background-image: radial-gradient(rgba(0,0,0,0.28) 1px, transparent 1.6px);
+    background-size: 9px 9px;
+    border-top:4px solid #4a3620;
     display:flex;
-    justify-content:space-between;
-    color:#fff2c2;
-    font-size:20px;
-    text-shadow:2px 2px 0 #000;
-    pointer-events:none;
+    align-items:center;
+    justify-content:center;
+    gap:18px;
+    font-family:'Courier New', monospace;
+  }
+
+  #roundTag {
+    position:absolute;
+    top:8px;
+    left:14px;
+    background:#000;
+    border:2px solid #3ddc4a;
+    color:#3ddc4a;
+    font-weight:bold;
+    font-size:15px;
+    padding:3px 8px;
     letter-spacing:1px;
+  }
+
+  #difficultyTag {
+    position:absolute;
+    top:8px;
+    left:80px;
+    background:#000;
+    border:2px solid #3ddc4a;
+    color:#3ddc4a;
+    font-weight:bold;
+    font-size:11px;
+    padding:3px 8px;
+    letter-spacing:1px;
+  }
+
+  .hudBox {
+    background:#000;
+    border:3px solid #3ddc4a;
+    padding:8px 14px;
+    text-align:center;
+    min-width:90px;
+  }
+
+  .hudLabel {
+    color:#3ddc4a;
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:2px;
+  }
+
+  #pelletsDisplay {
+    margin-top:4px;
+    font-size:16px;
+    letter-spacing:2px;
+  }
+
+  #hitDucksDisplay {
+    display:flex;
+    gap:3px;
+    margin-top:6px;
+    min-height:14px;
+  }
+
+  #hitTicksDisplay {
+    height:4px;
+    margin-top:5px;
+    background: repeating-linear-gradient(90deg, #5ecbff 0 3px, transparent 3px 6px);
+    opacity:0.85;
+  }
+
+  #scoreNumDisplay {
+    color:#fff;
+    font-weight:bold;
+    font-size:24px;
+    letter-spacing:2px;
   }
   #message {
     position:absolute;
@@ -96,11 +166,22 @@
 
 <div id="gameContainer">
   <canvas id="game" width="800" height="600"></canvas>
-  <div id="hud">
-    <div id="scoreDisplay">SCORE: 0</div>
-    <div id="roundDisplay">ROUND: 1</div>
-    <div id="difficultyDisplay"></div>
-    <div id="ammoDisplay">🔴🔴🔴</div>
+  <div id="hudBar">
+    <div id="roundTag">R-1</div>
+    <div id="difficultyTag"></div>
+    <div class="hudBox" id="shotBox">
+      <div class="hudLabel">SHOT</div>
+      <div id="pelletsDisplay">🔴🔴🔴</div>
+    </div>
+    <div class="hudBox" id="hitBox">
+      <div class="hudLabel">HIT</div>
+      <div id="hitDucksDisplay"></div>
+      <div id="hitTicksDisplay"></div>
+    </div>
+    <div class="hudBox" id="scoreBox">
+      <div id="scoreNumDisplay">000000</div>
+      <div class="hudLabel">SCORE</div>
+    </div>
   </div>
   <div id="message"></div>
   <div id="startScreen">
@@ -122,10 +203,11 @@ const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
 const W = canvas.width, H = canvas.height;
 
-const scoreDisplay = document.getElementById('scoreDisplay');
-const roundDisplay = document.getElementById('roundDisplay');
-const difficultyDisplay = document.getElementById('difficultyDisplay');
-const ammoDisplay = document.getElementById('ammoDisplay');
+const roundTag = document.getElementById('roundTag');
+const difficultyTag = document.getElementById('difficultyTag');
+const pelletsDisplay = document.getElementById('pelletsDisplay');
+const hitDucksDisplay = document.getElementById('hitDucksDisplay');
+const scoreNumDisplay = document.getElementById('scoreNumDisplay');
 const messageEl = document.getElementById('message');
 const startScreen = document.getElementById('startScreen');
 const diffButtons = document.querySelectorAll('.diffBtn');
@@ -156,6 +238,27 @@ let shots = []; // muzzle flash markers
 
 // ---------- Utility ----------
 function rand(min, max) { return Math.random() * (max - min) + min; }
+
+function updateScoreDisplay() {
+  scoreNumDisplay.textContent = String(score).padStart(6, '0');
+}
+
+// petite silhouette de canard dessinée en SVG (icône maison, pas une reprise d'un sprite existant)
+function duckIconSVG(hit) {
+  const color = hit ? '#e33b3b' : 'none';
+  const stroke = hit ? '#8a1f1f' : '#e8e8e8';
+  return '<svg width="15" height="11" viewBox="0 0 20 14">' +
+    '<path d="M2,7 Q2,2 8,2 Q14,2 16,5 L20,4 L16,7 Q14,10 8,10 Q2,10 2,7 Z" ' +
+    'fill="' + color + '" stroke="' + stroke + '" stroke-width="1.4"/></svg>';
+}
+
+function updateHitDisplay() {
+  let html = '';
+  for (let i = 0; i < ducksToSpawnThisRound; i++) {
+    html += duckIconSVG(i < ducksKilledThisRound);
+  }
+  hitDucksDisplay.innerHTML = html;
+}
 
 // ---------- Clouds ----------
 function initClouds() {
@@ -305,7 +408,8 @@ function updateDuck(d) {
         d.alive = false;
         ducksKilledThisRound++;
         score += d.scoreVal;
-        scoreDisplay.textContent = 'SCORE: ' + score;
+        updateScoreDisplay();
+        updateHitDisplay();
       }
     }
   }
@@ -776,7 +880,8 @@ function startRound() {
   missesInRound = 0;
   ammo = diffSettings.ammo;
   updateAmmoDisplay();
-  roundDisplay.textContent = 'ROUND: ' + round;
+  roundTag.textContent = 'R-' + round;
+  updateHitDisplay();
   ducks = [];
   gameState = 'playing';
   showMessage('ROUND ' + round, 1200);
@@ -797,7 +902,7 @@ function maybeSpawnNext() {
 function updateAmmoDisplay() {
   let s = '';
   for (let i = 0; i < diffSettings.ammo; i++) s += (i < ammo) ? '🔴' : '⚫';
-  ammoDisplay.textContent = s;
+  pelletsDisplay.textContent = s;
 }
 
 function endRoundCheck() {
@@ -887,11 +992,11 @@ diffButtons.forEach(btn => {
     initAudio();
     difficulty = btn.dataset.diff;
     diffSettings = DIFFICULTY_SETTINGS[difficulty];
-    difficultyDisplay.textContent = diffSettings.label.toUpperCase();
+    difficultyTag.textContent = diffSettings.label.toUpperCase();
     startScreen.style.display = 'none';
     score = 0;
     round = 1;
-    scoreDisplay.textContent = 'SCORE: 0';
+    updateScoreDisplay();
     initClouds();
     startRound();
   });
